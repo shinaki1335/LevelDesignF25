@@ -14,4 +14,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Generic Assets/You Lose.unity
     guid: 44c9c043ab0c1d045b5f53f6f89f610a
+  - enabled: 1
+    path: Assets/Student Folders/Josue Pacheco/Game.unity
+    guid: 2fb2afc7f1a98934eb726473f8cc12b3
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
