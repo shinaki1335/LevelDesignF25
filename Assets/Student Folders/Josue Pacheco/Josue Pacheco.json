@@ -2,13 +2,23 @@
   "Title": "Dance of the Centipede",
   "Author": "Josue Pacheco",
   "Events": [
-    {"Time": 0,"Anim": "SpinShoot","Action": "RandomWalk"},
-    {"Time": 2,"Action": "RandomWalk"},
-    {"Time": 4,"Action": "RandomWalk"},
-    {"Time": 5.5,"Action": "Shake", "Amt": 3},
-    {"Time": 8,"Dialogue": "A Bailar !"},
-    {"Time": 8,"Who":"Player","Action": "Flash"},
-    {"Time": 10,"Dialogue": ""},
-    {"Time": 12}
+    {"Time": 0, "Who": "E1", "Action": "Rotate", "Amt": 0},
+    {"Time": 0, "Who": "E1", "Action": "ShootContinuous", "Amt": 2},
+    
+    {"Time": 2, "Who": "E2", "Action": "Rotate", "Amt": 180},
+    {"Time": 2, "Who": "E2", "Action": "ShootContinuous", "Amt": 2},
+    
+    {"Time": 4, "Who": "E3", "Action": "Rotate", "Amt": 270},
+    {"Time": 4, "Who": "E3", "Action": "ShootContinuous", "Amt": 2},
+    
+    {"Time": 6, "Who": "E4", "Action": "Rotate", "Amt": 90},
+    {"Time": 6, "Who": "E4", "Action": "ShootContinuous", "Amt": 2},
+    
+    {"Time": 8, "Who": "E1", "Action": "ShootContinuous", "Amt": 2},
+    {"Time": 8, "Who": "E2", "Action": "ShootContinuous", "Amt": 2},
+    {"Time": 8, "Who": "E3", "Action": "ShootContinuous", "Amt": 2},
+    {"Time": 8, "Who": "E4", "Action": "ShootContinuous", "Amt": 2},
+
+    {"Time": 25, "Dialogue": "¡Fin del baile!"}
   ]
 }
