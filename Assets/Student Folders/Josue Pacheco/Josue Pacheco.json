@@ -14,11 +14,28 @@
     {"Time": 6, "Who": "E4", "Action": "Rotate", "Amt": 90},
     {"Time": 6, "Who": "E4", "Action": "ShootContinuous", "Amt": 2},
     
-    {"Time": 8, "Who": "E1", "Action": "ShootContinuous", "Amt": 2},
-    {"Time": 8, "Who": "E2", "Action": "ShootContinuous", "Amt": 2},
-    {"Time": 8, "Who": "E3", "Action": "ShootContinuous", "Amt": 2},
-    {"Time": 8, "Who": "E4", "Action": "ShootContinuous", "Amt": 2},
+    {"Time": 8, "Who": "E1", "Action": "ShootContinuous", "Amt": 1},
+    {"Time": 8, "Who": "E2", "Action": "ShootContinuous", "Amt": 1},
+    {"Time": 8, "Who": "E3", "Action": "ShootContinuous", "Amt": 1},
+    {"Time": 8, "Who": "E4", "Action": "ShootContinuous", "Amt": 1},
+    
+    {"Time": 10, "Who": "E4", "Action": "MoveLeft", "Amt": 1.5},
+    {"Time": 10, "Who": "E4", "Action": "ShootContinuous", "Amt": 1.5},
+    
+    {"Time": 12, "Who": "E3", "Action": "MoveRight", "Amt": 1.5},
+    {"Time": 12, "Who": "E3", "Action": "ShootContinuous", "Amt": 1.5},
+    
+    {"Time": 14, "Who": "E1", "Action": "MoveUp", "Amt": 1.5},
+    {"Time": 14, "Who": "E1", "Action": "ShootContinuous", "Amt": 1.5},
+    
+    {"Time": 16, "Who": "E2", "Action": "MoveDown", "Amt": 1.5},
+    {"Time": 16, "Who": "E2", "Action": "ShootContinuous", "Amt": 1.5},
 
-    {"Time": 25, "Dialogue": "¡Fin del baile!"}
+    {"Time": 22, "Who": "E1", "Action": "ShootStar", "Amt": 15},
+    {"Time": 22, "Who": "E2", "Action": "ShootStar", "Amt": 15},
+    {"Time": 22, "Who": "E3", "Action": "ShootStar", "Amt": 15},
+    {"Time": 22, "Who": "E4", "Action": "ShootStar", "Amt": 15},
+
+    {"Time": 25, "Dialogue": "Fin del baile!"}
   ]
 }
