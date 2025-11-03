@@ -1,35 +1,314 @@
 {
   "Title": "Hi",
   "Author": "Raphael C",
-  "Events": 
-  [
-    {"Time": 0, "Who":"Example Monster", "Action": "SetSpeed", "Amt":30},
-    {"Time": 0.5,"Action": "MoveToY", "Amt":3},
-    {"Time": 0.5,"Who":"Example Monster","Action": "Flash", "Amt":0.25},
-
-    {"Time": 0.75,"Action": "MoveToX", "Amt":-6},
-    {"Time": 0.75,"Who":"Example Monster","Action": "Flash", "Amt":0.25},
-
-    {"Time": 1,"Action": "MoveToY", "Amt":-3},
-    {"Time": 1,"Who":"Example Monster","Action": "Flash", "Amt":0.25},
-
-    {"Time": 1.25,"Action": "MoveToX", "Amt":0},
-    {"Time": 1.25,"Who":"Example Monster","Action": "Flash", "Amt":0.25},
-
-    {"Time": 1.50,"Action": "MoveToX", "Amt":6},
-    {"Time": 1.5,"Who":"Example Monster","Action": "Flash", "Amt":0.25},
-
-    {"Time": 1.75,"Action": "MoveToY", "Amt":3},
-    {"Time": 1.75,"Who":"Example Monster","Action": "Flash", "Amt":0.25},
-
-    {"Time": 2, "Action": "MoveToX", "Amt":0},
-    {"Time": 2, "Action": "MoveToY", "Amt":0},
-    {"Time": 2,"Anim": "SpinShoot"},
-
-    {"Time": 5.5,"Action": "Shake", "Amt": 3},
-    {"Time": 8,"Dialogue": "Hello"},
-    {"Time": 8,"Who":"Example Monster","Action": "Flash"},
-    {"Time": 10,"Dialogue": ""},
-    {"Time": 12}
+  "Events": [
+    {
+      "Time": 0,
+      "Who": "Example Monster",
+      "Action": "SetSpeed",
+      "Amt": 40
+    },
+    {
+      "Time": 0.5,
+      "Action": "MoveToY",
+      "Amt": 3
+    },
+    {
+      "Time": 0.5,
+      "Who": "Example Monster",
+      "Action": "Flash",
+      "Amt": 0.25
+    },
+    {
+      "Time": 0.75,
+      "Action": "MoveToX",
+      "Amt": -6
+    },
+    {
+      "Time": 0.75,
+      "Who": "Example Monster",
+      "Action": "Flash",
+      "Amt": 0.25
+    },
+    {
+      "Time": 1,
+      "Action": "MoveToY",
+      "Amt": -3
+    },
+    {
+      "Time": 1,
+      "Who": "Example Monster",
+      "Action": "Flash",
+      "Amt": 0.25
+    },
+    {
+      "Time": 1.25,
+      "Action": "MoveToX",
+      "Amt": 0
+    },
+    {
+      "Time": 1.25,
+      "Who": "Example Monster",
+      "Action": "Flash",
+      "Amt": 0.25
+    },
+    {
+      "Time": 1.50,
+      "Action": "MoveToX",
+      "Amt": 6
+    },
+    {
+      "Time": 1.5,
+      "Who": "Example Monster",
+      "Action": "Flash",
+      "Amt": 0.25
+    },
+    {
+      "Time": 1.75,
+      "Action": "MoveToY",
+      "Amt": 3
+    },
+    {
+      "Time": 1.75,
+      "Who": "Example Monster",
+      "Action": "Flash",
+      "Amt": 0.25
+    },
+    {
+      "Time": 2,
+      "Action": "MoveToX",
+      "Amt": 0
+    },
+    {
+      "Time": 2,
+      "Action": "MoveToY",
+      "Amt": 0
+    },
+    {
+      "Time": 2,
+      "Anim": "SpinShoot"
+    },
+    {
+      "Time": 3,
+      "Who": "Example Monster",
+      "Action": "SetSpeed",
+      "Amt": 35
+    },
+    {
+      "Time": 3,
+      "Action": "MoveToX",
+      "Amt": -6
+    },
+    {
+      "Time": 3,
+      "Action": "MoveToY",
+      "Amt": 3
+    },
+    {
+      "Time": 3.5,
+      "Action": "MoveToY",
+      "Amt": -3
+    },
+    {
+      "Time": 4,
+      "Who": "Example Monster",
+      "Action": "SetSpeed",
+      "Amt": 40
+    },
+    {
+      "Time": 4,
+      "Action": "MoveToX",
+      "Amt": 6
+    },
+    {
+      "Time": 4.75,
+      "Who": "Example Monster",
+      "Action": "SetSpeed",
+      "Amt": 25
+    },
+    {
+      "Time": 4.75,
+      "Action": "MoveToY",
+      "Amt": 3
+    },
+    {
+      "Time": 5.25,
+      "Who": "Example Monster",
+      "Action": "SetSpeed",
+      "Amt": 30
+    },
+    {
+      "Time": 5.25,
+      "Action": "MoveToX",
+      "Amt": -6
+    },
+    {
+      "Time": 6,
+      "Who": "Example Monster",
+      "Action": "SetSpeed",
+      "Amt": 25
+    },
+    {
+      "Time": 6,
+      "Action": "MoveToY",
+      "Amt": -3
+    },
+    {
+      "Time": 6.75,
+      "Action": "MoveToY",
+      "Amt": 0
+    },
+    {
+      "Time": 6.75,
+      "Action": "SetSpeed",
+      "Amt": 20
+    },
+    {
+      "Time": 6.75,
+      "Action": "StopRot"
+    },
+    {
+      "Time": 7.35,
+      "Action": "Shoot"
+    },
+    {
+      "Time": 7.4,
+      "Action": "MoveToY",
+      "Amt": 3
+    },
+    {
+      "Time": 8,
+      "Action": "Shoot"
+    },
+    {
+      "Time": 8.05,
+      "Action": "MoveToY",
+      "Amt": 0
+    },
+    {
+      "Time": 8.65,
+      "Action": "Shoot"
+    },
+    {
+      "Time": 8.7,
+      "Action": "MoveToY",
+      "Amt": -3
+    },
+    {
+      "Time": 9.3,
+      "Action": "Shoot"
+    },
+    {
+      "Time": 9.35,
+      "Action": "MoveToY",
+      "Amt": 0
+    },
+    {
+      "Time": 9.95,
+      "Action": "Shoot"
+    },
+    {
+      "Time": 10,
+      "Action": "MoveToY",
+      "Amt": 3
+    },
+    {
+      "Time": 10.6,
+      "Action": "Shoot"
+    },
+    {
+      "Time": 10.65,
+      "Action": "MoveToY",
+      "Amt": 0
+    },
+    {
+      "Time": 11.25,
+      "Action": "Shoot"
+    },
+    {
+      "Time": 12,
+      "Action": "SetSpeed",
+      "Amt": 30
+    },
+    {
+      "Time": 12,
+      "Action": "MoveToY",
+      "Amt": 3
+    },
+    {
+      "Time": 12,
+      "Action": "MoveToX",
+      "Amt": 6
+    },
+    {
+      "Time": 12,
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 12.65,
+      "Action": "MoveToY",
+      "Amt": 1
+    },
+    {
+      "Time": 12.65,
+      "Action": "MoveToX",
+      "Amt": -3
+    },
+    {
+      "Time": 12.65,
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 13.3,
+      "Action": "MoveToY",
+      "Amt": 3
+    },
+    {
+      "Time": 13.3,
+      "Action": "MoveToX",
+      "Amt": 2
+    },
+    {
+      "Time": 13.3,
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 13.95,
+      "Action": "MoveToY",
+      "Amt": -3
+    },
+    {
+      "Time": 13.95,
+      "Action": "MoveToX",
+      "Amt": -5
+    },
+    {
+      "Time": 13.95,
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 14.6,
+      "Action": "MoveToY",
+      "Amt": 0
+    },
+    {
+      "Time": 14.6,
+      "Action": "MoveToX",
+      "Amt": -0
+    },
+    {
+      "Time": 14.6,
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 15,
+      "Action": "Shake",
+      "Amt": 2
+    },
+    {
+      "Time": 215,
+      "Action": "MoveToY",
+      "Amt": -3
+    }
   ]
 }

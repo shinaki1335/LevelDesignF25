@@ -2,12 +2,13 @@
   "Title": "Crescendo of Fate",
   "Author": "Evander Platt",
   "Events": [
-    {"Time": 0,"Anim": "SpinShoot","Action": "RandomWalk"},
-    {"Time": 2,"Action": "RandomWalk"},
-    {"Time": 4,"Action": "RandomWalk"},
-    {"Time": 5.5,"Action": "Shake", "Amt": 3},
-    {"Time": 8,"Dialogue": "Hello"},
-    {"Time": 8,"Who":"Player","Action": "Flash"},
+    {"Time": 0.5,"Action": "Shake", "Amt": 3},
+    {"Time": 2,"Dialogue": "The time nears."},
+	{"Time": 5,"Action": "LerpToPlayer"},
+	{"Time": 6,"Action": "LerpToPlayer"},
+	{"Time": 7,"Action": "LerpToPlayer"},
+    {"Time": 9,"Anim": "SpinShoot"},
+    {"Time": 9,"Action": "Flash"},
     {"Time": 10,"Dialogue": ""},
     {"Time": 12}
   ]
