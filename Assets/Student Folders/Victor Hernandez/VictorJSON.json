@@ -2,7 +2,8 @@
   "Title": "Ride The Storm",
   "Author": "Victor Hernandez",
   "Events": [
-    {"Time": 0,"Anim": "SpinShoot","Action": "RandomWalk"},
+    {"Time": 0.5,"Who":"Example Monster","Action": "Flash", "Amt": 3},
+    {"Time": 0.5,"Action": "Shake", "Amt": 3},
     {"Time": 2,"Action": "RandomWalk"},
     {"Time": 4,"Action": "RandomWalk"},
     {"Time": 5.5,"Action": "Shake", "Amt": 3},
