@@ -94,7 +94,7 @@ public class JosuePachecoCentinelas : ActorController
     {
         float endTime = Time.time + duration;
         Vector3 originalPos = transform.position;
-        Vector3 targetPos = originalPos + Vector3.left * moveDistance;  // ← USA LA VARIABLE
+        Vector3 targetPos = originalPos + Vector3.left * moveDistance;  
 
         while (Time.time < endTime)
         {
@@ -108,7 +108,7 @@ public class JosuePachecoCentinelas : ActorController
     {
         float endTime = Time.time + duration;
         Vector3 originalPos = transform.position;
-        Vector3 targetPos = originalPos + Vector3.right * moveDistance;  // ← USA LA VARIABLE
+        Vector3 targetPos = originalPos + Vector3.right * moveDistance;  
 
         while (Time.time < endTime)
         {
@@ -122,7 +122,7 @@ public class JosuePachecoCentinelas : ActorController
     {
         float endTime = Time.time + duration;
         Vector3 originalPos = transform.position;
-        Vector3 targetPos = originalPos + Vector3.up * moveDistance;  // ← USA LA VARIABLE
+        Vector3 targetPos = originalPos + Vector3.up * moveDistance; 
 
         while (Time.time < endTime)
         {
@@ -136,7 +136,7 @@ public class JosuePachecoCentinelas : ActorController
     {
         float endTime = Time.time + duration;
         Vector3 originalPos = transform.position;
-        Vector3 targetPos = originalPos + Vector3.down * moveDistance;  // ← USA LA VARIABLE
+        Vector3 targetPos = originalPos + Vector3.down * moveDistance; 
 
         while (Time.time < endTime)
         {
