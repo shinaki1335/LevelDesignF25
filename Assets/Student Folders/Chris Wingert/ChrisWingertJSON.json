@@ -2,6 +2,11 @@
   "Title": "Example Level",
   "Author": "Example Student",
   "Events": [
-    
+    {"Time": 2.16, "Who":"Player","Action":"Flash"},
+    {"Time": 0.90, "Who":"Player","Action":"Flash"},
+    {"Time": 1.35, "Who":"Player","Action":"Flash"},
+    {"Time": 1.80, "Who":"Player","Action":"Flash"},
+    {"Time": 2.25, "Who":"Player","Action":"Flash"},
+    {"Time": 2.70}
   ]
 }
