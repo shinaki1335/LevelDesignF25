@@ -17,5 +17,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Student Folders/Chris Wingert/HereComesTheSun.unity
     guid: 1b5aff4c9f3055d46964c70f465f8cad
+  - enabled: 1
+    path: Assets/Student Folders/Sunny Liu/New Scene.unity
+    guid: 0c9e32a7b1a7f3b48a1ec5ab57db9903
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
