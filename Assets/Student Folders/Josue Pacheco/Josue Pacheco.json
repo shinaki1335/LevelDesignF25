@@ -62,14 +62,18 @@
     {"Time": 53, "Who": "EP", "Action": "GoToCenter", "Amt": 1.0},
     {"Time": 55, "Who": "EP", "Action": "WaveShot", "Amt": 5.0 },
 
-    {"Time": 60, "Who": "EP", "Action": "MoveLeft", "Amt": 1.0},
+    {"Time": 60, "Who": "EP", "Action": "MoveLeft", "Amt": 1},
     {"Time": 62, "Who": "EP", "Action": "SnakeShot", "Amt": 20},
     {"Time": 63, "Who": "E1", "Action": "Rotate", "Amt": 0},
+    {"Time": 63, "Who": "E5", "Action": "ShootContinuous", "Amt": 9.0},
     {"Time": 63, "Who": "E1", "Action": "ShootContinuous", "Amt": 9.0},
     {"Time": 63, "Who": "E2", "Action": "Rotate", "Amt": 180},
     {"Time": 63, "Who": "E2", "Action": "ShootContinuous", "Amt": 9.0},
-    {"Time": 65, "Who": "EP", "Action": "MoveRight", "Amt": 2.0},
+    {"Time": 63, "Who": "E6", "Action": "Rotate", "Amt": 180},
+    {"Time": 63, "Who": "E6", "Action": "ShootContinuous", "Amt": 9.0},
+    {"Time": 65, "Who": "EP", "Action": "MoveRight", "Amt": 1},
     {"Time": 66.5, "Who": "EP", "Action": "Rotate", "Amt": 180},
+    {"Time": 66, "Who": "EP", "Action": "MoveRight", "Amt": 1},
     {"Time": 67, "Who": "EP", "Action": "SnakeShot", "Amt": 20},
 
 
