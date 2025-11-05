@@ -2,13 +2,16 @@
   "Title": "Fly - Electro Swing Remix",
   "Author": "Morgan Contursi",
   "Events": [
-    {"Time": 0,"Who":"Monster", "Action": "MoveToX", "3.75":  2},
-    {"Time": 1.44,"Anim": "Spinshoot"},
-    {"Time": 4,"Action": "RandomWalk"},
-    {"Time": 5.5,"Action": "Shake", "Amt": 3},
-    {"Time": 8,"Dialogue": "Test"},
-    {"Time": 8,"Who":"Player","Action": "Flash"},
-    {"Time": 10,"Dialogue": ""},
-    {"Time": 12}
+    {"Time": 0,"Who":"Monster", "Action":"SetAnimSpeed", "Amt":3},
+    {"Time": 0,"Who":"Monster", "Action":"SetSpeed", "Amt":25},
+    {"Time": 0,"Who":"Monster", "Action": "MoveToX", "Amt": 3.75},
+    {"Time": 1.92,"Who":"Monster","Anim": "SpinShoot"},
+    {"Time": 3.84,"Who":"Monster", "Action": "MoveToX", "Amt": -3.75},
+    {"Time": 5.28,"Who":"Monster","Anim": "Idle"},
+    {"Time": 5.76,"Who":"Monster","Anim": "SpinShoot"},
+    {"Time": 8,"Who":"Monster", "Action": "MoveToX", "Amt": 0},
+    {"Time": 9 ,"Who":"Monster","Anim": "Idle"},
+    {"Time": 12,"Dialogue": "Test"},
+    {"Time": 14}
   ]
 }
