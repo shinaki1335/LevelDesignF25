@@ -2,16 +2,240 @@
   "Title": "Fly - Electro Swing Remix",
   "Author": "Morgan Contursi",
   "Events": [
-    {"Time": 0,"Who":"Monster", "Action":"SetAnimSpeed", "Amt":3},
-    {"Time": 0,"Who":"Monster", "Action":"SetSpeed", "Amt":25},
-    {"Time": 0,"Who":"Monster", "Action": "MoveToX", "Amt": 3.75},
-    {"Time": 1.92,"Who":"Monster","Anim": "SpinShoot"},
-    {"Time": 3.84,"Who":"Monster", "Action": "MoveToX", "Amt": -3.75},
-    {"Time": 5.28,"Who":"Monster","Anim": "Idle"},
-    {"Time": 5.76,"Who":"Monster","Anim": "SpinShoot"},
-    {"Time": 8,"Who":"Monster", "Action": "MoveToX", "Amt": 0},
-    {"Time": 9 ,"Who":"Monster","Anim": "Idle"},
-    {"Time": 12,"Dialogue": "Test"},
-    {"Time": 14}
-  ]
+    {
+      "Time": 0,
+      "Who": "Monster",
+      "Action": "SetAnimSpeed",
+      "Amt": 3
+    },
+    {
+      "Time": 0,
+      "Who": "Monster",
+      "Action": "SetSpeed",
+      "Amt": 25
+    },
+    {
+      "Time": 0,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": 3.75
+    },
+    {
+      "Time": 1.92,
+      "Who": "Monster",
+      "Anim": "SpinShoot"
+    },
+    {
+      "Time": 3.84,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": -3.75
+    },
+    {
+      "Time": 5.28,
+      "Who": "Monster",
+      "Anim": "Idle"
+    },
+    {
+      "Time": 5.76,
+      "Who": "Monster",
+      "Anim": "SpinShoot"
+    },
+    {
+      "Time": 6.72,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": 0
+    },
+    {
+      "Time": 6.72,
+      "Who": "Monster",
+      "Action": "MovementToRotation",
+      "Amt": 0
+    },
+    {
+      "Time": 7.2,
+      "Who": "Monster",
+      "Anim": "Idle"
+    },
+    {
+      "Time": 7.68,
+      "Who": "Monster",
+      "Anim": "SpinShoot"
+    },
+    { "Time": 8.16 },
+    {
+      "Time": 8.64,
+      "Who": "Monster",
+      "Anim": "Idle"
+    },
+    {
+      "Time": 9.12,
+      "Who": "Monster",
+      "Anim": "SpinShoot"
+    },
+    {
+      "Time": 11.52,
+      "Who": "Monster",
+      "Anim": "Idle"
+    },
+    {
+      "Time": 11.52,
+      "Who": "Monster",
+      "Action": "MovementToRotation",
+      "Amt": 0
+    },
+    {
+      "Time": 11.52,
+      "Who": "Monster",
+      "Action": "SetSpeed",
+      "Amt": 30
+    },
+    {
+      "Time": 11.76,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": 6
+    },
+    {
+      "Time": 11.76,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -3
+    },
+    {
+      "Time": 12,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 12.24,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -2
+    },
+    {
+      "Time": 12.48,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 12.72,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -1
+    },
+    {
+      "Time": 12.96,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 13.2,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 0
+    },
+    {
+      "Time": 13.44,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 13.68,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 1
+    },
+    {
+      "Time": 13.92,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 14.16,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 2
+    },
+    {
+      "Time": 14.4,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 14.64,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 3
+    },
+    {
+      "Time": 14.88,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 15.12,
+      "Who": "Monster",
+      "Action": "SetSpeed",
+      "Amt": 50
+    },
+    {
+      "Time": 15.12,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": -6
+    },
+    {
+      "Time": 15.36,
+      "Who": "Monster",
+      "Action": "SetSpeed",
+      "Amt": 30
+    },
+    {
+      "Time": 15.36,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 15.6,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 2
+    },
+    {
+      "Time": 15.84,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 16.08,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 1
+    },
+    {
+      "Time": 16.32,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 16.56,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 0
+    },
+    {
+      "Time": 16.8,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 17.04,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -1
+    },
+    { "Time": 30 }
 }
+  ]
