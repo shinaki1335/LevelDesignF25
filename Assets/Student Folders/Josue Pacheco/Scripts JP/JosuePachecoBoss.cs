@@ -15,6 +15,12 @@ public class JosuePachecoBoss : HazardController
     public float circleRadius = 3f;
     public float circleSpeed = 2f;
 
+    [Header("Disparo Serpiente")]
+    public float snakeFrequency = 3f;   
+    public float snakeAmplitude = 1f;    
+    public float snakeWaveSpeed = 2f;    
+    public float snakeShotDelay = 0.1f;
+
     private bool isCharging = false;
     private bool isCircling = false;
     private bool isMoving = false;
@@ -208,10 +214,6 @@ public class JosuePachecoBoss : HazardController
             float y = circleCenter.y + Mathf.Sin(circleAngle) * circleRadius;
 
             transform.position = new Vector3(x, y, transform.position.z);
-
-            Vector3 direction = new Vector3(-Mathf.Sin(circleAngle), Mathf.Cos(circleAngle), 0);
-            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.Euler(0, 0, angle);
         }
         else
         {
@@ -264,23 +266,23 @@ public class JosuePachecoBoss : HazardController
         }
     }
 
-    // Disparo serpiente/ondulado
+    // Disparo serpiente/ondulado con dirección controlada
     private System.Collections.IEnumerator SnakeShotCoroutine(int bulletCount)
     {
-        float frequency = 3f;    // Frecuencia de la onda
-        float amplitude = 1f;    // Altura de la onda
-        float waveSpeed = 2f;    // Velocidad de la onda
-
+        // Usar las variables públicas en lugar de valores fijos
         for (int i = 0; i < bulletCount; i++)
         {
             // Calcular el ángulo basado en una función de onda (seno)
-            float waveOffset = Mathf.Sin(Time.time * waveSpeed + i * 0.5f) * amplitude;
-            float baseAngle = waveOffset * frequency; // Convierte la onda a ángulo
+            float waveOffset = Mathf.Sin(Time.time * snakeWaveSpeed + i * 0.5f) * snakeAmplitude;
+            float waveAngle = waveOffset * snakeFrequency; // Convierte la onda a ángulo
 
-            Vector3 rotation = new Vector3(0, 0, baseAngle);
+            // Aplicar la dirección base + la onda
+            float finalAngle = transform.eulerAngles.z + waveAngle;
+            Vector3 rotation = new Vector3(0, 0, finalAngle);
+
             Shoot(null, transform.position, rotation);
 
-            yield return new WaitForSeconds(0.1f); // Delay entre balas
+            yield return new WaitForSeconds(snakeShotDelay); // Usar la variable pública
         }
     }
 }
