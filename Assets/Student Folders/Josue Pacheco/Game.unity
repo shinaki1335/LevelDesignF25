@@ -165,7 +165,7 @@ MonoBehaviour:
   DeathGnome: {fileID: 0}
   moveDistance: 8
   burstFireRate: 0.1
-  continuousFireRate: 0.2
+  continuousFireRate: 0.1
 --- !u!61 &109035585
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -547,11 +547,11 @@ MonoBehaviour:
   WallHit: 0
   moveSpeed: 3
   chargeSpeed: 12
-  fanShotAngle: 45
-  fanShotCount: 8
-  fanShotDelay: 0.1
+  fanShotAngle: 40
+  fanShotCount: 5
+  fanShotDelay: 0.2
   circleRadius: 3
-  circleSpeed: 1
+  circleSpeed: 2
 --- !u!50 &1058971175
 Rigidbody2D:
   serializedVersion: 5
@@ -657,20 +657,28 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1478401557440782185, guid: d234da9df56f40d49a2c47c6bc00444a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 21.5548
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478401557440782185, guid: d234da9df56f40d49a2c47c6bc00444a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.73231
+      value: 0.5288816
       objectReference: {fileID: 0}
     - target: {fileID: 1478401557440782185, guid: d234da9df56f40d49a2c47c6bc00444a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.73231
+      value: 0.5288816
       objectReference: {fileID: 0}
     - target: {fileID: 1478401557440782185, guid: d234da9df56f40d49a2c47c6bc00444a, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.73231
+      value: 0.5288816
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478401557440782185, guid: d234da9df56f40d49a2c47c6bc00444a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.0169
       objectReference: {fileID: 0}
     - target: {fileID: 1478401557440782185, guid: d234da9df56f40d49a2c47c6bc00444a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2.07
+      value: 1.67
       objectReference: {fileID: 0}
     - target: {fileID: 1994627814483276693, guid: d234da9df56f40d49a2c47c6bc00444a, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -758,7 +766,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6350601411732872492, guid: d234da9df56f40d49a2c47c6bc00444a, type: 3}
       propertyPath: m_fontSize
-      value: 18
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350601411732872492, guid: d234da9df56f40d49a2c47c6bc00444a, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350601411732872492, guid: d234da9df56f40d49a2c47c6bc00444a, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350601411732872492, guid: d234da9df56f40d49a2c47c6bc00444a, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6350601411732872492, guid: d234da9df56f40d49a2c47c6bc00444a, type: 3}
       propertyPath: m_enableAutoSizing
@@ -876,7 +896,7 @@ MonoBehaviour:
   DeathGnome: {fileID: 0}
   moveDistance: 6
   burstFireRate: 0.1
-  continuousFireRate: 0.2
+  continuousFireRate: 0.1
 --- !u!61 &1592270228
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1071,7 +1091,7 @@ MonoBehaviour:
   DeathGnome: {fileID: 0}
   moveDistance: 6
   burstFireRate: 0.1
-  continuousFireRate: 0.2
+  continuousFireRate: 0.1
 --- !u!61 &1952579826
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1234,7 +1254,7 @@ MonoBehaviour:
   DeathGnome: {fileID: 0}
   moveDistance: 8
   burstFireRate: 0.1
-  continuousFireRate: 0.2
+  continuousFireRate: 0.1
 --- !u!61 &2124191605
 BoxCollider2D:
   m_ObjectHideFlags: 0

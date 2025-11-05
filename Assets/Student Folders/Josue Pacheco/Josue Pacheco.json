@@ -36,10 +36,15 @@
     {"Time": 22, "Who": "E3", "Action": "ShootStar", "Amt": 15},
     {"Time": 22, "Who": "E4", "Action": "ShootStar", "Amt": 15},
 
+
+
+
+
+
     {"Time": 25, "Dialogue": "Oh, what do we have here?"},
     {"Time": 27.5, "Dialogue": "a little dancer, huh"},
     {"Time": 29, "Dialogue": "Oh, but what do my eyes see?"},
-    {"Time": 31, "Dialogue": "......."},
+    {"Time": 31, "Dialogue": "..."},
     {"Time": 33, "Who": "EP", "Action": "MoveDown", "Amt": 2.0},
     {"Time": 36, "Dialogue": "You're not from around here, are you?"},
     {"Time": 38, "Who": "EP", "Action": "StartCircleMove", "Amt": 7.0},
@@ -52,6 +57,12 @@
     {"Time": 49, "Who": "EP", "Action": "ChargeAtPlayer", "Amt": 1.0},
     {"Time": 50, "Who": "EP", "Action": "FanShotAtPlayer", "Amt": 1.0},
     {"Time": 51, "Who": "EP", "Action": "ChargeAtPlayer", "Amt": 1.0},
-    {"Time": 52, "Who": "EP", "Action": "FanShotAtPlayer", "Amt": 1.0}
+    {"Time": 52, "Who": "EP", "Action": "FanShotAtPlayer", "Amt": 1.0},
+
+    {"Time": 53, "Who": "EP", "Action": "GoToCenter", "Amt": 1.0},
+    {"Time": 55, "Who": "EP", "Action": "WaveShot", "Amt": 5.0 },
+
+
+     {"Time": 135, "Dialogue": "Oh, what do we have here?"}
   ]
 }

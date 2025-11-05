@@ -81,10 +81,23 @@ public class JosuePachecoBoss : HazardController
         {
             StopCircleMovement();
         }
+        else if (act == "GoToCenter")
+        {
+            GoToCenter(amt);
+        }
+        else if (act == "WaveShot")
+        {
+            StartCoroutine(WaveShotCoroutine((int)amt));
+        }
+        else if (act == "SnakeShot")
+        {
+            StartCoroutine(SnakeShotCoroutine((int)amt));
+        }
         else
         {
             base.DoAction(act, amt);
         }
+
     }
 
     // NUEVO: Sistema de movimiento mejorado
@@ -203,6 +216,71 @@ public class JosuePachecoBoss : HazardController
         else
         {
             isCircling = false;
+        }
+    }
+
+    // Va al centro de la escena (0,0)
+    private void GoToCenter(float duration)
+    {
+        StartCoroutine(GoToCenterCoroutine(duration));
+    }
+
+    private System.Collections.IEnumerator GoToCenterCoroutine(float duration)
+    {
+        Vector3 startPos = transform.position;
+        Vector3 centerPos = Vector3.zero;
+        float timer = 0f;
+
+        while (timer < duration)
+        {
+            transform.position = Vector3.Lerp(startPos, centerPos, timer / duration);
+            timer += Time.deltaTime;
+            yield return null;
+        }
+
+        transform.position = centerPos; // Asegurar que queda exactamente en (0,0)
+    }
+
+    // Disparo en olas circulares
+    private System.Collections.IEnumerator WaveShotCoroutine(int waveCount)
+    {
+        int bulletsPerWave = 18; // Balas por ola
+        float waveDelay = 1.0f;  // Delay entre olas
+
+        for (int wave = 0; wave < waveCount; wave++)
+        {
+            // Disparar una ola completa (360°)
+            float angleStep = 360f / bulletsPerWave;
+
+            for (int i = 0; i < bulletsPerWave; i++)
+            {
+                float angle = i * angleStep;
+                Vector3 rotation = new Vector3(0, 0, angle);
+                Shoot(null, transform.position, rotation);
+            }
+
+            // Esperar antes de la siguiente ola
+            yield return new WaitForSeconds(waveDelay);
+        }
+    }
+
+    // Disparo serpiente/ondulado
+    private System.Collections.IEnumerator SnakeShotCoroutine(int bulletCount)
+    {
+        float frequency = 3f;    // Frecuencia de la onda
+        float amplitude = 1f;    // Altura de la onda
+        float waveSpeed = 2f;    // Velocidad de la onda
+
+        for (int i = 0; i < bulletCount; i++)
+        {
+            // Calcular el ángulo basado en una función de onda (seno)
+            float waveOffset = Mathf.Sin(Time.time * waveSpeed + i * 0.5f) * amplitude;
+            float baseAngle = waveOffset * frequency; // Convierte la onda a ángulo
+
+            Vector3 rotation = new Vector3(0, 0, baseAngle);
+            Shoot(null, transform.position, rotation);
+
+            yield return new WaitForSeconds(0.1f); // Delay entre balas
         }
     }
 }
