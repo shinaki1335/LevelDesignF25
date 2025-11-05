@@ -185,8 +185,31 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4862524930679800595, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1639184679}
   m_SourcePrefab: {fileID: 100100000, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
+--- !u!1 &1639184677 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4862524930679800595, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
+  m_PrefabInstance: {fileID: 942569620}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1639184679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639184677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c4cac655979b964eb160196f8bbba9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Walls: {fileID: 1639184677}
+  ScaleSpeed: 5
+  ScaleTarget: {x: 0.7, y: 0.7, z: 0.7}
 --- !u!1001 &1667577927
 PrefabInstance:
   m_ObjectHideFlags: 0
