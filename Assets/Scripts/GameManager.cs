@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 //This script handles the game's backend
@@ -9,6 +10,8 @@ using UnityEngine;
 //Just make sure to set MainNPC and JSON in the editor
 public class GameManager : MonoBehaviour
 {
+    [Header("Put walls here: ")]
+    public GameObject Walls;
     [Header("Set To Your Main NPC")]
     public ActorController MainNPC;
     [Header("Add Disabled-At-Start NPCs Here")]
@@ -30,7 +33,12 @@ public class GameManager : MonoBehaviour
     public float Clock;
     public List<EventJSON> Queue = new List<EventJSON>();
     private bool RoundBegun = false;
-
+    public float ScaleSpeed = 0.1f;
+    public Vector3 targetScale = new Vector3(0.6f, 0.6f, 0.6f);
+    public float BreakTime = 9f;
+    private bool TimeStamp = false;
+    public Vector3 NewTargetScale = new Vector3(1.18f, 1.1f, 1f);
+    public float NewScaleSpeed = 5f;
     private void Awake()
     {
         GameManager.Singleton = this;
@@ -61,10 +69,28 @@ public class GameManager : MonoBehaviour
             }
             return;
         }
+
+        if (!TimeStamp && Clock >= BreakTime)
+        {
+            TimeStamp = true;
+            transform.localScale += Vector3.MoveTowards(transform.localScale, NewTargetScale, ScaleSpeed * Time.deltaTime);
+        }
+
+        if (Walls != null)
+        {
+            transform.localScale = Vector3.MoveTowards(transform.localScale, targetScale, ScaleSpeed * Time.deltaTime);
+        }
+
         Clock += Time.deltaTime;
         if (TestMode)
         {
-            TimeDisplay.text = ""+Clock.ToString("0.0");
+            float timeRemaining = AS.clip.length - Clock;
+            timeRemaining = Mathf.Max(0f, timeRemaining); // avoid negative numbers
+
+            int minutes = Mathf.FloorToInt(timeRemaining / 60);
+            int seconds = Mathf.FloorToInt(timeRemaining % 60);
+
+            TimeDisplay.text = $"{minutes:0}:{seconds:0}";
         }
         while (Queue.Count > 0 && Queue[0].Time <= Clock)
         {
