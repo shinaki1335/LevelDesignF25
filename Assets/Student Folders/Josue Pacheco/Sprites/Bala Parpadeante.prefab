@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8774340096923412828}
   m_Layer: 0
   m_Name: Bala Parpadeante
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -136,7 +136,7 @@ MonoBehaviour:
   Speed: 0
   SpinSpeed: 0
   SizeSpeed: 5
-  DefaultProjectile: {fileID: 8774340096923412828}
+  DefaultProjectile: {fileID: 0}
   AltProjectiles: []
   ShootGnome: {fileID: 0}
   HurtGnome: {fileID: 0}
@@ -145,4 +145,3 @@ MonoBehaviour:
   WallHit: 0
   Source: {fileID: 0}
   OnlyHitPlayer: 0
-  flashSpeed: 0.5

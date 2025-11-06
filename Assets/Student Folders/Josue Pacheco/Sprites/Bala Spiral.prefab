@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4582801119036558237}
   m_Layer: 0
   m_Name: Bala Spiral
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133,10 +133,10 @@ MonoBehaviour:
   Coll: {fileID: 0}
   Anim: {fileID: 0}
   Health: 0
-  Speed: 7
-  SpinSpeed: 5
-  SizeSpeed: 5
-  DefaultProjectile: {fileID: 4582801119036558237}
+  Speed: 2
+  SpinSpeed: 2
+  SizeSpeed: 2
+  DefaultProjectile: {fileID: 0}
   AltProjectiles: []
   ShootGnome: {fileID: 0}
   HurtGnome: {fileID: 0}

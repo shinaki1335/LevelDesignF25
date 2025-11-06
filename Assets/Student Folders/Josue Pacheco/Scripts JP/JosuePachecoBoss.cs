@@ -299,41 +299,31 @@ public class JosuePachecoBoss : HazardController
     // Balas parpadeantes estáticas
     private System.Collections.IEnumerator SpawnFlashingBulletsCoroutine(float duration)
     {
-        // Posiciones fijas en el mapa
         Vector3[] positions = new Vector3[]
         {
-        new Vector3(-5, 3, 0), new Vector3(5, 3, 0),
-        new Vector3(-3, 1, 0), new Vector3(3, 1, 0),
-        new Vector3(-5, -1, 0), new Vector3(5, -1, 0),
-        new Vector3(-3, -3, 0), new Vector3(3, -3, 0)
+        new Vector3(-4, 3, 0), new Vector3(4, 3, 0),
+        new Vector3(-2, 2, 0), new Vector3(2, 2, 0),
+        new Vector3(-4, 0, 0), new Vector3(4, 0, 0),
+        new Vector3(-2, -2, 0), new Vector3(2, -2, 0),
+        new Vector3(-4, -3, 0), new Vector3(4, -3, 0)
         };
 
-        // Usar AltProjectiles[1] para balas parpadeantes
-        ProjectileController flashingPrefab = null;
-        if (AltProjectiles != null && AltProjectiles.Count > 1)
-        {
-            flashingPrefab = AltProjectiles[1];
-        }
-        else
-        {
-            flashingPrefab = DefaultProjectile; // Fallback
-        }
+        ProjectileController flashingPrefab = (AltProjectiles != null && AltProjectiles.Count > 1)
+            ? AltProjectiles[1] : DefaultProjectile;
 
-        // Crear balas en posiciones fijas
-        System.Collections.Generic.List<ProjectileController> bullets = new System.Collections.Generic.List<ProjectileController>();
+        System.Collections.Generic.List<GameObject> bullets = new System.Collections.Generic.List<GameObject>();
+
         foreach (Vector3 pos in positions)
         {
-            ProjectileController bullet = Instantiate(flashingPrefab, pos, Quaternion.identity);
+            GameObject bullet = Instantiate(flashingPrefab.gameObject, pos, Quaternion.identity);
             bullets.Add(bullet);
         }
 
-        // Esperar duración
         yield return new WaitForSeconds(duration);
 
-        // Destruir balas
-        foreach (ProjectileController bullet in bullets)
+        foreach (GameObject bullet in bullets)
         {
-            if (bullet != null) Destroy(bullet.gameObject);
+            if (bullet != null) Destroy(bullet);
         }
     }
 
@@ -341,37 +331,30 @@ public class JosuePachecoBoss : HazardController
     private System.Collections.IEnumerator InwardSpiralCoroutine(float duration)
     {
         float endTime = Time.time + duration;
-        float spawnRadius = 8f; // Radio donde aparecen las balas
         float angle = 0f;
+        float radius = 9f;
 
-        // Usar AltProjectiles[2] para balas espirales
-        ProjectileController spiralPrefab = null;
-        if (AltProjectiles != null && AltProjectiles.Count > 2)
-        {
-            spiralPrefab = AltProjectiles[2];
-        }
-        else
-        {
-            spiralPrefab = DefaultProjectile; // Fallback
-        }
+        ProjectileController spiralPrefab = (AltProjectiles != null && AltProjectiles.Count > 2)
+            ? AltProjectiles[2] : DefaultProjectile;
 
         while (Time.time < endTime)
         {
-            // Calcular posición en el borde del círculo
-            float x = Mathf.Cos(angle) * spawnRadius;
-            float y = Mathf.Sin(angle) * spawnRadius;
+            // Calcular posición en el borde
+            float x = Mathf.Cos(angle * Mathf.Deg2Rad) * radius;
+            float y = Mathf.Sin(angle * Mathf.Deg2Rad) * radius;
             Vector3 spawnPos = transform.position + new Vector3(x, y, 0);
 
-            // Calcular dirección hacia el boss
-            Vector3 direction = (transform.position - spawnPos).normalized;
-            float bulletAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-            Vector3 rotation = new Vector3(0, 0, bulletAngle);
+            // Crear bala y asignar objetivo
+            GameObject bulletObj = Instantiate(spiralPrefab.gameObject, spawnPos, Quaternion.identity);
+            JosuePachecoInwardBullet bullet = bulletObj.GetComponent<JosuePachecoInwardBullet>();
+            if (bullet != null)
+            {
+                bullet.SetTarget(transform.position); // Boss como objetivo
+            }
 
-            // Crear bala hacia el boss
-            Shoot(spiralPrefab, spawnPos, rotation);
+            angle += 40f; // Espaciado entre balas
 
-            angle += 25f; // Espacio entre balas
-            yield return new WaitForSeconds(0.08f); // Frecuencia de spawn
+            yield return new WaitForSeconds(0.1f);
         }
     }
 }

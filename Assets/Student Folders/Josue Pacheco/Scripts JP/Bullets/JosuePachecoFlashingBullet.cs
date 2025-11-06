@@ -2,13 +2,18 @@ using UnityEngine;
 
 public class JosuePachecoFlashingBullet : ProjectileController
 {
-    public float flashSpeed = 0.5f;
-    private float timer = 0f;
+    private float timer;
+    private float flashSpeed;
+
+    void Start()
+    {
+        flashSpeed = Random.Range(0.3f, 0.9f);
+        timer = Random.Range(0f, 0.6f);
+    }
 
     void Update()
     {
-        // Comportamiento de parpadeo
-        float scale = 0.5f + Mathf.PingPong(timer * flashSpeed, 1f);
+        float scale = 0.2f + Mathf.PingPong(timer * flashSpeed, 1.4f);
         transform.localScale = Vector3.one * scale;
         timer += Time.deltaTime;
     }

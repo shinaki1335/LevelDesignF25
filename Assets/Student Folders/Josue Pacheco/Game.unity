@@ -885,9 +885,9 @@ MonoBehaviour:
   fanShotDelay: 0.2
   circleRadius: 3
   circleSpeed: 1.7
-  snakeFrequency: 0.2
-  snakeAmplitude: 4
-  snakeWaveSpeed: 1
+  snakeFrequency: 6
+  snakeAmplitude: 2
+  snakeWaveSpeed: 10
   snakeShotDelay: 0.1
 --- !u!50 &1058971175
 Rigidbody2D:

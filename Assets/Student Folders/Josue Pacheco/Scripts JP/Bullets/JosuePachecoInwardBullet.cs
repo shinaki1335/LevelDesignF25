@@ -3,33 +3,26 @@ using UnityEngine;
 public class JosuePachecoInwardBullet : ProjectileController
 {
     private Vector3 targetPosition;
-    private float spiralSpeed = 180f; // Velocidad de rotación en espiral
-    private float currentAngle;
+    private float spiralIntensity = 50f;
 
     public void SetTarget(Vector3 target)
     {
         targetPosition = target;
-        // Calcular ángulo inicial hacia el objetivo
-        Vector3 direction = (targetPosition - transform.position).normalized;
-        currentAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
     }
 
     void Update()
     {
-        if (targetPosition != Vector3.zero)
-        {
-            // Movimiento en espiral hacia el objetivo
-            currentAngle += spiralSpeed * Time.deltaTime;
+        // Dirección hacia el objetivo
+        Vector3 direction = (targetPosition - transform.position).normalized;
 
-            // Calcular dirección con rotación espiral
-            Vector3 direction = (targetPosition - transform.position).normalized;
-            float targetAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        // Añadir movimiento espiral con seno
+        float spiral = Mathf.Sin(Time.time * 3f) * spiralIntensity * Time.deltaTime;
+        direction = Quaternion.Euler(0, 0, spiral) * direction;
 
-            // Combinar dirección hacia objetivo + movimiento espiral
-            float finalAngle = targetAngle + Mathf.Sin(Time.time * 2f) * 30f;
-            Vector3 moveDirection = Quaternion.Euler(0, 0, finalAngle) * Vector3.right;
+        transform.position += direction * Speed * Time.deltaTime;
 
-            transform.position += moveDirection * Speed * Time.deltaTime;
-        }
+        // Rotar sprite hacia dirección
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0, 0, angle);
     }
 }

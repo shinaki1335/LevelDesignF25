@@ -51,7 +51,7 @@
     {"Time": 41, "Dialogue": "Wonderful! Wonderful! My family is arriving and the moment has come..."},
     {"Time": 44, "Dialogue": "Dance with me, my friend. The crowd is waiting for you..."},
     {"Time": 45, "Who": "EP", "Action": "StopCircleMove"},
-    {"Time": 46, "Dialogue": "Show them you're worthy of a leading role!!!"},
+    {"Time": 46, "Dialogue": "Show them you're worthy of a leading role!!!", "Amt": 3.0},
     {"Time": 47, "Who": "EP", "Action": "ChargeAtPlayer", "Amt": 1.0},
     {"Time": 48, "Who": "EP", "Action": "FanShotAtPlayer", "Amt": 1.0},
     {"Time": 49, "Who": "EP", "Action": "ChargeAtPlayer", "Amt": 1.0},
@@ -82,7 +82,11 @@
 
     {"Time": 69, "Who": "EP", "Action": "GoToCenter", "Amt": 1.0},
     {"Time": 70, "Who": "EP", "Action": "SpawnFlashingBullets", "Amt": 9.0},
-    {"Time": 79, "Who": "EP", "Action": "InwardSpiralShot", "Amt": 14.0},
+    {"Time": 79, "Who": "EP", "Action": "InwardSpiralShot", "Amt": 3.0},
+    {"Time": 82, "Who": "EP", "Action": "InwardSpiralShot", "Amt": 3.0},
+    {"Time": 85, "Who": "EP", "Action": "InwardSpiralShot", "Amt": 3.0},
+    {"Time": 88, "Who": "EP", "Action": "InwardSpiralShot", "Amt": 3.0},
+    {"Time": 91, "Who": "EP", "Action": "InwardSpiralShot", "Amt": 2.0},
 
 
     {"Time": 135, "Dialogue": "Oh, what do we have here?"}
