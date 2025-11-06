@@ -1,12 +1,12 @@
-using UnityEngine;
+Ôªøusing UnityEngine;
 
 public class JosuePachecoBoss : HazardController
 {
-    [Header("ConfiguraciÛn de Movimiento")]
-    public float moveSpeed = 8f; // AumentÈ la velocidad base
+    [Header("Configuraci√≥n de Movimiento")]
+    public float moveSpeed = 8f; // Aument√© la velocidad base
     public float chargeSpeed = 12f;
 
-    [Header("ConfiguraciÛn de Disparo")]
+    [Header("Configuraci√≥n de Disparo")]
     public float fanShotAngle = 45f;
     public int fanShotCount = 5;
     public float fanShotDelay = 0.1f;
@@ -16,9 +16,9 @@ public class JosuePachecoBoss : HazardController
     public float circleSpeed = 2f;
 
     [Header("Disparo Serpiente")]
-    public float snakeFrequency = 3f;   
-    public float snakeAmplitude = 1f;    
-    public float snakeWaveSpeed = 2f;    
+    public float snakeFrequency = 3f;
+    public float snakeAmplitude = 1f;
+    public float snakeWaveSpeed = 2f;
     public float snakeShotDelay = 0.1f;
 
     private bool isCharging = false;
@@ -99,6 +99,14 @@ public class JosuePachecoBoss : HazardController
         {
             StartCoroutine(SnakeShotCoroutine((int)amt));
         }
+        else if (act == "SpawnFlashingBullets")
+        {
+            StartCoroutine(SpawnFlashingBulletsCoroutine(amt));
+        }
+        else if (act == "InwardSpiralShot")
+        {
+            StartCoroutine(InwardSpiralCoroutine(amt));
+        }
         else
         {
             base.DoAction(act, amt);
@@ -158,7 +166,7 @@ public class JosuePachecoBoss : HazardController
     }
 
     // Disparo en abanico/escopeta hacia el jugador
-    // Disparo en abanico/escopeta (todas las balas simult·neas)
+    // Disparo en abanico/escopeta (todas las balas simult√°neas)
     private System.Collections.IEnumerator FanShotAtPlayerCoroutine()
     {
         if (player != null)
@@ -166,7 +174,7 @@ public class JosuePachecoBoss : HazardController
             Vector3 playerDirection = (player.transform.position - transform.position).normalized;
             float baseAngle = Mathf.Atan2(playerDirection.y, playerDirection.x) * Mathf.Rad2Deg;
 
-            // Calcular ·ngulos para el disparo en abanico
+            // Calcular √°ngulos para el disparo en abanico
             float angleStep = fanShotAngle / (fanShotCount - 1);
             float startAngle = baseAngle - (fanShotAngle / 2);
 
@@ -180,12 +188,12 @@ public class JosuePachecoBoss : HazardController
                 Shoot(null, transform.position, rotation);
             }
 
-            // PequeÒa espera para no bloquear otras corrutinas
+            // Peque√±a espera para no bloquear otras corrutinas
             yield return null;
         }
     }
 
-    // Movimiento circular con duraciÛn limitada
+    // Movimiento circular con duraci√≥n limitada
     private void StartCircleMovement(float duration)
     {
         if (!isCircling)
@@ -251,7 +259,7 @@ public class JosuePachecoBoss : HazardController
 
         for (int wave = 0; wave < waveCount; wave++)
         {
-            // Disparar una ola completa (360∞)
+            // Disparar una ola completa (360¬∞)
             float angleStep = 360f / bulletsPerWave;
 
             for (int i = 0; i < bulletsPerWave; i++)
@@ -266,23 +274,104 @@ public class JosuePachecoBoss : HazardController
         }
     }
 
-    // Disparo serpiente/ondulado con direcciÛn controlada
+    // Disparo serpiente/ondulado con direcci√≥n controlada
     private System.Collections.IEnumerator SnakeShotCoroutine(int bulletCount)
     {
-        // Usar las variables p˙blicas en lugar de valores fijos
+        // Usar el proyectil serpiente desde AltProjectiles (√≠ndice 0)
+        ProjectileController serpentPrefab = null;
+        if (AltProjectiles != null && AltProjectiles.Count > 0)  // ‚Üê CAMBI√â Length por Count
+        {
+            serpentPrefab = AltProjectiles[0]; // Primer proyectil alternativo
+        }
+
         for (int i = 0; i < bulletCount; i++)
         {
-            // Calcular el ·ngulo basado en una funciÛn de onda (seno)
-            float waveOffset = Mathf.Sin(Time.time * snakeWaveSpeed + i * 0.5f) * snakeAmplitude;
-            float waveAngle = waveOffset * snakeFrequency; // Convierte la onda a ·ngulo
+            float baseAngle = transform.eulerAngles.z;
+            Vector3 rotation = new Vector3(0, 0, baseAngle);
 
-            // Aplicar la direcciÛn base + la onda
-            float finalAngle = transform.eulerAngles.z + waveAngle;
-            Vector3 rotation = new Vector3(0, 0, finalAngle);
+            // Usar el proyectil serpiente de AltProjectiles
+            Shoot(serpentPrefab, transform.position, rotation);
 
-            Shoot(null, transform.position, rotation);
+            yield return new WaitForSeconds(snakeShotDelay);
+        }
+    }
 
-            yield return new WaitForSeconds(snakeShotDelay); // Usar la variable p˙blica
+    // Balas parpadeantes est√°ticas
+    private System.Collections.IEnumerator SpawnFlashingBulletsCoroutine(float duration)
+    {
+        // Posiciones fijas en el mapa
+        Vector3[] positions = new Vector3[]
+        {
+        new Vector3(-5, 3, 0), new Vector3(5, 3, 0),
+        new Vector3(-3, 1, 0), new Vector3(3, 1, 0),
+        new Vector3(-5, -1, 0), new Vector3(5, -1, 0),
+        new Vector3(-3, -3, 0), new Vector3(3, -3, 0)
+        };
+
+        // Usar AltProjectiles[1] para balas parpadeantes
+        ProjectileController flashingPrefab = null;
+        if (AltProjectiles != null && AltProjectiles.Count > 1)
+        {
+            flashingPrefab = AltProjectiles[1];
+        }
+        else
+        {
+            flashingPrefab = DefaultProjectile; // Fallback
+        }
+
+        // Crear balas en posiciones fijas
+        System.Collections.Generic.List<ProjectileController> bullets = new System.Collections.Generic.List<ProjectileController>();
+        foreach (Vector3 pos in positions)
+        {
+            ProjectileController bullet = Instantiate(flashingPrefab, pos, Quaternion.identity);
+            bullets.Add(bullet);
+        }
+
+        // Esperar duraci√≥n
+        yield return new WaitForSeconds(duration);
+
+        // Destruir balas
+        foreach (ProjectileController bullet in bullets)
+        {
+            if (bullet != null) Destroy(bullet.gameObject);
+        }
+    }
+
+    // Espiral hacia el boss
+    private System.Collections.IEnumerator InwardSpiralCoroutine(float duration)
+    {
+        float endTime = Time.time + duration;
+        float spawnRadius = 8f; // Radio donde aparecen las balas
+        float angle = 0f;
+
+        // Usar AltProjectiles[2] para balas espirales
+        ProjectileController spiralPrefab = null;
+        if (AltProjectiles != null && AltProjectiles.Count > 2)
+        {
+            spiralPrefab = AltProjectiles[2];
+        }
+        else
+        {
+            spiralPrefab = DefaultProjectile; // Fallback
+        }
+
+        while (Time.time < endTime)
+        {
+            // Calcular posici√≥n en el borde del c√≠rculo
+            float x = Mathf.Cos(angle) * spawnRadius;
+            float y = Mathf.Sin(angle) * spawnRadius;
+            Vector3 spawnPos = transform.position + new Vector3(x, y, 0);
+
+            // Calcular direcci√≥n hacia el boss
+            Vector3 direction = (transform.position - spawnPos).normalized;
+            float bulletAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+            Vector3 rotation = new Vector3(0, 0, bulletAngle);
+
+            // Crear bala hacia el boss
+            Shoot(spiralPrefab, spawnPos, rotation);
+
+            angle += 25f; // Espacio entre balas
+            yield return new WaitForSeconds(0.08f); // Frecuencia de spawn
         }
     }
 }
