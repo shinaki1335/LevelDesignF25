@@ -332,7 +332,7 @@ public class JosuePachecoBoss : HazardController
     {
         float endTime = Time.time + duration;
         float angle = 0f;
-        float radius = 9f;
+        float radius = 6f;
 
         ProjectileController spiralPrefab = (AltProjectiles != null && AltProjectiles.Count > 2)
             ? AltProjectiles[2] : DefaultProjectile;
@@ -352,9 +352,9 @@ public class JosuePachecoBoss : HazardController
                 bullet.SetTarget(transform.position); // Boss como objetivo
             }
 
-            angle += 40f; // Espaciado entre balas
+            angle += 30f; // Espaciado entre balas
 
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.2f);
         }
     }
 }

@@ -32,4 +32,23 @@ public class JosuePachecoSerpentProjectile : ProjectileController
         float currentAngle = initialAngle + waveOffset * 30f;
         transform.rotation = Quaternion.Euler(0, 0, currentAngle);
     }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        // Verificar si es el player
+        if (other.CompareTag("Player"))
+        {
+            ActorController player = other.GetComponentInParent<ActorController>();
+            if (player != null)
+            {
+                // Aplicar daño usando el sistema del HazardController
+                OnHit(player);
+            }
+        }
+
+        // Verificar si es pared
+        if (other.CompareTag("Wall"))
+        {
+            HitWall(other.gameObject);
+        }
+    }
 }

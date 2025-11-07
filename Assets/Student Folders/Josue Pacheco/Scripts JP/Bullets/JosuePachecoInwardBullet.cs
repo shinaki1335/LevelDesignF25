@@ -3,7 +3,7 @@ using UnityEngine;
 public class JosuePachecoInwardBullet : ProjectileController
 {
     private Vector3 targetPosition;
-    private float spiralIntensity = 50f;
+    private float spiralIntensity = 60f;
 
     public void SetTarget(Vector3 target)
     {
@@ -24,5 +24,24 @@ public class JosuePachecoInwardBullet : ProjectileController
         // Rotar sprite hacia dirección
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, angle);
+    }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        // Verificar si es el player
+        if (other.CompareTag("Player"))
+        {
+            ActorController player = other.GetComponentInParent<ActorController>();
+            if (player != null)
+            {
+                // Aplicar daño usando el sistema del HazardController
+                OnHit(player);
+            }
+        }
+
+        // Verificar si es pared
+        if (other.CompareTag("Wall"))
+        {
+            HitWall(other.gameObject);
+        }
     }
 }
