@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -70,15 +70,28 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        if (!TimeStamp && Clock >= BreakTime)
+
+        if (!TimeStamp && Walls != null)
         {
-            TimeStamp = true;
-            transform.localScale += Vector3.MoveTowards(transform.localScale, NewTargetScale, ScaleSpeed * Time.deltaTime);
+            Walls.transform.localScale = Vector3.MoveTowards(
+                Walls.transform.localScale,
+                targetScale,
+                ScaleSpeed * Time.deltaTime
+            );
+
+            if (Clock >= BreakTime)
+            {
+                TimeStamp = true;
+            }
         }
 
-        if (Walls != null)
+        if (TimeStamp && Walls != null)
         {
-            transform.localScale = Vector3.MoveTowards(transform.localScale, targetScale, ScaleSpeed * Time.deltaTime);
+            Walls.transform.localScale = Vector3.MoveTowards(
+                Walls.transform.localScale,
+                NewTargetScale,
+                NewScaleSpeed * Time.deltaTime
+            );
         }
 
         Clock += Time.deltaTime;
