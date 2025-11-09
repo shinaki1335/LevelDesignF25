@@ -21,6 +21,13 @@ public class JosuePachecoBoss : HazardController
     public float snakeWaveSpeed = 2f;
     public float snakeShotDelay = 0.1f;
 
+    [Header("Disparo Giratorio")]
+    public float spinShotRate = 0.1f;
+    public float spinRotationSpeed = 180f; // Velocidad de giro
+
+    private float currentSpinAngle = 0f;
+    private bool isSpinning = false;
+
     private bool isCharging = false;
     private bool isCircling = false;
     private bool isMoving = false;
@@ -77,7 +84,10 @@ public class JosuePachecoBoss : HazardController
         }
         else if (act == "FanShotAtPlayer")
         {
-            StartCoroutine(FanShotAtPlayerCoroutine());
+            if (amt == -1) 
+                StartCoroutine(FanShotAtPlayerCoroutine());
+            else 
+                StartCoroutine(FanShotAtFixedAngleCoroutine(amt));
         }
         else if (act == "StartCircleMove")
         {
@@ -106,6 +116,14 @@ public class JosuePachecoBoss : HazardController
         else if (act == "InwardSpiralShot")
         {
             StartCoroutine(InwardSpiralCoroutine(amt));
+        }
+        else if (act == "StartSpinShot")
+        {
+            StartSpinShot(amt);
+        }
+        else if (act == "StopSpinShot")
+        {
+            StopSpinShot();
         }
         else
         {
@@ -193,8 +211,28 @@ public class JosuePachecoBoss : HazardController
         }
     }
 
-    // Movimiento circular con duración limitada
-    private void StartCircleMovement(float duration)
+    // AGREGAR ESTE MÉTODO NUEVO
+    private System.Collections.IEnumerator FanShotAtFixedAngleCoroutine(float angle)
+    {
+        float baseAngle = angle;
+
+        // Calcular ángulos para el disparo en abanico
+        float angleStep = fanShotAngle / (fanShotCount - 1);
+        float startAngle = baseAngle - (fanShotAngle / 2);
+
+        // Disparar TODAS las balas al mismo tiempo
+        for (int i = 0; i < fanShotCount; i++)
+        {
+            float currentAngle = startAngle + (angleStep * i);
+            Vector3 rotation = new Vector3(0, 0, currentAngle);
+            Shoot(null, transform.position, rotation);
+        }
+
+        yield return null;
+    }
+
+// Movimiento circular con duración limitada
+private void StartCircleMovement(float duration)
     {
         if (!isCircling)
         {
@@ -332,7 +370,7 @@ public class JosuePachecoBoss : HazardController
     {
         float endTime = Time.time + duration;
         float angle = 0f;
-        float radius = 6f;
+        float radius = 6.5f;
 
         ProjectileController spiralPrefab = (AltProjectiles != null && AltProjectiles.Count > 2)
             ? AltProjectiles[2] : DefaultProjectile;
@@ -354,7 +392,57 @@ public class JosuePachecoBoss : HazardController
 
             angle += 30f; // Espaciado entre balas
 
-            yield return new WaitForSeconds(0.2f);
+            yield return new WaitForSeconds(0.13f);
         }
+    }
+
+    // MÉTODOS DEL DISPARO GIRATORIO
+    private void StartSpinShot(float duration)
+    {
+        if (!isSpinning)
+        {
+            isSpinning = true;
+            StartCoroutine(SpinShotCoroutine(duration));
+        }
+    }
+
+    private void StopSpinShot()
+    {
+        if (isSpinning)
+        {
+            // Reactivar collider al detener manualmente
+            Collider2D bossCollider = GetComponent<Collider2D>();
+            if (bossCollider != null)
+                bossCollider.enabled = true;
+        }
+        isSpinning = false;
+    }
+
+    private System.Collections.IEnumerator SpinShotCoroutine(float duration)
+    {
+        float endTime = Time.time + duration;
+        Collider2D bossCollider = GetComponent<Collider2D>();
+        if (bossCollider != null)
+            bossCollider.enabled = false;
+
+        while (Time.time < endTime && isSpinning)
+        {
+            // Disparar en 5 direcciones equidistantes (72 grados entre cada una)
+            for (int i = 0; i < 5; i++)
+            {
+                float currentAngle = currentSpinAngle + (i * 72f); // 360/5 = 72
+                Vector3 rotation = new Vector3(0, 0, currentAngle);
+                Shoot(null, transform.position, rotation);
+            }
+
+            // Rotar todas las direcciones
+            currentSpinAngle += spinRotationSpeed * spinShotRate;
+
+            yield return new WaitForSeconds(spinShotRate);
+        }
+        if (bossCollider != null)
+            bossCollider.enabled = true;
+
+        isSpinning = false;
     }
 }
