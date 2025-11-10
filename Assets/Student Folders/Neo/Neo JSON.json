@@ -52,6 +52,11 @@
     {"Time": 2.85,"Who":"Wave 16","Action": "WaveRise", "Amt": 1},
 
      
+    {"Time": 3,"Who":"Rain 3","Action": "SetRandomX"},
+    {"Time": 3,"Who":"Rain 3","Action": "MoveToY","Amt": -10},
+    {"Time": 3.3,"Who":"Rain Warn 3","Action": "Flash","Amt": -10},
+
+
     {"Time": 3.4,"Who":"Warning Horz","Action": "SetY", "Amt": 2.5},
     {"Time": 3.4,"Who":"Warning Horz","Action": "Flash"},
     {"Time": 3.9,"Who":"Warning Horz","Action": "SetY", "Amt": -10},
