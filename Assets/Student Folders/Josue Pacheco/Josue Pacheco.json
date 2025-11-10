@@ -130,6 +130,6 @@
 
     {"Time": 132, "Who": "EP", "Action": "GoToCenter", "Amt": 1.0},
 
-    {"Time": 135, "Dialogue": "Oh, what do we have here?"}
+    {"Time": 145, "Dialogue": "Oh, what do we have here?"}
   ]
 }

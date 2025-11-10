@@ -426,7 +426,7 @@ private void StartCircleMovement(float duration)
 
         while (Time.time < endTime && isSpinning)
         {
-            // Disparar en 5 direcciones equidistantes (72 grados entre cada una)
+            // Disparar en 5 direcciones equidistantes
             for (int i = 0; i < 5; i++)
             {
                 float currentAngle = currentSpinAngle + (i * 72f); // 360/5 = 72
