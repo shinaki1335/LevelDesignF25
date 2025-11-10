@@ -2,13 +2,149 @@
   "Title": "Test",
   "Author": "Sunny Liu",
   "Events": [
-    {"Time": 0,"Anim": "SpinShoot","Action": "RandomWalk"},
-    {"Time": 2,"Action": "RandomWalk"},
-    {"Time": 4,"Action": "RandomWalk"},
-    {"Time": 5.5,"Action": "Shake", "Amt": 3},
-    {"Time": 8,"Dialogue": "Hello"},
-    {"Time": 8,"Who":"Player","Action": "Flash"},
-    {"Time": 10,"Dialogue": ""},
-    {"Time": 12}
+    {"Time": 0,"Action": "SetAnimSpeed", "Amt":10},  
+    {"Time": 0,"Action": "SetSpinSpeed", "Amt":10},  
+    {"Time": 0,"Action": "MoveToY", "Amt":10},
+    {"Time": 0,"Action": "MoveToX", "Amt":10},
+    {"Time": 0.1,"Action": "ShootAtPlayer"},
+    {"Time": 0.2,"Action": "ShootAtPlayer"},
+    {"Time": 0.3,"Action": "ShootAtPlayer"},
+    {"Time": 0.4,"Action": "ShootAtPlayer"},
+    
+    {"Time": 1,"Action": "MoveToY", "Amt":-10},
+    {"Time": 1,"Action": "MoveToX", "Amt":-10},
+    {"Time": 1,"Action": "ShootAtPlayer"},
+    {"Time": 1.2,"Action": "ShootAtPlayer"},
+    {"Time": 1.3,"Action": "ShootAtPlayer"},
+    {"Time": 1.4,"Action": "ShootAtPlayer"},
+   
+    {"Time": 1,"Action": "MoveToY", "Amt":0},
+    {"Time": 1,"Action": "MoveToX", "Amt":0},
+    {"Time": 2.1,"Action": "ShootAtPlayer"},
+    {"Time": 2.2,"Action": "ShootAtPlayer"},
+    {"Time": 2.3,"Action": "ShootAtPlayer"},
+    {"Time": 2.4,"Action": "ShootAtPlayer"},
+  
+    {"Time": 5.6,"Action": "Shake", "Amt": 3},
+    {"Time": 6.3,"Action": "Flash"},
+    {"Time": 7,"Dialogue": "RAT!"},
+    {"Time": 7,"Action": "Shoot"},
+    {"Time": 7.12,"Action":"Rotate","Amt": 25},
+    {"Time": 7.12,"Action": "Shoot"},
+    {"Time": 7.13,"Action":"Rotate","Amt": 50},
+    {"Time": 7.13,"Action": "Shoot"},
+    {"Time": 7.14,"Action":"Rotate","Amt": 75},
+    {"Time": 7.14,"Action": "Shoot"},
+    {"Time": 7.15,"Action":"Rotate","Amt": 90},
+    {"Time": 7.15,"Action": "Shoot"},
+    {"Time": 7.16,"Action":"Rotate","Amt": 105},
+    {"Time": 7.16,"Action": "Shoot"},
+    {"Time": 7.17,"Action":"Rotate","Amt": 120},
+    {"Time": 7.17,"Action": "Shoot"},
+    {"Time": 7.18,"Action":"Rotate","Amt": 135},
+    {"Time": 7.18,"Action": "Shoot"},
+    {"Time": 7.19,"Action":"Rotate","Amt": 150},
+    {"Time": 7.19,"Action": "Shoot"},
+    {"Time": 7.20,"Action":"Rotate","Amt": 165},
+    {"Time": 7.20,"Action": "Shoot"},
+    {"Time": 7.21,"Action":"Rotate","Amt": 180},
+    {"Time": 7.21,"Action": "Shoot"},
+    {"Time": 7.22,"Action":"Rotate","Amt": 195},
+    {"Time": 7.22,"Action": "Shoot"},
+    {"Time": 7.23,"Action":"Rotate","Amt": 210},
+    {"Time": 7.23,"Action": "Shoot"},
+    {"Time": 7.24,"Action":"Rotate","Amt": 225},
+    {"Time": 7.24,"Action": "Shoot"},
+    {"Time": 7.25,"Action":"Rotate","Amt": 240},
+    {"Time": 7.25,"Action": "Shoot"},
+    {"Time": 7.26,"Action":"Rotate","Amt": 255},
+    {"Time": 7.26,"Action": "Shoot"},
+    {"Time": 7.27,"Action":"Rotate","Amt": 270},
+    {"Time": 7.27,"Action": "Shoot"},
+    {"Time": 7.28,"Action":"Rotate","Amt": 285},
+    {"Time": 7.28,"Action": "Shoot"},
+    {"Time": 7.29,"Action":"Rotate","Amt": 300},
+    {"Time": 7.29,"Action": "Shoot"},
+    {"Time": 7.30,"Action":"Rotate","Amt": 315},
+    {"Time": 7.30,"Action": "Shoot"},
+    {"Time": 7.31,"Action":"Rotate","Amt": 330},
+    {"Time": 7.31,"Action": "Shoot"},
+    {"Time": 7.32,"Action":"Rotate","Amt": 345},
+    {"Time": 7.32,"Action": "Shoot"},
+    {"Time": 7.33,"Action":"Rotate","Amt": 360},
+    {"Time": 7.33,"Action": "Shoot"},
+      
+    {"Time": 9,"Dialogue": ""},
+    {"Time": 10,"Action": "SetX", "Amt": 0},
+    {"Time": 10,"Action": "SetY", "Amt": 0},
+    {"Time": 10,"Action": "SetSpeed", "Amt": 20},
+    
+    {"Time": 12,"Action": "MoveToY", "Amt":3.9},
+    {"Time": 12,"Action": "MoveToX", "Amt":-6.9},
+     {"Time": 12.2,"Action": "ShootAtPlayer"},
+    {"Time": 12.4,"Action": "ShootAtPlayer"},
+    {"Time": 12.6,"Action": "ShootAtPlayer"},
+    {"Time": 12.8,"Action": "ShootAtPlayer"},
+   
+    {"Time": 14,"Action": "MoveToY", "Amt":3.9},
+    {"Time": 14,"Action": "MoveToX", "Amt":6.9},
+     {"Time": 14.2,"Action": "ShootAtPlayer"},
+    {"Time": 14.4,"Action": "ShootAtPlayer"},
+    {"Time": 14.6,"Action": "ShootAtPlayer"},
+    {"Time": 14.8,"Action": "ShootAtPlayer"},
+   
+    {"Time": 16,"Action": "MoveToY", "Amt":-3.9},
+    {"Time": 16,"Action": "MoveToX", "Amt":6.9},
+     {"Time": 16.21,"Action": "ShootAtPlayer"},
+     {"Time": 16.23,"Action": "ShootAtPlayer"},
+     {"Time": 16.25,"Action": "ShootAtPlayer"},
+    {"Time": 16.41,"Action": "ShootAtPlayer"},
+    {"Time": 16.43,"Action": "ShootAtPlayer"},
+    {"Time": 16.45,"Action": "ShootAtPlayer"},
+    {"Time": 16.61,"Action": "ShootAtPlayer"},
+    {"Time": 16.63,"Action": "ShootAtPlayer"},
+    {"Time": 16.65,"Action": "ShootAtPlayer"},
+    {"Time": 16.81,"Action": "ShootAtPlayer"},
+    {"Time": 16.83,"Action": "ShootAtPlayer"},
+    {"Time": 16.85,"Action": "ShootAtPlayer"},
+     
+    {"Time": 18,"Action": "MoveToY", "Amt":-3.9},
+    {"Time": 18,"Action": "MoveToX", "Amt":-6.9},
+    {"Time": 18.1,"Action": "Rotate","Amt":90},
+    {"Time": 16.12,"Action": "Shoot","Amt": 1},
+    {"Time": 18.13,"Action": "Rotate","Amt":180},
+    {"Time": 18.14,"Action": "Shoot","Amt": 1},
+    {"Time": 18.15,"Action": "Rotate","Amt":270},
+    {"Time": 18.16,"Action": "Shoot","Amt": 2},
+    {"Time": 18.17,"Action": "Rotate","Amt":360},
+    {"Time": 18.18,"Action": "Shoot","Amt": 1},
+    
+    
+    
+    {"Time": 26,"Action": "MoveToY", "Amt":0},
+    {"Time": 26,"Action": "MoveToX", "Amt":0},
+    {"Time": 27.9,"Action": "SetSizeSpeed","Amt": 10},
+    {"Time": 30.0,"Action": "LerpToSize","Amt": 1},
+    {"Time": 31.0,"Action": "LerpToSize","Amt": 2},
+    {"Time": 32.26292,"Action": "LerpToSize","Amt": 3},
+    {"Time": 33.24046,"Action": "LerpToSize","Amt": 4},
+    
+  
+
+
+    {"Time": 34.28901,"Anim": "SpinShoot"},
+
+
+
+
+
+
+
+
+
+
+
+
+    {"Time": 100}
   ]
 }

@@ -2,19 +2,9 @@
   "Title": "Ride The Storm",
   "Author": "Victor Hernandez",
   "Events": [
-    {"Time": 0.5,"Who":"Example Monster","Action": "Flash", "Amt": 3},
-    {"Time": 0.5,"Action": "Shake", "Amt": 3},
-    {"Time": 2,"Action": "RandomWalk"},
-    {"Time": 0,"Who":  "Example Monster", "Action":  "FadeIn"},
-    {"Time": 0.5,"Action": "Shake", "Amt": 3},
-    {"Time": 0.5,"Who":  "Example Monster", "Action": "Flash", "Amt": 3},
-    {"Time": 3,"Anim": "SpinShoot","Action": "RandomWalk"},
-    {"Time": 3,"Action": "RandomWalk"},
-    {"Time": 4,"Action": "RandomWalk"},
-    {"Time": 5.5,"Action": "Shake", "Amt": 3},
-    {"Time": 8,"Dialogue": "Hello"},
-    {"Time": 8,"Who":"Player","Action": "Flash"},
-    {"Time": 10,"Dialogue": ""},
-    {"Time": 12}
+    {"Time": 0,"Action": "Shake", "Amt": 11},
+	{"Time": 8.5,"Action": "Flash", "Amt": 1.6},
+	{"Time": 10.1,"Anim": "SpinShoot", "Amt": 5.0},
+	{"Time": 22.25,"Anime":"MoveToRotation", "Amt":0}
   ]
 }
