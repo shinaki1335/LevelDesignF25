@@ -40,6 +40,7 @@ public class ActorController : MonoBehaviour
     protected  MoveStyle ChasingDesiredPos = MoveStyle.None;
     protected  float DesiredRot;
     protected  MoveStyle ChasingDesiredRot = MoveStyle.None;
+    protected float MyRotation;
     protected Vector3 DesiredSize;
     protected  MoveStyle ChasingDesiredSize = MoveStyle.None;
 
@@ -72,6 +73,7 @@ public class ActorController : MonoBehaviour
                     HasIdle = true;
             }
         }
+        MyRotation = transform.rotation.eulerAngles.z;
     }
 
     void Update()
@@ -119,23 +121,28 @@ public class ActorController : MonoBehaviour
         //If we're rotating towards a rotation, do so
         if (ChasingDesiredRot == MoveStyle.Linear)
         {
+            MyRotation = Mathf.MoveTowards(MyRotation, DesiredRot, SpinSpeed * 90 * Time.deltaTime);
             // Debug.Log("ROT1: " + transform.rotation.eulerAngles.z);
-            transform.rotation = Quaternion.Euler(0,0,Mathf.MoveTowards(transform.rotation.eulerAngles.z, DesiredRot, SpinSpeed * 90 * Time.deltaTime));
+            transform.rotation = Quaternion.Euler(0,0,MyRotation);
             // Debug.Log("ROT2: " + transform.rotation.eulerAngles.z);
             if (Mathf.Abs(DesiredRot - transform.rotation.eulerAngles.z) < 0.01f)
             {
                 ChasingDesiredRot = MoveStyle.None;
+                MyRotation = transform.rotation.eulerAngles.z;
             }
         }
         else if (ChasingDesiredRot == MoveStyle.Lerp)
         {
             // Debug.Log("ROT3: " + transform.rotation.eulerAngles.z);
-            transform.rotation = Quaternion.Euler(0,0,Mathf.LerpAngle(transform.rotation.eulerAngles.z, DesiredRot, SpinSpeed * Time.deltaTime));
-            transform.rotation = Quaternion.Euler(0,0,Mathf.MoveTowards(transform.rotation.eulerAngles.z, DesiredRot, SpinSpeed * 0.01f));
+            MyRotation = Mathf.LerpAngle(MyRotation, DesiredRot, SpinSpeed * Time.deltaTime);
+            MyRotation = Mathf.MoveTowards(MyRotation, DesiredRot, SpinSpeed * 0.01f);
+            // transform.rotation = Quaternion.Euler(0,0,);
+            transform.rotation = Quaternion.Euler(0,0,MyRotation);
             // Debug.Log("ROT4: " + transform.rotation.eulerAngles.z);
             if (Mathf.Abs(DesiredRot - transform.rotation.eulerAngles.z) < 0.01f)
             {
                 ChasingDesiredRot = MoveStyle.None;
+                MyRotation = transform.rotation.eulerAngles.z;
             }
         }
         if (ChasingDesiredSize == MoveStyle.Linear)
@@ -170,6 +177,7 @@ public class ActorController : MonoBehaviour
     {
         DesiredRot = rot;
         ChasingDesiredRot = how;
+        MyRotation = transform.rotation.eulerAngles.z;
     }
 
     ///Sets where the character wants to be sized and how
@@ -463,14 +471,12 @@ public class ActorController : MonoBehaviour
         {
             Vector3 diff = PlayerController.Player.transform.position - transform.position;
             float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-            Debug.Log("R2P: " + diff + " / " + rot_z);
             SetDesiredRot(rot_z,MoveStyle.Linear);
         }
         else if (act == "RotateToPlayerLerp")
         {
             Vector3 diff = PlayerController.Player.transform.position - transform.position;
             float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-            Debug.Log("R2PL: " + diff + " / " + rot_z);
             SetDesiredRot(rot_z,MoveStyle.Lerp);
         }
         else if (act == "LookAtPlayer")
