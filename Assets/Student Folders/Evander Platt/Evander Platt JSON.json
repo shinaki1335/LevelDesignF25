@@ -1,0 +1,33 @@
+{
+  "Title": "Crescendo of Fate",
+  "Author": "Evander Platt",
+  "Events": [
+    {"Time": 0.5,"Action": "Shake", "Amt": 3},
+    {"Time": 2,"Dialogue": "The time nears."},
+	{"Time": 5,"Action": "MoveToPlayer"},
+	{"Time": 6.5,"Action": "MoveToPlayer"},
+	{"Time": 8,"Action": "MoveToPlayer"},
+    {"Time": 9,"Anim": "SpinShoot"},
+    {"Time": 9,"Action": "Flash"},
+	{"Time": 10,"Action":"MoveToX", "Amt":0},
+	{"Time": 10,"Action":"MoveToY", "Amt":2.5},
+	{"Time": 11,"Action":"MoveToX", "Amt":-5},
+	{"Time": 11,"Action":"MoveToY", "Amt":-2},
+	{"Time": 12,"Action":"MoveToX", "Amt":5},
+	{"Time": 14,"Action":"MoveToX", "Amt":5.5},
+	{"Time": 14,"Action":"MoveToRotation", "Amt":90},
+	{"Time": 14,"Action":"MoveToY", "Amt":0},
+	{"Time": 15.5,"Action":"MoveToX", "Amt":-5.5},
+	{"Time": 16.25,"Action":"MoveToRotation", "Amt":0},
+	{"Time": 17,"Action":"MoveToX", "Amt":5.5},
+	{"Time": 17,"Action":"MoveToRotation", "Amt":90},
+	{"Time": 17,"Action":"MoveToY", "Amt":-3},
+	{"Time": 18.5,"Action":"MoveToX", "Amt":-5.5},
+	{"Time": 19.25,"Action":"MoveToRotation", "Amt":0},
+	{"Time": 20,"Action":"MoveToX", "Amt":5.5},
+	{"Time": 20,"Action":"MoveToRotation", "Amt":90},
+	{"Time": 20,"Action":"MoveToY", "Amt":0},
+	{"Time": 21.5,"Action":"MoveToX", "Amt":-5.5},
+	{"Time": 22.25,"Action":"MoveToRotation", "Amt":0}
+  ]
+}

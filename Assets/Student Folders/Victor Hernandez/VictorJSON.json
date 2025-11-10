@@ -1,0 +1,10 @@
+{
+  "Title": "Ride The Storm",
+  "Author": "Victor Hernandez",
+  "Events": [
+    {"Time": 0,"Action": "Shake", "Amt": 11},
+	{"Time": 8.5,"Action": "Flash", "Amt": 1.6},
+	{"Time": 10.1,"Anim": "SpinShoot", "Amt": 5.0},
+	{"Time": 22.25,"Anime":"MoveToRotation", "Amt":0}
+  ]
+}
