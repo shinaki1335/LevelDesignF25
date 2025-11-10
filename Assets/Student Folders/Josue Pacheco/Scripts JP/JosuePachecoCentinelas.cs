@@ -4,7 +4,7 @@ using UnityEngine;
 public class JosuePachecoCentinelas : ActorController
 {
     [Header("Configuración de Movimiento")]
-    public float moveDistance = 3f;  // ← VARIABLE PÚBLICA para distancia
+    public float moveDistance = 3f; 
 
     [Header("Configuración de Disparo")]
     public float burstFireRate = 0.1f;
@@ -16,9 +16,13 @@ public class JosuePachecoCentinelas : ActorController
         {
             StartCoroutine(ShootBurstCoroutine((int)amt));
         }
-        else if (act == "ShootContinuous")
+        else if (act == "ShootContinuous") // ← DISPARO CONTINUO
         {
             StartCoroutine(ShootContinuousCoroutine(amt));
+        }
+        else if (act == "ShootGust")  // ← DISPARO RÁFAGA
+        {
+            StartCoroutine(ShootGustsCoroutine((int)amt));
         }
         else if (act == "ShootStar")  // ← DISPARO ESTRELLA RADIAL
         {
@@ -67,6 +71,20 @@ public class JosuePachecoCentinelas : ActorController
         }
     }
 
+    // Dispara ráfagas de 4 balas, X veces
+    private IEnumerator ShootGustsCoroutine(int gustCount)
+    {
+        for (int i = 0; i < gustCount; i++)
+        {
+            for (int j = 0; j < 4; j++)
+            {
+                Shoot();
+                yield return new WaitForSeconds(0.1f); 
+            }
+            yield return new WaitForSeconds(0.5f); 
+        }
+    }
+
     // NUEVO: Disparo estrella radial (14 direcciones)
     private IEnumerator ShootStarRadialCoroutine(int bulletCount)
     {
@@ -75,14 +93,10 @@ public class JosuePachecoCentinelas : ActorController
         for (int i = 0; i < bulletCount; i++)
         {
             float angle = i * angleStep;
-            // Guardar rotación original
+            
             Quaternion originalRotation = transform.rotation;
-
-            // Rotar temporalmente para disparar en esa dirección
             transform.rotation = Quaternion.Euler(0, 0, angle);
             Shoot();
-
-            // Restaurar rotación original
             transform.rotation = originalRotation;
 
             yield return null;

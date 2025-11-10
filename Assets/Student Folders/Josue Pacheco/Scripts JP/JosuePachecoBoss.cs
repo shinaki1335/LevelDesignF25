@@ -3,7 +3,7 @@
 public class JosuePachecoBoss : HazardController
 {
     [Header("Configuración de Movimiento")]
-    public float moveSpeed = 8f; // Aumenté la velocidad base
+    public float moveSpeed = 8f;
     public float chargeSpeed = 12f;
 
     [Header("Configuración de Disparo")]
@@ -23,7 +23,7 @@ public class JosuePachecoBoss : HazardController
 
     [Header("Disparo Giratorio")]
     public float spinShotRate = 0.1f;
-    public float spinRotationSpeed = 180f; // Velocidad de giro
+    public float spinRotationSpeed = 180f; 
 
     private float currentSpinAngle = 0f;
     private bool isSpinning = false;
@@ -184,7 +184,6 @@ public class JosuePachecoBoss : HazardController
     }
 
     // Disparo en abanico/escopeta hacia el jugador
-    // Disparo en abanico/escopeta (todas las balas simultáneas)
     private System.Collections.IEnumerator FanShotAtPlayerCoroutine()
     {
         if (player != null)
@@ -196,22 +195,20 @@ public class JosuePachecoBoss : HazardController
             float angleStep = fanShotAngle / (fanShotCount - 1);
             float startAngle = baseAngle - (fanShotAngle / 2);
 
-            // Disparar TODAS las balas al mismo tiempo
+            
             for (int i = 0; i < fanShotCount; i++)
             {
                 float currentAngle = startAngle + (angleStep * i);
                 Vector3 rotation = new Vector3(0, 0, currentAngle);
-
-                // Disparar inmediatamente sin esperar
                 Shoot(null, transform.position, rotation);
             }
 
-            // Pequeña espera para no bloquear otras corrutinas
+            
             yield return null;
         }
     }
 
-    // AGREGAR ESTE MÉTODO NUEVO
+    // Disparo en abanico/escopeta en ángulo fijo
     private System.Collections.IEnumerator FanShotAtFixedAngleCoroutine(float angle)
     {
         float baseAngle = angle;
@@ -220,7 +217,7 @@ public class JosuePachecoBoss : HazardController
         float angleStep = fanShotAngle / (fanShotCount - 1);
         float startAngle = baseAngle - (fanShotAngle / 2);
 
-        // Disparar TODAS las balas al mismo tiempo
+        
         for (int i = 0; i < fanShotCount; i++)
         {
             float currentAngle = startAngle + (angleStep * i);
@@ -286,18 +283,18 @@ private void StartCircleMovement(float duration)
             yield return null;
         }
 
-        transform.position = centerPos; // Asegurar que queda exactamente en (0,0)
+        transform.position = centerPos; 
     }
 
     // Disparo en olas circulares
     private System.Collections.IEnumerator WaveShotCoroutine(int waveCount)
     {
-        int bulletsPerWave = 18; // Balas por ola
-        float waveDelay = 1.0f;  // Delay entre olas
+        int bulletsPerWave = 18;
+        float waveDelay = 1.0f;  
 
         for (int wave = 0; wave < waveCount; wave++)
         {
-            // Disparar una ola completa (360°)
+            
             float angleStep = 360f / bulletsPerWave;
 
             for (int i = 0; i < bulletsPerWave; i++)
@@ -307,7 +304,7 @@ private void StartCircleMovement(float duration)
                 Shoot(null, transform.position, rotation);
             }
 
-            // Esperar antes de la siguiente ola
+            
             yield return new WaitForSeconds(waveDelay);
         }
     }
@@ -315,9 +312,9 @@ private void StartCircleMovement(float duration)
     // Disparo serpiente/ondulado con dirección controlada
     private System.Collections.IEnumerator SnakeShotCoroutine(int bulletCount)
     {
-        // Usar el proyectil serpiente desde AltProjectiles (índice 0)
+        
         ProjectileController serpentPrefab = null;
-        if (AltProjectiles != null && AltProjectiles.Count > 0)  // ← CAMBIÉ Length por Count
+        if (AltProjectiles != null && AltProjectiles.Count > 0)  
         {
             serpentPrefab = AltProjectiles[0]; // Primer proyectil alternativo
         }
@@ -387,7 +384,7 @@ private void StartCircleMovement(float duration)
             JosuePachecoInwardBullet bullet = bulletObj.GetComponent<JosuePachecoInwardBullet>();
             if (bullet != null)
             {
-                bullet.SetTarget(transform.position); // Boss como objetivo
+                bullet.SetTarget(transform.position); 
             }
 
             angle += 30f; // Espaciado entre balas
@@ -396,7 +393,7 @@ private void StartCircleMovement(float duration)
         }
     }
 
-    // MÉTODOS DEL DISPARO GIRATORIO
+    // Iniciar disparo giratorio
     private void StartSpinShot(float duration)
     {
         if (!isSpinning)
@@ -406,6 +403,7 @@ private void StartCircleMovement(float duration)
         }
     }
 
+    // Detener disparo giratorio
     private void StopSpinShot()
     {
         if (isSpinning)
@@ -418,6 +416,7 @@ private void StartCircleMovement(float duration)
         isSpinning = false;
     }
 
+    // Disparo giratorio en 5 direcciones
     private System.Collections.IEnumerator SpinShotCoroutine(float duration)
     {
         float endTime = Time.time + duration;

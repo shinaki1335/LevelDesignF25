@@ -5,7 +5,7 @@ public class JosuePachecoSerpentProjectile : ProjectileController
     private Vector3 initialDirection;
     private float spawnTime;
     private float initialAngle;
-    private JosuePachecoBoss boss; // REFERENCIA AL BOSS
+    private JosuePachecoBoss boss; 
 
     public override void OnStart()
     {
