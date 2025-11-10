@@ -2,13 +2,807 @@
   "Title": "Fly - Electro Swing Remix",
   "Author": "Morgan Contursi",
   "Events": [
-    {"Time": 0,"Who":"Monster", "Action": "MoveToX", "3.75":  2},
-    {"Time": 1.44,"Anim": "Spinshoot"},
-    {"Time": 4,"Action": "RandomWalk"},
-    {"Time": 5.5,"Action": "Shake", "Amt": 3},
-    {"Time": 8,"Dialogue": "Test"},
-    {"Time": 8,"Who":"Player","Action": "Flash"},
-    {"Time": 10,"Dialogue": ""},
-    {"Time": 12}
+    {
+      "Time": 0,
+      "Who": "Monster",
+      "Action": "SetAnimSpeed",
+      "Amt": 3
+    },
+    {
+      "Time": 0,
+      "Who": "Monster",
+      "Action": "SetSpeed",
+      "Amt": 25
+    },
+    {
+      "Time": 0,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": 3.75
+    },
+    {
+      "Time": 1.92,
+      "Who": "Monster",
+      "Anim": "SpinShoot"
+    },
+    {
+      "Time": 3.84,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": -3.75
+    },
+    {
+      "Time": 5.28,
+      "Who": "Monster",
+      "Anim": "Idle"
+    },
+    {
+      "Time": 5.76,
+      "Who": "Monster",
+      "Anim": "SpinShoot"
+    },
+    {
+      "Time": 6.72,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": 0
+    },
+    {
+      "Time": 6.72,
+      "Who": "Monster",
+      "Action": "MovementToRotation",
+      "Amt": 0
+    },
+    {
+      "Time": 7.2,
+      "Who": "Monster",
+      "Anim": "Idle"
+    },
+    {
+      "Time": 7.68,
+      "Who": "Monster",
+      "Anim": "SpinShoot"
+    },
+    { "Time": 8.16 },
+    {
+      "Time": 8.64,
+      "Who": "Monster",
+      "Anim": "Idle"
+    },
+    {
+      "Time": 9.12,
+      "Who": "Monster",
+      "Anim": "SpinShoot"
+    },
+    {
+      "Time": 11.52,
+      "Who": "Monster",
+      "Anim": "Idle"
+    },
+    {
+      "Time": 11.52,
+      "Who": "Monster",
+      "Action": "MoveToRotation",
+      "Amt": 0
+    },
+    {
+      "Time": 11.52,
+      "Who": "Monster",
+      "Action": "SetSpeed",
+      "Amt": 30
+    },
+    {
+      "Time": 11.76,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": 6
+    },
+    {
+      "Time": 11.76,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -3
+    },
+    {
+      "Time": 11.76,
+      "Who": "Monster",
+      "Action": "MoveToRotation",
+      "Amt": 45
+    },
+    {
+      "Time": 12,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 12.24,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -2
+    },
+    {
+      "Time": 12.48,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 12.72,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -1
+    },
+    {
+      "Time": 12.96,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 13.2,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 0
+    },
+    {
+      "Time": 13.44,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 13.68,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 1
+    },
+    {
+      "Time": 13.92,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 14.16,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 2
+    },
+    {
+      "Time": 14.4,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 14.64,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 3
+    },
+    {
+      "Time": 14.88,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 15.12,
+      "Who": "Monster",
+      "Action": "SetSpeed",
+      "Amt": 50
+    },
+    {
+      "Time": 15.12,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": -6
+    },
+    {
+      "Time": 15.36,
+      "Who": "Monster2",
+      "Action": "SetSpeed",
+      "Amt": 30
+    },
+    {
+      "Time": 15.12,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": 6
+    },
+    {
+      "Time": 15.12,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": -3
+    },
+    {
+      "Time": 15.12,
+      "Who": "Monster2",
+      "Action": "MoveToRotation",
+      "Amt": 45
+    },
+    {
+      "Time": 15.36,
+      "Who": "Monster",
+      "Action": "SetSpeed",
+      "Amt": 30
+    },
+    {
+      "Time": 15.36,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 15.6,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 2
+    },
+    {
+      "Time": 15.6,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": -2
+    },
+    {
+      "Time": 15.84,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 15.84,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 16.08,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": -1
+    },
+    {
+      "Time": 16.08,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 1
+    },
+    {
+      "Time": 16.32,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 16.32,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 16.56,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 0
+    },
+    {
+      "Time": 16.56,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 0
+    },
+    {
+      "Time": 16.8,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 16.8,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 17.04,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 1
+    },
+    {
+      "Time": 17.04,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -1
+    },
+    {
+      "Time": 17.28,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 17.28,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 17.52,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 2
+    },
+    {
+      "Time": 17.52,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -2
+    },
+    {
+      "Time": 17.76,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 17.76,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 18,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 3
+    },
+    {
+      "Time": 18,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -3
+    },
+    {
+      "Time": 18.24,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 18.24,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 18.48,
+      "Who": "Monster2",
+      "Action": "MoveToRotation",
+      "Amt": 0
+    },
+    {
+      "Time": 18.72,
+      "Who": "Monster",
+      "Action": "MoveToRotation",
+      "Amt": 0
+    },
+    {
+      "Time": 18.96,
+      "Who": "Monster",
+      "Action": "SetSpeed",
+      "Amt": 0.1
+    },
+    {
+      "Time": 18.96,
+      "Who": "Monster",
+      "Action": "SetSizeSpeed",
+      "Amt": 2.4
+    },
+    {
+      "Time": 19.44,
+      "Who": "Monster",
+      "Action": "SizeLerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 19.44,
+      "Who": "Monster",
+      "Action": "SizeLerpToX",
+      "Amt": 4
+    },
+    {
+      "Time": 19.44,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": -2
+    },
+    {
+      "Time": 19.44,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": -8
+    },
+    {
+      "Time": 19.92,
+      "Who": "Monster2",
+      "Action": "Flash",
+      "Amt": 0.96
+    },
+    {
+      "Time": 19.92,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": 5.9
+    },
+    {
+      "Time": 20.16,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": 6
+    },
+    {
+      "Time": 20.4,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": 5.9
+    },
+    {
+      "Time": 20.64,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": 6
+    },
+    {
+      "Time": 20.64,
+      "Who": "Monster2",
+      "Action": "SetSpeed",
+      "Amt": 9.6
+    },
+    {
+      "Time": 20.88,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": -10
+    },
+    {
+      "Time": 21.12,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 21.36,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 21.6,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 21.84,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 22.56,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 0.96
+    },
+    {
+      "Time": 22.56,
+      "Who": "Monster",
+      "Action": "SetSpeed",
+      "Amt": 3.84
+    },
+    {
+      "Time": 22.56,
+      "Who": "Monster2",
+      "Action": "SetY",
+      "Amt": 1
+    },
+    {
+      "Time": 22.56,
+      "Who": "Monster3",
+      "Action": "SetSpeed",
+      "Amt": 20
+    },
+    {
+      "Time": 22.56,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": -7
+    },
+    {
+      "Time": 22.56,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": -7
+    },
+    {
+      "Time": 22.56,
+      "Who": "Monster2",
+      "Action": "HitboxOff"
+    },
+    {
+      "Time": 22.56,
+      "Who": "Monster3",
+      "Action": "HitboxOff"
+    },
+    {
+      "Time": 23.04,
+      "Who": "Monster2",
+      "Action": "SetSpeed",
+      "Amt": 20
+    },
+    {
+      "Time": 23.04,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": 10
+    },
+    {
+      "Time": 23.28,
+      "Who": "Monster2",
+      "Action": "Rotate",
+      "Amt": 0
+    },
+    {
+      "Time": 24.48,
+      "Who": "Monster2",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 24.48,
+      "Who": "Monster3",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 24.48,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 3
+    },
+    {
+      "Time": 24.48,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": 1
+    },
+    {
+      "Time": 24.72,
+      "Who": "Monster2",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 24.72,
+      "Who": "Monster3",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 24.72,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 0.5
+    },
+    {
+      "Time": 24.72,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -1.5
+    },
+    {
+      "Time": 24.96,
+      "Who": "Monster2",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 24.96,
+      "Who": "Monster3",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 24.96,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 1.5
+    },
+    {
+      "Time": 24.96,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -0.5
+    },
+    {
+      "Time": 24.96,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": 2
+    },
+    {
+      "Time": 25.44,
+      "Who": "Monster2",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 25.44,
+      "Who": "Monster3",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 25.44,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": -1.5
+    },
+    {
+      "Time": 25.44,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -3.5
+    },
+    {
+      "Time": 25.92,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 0.96
+    },
+    {
+      "Time": 25.92,
+      "Who": "Monster2",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 25.92,
+      "Who": "Monster3",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 25.92,
+      "Who": "Monster2",
+      "Action": "HitboxOn"
+    },
+    {
+      "Time": 22.92,
+      "Who": "Monster3",
+      "Action": "HitboxOn"
+    },
+    {
+      "Time": 25.92,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 4.5
+    },
+    {
+      "Time": 25.92,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -4.5
+    },
+    {
+      "Time": 26.4,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": 7.1
+    },
+    {
+      "Time": 26.4,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": 7.1
+    },
+    {
+      "Time": 26.4,
+      "Who": "Monster2",
+      "Action": "Rotate",
+      "Amt": 180
+    },
+    {
+      "Time": 26.4,
+      "Who": "Monster3",
+      "Action": "Rotate",
+      "Amt": 180
+    },
+    {
+      "Time": 26.88,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": -10
+
+    },
+    {
+      "Time": 27.36,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": -1
+    },
+    {
+      "Time": 27.36,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -3
+    },
+    {
+      "Time": 27.36,
+      "Who": "Monster2",
+      "Action": "HitboxOff"
+    },
+    {
+      "Time": 27.36,
+      "Who": "Monster3",
+      "Action": "HitboxOff"
+    },
+    {
+      "Time": 28.32,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": -2
+    },
+    {
+      "Time": 28.8,
+      "Who": "Monster2",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 28.8,
+      "Who": "Monster3",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 28.8,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 1.5
+    },
+    {
+      "Time": 28.8,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -0.5
+    },
+    {
+      "Time": 29.04,
+      "Who": "Monster2",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 29.04,
+      "Who": "Monster3",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 29.04,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 0.5
+    },
+    {
+      "Time": 29.04,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -1.5
+    },
+    {
+      "Time": 29.28,
+      "Who": "Monster2",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 29.28,
+      "Who": "Monster3",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 29.28,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 4.5
+    },
+    {
+      "Time": 29.28,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -4.5
+    },
+    {
+      "Time": 29.76,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 0.96
+    },
+    {
+      "Time": 30.72,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": 10
+
+    },
+    { "Time": 50 }
   ]
 }
