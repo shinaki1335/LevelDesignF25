@@ -1,6 +1,6 @@
 {
   "Title": "Example Level",
-  "Author": "Example Student",
+  "Author": "Saqib Hossain",
   "Events": [
     {"Time": 0,"Anim": "SpinShoot","Action": "RandomWalk"},
     {"Time": 2,"Action": "RandomWalk"},
