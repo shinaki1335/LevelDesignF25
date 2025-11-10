@@ -91,11 +91,11 @@
     {"Time": 96, "Who": "EP", "Action": "StartSpinShot", "Amt": 18},
 
     {"Time": 107, "Who": "E7", "Action": "Rotate", "Amt": 0},
-    {"Time": 107, "Who": "E7", "Action": "ShootContinuous", "Amt": 9},
+    {"Time": 107, "Who": "E7", "Action":  "ShootGust", "Amt": 9},
     {"Time": 107, "Who": "E8", "Action": "Rotate", "Amt": 180},
-    {"Time": 107, "Who": "E8", "Action": "ShootContinuous", "Amt": 9},
+    {"Time": 107, "Who": "E8", "Action":  "ShootGust", "Amt": 9},
     {"Time": 107, "Who": "E9", "Action": "Rotate", "Amt": 0},
-    {"Time": 107, "Who": "E9", "Action": "ShootContinuous", "Amt": 9},
+    {"Time": 107, "Who": "E9", "Action":  "ShootGust", "Amt": 9},
 
     {"Time": 112, "Who": "EP2", "Action": "Rotate", "Amt": 180},
     {"Time": 112, "Who": "EP2", "Action": "SnakeShot", "Amt": 4},
