@@ -751,7 +751,7 @@ PrefabInstance:
     - target: {fileID: 2222939923061481438, guid: d234da9df56f40d49a2c47c6bc00444a, type: 3}
       propertyPath: MainNPC
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 566446603}
     - target: {fileID: 3225649182362845121, guid: d234da9df56f40d49a2c47c6bc00444a, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
       value: 1801810542
@@ -975,6 +975,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8375557812653494836, guid: 80073c66d36e3234fb661c19e52cc494, type: 3}
   m_PrefabInstance: {fileID: 893479633}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &566446603 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1634302857511738683, guid: 80073c66d36e3234fb661c19e52cc494, type: 3}
+  m_PrefabInstance: {fileID: 893479633}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 355729e39eff5544e84c03e694f0c740, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &587306121 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8375557812653494836, guid: 80073c66d36e3234fb661c19e52cc494, type: 3}
@@ -2573,11 +2584,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8375557812653494836, guid: 80073c66d36e3234fb661c19e52cc494, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.599086
+      value: -12.59909
       objectReference: {fileID: 0}
     - target: {fileID: 8375557812653494836, guid: 80073c66d36e3234fb661c19e52cc494, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.93
+      value: 1.89
       objectReference: {fileID: 0}
     - target: {fileID: 8375557812653494836, guid: 80073c66d36e3234fb661c19e52cc494, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2638,7 +2649,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8375557812653494836, guid: 80073c66d36e3234fb661c19e52cc494, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.75
+      value: -8.69
       objectReference: {fileID: 0}
     - target: {fileID: 8375557812653494836, guid: 80073c66d36e3234fb661c19e52cc494, type: 3}
       propertyPath: m_LocalPosition.y
