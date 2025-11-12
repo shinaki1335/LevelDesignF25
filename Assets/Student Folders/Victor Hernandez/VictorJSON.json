@@ -1,9 +1,10 @@
 {
   "Title": "Ride The Storm",
   "Author": "Victor Hernandez",
-  "Events": [
-    {"Time": 0,"Action": "Shake", "Amt": 11},
+  "Events": [    
+	{"Time": 0,"Action": "Shake", "Amt": 11},
 	{"Time": 8.5,"Action": "Flash", "Amt": 1.6},
+    {"Time": 9.9,"Action": "RingShot"},
 	{"Time": 10.1,"Action":"Rotate","Amt": 15},
 	{"Time": 10.1,"Action": "Shoot"},
 	{"Time": 10.2,"Action":"Rotate","Amt": 30},
@@ -20,6 +21,7 @@
 	{"Time": 10.7,"Action": "Shoot"},
 	{"Time": 10.8,"Action":"Rotate","Amt": 120},
 	{"Time": 10.8,"Action": "Shoot"},
+	{"Time": 10.9,"Action": "RingShot"},
 	{"Time": 10.9,"Action":"Rotate","Amt": 135},
 	{"Time": 10.9,"Action": "Shoot"},
 	{"Time": 11.0,"Action":"Rotate","Amt": 150},
@@ -40,6 +42,7 @@
 	{"Time": 11.7,"Action": "Shoot"},
 	{"Time": 11.8,"Action":"Rotate","Amt": 270},
 	{"Time": 11.8,"Action": "Shoot"},
+	{"Time": 11.9,"Action": "RingShot"},
 	{"Time": 11.9,"Action":"Rotate","Amt": 285},
 	{"Time": 11.9,"Action": "Shoot"},
 	{"Time": 12.0,"Action":"Rotate","Amt": 300},
@@ -382,6 +385,8 @@
 	{"Time": 28.8,"Action": "Shoot"},
 	{"Time": 28.9,"Action":"Rotate","Amt": 2835},
 	{"Time": 28.9,"Action": "Shoot"},
-	{"Time": 29.0,"Action": "Shake", "Amt": 3}
+	{"Time": 29.0,"Action": "Shake", "Amt": 1},
+	{"Time": 30.0,"Action": "ShootSpiral", "Amt": 3},
+	{"Time": 40,"Action": "ShootSpiral", "Amt": 3}
 	]
 }
