@@ -1,0 +1,21 @@
+{
+  "Title": "Gangnam Style",
+  "Author": "Mohammad Jobair",
+  "Events": [
+    {"Time": 0,"Anim": "SpinShoot","Action": "RandomWalk"},
+    {"Time": 2,"Action": "RandomWalk"},
+    {"Time": 4,"Action": "RandomWalk"},
+    {"Time": 5.5,"Action": "Shake", "Amt": 3},
+    {"Time": 8,"Dialogue": "Hello"},
+    {"Time": 8,"Who":"Player","Action": "Flash"},
+    {"Time": 10,"Dialogue": "Test123"},
+    {"Time": 11,"Anim": "SpinShoot","Action": "RandomWalk"},
+    {"Time": 12,"Action": "RandomWalk"},
+    {"Time": 14,"Action": "RandomWalk"},
+    {"Time": 15.5,"Action": "Shake", "Amt": 3},
+    {"Time": 18,"Dialogue": "Hello"},
+    {"Time": 18,"Who":"Player","Action": "Flash"},
+    {"Time": 20,"Dialogue": "Test123"},
+    {"Time": 22}
+  ]
+}
