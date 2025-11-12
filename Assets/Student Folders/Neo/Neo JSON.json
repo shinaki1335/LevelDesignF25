@@ -196,8 +196,18 @@
     {"Time": 9.7,"Who":"Wave 13","Action": "WaveRise", "Amt": -1},
     {"Time": 9.75,"Who":"Wave 14","Action": "WaveRise", "Amt": -1},
     {"Time": 9.8,"Who":"Wave 15","Action": "WaveRise", "Amt": -1},
-    {"Time": 9.85,"Who":"Wave 16","Action": "WaveRise", "Amt": -1},
 
+    {"Time": 9.8,"Who":"Warning Vert Left","Action": "SetX", "Amt": -6.25},
+    {"Time": 9.8,"Who":"Warning Vert Right","Action": "SetX", "Amt": 6.25},
+    {"Time": 9.8,"Who":"Warning Vert Left","Action": "Flash"},
+    {"Time": 9.8,"Who":"Warning Vert Right","Action": "Flash"},
+    
+    {"Time": 9.85,"Who":"Wave 16","Action": "WaveRise", "Amt": -1},
+    
+    {"Time": 10.3,"Who":"Warning Vert Left","Action": "SetX", "Amt": -10},
+    {"Time": 10.3,"Who":"Warning Vert Right","Action": "SetX", "Amt": 10},
+
+    
     
     {"Time": 10.4,"Who":"Save 1","Action": "WaveSlide", "Amt": 1},
     {"Time": 10.4,"Who":"Save 1 (1)","Action": "WaveSlide", "Amt": -1},
@@ -241,31 +251,20 @@
     {"Time": 11.85,"Who":"Save 8 (1)","Action": "WaveSlide", "Amt": -1},
     {"Time": 11.9,"Who":"Save 9","Action": "WaveSlide", "Amt": 1},
     {"Time": 11.9,"Who":"Save 9 (1)","Action": "WaveSlide", "Amt": -1},
+
+
+
+    {"Time": 11.9,"Who":"Warning Horz","Action": "SetY", "Amt": 2.5},
+    {"Time": 11.9,"Who":"Warning Horz","Action": "Flash"},
+
     {"Time": 11.95,"Who":"Save 10","Action": "WaveSlide", "Amt": 1},
     {"Time": 11.95,"Who":"Save 10 (1)","Action": "WaveSlide", "Amt": -1},
 
+    {"Time": 12.4,"Who":"Warning Horz","Action": "SetY", "Amt": -10},
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-    {"Time": 12,"Action": "Chase"},
-    {"Time": 12,"Anim": "SpinShoot"},
-    {"Time": 12,"Action": "Chase"},
-    {"Time": 12,"Action": "Shake", "Amt": 3},
-    {"Time": 12,"Dialogue": "Hello"},
-    {"Time": 12,"Who":"Monster (2)","Action": "Flash"},
-    {"Time": 10,"Dialogue": ""},
-    {"Time": 12},
 
     {"Time": 12.5,"Who":"Wave 8","Action": "WaveRise", "Amt": -1},
     {"Time": 12.5,"Who":"Wave 9","Action": "WaveRise", "Amt": -1},
@@ -283,6 +282,105 @@
     {"Time": 12.8,"Who":"Wave 15","Action": "WaveRise", "Amt": -1},
     {"Time": 12.85,"Who":"Wave 1","Action": "WaveRise", "Amt": -1},
     {"Time": 12.85,"Who":"Wave 16","Action": "WaveRise", "Amt": -1},
+
+
+
+
+
+
+
+    {"Time": 13.2,"Who":"Warning Horz","Action": "SetY", "Amt": -2.5},
+    {"Time": 13.2,"Who":"Warning Horz","Action": "Flash"},
+    {"Time": 13.7,"Who":"Warning Horz","Action": "SetY", "Amt": -10},
+
+    {"Time": 13.9,"Who":"Wave 8","Action": "SetY", "Amt": -7},
+    {"Time": 13.9,"Who":"Wave 9","Action": "SetY", "Amt": -7},
+    {"Time": 13.9,"Who":"Wave 8","Action": "WaveRise", "Amt": 1},
+    {"Time": 13.9,"Who":"Wave 9","Action": "WaveRise", "Amt": 1},
+
+    {"Time": 13.95,"Who":"Wave 7","Action": "SetY", "Amt": -7},
+    {"Time": 13.95,"Who":"Wave 10","Action": "SetY", "Amt": -7},
+    {"Time": 13.95,"Who":"Wave 7","Action": "WaveRise", "Amt": 1},
+    {"Time": 13.95,"Who":"Wave 10","Action": "WaveRise", "Amt": 1},
+
+    {"Time": 14,"Who":"Wave 6","Action": "SetY", "Amt": -7},
+    {"Time": 14,"Who":"Wave 11","Action": "SetY", "Amt": -7},
+    {"Time": 14, "Who":"Wave 6","Action": "WaveRise", "Amt": 1},
+    {"Time": 14,"Who":"Wave 11","Action": "WaveRise", "Amt": 1},
+
+    {"Time": 14.05,"Who":"Wave 5","Action": "SetY", "Amt": -7},
+    {"Time": 14.05,"Who":"Wave 12","Action": "SetY", "Amt": -7},
+    {"Time": 14.05,"Who":"Wave 5","Action": "WaveRise", "Amt": 1},
+    {"Time": 14.05,"Who":"Wave 12","Action": "WaveRise", "Amt": 1},
+
+    {"Time": 14.1,"Who":"Wave 4","Action": "SetY", "Amt": -7},
+    {"Time": 14.1,"Who":"Wave 13","Action": "SetY", "Amt": -7},
+    {"Time": 14.1,"Who":"Wave 4","Action": "WaveRise", "Amt": 1},
+    {"Time": 14.1,"Who":"Wave 13","Action": "WaveRise", "Amt": 1},
+
+    {"Time": 14.15,"Who":"Wave 3","Action": "SetY", "Amt": -7},
+    {"Time": 14.15,"Who":"Wave 14","Action": "SetY", "Amt": -7},
+    {"Time": 14.15,"Who":"Wave 3","Action": "WaveRise", "Amt": 1},
+    {"Time": 14.15,"Who":"Wave 14","Action": "WaveRise", "Amt": 1},
+
+    {"Time": 14.2,"Who":"Wave 2","Action": "SetY", "Amt": -7},
+    {"Time": 14.2,"Who":"Wave 15","Action": "SetY", "Amt": -7},
+    {"Time": 14.2,"Who":"Wave 2","Action": "WaveRise", "Amt": 1},
+    {"Time": 14.2,"Who":"Wave 15","Action": "WaveRise", "Amt": 1},
+
+    {"Time": 14.25,"Who":"Wave 1","Action": "SetY", "Amt": -7},
+    {"Time": 14.25,"Who":"Wave 16","Action": "SetY", "Amt": -7},
+    {"Time": 14.25,"Who":"Wave 1","Action": "WaveRise", "Amt": 1},
+    {"Time": 14.25,"Who":"Wave 16","Action": "WaveRise", "Amt": 1},
+
+
+
+
+
+
+    {"Time": 15.1,"Who":"Wave 1","Action": "SetY", "Amt": -10},
+    {"Time": 15.1,"Who":"Wave 2","Action": "SetY", "Amt": -10},
+    {"Time": 15.1,"Who":"Wave 3","Action": "SetY", "Amt": -10},
+    {"Time": 15.1,"Who":"Wave 4","Action": "SetY", "Amt": -10},
+    {"Time": 15.1,"Who":"Wave 5","Action": "SetY", "Amt": -10},
+    {"Time": 15.1,"Who":"Wave 6","Action": "SetY", "Amt": -10},
+    {"Time": 15.1,"Who":"Wave 7","Action": "SetY", "Amt": -10},
+    {"Time": 15.1,"Who":"Wave 8","Action": "SetY", "Amt": -10},
+    {"Time": 15.1,"Who":"Wave 9","Action": "SetY", "Amt": -10},
+    {"Time": 15.1,"Who":"Wave 10","Action": "SetY", "Amt": -10},
+    {"Time": 15.1,"Who":"Wave 11","Action": "SetY", "Amt": -10},    
+    {"Time": 15.1,"Who":"Wave 12","Action": "SetY", "Amt": -10},
+    {"Time": 15.1,"Who":"Wave 13","Action": "SetY", "Amt": -10},
+    {"Time": 15.1,"Who":"Wave 14","Action": "SetY", "Amt": -10},
+    {"Time": 15.1,"Who":"Wave 15","Action": "SetY", "Amt": -10},
+    {"Time": 15.1,"Who":"Wave 16","Action": "SetY", "Amt": -10},
+
+    {"Time": 15.1,"Who":"Wave 1","Action": "WaveRise", "Amt": 1},
+    {"Time": 15.1,"Who":"Wave 2","Action": "WaveRise", "Amt": 1},
+    {"Time": 15.1,"Who":"Wave 3","Action": "WaveRise", "Amt": 1},
+    {"Time": 15.1,"Who":"Wave 4","Action": "WaveRise", "Amt": 1},
+    {"Time": 15.1,"Who":"Wave 5","Action": "WaveRise", "Amt": 1},
+    {"Time": 15.1,"Who":"Wave 6","Action": "WaveRise", "Amt": 1},
+    {"Time": 15.1,"Who":"Wave 7","Action": "WaveRise", "Amt": 1},
+    {"Time": 15.1,"Who":"Wave 8","Action": "WaveRise", "Amt": 1},
+    {"Time": 15.1,"Who":"Wave 9","Action": "WaveRise", "Amt": 1},
+    {"Time": 15.1,"Who":"Wave 10","Action": "WaveRise", "Amt": 1},
+    {"Time": 15.1,"Who":"Wave 11","Action": "WaveRise", "Amt": 1},
+    {"Time": 15.1,"Who":"Wave 12","Action": "WaveRise", "Amt": 1},
+    {"Time": 15.1,"Who":"Wave 13","Action": "WaveRise", "Amt": 1},
+    {"Time": 15.1,"Who":"Wave 14","Action": "WaveRise", "Amt": 1},
+    {"Time": 15.1,"Who":"Wave 15","Action": "WaveRise", "Amt": 1},
+    {"Time": 15.1,"Who":"Wave 16","Action": "WaveRise", "Amt": 1},
+
+
+
+    
+    {"Time": 15.1,"Who":"rain","Action": "WaveRise"},
+
+
+    {"Time": 15.1,"Who":"saves","Action": "WaveRise"},
+
+
 
 
 
