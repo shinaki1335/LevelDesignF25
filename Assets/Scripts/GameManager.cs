@@ -62,14 +62,19 @@ public class GameManager : MonoBehaviour
             return;
         }
 
+        float ts = 1;
         if (TestMode && Input.GetKey(KeyCode.Alpha3))
-            Time.timeScale = 10;
+            ts = 10;
         else if (TestMode && Input.GetKey(KeyCode.Alpha2))
-            Time.timeScale = 5;
+            ts = 5;
         else if (TestMode && Input.GetKey(KeyCode.Alpha1))
-            Time.timeScale = 2;
-        else
-            Time.timeScale = 1;
+            ts = 2;
+        if (Time.timeScale != ts)
+        {
+            Time.timeScale = ts;
+            AS.pitch = ts;
+        }
+        
         Clock += Time.deltaTime;
         if (TestMode)
         {
