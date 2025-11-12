@@ -2,18 +2,20 @@
   "Title": "Blow My Mind!",
   "Author": "Ange Joseph",
   "Events": [
-    {"Time": 0,"Action": "RandomWalk","Anim": "SpinShoot"},
-    {"Time": 2,"Action": "VelPlayer", "Action": "ShootAtPlayer"},
+    {"Time": 1,"Action": "RandomWalk"},
+    {"Time": 1.2, "Action": "Shake", "Amt": 1},
+    {"Time": 2,"Action": "VelPlayer"},
+    {"Time": 2,"Action": "ShootAtPlayer"},
+    {"Time": 2.2,"Action": "ShootAtPlayer"},
     {"Time": 4,"Action": "Shake", "Amt": 2},
-    {"Time": 5.5,"Action": 
     {"Time": 8,"Dialogue": "Gutter Trash"},
-    {"Time": 8,"Who":"Player","Action": "Flash"},
+    {"Time": 8,"Who":"Player 1","Action": "Flash"},
     {"Time": 10,"Action": "VelPlayer"},
     {"Time": 10, "Anim": "SpinShoot"},
-    {"Time": 12, "Action": "VelPlayer",}
+    {"Time": 12, "Action": "VelPlayer"},
     {"Time": 12,"Action": "ShootAtPlayer", "Amt": 2},
     {"Time": 14, "Action": "Shake","Amt": 1 },
-    {"Time": 15, "Anim" : "VelPlayer"},
+    {"Time": 15, "Action" : "VelPlayer"},
     {"Time": 16, "Anim": "SpinShoot"},
     {"Time": 18, "Action": "ShootAtPlayer"}
   ]
