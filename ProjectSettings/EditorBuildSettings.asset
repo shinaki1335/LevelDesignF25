@@ -4,6 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+<<<<<<< HEAD
   m_Scenes:
   - enabled: 1
     path: Assets/Student Folders/Example/Example Level.unity
@@ -23,5 +24,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Generic Assets/You Win.unity
     guid: 91cfb6caa580edb4aa5894a0cb132bc1
+=======
+  m_Scenes: []
+>>>>>>> 33907bf2258229b92abf7c76e05da07ea7e18b74
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
