@@ -73,6 +73,8 @@ public class GameManager : MonoBehaviour
         {
             Time.timeScale = ts;
             AS.pitch = ts;
+            if (ts == 1)
+                AS.time = Clock;
         }
         
         Clock += Time.deltaTime;
