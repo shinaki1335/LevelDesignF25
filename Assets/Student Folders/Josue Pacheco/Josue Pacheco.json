@@ -51,7 +51,8 @@
     {"Time": 41, "Dialogue": "Wonderful! Wonderful! My family is arriving and the moment has come..."},
     {"Time": 44, "Dialogue": "Dance with me, my friend. The crowd is waiting for you..."},
     {"Time": 45, "Who": "EP", "Action": "StopCircleMove"},
-    {"Time": 46, "Dialogue": "Show them you're worthy of a leading role!!!", "Amt": 3.0},
+    {"Time": 46, "Dialogue": "Show them you're worthy of a leading role!!!"},
+    {"Time": 47.5, "Dialogue": " "},
     {"Time": 47, "Who": "EP", "Action": "ChargeAtPlayer", "Amt": 1.0},
     {"Time": 48, "Who": "EP", "Action": "FanShotAtPlayer", "Amt": -1},
     {"Time": 49, "Who": "EP", "Action": "ChargeAtPlayer", "Amt": 1.0},
@@ -129,6 +130,28 @@
     {"Time": 131.5, "Who": "EP", "Action": "FanShotAtPlayer", "Amt": 270},
 
     {"Time": 132, "Who": "EP", "Action": "GoToCenter", "Amt": 1.0},
+    {"Time": 133, "Who": "EP", "Action": "MoveUp", "Amt": 2.0},
+
+    {"Time": 133, "Who": "EP5", "Action": "Rotate", "Amt": 0},
+    {"Time": 133, "Who": "EP5", "Action": "SnakeShot", "Amt": 13.0},
+    {"Time": 135, "Who": "E10", "Action": "Rotate", "Amt" : 0},
+    {"Time": 135, "Who": "E10", "Action": "ShootContinuous", "Amt" : 11.0},
+    {"Time": 133, "Who": "EP6", "Action": "Rotate", "Amt":180},
+    {"Time": 133, "Who": "EP6", "Action": "SnakeShot", "Amt": 13.0},
+    {"Time": 135, "Who": "E11", "Action": "Rotate", "Amt" :180},
+    {"Time": 135, "Who": "E11", "Action": "ShootContinuous", "Amt" : 11.0},
+
+    {"Time": 140, "Who": "EP7", "Action": "Rotate", "Amt": 0},
+    {"Time": 140, "Who": "EP7", "Action": "SnakeShot", "Amt": 6.0},
+    {"Time": 141, "Who": "E12", "Action": "Rotate", "Amt" : 0},
+    {"Time": 141, "Who": "E12", "Action": "ShootContinuous", "Amt" : 5.0},
+    {"Time": 140, "Who": "EP8", "Action": "Rotate", "Amt":180},
+    {"Time": 140, "Who": "EP8", "Action": "SnakeShot", "Amt": 6.0},
+    {"Time": 141, "Who": "E13", "Action": "Rotate", "Amt" :180},
+    {"Time": 141, "Who": "E13", "Action": "ShootContinuous", "Amt" : 5.0},
+    
+
+
 
     {"Time": 145, "Dialogue": "Oh, what do we have here?"}
   ]
