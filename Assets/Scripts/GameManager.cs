@@ -61,6 +61,15 @@ public class GameManager : MonoBehaviour
             }
             return;
         }
+
+        if (TestMode && Input.GetKey(KeyCode.Alpha3))
+            Time.timeScale = 10;
+        else if (TestMode && Input.GetKey(KeyCode.Alpha2))
+            Time.timeScale = 5;
+        else if (TestMode && Input.GetKey(KeyCode.Alpha1))
+            Time.timeScale = 2;
+        else
+            Time.timeScale = 1;
         Clock += Time.deltaTime;
         if (TestMode)
         {
