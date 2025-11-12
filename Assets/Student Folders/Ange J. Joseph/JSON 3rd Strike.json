@@ -1,13 +1,16 @@
 {
-  "Title": "Blow My Mind!",
+  "Title": "London Stage - SFIII",
   "Author": "Ange Joseph",
   "Events": [
+    {"Time": 0, "Dialogue": "Let's Fight Like Gentlemen"},
     {"Time": 1,"Action": "RandomWalk"},
     {"Time": 1.2, "Action": "Shake", "Amt": 1},
     {"Time": 2,"Action": "VelPlayer"},
+    {"Time": 2.2, "Action": "LerpToPlayer"},
     {"Time": 2,"Action": "ShootAtPlayer"},
     {"Time": 2.2,"Action": "ShootAtPlayer"},
-    {"Time": 4,"Action": "Shake", "Amt": 2},
+    {"Time": 3,"Action": "Shake", "Amt": 1},
+    {"Time": 3.2, "Action": "ShootAtPlayer"},
     {"Time": 8,"Dialogue": "Gutter Trash"},
     {"Time": 8,"Who":"Player 1","Action": "Flash"},
     {"Time": 10,"Action": "VelPlayer"},
@@ -17,6 +20,7 @@
     {"Time": 14, "Action": "Shake","Amt": 1 },
     {"Time": 15, "Action" : "VelPlayer"},
     {"Time": 16, "Anim": "SpinShoot"},
-    {"Time": 18, "Action": "ShootAtPlayer"}
+    {"Time": 18, "Action": "ShootAtPlayer"},
+
   ]
 }
