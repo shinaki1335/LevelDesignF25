@@ -20,5 +20,7 @@
     {"Time": 7.2, "Action" : "VelPlayer"},
     {"Time": 7.4, "Anim": "SpinShoot"},
     {"Time": 8, "Action": "ShootAtPlayer"},
+    {"Time": 8.2, "Action": "ShootAtPlayer"},
+    {"Time": 9, "Action": "LerpToPlayer"}
   ]
 }
