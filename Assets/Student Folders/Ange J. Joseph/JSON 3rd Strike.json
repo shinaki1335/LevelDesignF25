@@ -13,14 +13,15 @@
     {"Time": 4,"Dialogue": "Gutter Trash"},
     {"Time": 4.2,"Who":"Player 1","Action": "Flash"},
     {"Time": 5,"Action": "VelPlayer"},
-    {"Time": 5.2, "Anim": "SpinShoot"},
+    {"Time": 5.2, "Action": "ShootAtPlayer"},
     {"Time": 6, "Action": "VelPlayer"},
     {"Time": 6.2,"Action": "ShootAtPlayer", "Amt": 2},
     {"Time": 7, "Action": "Shake","Amt": 1},
     {"Time": 7.2, "Action" : "VelPlayer"},
-    {"Time": 7.4, "Anim": "SpinShoot"},
+    {"Time": 7.4, "Action": "ShootAtPlayer"},
     {"Time": 8, "Action": "ShootAtPlayer"},
     {"Time": 8.2, "Action": "ShootAtPlayer"},
-    {"Time": 9, "Action": "LerpToPlayer"}
+    {"Time": 9, "Action": "LerpToPlayer"},
+    {"Time": 9.2, "Action": "LerpToPlayer" }
   ]
 }
