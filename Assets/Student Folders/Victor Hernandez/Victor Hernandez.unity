@@ -149,9 +149,33 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1153253696}
     m_Modifications:
+    - target: {fileID: 4767788705003977246, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
+      propertyPath: m_Color.b
+      value: 0.03529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767788705003977246, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
+      propertyPath: m_Color.g
+      value: 0.03529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767788705003977246, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
+      propertyPath: m_Color.r
+      value: 0.54901963
+      objectReference: {fileID: 0}
     - target: {fileID: 4862524930679800595, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
       propertyPath: m_Name
       value: Four Walls
+      objectReference: {fileID: 0}
+    - target: {fileID: 5647928174839634916, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
+      propertyPath: m_Color.b
+      value: 0.03269243
+      objectReference: {fileID: 0}
+    - target: {fileID: 5647928174839634916, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
+      propertyPath: m_Color.g
+      value: 0.03269243
+      objectReference: {fileID: 0}
+    - target: {fileID: 5647928174839634916, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5471698
       objectReference: {fileID: 0}
     - target: {fileID: 6455494334478137059, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
       propertyPath: m_LocalScale.x
@@ -201,6 +225,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7098888259490275120, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
+      propertyPath: m_Color.b
+      value: 0.03529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098888259490275120, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
+      propertyPath: m_Color.g
+      value: 0.03529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098888259490275120, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
+      propertyPath: m_Color.r
+      value: 0.54901963
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027108241420572797, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
+      propertyPath: m_Color.b
+      value: 0.03529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027108241420572797, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
+      propertyPath: m_Color.g
+      value: 0.03529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027108241420572797, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
+      propertyPath: m_Color.r
+      value: 0.54901963
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -208,6 +256,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4862524930679800595, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1639184681}
+    - targetCorrespondingSourceObject: {fileID: 4862524930679800595, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1639184682}
   m_SourcePrefab: {fileID: 100100000, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
 --- !u!114 &1008363569 stripped
 MonoBehaviour:
@@ -267,6 +318,33 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1639184682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639184677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ce1a7a50a5e32a4aa2f138f913c8857, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RB: {fileID: 1639184681}
+  Body: {fileID: 0}
+  Coll: {fileID: 0}
+  Anim: {fileID: 0}
+  Health: 0
+  Speed: 5
+  SpinSpeed: 5
+  SizeSpeed: 5
+  DefaultProjectile: {fileID: 0}
+  AltProjectiles: []
+  ShootGnome: {fileID: 0}
+  HurtGnome: {fileID: 0}
+  DeathGnome: {fileID: 0}
+  Damage: 1
+  WallHit: 0
 --- !u!1001 &1667577927
 PrefabInstance:
   m_ObjectHideFlags: 0
