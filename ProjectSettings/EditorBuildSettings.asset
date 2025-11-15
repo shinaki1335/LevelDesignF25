@@ -4,75 +4,15 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-<<<<<<< HEAD
-  m_Scenes: []
-=======
   m_Scenes:
-  - enabled: 1
-<<<<<<< HEAD
-    path: Assets/Student Folders/Ange J. Joseph/IDK LEVEL.unity
-    guid: 69d9f5cda1f4e4c41b1573f796040163
   - enabled: 1
     path: Assets/Generic Assets/You Lose.unity
     guid: 44c9c043ab0c1d045b5f53f6f89f610a
   - enabled: 1
     path: Assets/Generic Assets/You Win.unity
     guid: 91cfb6caa580edb4aa5894a0cb132bc1
-=======
-    path: Assets/Student Folders/Example/Example Level.unity
-    guid: 32f8192b7fb6e464c84de48b1518ae7b
-  - enabled: 1
-    path: Assets/Student Folders/Evander Platt/Crescendo of Fate.unity
-    guid: 5af3e7d05485c824f98fc94a57ad8e82
-  - enabled: 1
-    path: Assets/Student Folders/Xia/Example Level.unity
-    guid: 8e421844783a9744a9423542d409a6e2
   - enabled: 1
     path: Assets/Student Folders/Josue Pacheco/Game.unity
     guid: 2fb2afc7f1a98934eb726473f8cc12b3
-  - enabled: 1
-    path: Assets/Student Folders/Chris Wingert/HereComesTheSun.unity
-    guid: 1b5aff4c9f3055d46964c70f465f8cad
-  - enabled: 1
-    path: Assets/Student Folders/Ange J. Joseph/IDK LEVEL.unity
-    guid: 69d9f5cda1f4e4c41b1573f796040163
-  - enabled: 1
-    path: Assets/Student Folders/JoannaChen/JoannaScene.unity
-    guid: 98095d4b309a04848ada88d5e0638f75
-  - enabled: 1
-    path: Assets/Student Folders/Mohammad Jobair/Mohammad Monster.unity
-    guid: c0fb78148a5005a439f1ad082e0ca7c0
-  - enabled: 1
-    path: Assets/Student Folders/Morgan Contursi/Morgan.unity
-    guid: 7f1f5264adf2c77429dd4576175c3d25
-  - enabled: 1
-    path: Assets/Student Folders/Neo/Neo Scene.unity
-    guid: 4ed7ad1a324b4464caab2b46854625e2
-  - enabled: 1
-    path: Assets/Student Folders/Sunny Liu/New Scene.unity
-    guid: 0c9e32a7b1a7f3b48a1ec5ab57db9903
-  - enabled: 1
-    path: Assets/Student Folders/Raphael Casarez/Raphael's Level.unity
-    guid: b3388cd1e7d09ca4081f43960521769b
-  - enabled: 1
-    path: Assets/Student Folders/Saqib Hossain/Saqib's Level.unity
-    guid: 1c0765d5e4f3b76c18c417dbfd0e4c40
-  - enabled: 1
-    path: Assets/Student Folders/Tracy Ha/Tracy Level.unity
-    guid: bb22a7c0c81899649bf1a7ec34560e72
-  - enabled: 1
-    path: Assets/Settings/Scenes/URP2DSceneTemplate.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Student Folders/Victor Hernandez/Victor Hernandez.unity
-    guid: 0d2ba9a659783064d95655e865552169
-  - enabled: 1
-    path: Assets/Generic Assets/You Win.unity
-    guid: 91cfb6caa580edb4aa5894a0cb132bc1
-  - enabled: 1
-    path: Assets/Generic Assets/You Lose.unity
-    guid: 44c9c043ab0c1d045b5f53f6f89f610a
->>>>>>> 5f97bf25d0c37f4017ca481a8960b611df15132d
->>>>>>> 0da208622d4c387d5c6f3f6b0e08e60caf5a78bc
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
