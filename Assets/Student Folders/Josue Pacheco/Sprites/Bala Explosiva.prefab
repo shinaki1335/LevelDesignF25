@@ -180,7 +180,7 @@ MonoBehaviour:
   Coll: {fileID: 8020722183412999393}
   Anim: {fileID: 0}
   Health: 0
-  Speed: 7
+  Speed: 6
   SpinSpeed: 5
   SizeSpeed: 5
   DefaultProjectile: {fileID: 0}
@@ -192,7 +192,7 @@ MonoBehaviour:
   WallHit: 0
   Source: {fileID: 0}
   OnlyHitPlayer: 1
-  explosionDistance: 13.5
-  radialBulletCount: 12
-  radialBulletSpeed: 7
+  explosionDistance: 14.3
+  radialBulletCount: 8
+  radialBulletSpeed: 4
   normalBulletPrefab: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}

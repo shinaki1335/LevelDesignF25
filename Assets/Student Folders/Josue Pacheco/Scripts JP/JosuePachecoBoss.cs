@@ -440,7 +440,7 @@ public class JosuePachecoBoss : HazardController
         isSpinning = false;
     }
 
-    // Disparo giratorio en 5 direcciones
+    // Disparo giratorio en 4 direcciones
     private System.Collections.IEnumerator SpinShotCoroutine(float duration)
     {
         float endTime = Time.time + duration;
@@ -450,10 +450,10 @@ public class JosuePachecoBoss : HazardController
 
         while (Time.time < endTime && isSpinning)
         {
-            // Disparar en 5 direcciones equidistantes
-            for (int i = 0; i < 5; i++)
+            // Disparar en 4 direcciones equidistantes
+            for (int i = 0; i < 4; i++)
             {
-                float currentAngle = currentSpinAngle + (i * 72f); // 360/5 = 72
+                float currentAngle = currentSpinAngle + (i * 90f);
                 Vector3 rotation = new Vector3(0, 0, currentAngle);
                 Shoot(null, transform.position, rotation);
             }

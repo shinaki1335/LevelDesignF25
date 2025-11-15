@@ -4,11 +4,16 @@ using UnityEngine;
 public class JosuePachecoCentinelas : ActorController
 {
     [Header("Configuración de Movimiento")]
-    public float moveDistance = 3f; 
+    public float moveDistance = 3f;
 
     [Header("Configuración de Disparo")]
     public float burstFireRate = 0.1f;
     public float continuousFireRate = 0.2f;
+
+    [Header("Disparo Ondulante")]
+    public float swingWaveFrequency = 2f;   
+    public float swingWaveAmplitude = 45f;   
+    public float swingShotRate = 0.15f;      
 
     public override void DoAction(string act, float amt)
     {
@@ -16,31 +21,35 @@ public class JosuePachecoCentinelas : ActorController
         {
             StartCoroutine(ShootBurstCoroutine((int)amt));
         }
-        else if (act == "ShootContinuous") // ← DISPARO CONTINUO
+        else if (act == "ShootContinuous")
         {
             StartCoroutine(ShootContinuousCoroutine(amt));
         }
-        else if (act == "ShootGust")  // ← DISPARO RÁFAGA
+        else if (act == "ShootGust")
         {
             StartCoroutine(ShootGustsCoroutine((int)amt));
         }
-        else if (act == "ShootStar")  // ← DISPARO ESTRELLA RADIAL
+        else if (act == "ShootStar")
         {
             StartCoroutine(ShootStarRadialCoroutine((int)amt));
         }
-        else if (act == "MoveLeft")  // ← MOVIMIENTO IZQUIERDA
+        else if (act == "SwingWaveShot")  // ← NUEVO: DISPARO ONDULANTE/COLUMPIO
+        {
+            StartCoroutine(SwingWaveShotCoroutine(amt));
+        }
+        else if (act == "MoveLeft")
         {
             StartCoroutine(MoveLeftCoroutine(amt));
         }
-        else if (act == "MoveRight")  // ← MOVIMIENTO DERECHA
+        else if (act == "MoveRight")
         {
             StartCoroutine(MoveRightCoroutine(amt));
         }
-        else if (act == "MoveUp")  // ← MOVIMIENTO ARRIBA
+        else if (act == "MoveUp")
         {
             StartCoroutine(MoveUpCoroutine(amt));
         }
-        else if (act == "MoveDown")  // ← MOVIMIENTO ABAJO
+        else if (act == "MoveDown")
         {
             StartCoroutine(MoveDownCoroutine(amt));
         }
@@ -50,24 +59,45 @@ public class JosuePachecoCentinelas : ActorController
         }
     }
 
+    // NUEVO: Disparo ondulante/columpio
+    private IEnumerator SwingWaveShotCoroutine(float duration)
+    {
+        float endTime = Time.time + duration;
+        float startTime = Time.time;
+
+        while (Time.time < endTime)
+        {
+            // Calcular el ángulo base (dirección inicial del centinela)
+            float baseAngle = transform.eulerAngles.z;
+
+            // Crear efecto de columpio usando función seno
+            float swingOffset = Mathf.Sin((Time.time - startTime) * swingWaveFrequency) * swingWaveAmplitude;
+
+            // Ángulo final con el columpio aplicado
+            float finalAngle = baseAngle + swingOffset;
+
+            // Disparar en la dirección ondulante
+            Vector3 rotation = new Vector3(0, 0, finalAngle);
+            Shoot(null, transform.position, rotation);
+
+            // Esperar antes del siguiente disparo
+            yield return new WaitForSeconds(swingShotRate);
+        }
+    }
+
     //Dispara bala explosiva 
     private IEnumerator ShootBurstCoroutine(int bulletCount)
     {
-        
         if (AltProjectiles != null && AltProjectiles.Count > 0)
         {
             ProjectileController explosiveBullet = AltProjectiles[0];
-
-            
             Shoot(explosiveBullet, transform.position, transform.rotation.eulerAngles);
-
             Debug.Log($"Bala explosiva disparada. Total en ráfaga: {bulletCount}");
         }
         else
         {
             Debug.LogWarning("No se encontró bala explosiva en AltProjectiles[0]");
         }
-
         yield return null;
     }
 
@@ -82,45 +112,41 @@ public class JosuePachecoCentinelas : ActorController
         }
     }
 
-    // Dispara ráfagas de 4 balas, X veces
+    // Dispara ráfagas de 3 balas, X veces
     private IEnumerator ShootGustsCoroutine(int gustCount)
     {
         for (int i = 0; i < gustCount; i++)
         {
-            for (int j = 0; j < 4; j++)
+            for (int j = 0; j < 3; j++)
             {
                 Shoot();
-                yield return new WaitForSeconds(0.1f); 
+                yield return new WaitForSeconds(0.05f);
             }
-            yield return new WaitForSeconds(0.5f); 
+            yield return new WaitForSeconds(0.5f);
         }
     }
 
-    // NUEVO: Disparo estrella radial (14 direcciones)
+    // Disparo estrella radial
     private IEnumerator ShootStarRadialCoroutine(int bulletCount)
     {
         float angleStep = 360f / bulletCount;
-
         for (int i = 0; i < bulletCount; i++)
         {
             float angle = i * angleStep;
-            
             Quaternion originalRotation = transform.rotation;
             transform.rotation = Quaternion.Euler(0, 0, angle);
             Shoot();
             transform.rotation = originalRotation;
-
             yield return null;
         }
     }
 
-    // NUEVO: Movimiento hacia izquierda
+    // Movimiento hacia izquierda
     private IEnumerator MoveLeftCoroutine(float duration)
     {
         float endTime = Time.time + duration;
         Vector3 originalPos = transform.position;
-        Vector3 targetPos = originalPos + Vector3.left * moveDistance;  
-
+        Vector3 targetPos = originalPos + Vector3.left * moveDistance;
         while (Time.time < endTime)
         {
             transform.position = Vector3.Lerp(originalPos, targetPos, (Time.time - (endTime - duration)) / duration);
@@ -128,13 +154,12 @@ public class JosuePachecoCentinelas : ActorController
         }
     }
 
-    // NUEVO: Movimiento hacia derecha
+    // Movimiento hacia derecha
     private IEnumerator MoveRightCoroutine(float duration)
     {
         float endTime = Time.time + duration;
         Vector3 originalPos = transform.position;
-        Vector3 targetPos = originalPos + Vector3.right * moveDistance;  
-
+        Vector3 targetPos = originalPos + Vector3.right * moveDistance;
         while (Time.time < endTime)
         {
             transform.position = Vector3.Lerp(originalPos, targetPos, (Time.time - (endTime - duration)) / duration);
@@ -142,13 +167,12 @@ public class JosuePachecoCentinelas : ActorController
         }
     }
 
-    // NUEVO: Movimiento hacia arriba
+    // Movimiento hacia arriba
     private IEnumerator MoveUpCoroutine(float duration)
     {
         float endTime = Time.time + duration;
         Vector3 originalPos = transform.position;
-        Vector3 targetPos = originalPos + Vector3.up * moveDistance; 
-
+        Vector3 targetPos = originalPos + Vector3.up * moveDistance;
         while (Time.time < endTime)
         {
             transform.position = Vector3.Lerp(originalPos, targetPos, (Time.time - (endTime - duration)) / duration);
@@ -156,13 +180,12 @@ public class JosuePachecoCentinelas : ActorController
         }
     }
 
-    // NUEVO: Movimiento hacia abajo
+    // Movimiento hacia abajo
     private IEnumerator MoveDownCoroutine(float duration)
     {
         float endTime = Time.time + duration;
         Vector3 originalPos = transform.position;
-        Vector3 targetPos = originalPos + Vector3.down * moveDistance; 
-
+        Vector3 targetPos = originalPos + Vector3.down * moveDistance;
         while (Time.time < endTime)
         {
             transform.position = Vector3.Lerp(originalPos, targetPos, (Time.time - (endTime - duration)) / duration);
