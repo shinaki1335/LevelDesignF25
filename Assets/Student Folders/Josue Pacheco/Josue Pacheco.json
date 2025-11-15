@@ -204,7 +204,7 @@
 
 
 
-    {"Time": 164, "Dialogue": "....."},
+    {"Time": 164, "Dialogue": " Hahah ...."},
     {"Time": 168, "Dialogue": " "},
     
     {"Time": 169, "Who": "EP", "Action": "SpawnFlashingBullets", "Amt": 18},
@@ -265,8 +265,7 @@
     
     {"Time": 208, "Who": "EP", "Action": "WaveShot", "Amt": 1},
     {"Time": 208.5, "Who": "EP", "Action": "WaveShot", "Amt": 1},
+    {"Time": 210, "Who": "EP", "Action": "MoveUp", "Amt": 3}
 
-
-    {"Time": 230, "Dialogue": "Oh, what do we have here?"}
   ]
 }

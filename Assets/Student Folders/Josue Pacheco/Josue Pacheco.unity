@@ -3803,7 +3803,7 @@ PrefabInstance:
       objectReference: {fileID: 1058971174}
     - target: {fileID: 2222939923061481438, guid: d234da9df56f40d49a2c47c6bc00444a, type: 3}
       propertyPath: TestMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2222939923061481438, guid: d234da9df56f40d49a2c47c6bc00444a, type: 3}
       propertyPath: SideNPCs.Array.size
