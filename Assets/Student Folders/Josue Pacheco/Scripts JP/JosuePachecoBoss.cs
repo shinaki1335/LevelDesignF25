@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+
 public class JosuePachecoBoss : HazardController
 {
     [Header("Configuración de Movimiento")]
@@ -28,9 +29,11 @@ public class JosuePachecoBoss : HazardController
     public float spinRotationSpeed = 180f;
 
     [Header("Disparo Aleatorio")]
-    public float randomShotAccuracy = 30f; 
-    public float randomShotDelay = 0.3f;   
+    public float randomShotAccuracy = 30f;
+    public float randomShotDelay = 0.3f;
 
+
+    private Transform spriteChild;
     private float currentSpinAngle = 0f;
     private bool isSpinning = false;
 
@@ -52,6 +55,31 @@ public class JosuePachecoBoss : HazardController
         base.OnStart();
         player = FindObjectOfType<PlayerController>();
         circleCenter = transform.position;
+        FindSpriteChild();
+    }
+
+    private void FindSpriteChild()
+    {
+
+        foreach (Transform child in transform)
+        {
+            if (child.GetComponent<SpriteRenderer>() != null)
+            {
+                spriteChild = child;
+                Debug.Log("Sprite child encontrado: " + spriteChild.name);
+                break;
+            }
+        }
+
+        if (spriteChild == null)
+        {
+            GameObject spriteObj = new GameObject("Sprite");
+            spriteObj.transform.SetParent(transform);
+            spriteObj.transform.localPosition = Vector3.zero;
+            spriteObj.AddComponent<SpriteRenderer>();
+            spriteChild = spriteObj.transform;
+            Debug.Log("Sprite child creado");
+        }
     }
 
     void Update()
@@ -63,6 +91,10 @@ public class JosuePachecoBoss : HazardController
         if (isCircling)
         {
             CircleUpdate();
+        }
+        if (spriteChild != null)
+        {
+            spriteChild.rotation = Quaternion.identity;
         }
     }
 
@@ -90,9 +122,9 @@ public class JosuePachecoBoss : HazardController
         }
         else if (act == "FanShotAtPlayer") // Disparo en abanico hacia el jugador
         {
-            if (amt == -1) 
-                StartCoroutine(FanShotAtPlayerCoroutine()); 
-            else 
+            if (amt == -1)
+                StartCoroutine(FanShotAtPlayerCoroutine());
+            else
                 StartCoroutine(FanShotAtFixedAngleCoroutine(amt)); // Disparo en abanico en ángulo fijo
         }
         else if (act == "StartCircleMove") // Movimiento circular con transición de radio
@@ -123,7 +155,7 @@ public class JosuePachecoBoss : HazardController
         {
             StartCoroutine(InwardSpiralCoroutine(amt));
         }
-        else if (act == "StartSpinShot") // Iniciar disparo giratorio
+        else if (act == "StartSpinShot") // Disparo giratorio
         {
             StartSpinShot(amt);
         }
@@ -139,6 +171,7 @@ public class JosuePachecoBoss : HazardController
         {
             base.DoAction(act, amt);
         }
+    
 
     }
 
@@ -227,7 +260,6 @@ public class JosuePachecoBoss : HazardController
         float angleStep = fanShotAngle / (fanShotCount - 1);
         float startAngle = baseAngle - (fanShotAngle / 2);
 
-        
         for (int i = 0; i < fanShotCount; i++)
         {
             float currentAngle = startAngle + (angleStep * i);
@@ -347,8 +379,6 @@ public class JosuePachecoBoss : HazardController
         {
             float baseAngle = transform.eulerAngles.z;
             Vector3 rotation = new Vector3(0, 0, baseAngle);
-
-            // Usar el proyectil serpiente de AltProjectiles
             Shoot(serpentPrefab, transform.position, rotation);
 
             yield return new WaitForSeconds(snakeShotDelay);
@@ -458,7 +488,7 @@ public class JosuePachecoBoss : HazardController
                 Shoot(null, transform.position, rotation);
             }
 
-            // Rotar todas las direcciones
+            // Rotar todas las direcciones (el objeto padre rota, pero no el sprite)
             currentSpinAngle += spinRotationSpeed * spinShotRate;
 
             yield return new WaitForSeconds(spinShotRate);

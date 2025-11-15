@@ -204,7 +204,7 @@
 
 
 
-       {"Time": 164, "Dialogue": "....."},
+    {"Time": 164, "Dialogue": "....."},
     {"Time": 168, "Dialogue": " "},
     
     {"Time": 169, "Who": "EP", "Action": "SpawnFlashingBullets", "Amt": 18},
@@ -232,27 +232,27 @@
     {"Time": 191, "Who": "E2", "Action": "Rotate", "Amt": 180},
     {"Time": 191, "Who": "E2", "Action": "ShootContinuous", "Amt": 4},
     
-    {"Time": 195, "Who": "EP", "Action": "InwardSpiralShot", "Amt": 9},
+    {"Time": 195, "Who": "EP", "Action": "InwardSpiralShot", "Amt": 7},
     
     
     {"Time": 195, "Who": "EP2", "Action": "Rotate", "Amt": 180},
-    {"Time": 195, "Who": "EP2", "Action": "SnakeShot", "Amt": 10},
+    {"Time": 195, "Who": "EP2", "Action": "SnakeShot", "Amt": 5},
     {"Time": 195, "Who": "EP3", "Action": "Rotate", "Amt": 0},
-    {"Time": 195, "Who": "EP3", "Action": "SnakeShot", "Amt": 10},
+    {"Time": 195, "Who": "EP3", "Action": "SnakeShot", "Amt": 5},
     {"Time": 195, "Who": "EP4", "Action": "Rotate", "Amt": 180},
-    {"Time": 195, "Who": "EP4", "Action": "SnakeShot", "Amt": 10},
+    {"Time": 195, "Who": "EP4", "Action": "SnakeShot", "Amt": 5},
     
-    {"Time": 198, "Who": "EP2", "Action": "SnakeShot", "Amt": 10},
-    {"Time": 198, "Who": "EP3", "Action": "SnakeShot", "Amt": 10},
-    {"Time": 198, "Who": "EP4", "Action": "SnakeShot", "Amt": 10},
+    {"Time": 198, "Who": "EP2", "Action": "SnakeShot", "Amt": 4},
+    {"Time": 198, "Who": "EP3", "Action": "SnakeShot", "Amt": 4},
+    {"Time": 198, "Who": "EP4", "Action": "SnakeShot", "Amt": 4},
     
-    {"Time": 201, "Who": "EP2", "Action": "SnakeShot", "Amt": 10},
-    {"Time": 201, "Who": "EP3", "Action": "SnakeShot", "Amt": 10},
-    {"Time": 201, "Who": "EP4", "Action": "SnakeShot", "Amt": 10},
+    {"Time": 201, "Who": "EP2", "Action": "SnakeShot", "Amt": 4},
+    {"Time": 201, "Who": "EP3", "Action": "SnakeShot", "Amt": 4},
+    {"Time": 201, "Who": "EP4", "Action": "SnakeShot", "Amt": 4},
     
-    {"Time": 204, "Who": "EP2", "Action": "SnakeShot", "Amt": 10},
-    {"Time": 204, "Who": "EP3", "Action": "SnakeShot", "Amt": 10},
-    {"Time": 204, "Who": "EP4", "Action": "SnakeShot", "Amt": 10},
+    {"Time": 204, "Who": "EP2", "Action": "SnakeShot", "Amt": 4},
+    {"Time": 204, "Who": "EP3", "Action": "SnakeShot", "Amt": 4},
+    {"Time": 204, "Who": "EP4", "Action": "SnakeShot", "Amt": 4},
     
     
     {"Time": 204, "Who": "EP", "Action": "WaveShot", "Amt": 1},

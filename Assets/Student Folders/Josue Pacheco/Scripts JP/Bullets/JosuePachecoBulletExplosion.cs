@@ -18,16 +18,14 @@ public class JosuePachecoBulletExplosion : ProjectileController
     {
         base.OnStart();
         initialPosition = transform.position;
-        movementDirection = transform.right; 
-
-        Debug.Log($"Bala explosiva creada. Velocidad: {Speed}, Dirección: {movementDirection}");
+        movementDirection = transform.right;
     }
 
     void Update()
     {
         if (hasExploded) return;
 
-        // MOVIMIENTO MANUAL de la bala
+        // Movimiento manual de la bala
         transform.position += movementDirection * Speed * Time.deltaTime;
         float distanceTraveled = Vector3.Distance(initialPosition, transform.position);
         if (distanceTraveled >= explosionDistance)
@@ -36,16 +34,14 @@ public class JosuePachecoBulletExplosion : ProjectileController
         }
     }
 
-    private void TriggerExplosion() // Método para manejar la explosión
+    private void TriggerExplosion() 
     {
+        // Evitar múltiples explosiones
         if (hasExploded) return;
         hasExploded = true;
 
-        Debug.Log($"¡EXPLOSIÓN RADIAL! Posición: {transform.position}");
-
         if (normalBulletPrefab == null)
         {
-            Debug.LogError("Error: normalBulletPrefab no asignado en el inspector");
             Destroy(gameObject);
             return;
         }
@@ -54,16 +50,16 @@ public class JosuePachecoBulletExplosion : ProjectileController
         Destroy(gameObject);
     }
 
-    private void CreateRadialBullets() // Método para crear balas en patrón radial
+    private void CreateRadialBullets() // Crea balas en un patrón radial
     {
         float angleIncrement = 360f / radialBulletCount;
 
         for (int i = 0; i < radialBulletCount; i++)
         {
-            // Calcular ángulo para esta bala
             float currentAngle = i * angleIncrement;
             Quaternion bulletDirection = Quaternion.Euler(0f, 0f, currentAngle);
 
+            // Instanciar la nueva bala
             ProjectileController newBullet = Instantiate(
                 normalBulletPrefab,
                 transform.position,
@@ -71,16 +67,13 @@ public class JosuePachecoBulletExplosion : ProjectileController
             );
 
             newBullet.Speed = radialBulletSpeed;
-
-            Debug.Log($"Bala radial {i} creada en ángulo {currentAngle}°");
         }
     }
 
-    public override void HitWall(GameObject wall) // Sobrescribir para detectar colisión con paredes
+    public override void HitWall(GameObject wall)
     {
         if (!hasExploded)
         {
-            Debug.Log("Bala explosiva golpeó pared, explotando...");
             TriggerExplosion();
         }
     }
@@ -89,10 +82,8 @@ public class JosuePachecoBulletExplosion : ProjectileController
     {
         if (hasExploded) return;
 
-        // Explotar si golpea al jugador
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Bala explosiva golpeó al jugador, explotando...");
             TriggerExplosion();
         }
     }

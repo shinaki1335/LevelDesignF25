@@ -17,23 +17,23 @@ public class JosuePachecoCentinelas : ActorController
 
     public override void DoAction(string act, float amt)
     {
-        if (act == "ShootBurst")
+        if (act == "ShootBurst") //Dispara bala explosiva
         {
             StartCoroutine(ShootBurstCoroutine((int)amt));
         }
-        else if (act == "ShootContinuous")
+        else if (act == "ShootContinuous") //Dispara continuamente por X segundos
         {
             StartCoroutine(ShootContinuousCoroutine(amt));
         }
-        else if (act == "ShootGust")
+        else if (act == "ShootGust") //Ráfagas de 3 balas, X veces
         {
             StartCoroutine(ShootGustsCoroutine((int)amt));
         }
-        else if (act == "ShootStar")
+        else if (act == "ShootStar") //Disparo estrella radial
         {
             StartCoroutine(ShootStarRadialCoroutine((int)amt));
         }
-        else if (act == "SwingWaveShot")  // ← NUEVO: DISPARO ONDULANTE/COLUMPIO
+        else if (act == "SwingWaveShot") //Disparo ondulante/columpio
         {
             StartCoroutine(SwingWaveShotCoroutine(amt));
         }
@@ -67,20 +67,14 @@ public class JosuePachecoCentinelas : ActorController
 
         while (Time.time < endTime)
         {
-            // Calcular el ángulo base (dirección inicial del centinela)
+            // Calcular el ángulo oscilante
             float baseAngle = transform.eulerAngles.z;
-
-            // Crear efecto de columpio usando función seno
             float swingOffset = Mathf.Sin((Time.time - startTime) * swingWaveFrequency) * swingWaveAmplitude;
-
-            // Ángulo final con el columpio aplicado
             float finalAngle = baseAngle + swingOffset;
 
-            // Disparar en la dirección ondulante
             Vector3 rotation = new Vector3(0, 0, finalAngle);
             Shoot(null, transform.position, rotation);
 
-            // Esperar antes del siguiente disparo
             yield return new WaitForSeconds(swingShotRate);
         }
     }
@@ -92,11 +86,6 @@ public class JosuePachecoCentinelas : ActorController
         {
             ProjectileController explosiveBullet = AltProjectiles[0];
             Shoot(explosiveBullet, transform.position, transform.rotation.eulerAngles);
-            Debug.Log($"Bala explosiva disparada. Total en ráfaga: {bulletCount}");
-        }
-        else
-        {
-            Debug.LogWarning("No se encontró bala explosiva en AltProjectiles[0]");
         }
         yield return null;
     }
