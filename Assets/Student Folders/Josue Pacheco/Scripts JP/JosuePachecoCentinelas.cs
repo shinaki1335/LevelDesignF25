@@ -50,14 +50,25 @@ public class JosuePachecoCentinelas : ActorController
         }
     }
 
-    // Dispara X balas en ráfaga
+    //Dispara bala explosiva 
     private IEnumerator ShootBurstCoroutine(int bulletCount)
     {
-        for (int i = 0; i < bulletCount; i++)
+        
+        if (AltProjectiles != null && AltProjectiles.Count > 0)
         {
-            Shoot();
-            yield return new WaitForSeconds(burstFireRate);
+            ProjectileController explosiveBullet = AltProjectiles[0];
+
+            
+            Shoot(explosiveBullet, transform.position, transform.rotation.eulerAngles);
+
+            Debug.Log($"Bala explosiva disparada. Total en ráfaga: {bulletCount}");
         }
+        else
+        {
+            Debug.LogWarning("No se encontró bala explosiva en AltProjectiles[0]");
+        }
+
+        yield return null;
     }
 
     // Dispara continuamente por X segundos

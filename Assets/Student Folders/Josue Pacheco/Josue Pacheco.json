@@ -132,27 +132,71 @@
     {"Time": 132, "Who": "EP", "Action": "GoToCenter", "Amt": 1.0},
     {"Time": 133, "Who": "EP", "Action": "MoveUp", "Amt": 2.0},
 
+
+
+
+
+
+
+
     {"Time": 133, "Who": "EP5", "Action": "Rotate", "Amt": 0},
-    {"Time": 133, "Who": "EP5", "Action": "SnakeShot", "Amt": 13.0},
-    {"Time": 135, "Who": "E10", "Action": "Rotate", "Amt" : 0},
-    {"Time": 135, "Who": "E10", "Action": "ShootContinuous", "Amt" : 11.0},
-    {"Time": 133, "Who": "EP6", "Action": "Rotate", "Amt":180},
-    {"Time": 133, "Who": "EP6", "Action": "SnakeShot", "Amt": 13.0},
-    {"Time": 135, "Who": "E11", "Action": "Rotate", "Amt" :180},
-    {"Time": 135, "Who": "E11", "Action": "ShootContinuous", "Amt" : 11.0},
+    {"Time": 133, "Who": "EP5", "Action": "SnakeShot", "Amt": 110},
+    
+    {"Time": 133, "Who": "EP6", "Action": "Rotate", "Amt": 180},
+    {"Time": 133, "Who": "EP6", "Action": "SnakeShot", "Amt": 110},
+
+    {"Time": 135, "Who": "E10", "Action": "Rotate", "Amt": 0},
+    {"Time": 135, "Who": "E10", "Action": "ShootContinuous", "Amt": 11},
+    
+    {"Time": 135, "Who": "E11", "Action": "Rotate", "Amt": 180},
+    {"Time": 135, "Who": "E11", "Action": "ShootContinuous", "Amt": 11},
 
     {"Time": 140, "Who": "EP7", "Action": "Rotate", "Amt": 0},
-    {"Time": 140, "Who": "EP7", "Action": "SnakeShot", "Amt": 6.0},
-    {"Time": 141, "Who": "E12", "Action": "Rotate", "Amt" : 0},
-    {"Time": 141, "Who": "E12", "Action": "ShootContinuous", "Amt" : 5.0},
-    {"Time": 140, "Who": "EP8", "Action": "Rotate", "Amt":180},
-    {"Time": 140, "Who": "EP8", "Action": "SnakeShot", "Amt": 6.0},
-    {"Time": 141, "Who": "E13", "Action": "Rotate", "Amt" :180},
-    {"Time": 141, "Who": "E13", "Action": "ShootContinuous", "Amt" : 5.0},
+    {"Time": 140, "Who": "EP7", "Action": "SnakeShot", "Amt": 40},
     
+    {"Time": 140, "Who": "EP8", "Action": "Rotate", "Amt": 180},
+    {"Time": 140, "Who": "EP8", "Action": "SnakeShot", "Amt": 40},
+
+    {"Time": 140, "Who": "E12", "Action": "Rotate", "Amt": 0},
+    {"Time": 140, "Who": "E12", "Action": "ShootContinuous", "Amt": 6},
+    
+    {"Time": 140, "Who": "E13", "Action": "Rotate", "Amt": 180},
+    {"Time": 140, "Who": "E13", "Action": "ShootContinuous", "Amt": 6},
+    
+    {"Time": 147, "Who": "E8", "Action": "Rotate", "Amt": 180},
+    {"Time": 147, "Who": "E8", "Action": "ShootBurst", "Amt": 0},
+
+    {"Time": 149, "Who": "E7", "Action": "Rotate", "Amt": 0},
+    {"Time": 149, "Who": "E7", "Action": "ShootBurst", "Amt": 0},
+
+    {"Time": 151, "Who": "E9", "Action": "Rotate", "Amt": 0},
+    {"Time": 151, "Who": "E9", "Action": "ShootBurst", "Amt": 0},
+
+    {"Time": 153, "Who": "E7", "Action": "Rotate", "Amt": 0},
+    {"Time": 153, "Who": "E7", "Action": "ShootBurst", "Amt": 0},
+    {"Time": 153, "Who": "E8", "Action": "Rotate", "Amt": 180},
+    {"Time": 153, "Who": "E8", "Action": "ShootBurst", "Amt": 0},
+    {"Time": 153, "Who": "E9", "Action": "Rotate", "Amt": 0},
+    {"Time": 153, "Who": "E9", "Action": "ShootBurst", "Amt": 0},
+
+    {"Time": 155, "Who": "E4", "Action": "Rotate", "Amt": 90},
+    {"Time": 155, "Who": "E4", "Action": "MoveRight", "Amt": 2},
+    {"Time": 155, "Who": "E4", "Action": "ShootGust", "Amt": 2},
+
+    {"Time": 157, "Who": "E3", "Action": "Rotate", "Amt": 270},
+    {"Time": 157, "Who": "E3", "Action": "MoveLeft", "Amt": 2},
+    {"Time": 157, "Who": "E3", "Action": "ShootGust", "Amt": 2},
+
+    {"Time": 159, "Who": "EP", "Action": "ChargeAtPlayer", "Amt": 1},
+    {"Time": 160, "Who": "EP", "Action": "RandomShotsAtPlayer", "Amt": 13},
+
+    {"Time": 161, "Who": "EP", "Action": "ChargeAtPlayer", "Amt": 1},
+    {"Time": 162, "Who": "EP", "Action": "RandomShotsAtPlayer", "Amt": 13},
+
+    {"Time": 163, "Who": "EP", "Action": "GoToCenter", "Amt": 2},
 
 
 
-    {"Time": 145, "Dialogue": "Oh, what do we have here?"}
+    {"Time": 230, "Dialogue": "Oh, what do we have here?"}
   ]
 }

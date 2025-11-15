@@ -641,7 +641,8 @@ MonoBehaviour:
   SpinSpeed: 5
   SizeSpeed: 5
   DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
-  AltProjectiles: []
+  AltProjectiles:
+  - {fileID: 3702168472278109821, guid: c30a8843bcb765545bef75d7198bc09c, type: 3}
   ShootGnome: {fileID: 0}
   HurtGnome: {fileID: 0}
   DeathGnome: {fileID: 0}
@@ -939,6 +940,8 @@ MonoBehaviour:
   snakeShotDelay: 0.1
   spinShotRate: 0.1
   spinRotationSpeed: 180
+  randomShotAccuracy: 30
+  randomShotDelay: 0.3
 --- !u!212 &692924882
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1023,7 +1026,7 @@ Transform:
   m_GameObject: {fileID: 755321718}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.89, y: -5.04, z: 0.11640144}
+  m_LocalPosition: {x: 9.86, y: -3.1, z: 0.11640144}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1145,6 +1148,8 @@ MonoBehaviour:
   snakeShotDelay: 0.1
   spinShotRate: 0.1
   spinRotationSpeed: 180
+  randomShotAccuracy: 30
+  randomShotDelay: 0.3
 --- !u!212 &755321723
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1351,6 +1356,8 @@ MonoBehaviour:
   snakeShotDelay: 0.1
   spinShotRate: 0.2
   spinRotationSpeed: 180
+  randomShotAccuracy: 30
+  randomShotDelay: 0.3
 --- !u!212 &843062167
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1461,7 +1468,8 @@ MonoBehaviour:
   SpinSpeed: 5
   SizeSpeed: 5
   DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
-  AltProjectiles: []
+  AltProjectiles:
+  - {fileID: 3702168472278109821, guid: c30a8843bcb765545bef75d7198bc09c, type: 3}
   ShootGnome: {fileID: 0}
   HurtGnome: {fileID: 0}
   DeathGnome: {fileID: 0}
@@ -1598,7 +1606,7 @@ Transform:
   m_GameObject: {fileID: 973637973}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.87, y: -2.52, z: 0.11640144}
+  m_LocalPosition: {x: 9.87, y: -1.92, z: 0.11640144}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1720,6 +1728,8 @@ MonoBehaviour:
   snakeShotDelay: 0.1
   spinShotRate: 0.1
   spinRotationSpeed: 180
+  randomShotAccuracy: 30
+  randomShotDelay: 0.3
 --- !u!212 &973637978
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2106,8 +2116,8 @@ MonoBehaviour:
   WallHit: 0
   moveSpeed: 3.5
   chargeSpeed: 11
-  fanShotAngle: 45
-  fanShotCount: 6
+  fanShotAngle: 123
+  fanShotCount: 11
   fanShotDelay: 0.2
   circleRadius: 3
   circleSpeed: 1.7
@@ -2117,6 +2127,8 @@ MonoBehaviour:
   snakeShotDelay: 0.1
   spinShotRate: 0.1
   spinRotationSpeed: 40
+  randomShotAccuracy: 30
+  randomShotDelay: 0.3
 --- !u!50 &1058971175
 Rigidbody2D:
   serializedVersion: 5
@@ -2295,6 +2307,8 @@ MonoBehaviour:
   snakeShotDelay: 0.1
   spinShotRate: 0.1
   spinRotationSpeed: 180
+  randomShotAccuracy: 30
+  randomShotDelay: 0.3
 --- !u!212 &1106421918
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2378,7 +2392,7 @@ Transform:
   m_GameObject: {fileID: 1123232284}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.16, y: 2.66, z: 0.11640144}
+  m_LocalPosition: {x: -5.16, y: 3.99, z: 0.11640144}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2542,7 +2556,7 @@ Transform:
   m_GameObject: {fileID: 1127144566}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.16, y: 1.42, z: 0.11640144}
+  m_LocalPosition: {x: -5.16, y: 0.99, z: 0.11640144}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2664,6 +2678,8 @@ MonoBehaviour:
   snakeShotDelay: 0.1
   spinShotRate: 0.1
   spinRotationSpeed: 180
+  randomShotAccuracy: 30
+  randomShotDelay: 0.3
 --- !u!212 &1127144571
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2729,7 +2745,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 775650846862172431, guid: c5d3f2865feff8d40a2b15b440e85123, type: 3}
       propertyPath: Health
-      value: 20
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1323700629660496927, guid: c5d3f2865feff8d40a2b15b440e85123, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2979,7 +2995,7 @@ Transform:
   m_GameObject: {fileID: 1330917935}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.88, y: -3.77, z: 0.11640144}
+  m_LocalPosition: {x: 9.88, y: -5.07, z: 0.11640144}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3769,7 +3785,7 @@ Transform:
   m_GameObject: {fileID: 1996302080}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.14, y: 3.9, z: 0.11640144}
+  m_LocalPosition: {x: -5.14, y: 2.2, z: 0.11640144}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3891,6 +3907,8 @@ MonoBehaviour:
   snakeShotDelay: 0.1
   spinShotRate: 0.1
   spinRotationSpeed: 180
+  randomShotAccuracy: 30
+  randomShotDelay: 0.3
 --- !u!212 &1996302085
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4001,7 +4019,8 @@ MonoBehaviour:
   SpinSpeed: 5
   SizeSpeed: 5
   DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
-  AltProjectiles: []
+  AltProjectiles:
+  - {fileID: 3702168472278109821, guid: c30a8843bcb765545bef75d7198bc09c, type: 3}
   ShootGnome: {fileID: 0}
   HurtGnome: {fileID: 0}
   DeathGnome: {fileID: 0}
@@ -4496,6 +4515,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5fbf2857cedd7344a9b73ffc75a008e5, type: 3}
+--- !u!1001 &3628325330468826483
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1919927120020841999, guid: c30a8843bcb765545bef75d7198bc09c, type: 3}
+      propertyPath: m_Name
+      value: Bala Explosiva
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919927120020841999, guid: c30a8843bcb765545bef75d7198bc09c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9112326294162688052, guid: c30a8843bcb765545bef75d7198bc09c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.571
+      objectReference: {fileID: 0}
+    - target: {fileID: 9112326294162688052, guid: c30a8843bcb765545bef75d7198bc09c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.321
+      objectReference: {fileID: 0}
+    - target: {fileID: 9112326294162688052, guid: c30a8843bcb765545bef75d7198bc09c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9112326294162688052, guid: c30a8843bcb765545bef75d7198bc09c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9112326294162688052, guid: c30a8843bcb765545bef75d7198bc09c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9112326294162688052, guid: c30a8843bcb765545bef75d7198bc09c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9112326294162688052, guid: c30a8843bcb765545bef75d7198bc09c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9112326294162688052, guid: c30a8843bcb765545bef75d7198bc09c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9112326294162688052, guid: c30a8843bcb765545bef75d7198bc09c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9112326294162688052, guid: c30a8843bcb765545bef75d7198bc09c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c30a8843bcb765545bef75d7198bc09c, type: 3}
 --- !u!1001 &6322817787248715371
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4632,3 +4712,4 @@ SceneRoots:
   - {fileID: 8428751450890145659}
   - {fileID: 2477406987464885974}
   - {fileID: 6322817787248715371}
+  - {fileID: 3628325330468826483}
