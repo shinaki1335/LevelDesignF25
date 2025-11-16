@@ -760,7 +760,7 @@ MonoBehaviour:
   MainNPC: {fileID: 1634302857511738683, guid: 62e58e2350691994a86675be924d2369, type: 3}
   SideNPCs: []
   JSON: {fileID: 4900000, guid: 359aa341867eca04486a56b18fb1fb0b, type: 3}
-  TestMode: 0
+  TestMode: 1
   HealthDisplay: {fileID: 3225649182362845121}
   DialogueDisplay: {fileID: 6350601411732872492}
   TimeDisplay: {fileID: 796252816027837577}

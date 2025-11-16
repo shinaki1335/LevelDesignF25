@@ -4,9 +4,6 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-<<<<<<< HEAD
-  m_Scenes: []
-=======
   m_Scenes:
   - enabled: 1
     path: Assets/Student Folders/Ange J. Joseph/IDK LEVEL.unity
@@ -62,6 +59,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Student Folders/Victor Hernandez/Victor Hernandez.unity
     guid: 0d2ba9a659783064d95655e865552169
->>>>>>> 25050b68b99bf798b094b2cdc18835e38ab90628
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
