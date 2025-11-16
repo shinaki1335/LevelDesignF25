@@ -7,7 +7,7 @@ public class JosuePachecoSerpentProjectile : ProjectileController
     private float initialAngle;
     private JosuePachecoBoss boss; 
 
-    public override void OnStart()
+    public override void OnStart() 
     {
         base.OnStart();
         spawnTime = Time.time;
@@ -19,12 +19,13 @@ public class JosuePachecoSerpentProjectile : ProjectileController
 
     void Update()
     {
-        transform.position += initialDirection * Speed * Time.deltaTime;
+        transform.position += initialDirection * Speed * Time.deltaTime; 
 
         float frequency = boss != null ? boss.snakeFrequency : 8f;
         float amplitude = boss != null ? boss.snakeAmplitude : 2f;
         float speed = boss != null ? boss.snakeWaveSpeed : 5f;
 
+        // Calcular el movimiento ondulatorio
         float waveOffset = Mathf.Sin((Time.time - spawnTime) * speed) * amplitude;
         Vector3 waveMovement = transform.up * waveOffset * frequency * Time.deltaTime;
         transform.position += waveMovement;
@@ -34,18 +35,15 @@ public class JosuePachecoSerpentProjectile : ProjectileController
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-        // Verificar si es el player
         if (other.CompareTag("Player"))
         {
             ActorController player = other.GetComponentInParent<ActorController>();
             if (player != null)
             {
-                // Aplicar daño usando el sistema del HazardController
                 OnHit(player);
             }
         }
 
-        // Verificar si es pared
         if (other.CompareTag("Wall"))
         {
             HitWall(other.gameObject);

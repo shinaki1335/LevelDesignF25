@@ -247,7 +247,12 @@ public class ActorController : MonoBehaviour
 
     public void ShootAtPlayer(ProjectileController prefab, Vector3 pos)
     {
-        ShootAt(PlayerController.Player.transform.position,prefab,pos);
+        if(PlayerController.Player != null)
+            ShootAt(PlayerController.Player.transform.position,prefab,pos);
+        else
+        {
+            Shoot(prefab,pos);
+        }
     }
 
     //Shoot at a target

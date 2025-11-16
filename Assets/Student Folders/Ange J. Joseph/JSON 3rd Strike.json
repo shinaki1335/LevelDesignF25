@@ -1,14 +1,27 @@
 {
-  "Title": "Blow My Mind!",
+  "Title": "London Stage - SFIII",
   "Author": "Ange Joseph",
   "Events": [
-    {"Time": 0,"Anim": "RandomWalk","Action": "Shoot"},
-    {"Time": 2,"Anim": "RandomWalk", "Action": "Shoot"},
-    {"Time": 4,"Action": "RandomWalk"},
-    {"Time": 5.5,"Action": "Shake", "Amt": 2},
-    {"Time": 8,"Dialogue": "Gutter Trash"},
-    {"Time": 8,"Who":"Player","Action": "Flash"},
-    {"Time": 10,"Dialogue": "Gutter Trash"},
-    {"Time": 12, "Anim": "Shoot", "Action": "Shake"}
+    {"Time": 1,"Action": "RandomWalk"},
+    {"Time": 1.2, "Action": "Shake", "Amt": 1},
+    {"Time": 2,"Action": "VelPlayer"},
+    {"Time": 2.2, "Action": "LerpToPlayer"},
+    {"Time": 2,"Action": "ShootAtPlayer"},
+    {"Time": 2.2,"Action": "ShootAtPlayer"},
+    {"Time": 3,"Action": "Shake", "Amt": 1},
+    {"Time": 3.2, "Action": "ShootAtPlayer"},
+    {"Time": 4,"Dialogue": "Gutter Trash"},
+    {"Time": 4.2,"Who":"Player 1","Action": "Flash"},
+    {"Time": 5,"Action": "VelPlayer"},
+    {"Time": 5.2, "Action": "ShootAtPlayer"},
+    {"Time": 6, "Action": "VelPlayer"},
+    {"Time": 6.2,"Action": "ShootAtPlayer", "Amt": 2},
+    {"Time": 7, "Action": "Shake","Amt": 1},
+    {"Time": 7.2, "Action" : "VelPlayer"},
+    {"Time": 7.4, "Action": "ShootAtPlayer"},
+    {"Time": 8, "Action": "ShootAtPlayer"},
+    {"Time": 8.2, "Action": "ShootAtPlayer"},
+    {"Time": 9, "Action": "LerpToPlayer"},
+    {"Time": 9.2, "Action": "LerpToPlayer" }
   ]
 }

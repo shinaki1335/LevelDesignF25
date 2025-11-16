@@ -722,7 +722,7 @@
       "Time": 28.32,
       "Who": "Monster",
       "Action": "LerpToY",
-      "Amt": -2
+      "Amt": -2.25
     },
     {
       "Time": 28.8,
@@ -782,13 +782,13 @@
       "Time": 29.28,
       "Who": "Monster2",
       "Action": "MoveToY",
-      "Amt": 4.5
+      "Amt": 7
     },
     {
       "Time": 29.28,
       "Who": "Monster3",
       "Action": "MoveToY",
-      "Amt": -4.5
+      "Amt": -7
     },
     {
       "Time": 29.76,
@@ -801,8 +801,364 @@
       "Who": "Monster",
       "Action": "LerpToX",
       "Amt": 10
-
     },
-    { "Time": 50 }
+    {
+      "Time": 31.68,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 0.96
+    },
+    {
+      "Time": 32.64,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": -10
+    },
+    {
+      "Time": 33.36,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": 2.25
+    },
+    {
+      "Time": 33.6,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 0.96
+    },
+    {
+      "Time": 34.56,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": 10
+    },    
+    {
+      "Time": 36,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 0.96
+    },
+    {
+      "Time": 36.96,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": -10
+    },
+    {
+      "Time": 37.44,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": -2.25
+    },
+    {
+      "Time": 37.44,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 0.96
+    },
+    {
+      "Time": 38.4,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": 10
+    },
+    {
+      "Time": 39.36,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": 2.25
+    },
+    {
+      "Time": 39.84,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 0.96
+    },
+    {
+      "Time": 40.8,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": -10
+    },
+        {
+      "Time": 42.24,
+      "Who": "Monster",
+      "Action": "SetSizeSpeed",
+      "Amt": 1
+    },
+    {
+      "Time": 42.24,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": 0
+    },
+    {
+      "Time": 43.68,
+      "Who": "Monster",
+      "Action": "SizeToX",
+      "Amt": 8
+    },
+    {
+      "Time": 43.68,
+      "Who": "Monster",
+      "Action": "SizeToY",
+      "Amt": 10
+    },
+    {
+      "Time": 43.68,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": 0
+    },
+        {
+      "Time": 43.68,
+      "Who": "Monster2",
+      "Action": "SetY",
+      "Amt": -7
+    },
+    {
+      "Time": 43.68,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": -5
+    },
+    {
+      "Time": 43.68,
+      "Who": "Monster3",
+      "Action": "SetX",
+      "Amt": 4
+    },
+    {
+      "Time": 43.68,
+      "Who": "Monster2",
+      "Action": "SetSpeed",
+      "Amt": 2
+    },
+    {
+      "Time": 43.68,
+      "Who": "Monster3",
+      "Action": "SetSpeed",
+      "Amt": 2
+    },
+    {
+      "Time": 43.68,
+      "Who": "Monster2",
+      "Action": "Rotate",
+      "Amt": 45
+    },
+    {
+      "Time": 43.68,
+      "Who": "Monster3",
+      "Action": "Rotate",
+      "Amt": 45
+    },
+    {
+      "Time": 46.08,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": 12
+    },
+    {
+      "Time": 48,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 48,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 48.24,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 48.24,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 48.48,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 48.48,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 49.92,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": -3
+    },
+    {
+      "Time": 49.92,
+      "Who": "Monster3",
+      "Action": "SetX",
+      "Amt": 1
+    },
+    {
+      "Time": 49.92,
+      "Who": "Monster2",
+      "Action": "SetY",
+      "Amt": -7
+    },
+    {
+      "Time": 49.92,
+      "Who": "Monster3",
+      "Action": "SetY",
+      "Amt": -7
+    },
+    {
+      "Time": 49.92,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 49.92,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 50.16,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 50.16,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 50.4,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 50.4,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 51.84,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": -2.5
+    },
+    {
+      "Time": 51.84,
+      "Who": "Monster3",
+      "Action": "SetX",
+      "Amt": 3.5
+    },
+    {
+      "Time": 51.84,
+      "Who": "Monster2",
+      "Action": "SetY",
+      "Amt": -7
+    },
+    {
+      "Time": 51.84,
+      "Who": "Monster3",
+      "Action": "SetY",
+      "Amt": -7
+    },
+    {
+      "Time": 51.84,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 51.84,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 52.08,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 52.08,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 52.32,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 52.32,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+        {
+      "Time": 53.76,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": 3
+    },
+    {
+      "Time": 53.76,
+      "Who": "Monster3",
+      "Action": "SetX",
+      "Amt": -2
+    },
+    {
+      "Time": 53.76,
+      "Who": "Monster2",
+      "Action": "SetY",
+      "Amt": -7
+    },
+    {
+      "Time": 53.76,
+      "Who": "Monster3",
+      "Action": "SetY",
+      "Amt": -7
+    },
+    {
+      "Time": 53.76,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 53.76,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 53.76,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 53.76,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 54.24,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 54.24,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+
+    { "Time": 120 }
   ]
 }
