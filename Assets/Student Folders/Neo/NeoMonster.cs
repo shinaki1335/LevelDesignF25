@@ -11,6 +11,8 @@ public class NeoMonster : HazardController
 
     public Sprite om;
     public Sprite nom;
+
+    public ParticleSystem smok;
     public override void DoAction(string act, float amt = 0)
     {
         base.DoAction(act, amt);
@@ -41,6 +43,10 @@ public class NeoMonster : HazardController
         if (act == "Fade")
         {
             StartCoroutine(Fade());
+        }
+        if (act == "Fade2")
+        {
+            StartCoroutine(Fade2(amt));
         }
         if (act == "Bite")
         {
@@ -77,6 +83,18 @@ public class NeoMonster : HazardController
         if (act == "Stop")
         {
             StartCoroutine(Stop());
+        }
+        if (act == "Bob")
+        {
+            StartCoroutine(Bob());
+        }
+        if (act == "SetYButNotStupid")
+        {
+            StartCoroutine(SetYButNotStupid());
+        }
+        if (act == "SmokStart")
+        {
+            StartCoroutine(SmokStart());
         }
     }
 
@@ -282,7 +300,12 @@ public class NeoMonster : HazardController
             yield return null;
         }
     }
-    
+    public IEnumerator Fade2(float number)
+    {
+        Body.color = new Color(0, 0, 0, number);
+         yield return null;
+    }
+
     public IEnumerator MoveOverTime(Vector2 targetPosition)
     {
         Vector2 startPos = transform.position;
@@ -337,5 +360,53 @@ public class NeoMonster : HazardController
         StopAllCoroutines();
         yield return null;
 
+    }
+    public IEnumerator SetYButNotStupid()
+    {
+        transform.localPosition = new Vector3(transform.localPosition.x, 0, 0);
+        yield return null;
+
+    }
+    public IEnumerator SmokStart()
+    {
+        smok.Play();
+        yield return null;
+
+    }
+
+    public IEnumerator Bob()
+    {
+        //I use this to track movement speed
+        float meed = 0.3f;
+
+        //Vector3 endPos = new Vector3(transform.position.x, transform.position.y + 0.5f);
+        //Vector3 endPos2 = new Vector3(transform.position.x, transform.position.y + -0.5f);
+        Vector3 pog = transform.position;
+        while (true)
+        { 
+            Vector3 endPos = new Vector3(pog.x + Random.Range(-0.5f, 0.5f), pog.y + Random.Range(-0.5f, 0.5f));
+            while (Math.Abs(transform.position.x - endPos.x) > 0.1f)
+            {
+                //Move a percentage of the way there each frame
+                transform.position = Vector3.Lerp(transform.position, endPos, meed * Time.deltaTime);
+                yield return null;
+            }
+            /*
+             while (Math.Abs(transform.position.y - endPos.y) > 0.3f)
+             {
+                 transform.position = Vector3.MoveTowards(transform.position, endPos, meed * Time.deltaTime);
+
+
+                 yield return null;
+             }
+             while (Math.Abs(transform.position.y - endPos2.y) > 0.3f)
+             {
+                 transform.position = Vector3.MoveTowards(transform.position, endPos2, meed * Time.deltaTime);
+
+
+                 yield return null;
+             }
+            */
+        }
     }
 }
