@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+
 public class JosuePachecoBoss : HazardController
 {
     [Header("Configuración de Movimiento")]
@@ -14,6 +15,8 @@ public class JosuePachecoBoss : HazardController
     [Header("Movimiento Circular")]
     public float circleRadius = 3f;
     public float circleSpeed = 2f;
+    private float currentCircleRadius = 0f;
+    private bool isTransitioning = false;
 
     [Header("Disparo Serpiente")]
     public float snakeFrequency = 3f;
@@ -23,8 +26,14 @@ public class JosuePachecoBoss : HazardController
 
     [Header("Disparo Giratorio")]
     public float spinShotRate = 0.1f;
-    public float spinRotationSpeed = 180f; 
+    public float spinRotationSpeed = 180f;
 
+    [Header("Disparo Aleatorio")]
+    public float randomShotAccuracy = 30f;
+    public float randomShotDelay = 0.3f;
+
+
+    private Transform spriteChild;
     private float currentSpinAngle = 0f;
     private bool isSpinning = false;
 
@@ -46,6 +55,31 @@ public class JosuePachecoBoss : HazardController
         base.OnStart();
         player = FindObjectOfType<PlayerController>();
         circleCenter = transform.position;
+        FindSpriteChild();
+    }
+
+    private void FindSpriteChild()
+    {
+
+        foreach (Transform child in transform)
+        {
+            if (child.GetComponent<SpriteRenderer>() != null)
+            {
+                spriteChild = child;
+                Debug.Log("Sprite child encontrado: " + spriteChild.name);
+                break;
+            }
+        }
+
+        if (spriteChild == null)
+        {
+            GameObject spriteObj = new GameObject("Sprite");
+            spriteObj.transform.SetParent(transform);
+            spriteObj.transform.localPosition = Vector3.zero;
+            spriteObj.AddComponent<SpriteRenderer>();
+            spriteChild = spriteObj.transform;
+            Debug.Log("Sprite child creado");
+        }
     }
 
     void Update()
@@ -57,6 +91,10 @@ public class JosuePachecoBoss : HazardController
         if (isCircling)
         {
             CircleUpdate();
+        }
+        if (spriteChild != null)
+        {
+            spriteChild.rotation = Quaternion.identity;
         }
     }
 
@@ -78,57 +116,62 @@ public class JosuePachecoBoss : HazardController
         {
             StartMove(Vector3.down, amt);
         }
-        else if (act == "ChargeAtPlayer")
+        else if (act == "ChargeAtPlayer") // Carga hacia el jugador
         {
             ChargeAtPlayer(amt);
         }
-        else if (act == "FanShotAtPlayer")
+        else if (act == "FanShotAtPlayer") // Disparo en abanico hacia el jugador
         {
-            if (amt == -1) 
+            if (amt == -1)
                 StartCoroutine(FanShotAtPlayerCoroutine());
-            else 
-                StartCoroutine(FanShotAtFixedAngleCoroutine(amt));
+            else
+                StartCoroutine(FanShotAtFixedAngleCoroutine(amt)); // Disparo en abanico en ángulo fijo
         }
-        else if (act == "StartCircleMove")
+        else if (act == "StartCircleMove") // Movimiento circular con transición de radio
         {
             StartCircleMovement(amt);
         }
-        else if (act == "StopCircleMove")
+        else if (act == "StopCircleMove") // Detener movimiento circular
         {
             StopCircleMovement();
         }
-        else if (act == "GoToCenter")
+        else if (act == "GoToCenter") // Ir al centro de la escena
         {
             GoToCenter(amt);
         }
-        else if (act == "WaveShot")
+        else if (act == "WaveShot") // Disparo en olas circulares
         {
             StartCoroutine(WaveShotCoroutine((int)amt));
         }
-        else if (act == "SnakeShot")
+        else if (act == "SnakeShot") // Disparo serpiente/ondulado
         {
             StartCoroutine(SnakeShotCoroutine((int)amt));
         }
-        else if (act == "SpawnFlashingBullets")
+        else if (act == "SpawnFlashingBullets") // Balas parpadeantes estáticas
         {
             StartCoroutine(SpawnFlashingBulletsCoroutine(amt));
         }
-        else if (act == "InwardSpiralShot")
+        else if (act == "InwardSpiralShot") // Espiral hacia el boss
         {
             StartCoroutine(InwardSpiralCoroutine(amt));
         }
-        else if (act == "StartSpinShot")
+        else if (act == "StartSpinShot") // Disparo giratorio
         {
             StartSpinShot(amt);
         }
-        else if (act == "StopSpinShot")
+        else if (act == "StopSpinShot") // Detener disparo giratorio
         {
             StopSpinShot();
+        }
+        else if (act == "RandomShotsAtPlayer") // Disparos aleatorios seguidos apuntando aproximadamente al jugador
+        {
+            StartCoroutine(RandomShotsAtPlayerCoroutine((int)amt));
         }
         else
         {
             base.DoAction(act, amt);
         }
+    
 
     }
 
@@ -217,7 +260,6 @@ public class JosuePachecoBoss : HazardController
         float angleStep = fanShotAngle / (fanShotCount - 1);
         float startAngle = baseAngle - (fanShotAngle / 2);
 
-        
         for (int i = 0; i < fanShotCount; i++)
         {
             float currentAngle = startAngle + (angleStep * i);
@@ -228,16 +270,18 @@ public class JosuePachecoBoss : HazardController
         yield return null;
     }
 
-// Movimiento circular con duración limitada
-private void StartCircleMovement(float duration)
+    // Movimiento circular con transición de radio
+    private void StartCircleMovement(float duration)
     {
         if (!isCircling)
         {
             isCircling = true;
+            isTransitioning = true;
             circleCenter = transform.position;
             circleAngle = 0f;
             circleDuration = duration;
             circleTimer = 0f;
+            currentCircleRadius = 0f; 
         }
     }
 
@@ -248,19 +292,31 @@ private void StartCircleMovement(float duration)
 
     private void CircleUpdate()
     {
-        if (circleTimer < circleDuration)
+        if (circleTimer < circleDuration && isCircling)
         {
             circleAngle += circleSpeed * Time.deltaTime;
             circleTimer += Time.deltaTime;
 
-            float x = circleCenter.x + Mathf.Cos(circleAngle) * circleRadius;
-            float y = circleCenter.y + Mathf.Sin(circleAngle) * circleRadius;
+            // Transición suave del radio
+            if (isTransitioning)
+            {
+                currentCircleRadius = Mathf.Lerp(0f, circleRadius, circleTimer / 1f); 
+                if (currentCircleRadius >= circleRadius * 0.95f)
+                {
+                    isTransitioning = false;
+                    currentCircleRadius = circleRadius;
+                }
+            }
+
+            float x = circleCenter.x + Mathf.Cos(circleAngle) * currentCircleRadius;
+            float y = circleCenter.y + Mathf.Sin(circleAngle) * currentCircleRadius;
 
             transform.position = new Vector3(x, y, transform.position.z);
         }
-        else
+        else if (isCircling)
         {
             isCircling = false;
+            isTransitioning = false;
         }
     }
 
@@ -323,8 +379,6 @@ private void StartCircleMovement(float duration)
         {
             float baseAngle = transform.eulerAngles.z;
             Vector3 rotation = new Vector3(0, 0, baseAngle);
-
-            // Usar el proyectil serpiente de AltProjectiles
             Shoot(serpentPrefab, transform.position, rotation);
 
             yield return new WaitForSeconds(snakeShotDelay);
@@ -416,7 +470,7 @@ private void StartCircleMovement(float duration)
         isSpinning = false;
     }
 
-    // Disparo giratorio en 5 direcciones
+    // Disparo giratorio en 4 direcciones
     private System.Collections.IEnumerator SpinShotCoroutine(float duration)
     {
         float endTime = Time.time + duration;
@@ -426,15 +480,15 @@ private void StartCircleMovement(float duration)
 
         while (Time.time < endTime && isSpinning)
         {
-            // Disparar en 5 direcciones equidistantes
-            for (int i = 0; i < 5; i++)
+            // Disparar en 4 direcciones equidistantes
+            for (int i = 0; i < 4; i++)
             {
-                float currentAngle = currentSpinAngle + (i * 72f); // 360/5 = 72
+                float currentAngle = currentSpinAngle + (i * 90f);
                 Vector3 rotation = new Vector3(0, 0, currentAngle);
                 Shoot(null, transform.position, rotation);
             }
 
-            // Rotar todas las direcciones
+            // Rotar todas las direcciones (el objeto padre rota, pero no el sprite)
             currentSpinAngle += spinRotationSpeed * spinShotRate;
 
             yield return new WaitForSeconds(spinShotRate);
@@ -443,5 +497,28 @@ private void StartCircleMovement(float duration)
             bossCollider.enabled = true;
 
         isSpinning = false;
+    }
+
+    // Disparos aleatorios seguidos apuntando aproximadamente al jugador
+    private System.Collections.IEnumerator RandomShotsAtPlayerCoroutine(int shotCount)
+    {
+        for (int i = 0; i < shotCount; i++)
+        {
+            if (player != null)
+            {
+                // Calcular dirección base hacia el jugador
+                Vector3 playerDirection = (player.transform.position - transform.position).normalized;
+                float baseAngle = Mathf.Atan2(playerDirection.y, playerDirection.x) * Mathf.Rad2Deg;
+
+                // Añadir aleatoriedad al ángulo
+                float randomOffset = Random.Range(-randomShotAccuracy, randomShotAccuracy);
+                float finalAngle = baseAngle + randomOffset;
+
+                Vector3 rotation = new Vector3(0, 0, finalAngle);
+                Shoot(null, transform.position, rotation);
+            }
+
+            yield return new WaitForSeconds(randomShotDelay);
+        }
     }
 }
