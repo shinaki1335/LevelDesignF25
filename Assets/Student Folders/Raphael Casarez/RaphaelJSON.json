@@ -169,31 +169,119 @@
 
     {"Time":33.5, "Action":"MoveToX" ,"Amt":6},
     {"Time":33.5, "Action":"MoveToY" ,"Amt":-3},
+    {"Time":33.5, "Action":"ShootAtPlayer"},
     {"Time":34.2, "Action":"MoveToX" ,"Amt":-6},
+    {"Time":34.2, "Action":"ShootAtPlayer"},
 
     {"Time":34.9, "Action":"MoveToX" ,"Amt":6},
     {"Time":34.9, "Action":"MoveToY" ,"Amt":0},
+    {"Time":34.9, "Action":"ShootAtPlayer"},
     {"Time":35.6, "Action":"MoveToX" ,"Amt":-6},
+    {"Time":35.6, "Action":"ShootAtPlayer"},
 
     {"Time":36.3, "Action":"MoveToX" ,"Amt":6},
     {"Time":36.3, "Action":"MoveToY" ,"Amt":3},
+    {"Time":36.3, "Action":"ShootAtPlayer"},
     {"Time":37, "Action":"MoveToX" ,"Amt":-6},
+    {"Time":37, "Action":"ShootAtPlayer"},
     
     {"Time":37.7, "Action":"MoveToX" ,"Amt":6},
     {"Time":37.7, "Action":"MoveToY" ,"Amt":0},
+    {"Time":37.7, "Action":"ShootAtPlayer"},
     {"Time":38.4, "Action":"MoveToX" ,"Amt":-6},
+    {"Time":38.4, "Action":"ShootAtPlayer"},
     
     {"Time":39.1, "Action":"MoveToX" ,"Amt":6},
     {"Time":39.1, "Action":"MoveToY" ,"Amt":-3},
+    {"Time":39.1, "Action":"ShootAtPlayer"},
     {"Time":39.8, "Action":"MoveToX" ,"Amt":-6},
+    {"Time":39.8, "Action":"ShootAtPlayer"},
     
     {"Time":40.5, "Action":"MoveToX" ,"Amt":6},
     {"Time":40.5, "Action":"MoveToY" ,"Amt":0},
+    {"Time":40.5, "Action":"ShootAtPlayer"},
     {"Time":41.2, "Action":"MoveToX" ,"Amt":-6},
-    
+    {"Time":41.2, "Action":"ShootAtPlayer"},
+      
     {"Time":41.9, "Action":"MoveToX" ,"Amt":0},
+    {"Time":41.9, "Action":"ShootAtPlayer"},
 
+    {"Time":42, "Action":"FadeOut"},
+    {"Time":42.2, "Action": "SetSpeed", "Amt":5},
+    {"Time":42.5, "Action":"FadeIn"},
+    {"Time":42.8, "Action":"MoveToY" ,"Amt":3},
 
+    {"Time":43, "Action":"LerpToPlayer"},
+    {"Time":43.75, "Action":"LerpToPlayer"},
+    {"Time":44.5, "Action":"LerpToPlayer"},
+    {"Time":45.25, "Action":"LerpToPlayer"},
+    {"Time":46, "Action":"LerpToPlayer"},
+    {"Time":46.75, "Action":"LerpToPlayer"},
+    {"Time":47.5, "Action":"LerpToPlayer"},
+    {"Time":48, "Action":"LerpToPlayer"},
+    {"Time":48.5, "Action":"LerpToPlayer"},
+    {"Time":49, "Action":"LerpToPlayer"},
+    {"Time":50, "Action":"LerpToPlayer"},
+    {"Time":50.5, "Action":"LerpToPlayer"},
+    {"Time":50.9, "Action":"LerpToPlayer"},
+    {"Time":51.3, "Action":"LerpToPlayer"},    
+    {"Time":51.7, "Action":"LerpToPlayer"},  
+    {"Time":51.8, "Action":"SetSpeed", "Amt":40},  
+    {"Time":52, "Action":"MoveToX", "Amt":0},
+    {"Time":52, "Action":"MoveToY", "Amt":0},
+    {"Time":52.5, "Action":"Shake"},
+    {"Time":54.4, "Action":"Stop"},
+
+    
+    {"Time":54.75, "Action":"MoveToY", "Amt":-3},
+    {"Time":55.25, "Anim":"SpinShoot"}
+
+    {"Time":55.5, "Action":"MoveToY", "Amt":0},
+    {"Time":55.5, "Action":"MoveToX", "Amt":5},
+
+    {"Time":56.1, "Action":"MoveToY", "Amt":3},
+    {"Time":56.1, "Action":"MoveToX", "Amt":0},
+
+    {"Time":56.7, "Action":"MoveToY", "Amt":0},
+    {"Time":56.7, "Action":"MoveToX", "Amt":-5},
+
+    {"Time":57.3, "Action":"MoveToY", "Amt":-3},
+    {"Time":57.3, "Action":"MoveToX", "Amt":0},
+
+    {"Time":57.9, "Action":"MoveToY", "Amt":0},
+    {"Time":57.9, "Action":"MoveToX", "Amt":5},
+
+    {"Time":58.5, "Action":"MoveToY", "Amt":3},
+    {"Time":58.5, "Action":"MoveToX", "Amt":0},
+
+    {"Time":59.1, "Action":"MoveToY", "Amt":0},
+    {"Time":59.1, "Action":"MoveToX", "Amt":-5},
+
+    {"Time":59.7, "Action":"MoveToY", "Amt":-3},
+    {"Time":59.7, "Action":"MoveToX", "Amt":0},
+
+    {"Time":60.3, "Action":"MoveToY", "Amt":0},
+    {"Time":60.3, "Action":"MoveToX", "Amt":5},
+
+    {"Time":60.9, "Action":"MoveToY", "Amt":3},
+    {"Time":60.9, "Action":"MoveToX", "Amt":0},
+
+    {"Time":61.5, "Action":"MoveToY", "Amt":0},
+    {"Time":61.5, "Action":"MoveToX", "Amt":-5},
+
+    {"Time":62.1, "Action":"MoveToY", "Amt":-3},
+    {"Time":62.1, "Action":"MoveToX", "Amt":0},
+
+    {"Time":62.7, "Action":"MoveToY", "Amt":0},
+    {"Time":62.7, "Action":"MoveToX", "Amt":5},
+
+    {"Time":63.3, "Action":"MoveToY", "Amt":3},
+    {"Time":63.3, "Action":"MoveToX", "Amt":0},
+
+    {"Time":64, "Action":"MoveToY", "Amt":0},
+    {"Time":64, "Action":"MoveToX", "Amt":0},
+
+    
     {"Time":215,"Action":"MoveToY","Amt":-3}
   ]
 }
