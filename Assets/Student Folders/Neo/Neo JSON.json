@@ -2,12 +2,13 @@
   "Title": "Scylla",
   "Author": "Neo",
   "Events": [
-    {"Time": 0,"Who":"Head 1","Action": "HitboxOff"},
-    {"Time": 0,"Who":"Head 2","Action": "HitboxOff"},
-    {"Time": 0,"Who":"Head 3","Action": "HitboxOff"},
-    {"Time": 0,"Who":"Head 4","Action": "HitboxOff"},
-    {"Time": 0,"Who":"Head 5","Action": "HitboxOff"},
-    {"Time": 0,"Who":"Head 6","Action": "HitboxOff"},
+    {"Time": 0,"Who":"Torch 1","Action": "Bob"},
+    {"Time": 0,"Who":"Torch 2","Action": "Bob"},
+    {"Time": 0,"Who":"Torch 3","Action": "Bob"},
+    {"Time": 0,"Who":"Torch 4","Action": "Bob"},
+    {"Time": 0,"Who":"Torch 5","Action": "Bob"},
+    {"Time": 0,"Who":"Torch 6","Action": "Bob"},
+
     
     {"Time": 1,"Who":"Head 1","Action": "Roam"},
     {"Time": 1,"Who":"Head 2","Action": "Roam"},
@@ -21,6 +22,8 @@
     {"Time": 1.4,"Who":"Warning Horz","Action": "SetY", "Amt": -2.5},
     {"Time": 1.4,"Who":"Warning Horz","Action": "Flash"},
     {"Time": 1.9,"Who":"Warning Horz","Action": "SetY", "Amt": -10},
+
+
 
 
 
@@ -356,7 +359,9 @@
     {"Time": 15.5,"Who":"Wave 9","Action": "WaveRise", "Amt": 0.5},
     {"Time": 15.5,"Who":"Wave 11","Action": "WaveRise", "Amt": 0.5},
     {"Time": 15.5,"Who":"Wave 15","Action": "WaveRise", "Amt": 0.5},
-
+    
+    {"Time": 15.5,"Who":"Rain 2","Action": "SetRandomX","Amt": 0},
+    {"Time": 15.5,"Who":"Rain 2","Action": "MoveToY","Amt": -10},
     
 
     {"Time": 15.6,"Who":"Wave 16","Action": "WaveRise", "Amt": 0.5},
@@ -370,6 +375,7 @@
     {"Time": 15.8,"Who":"Wave 1","Action": "WaveRise", "Amt": 0.5},
 
     
+    {"Time": 15.8,"Who":"Rain Warn 2","Action": "Flash","Amt": -10},
 
     {"Time": 15.9,"Who":"Wave 2","Action": "WaveRise", "Amt": 0.5},
 
@@ -384,8 +390,10 @@
     {"Time": 15.9,"Who":"Wave 8","Action": "Stop"},
     {"Time": 15.9,"Who":"Wave 8","Action": "WaveRise", "Amt": 0.25},
     
+    
     {"Time": 16,"Who":"Rain 3","Action": "SetRandomX","Amt": 0},
     {"Time": 16,"Who":"Rain 3","Action": "MoveToY","Amt": -10},
+
 
 
     {"Time": 16,"Who":"Wave 9","Action": "Stop"},
@@ -416,6 +424,9 @@
     {"Time": 16.2,"Who":"Wave 12","Action": "WaveRise", "Amt": 0.25},
 
 
+    
+    {"Time": 16.2,"Who":"Rain 4","Action": "SetRandomX","Amt": 0},
+    {"Time": 16.2,"Who":"Rain 4","Action": "MoveToY","Amt": -10},
 
     
     {"Time": 16.3,"Who":"Rain Warn 3","Action": "Flash","Amt": -10},
@@ -435,6 +446,7 @@
 
     
     
+    {"Time": 16.5,"Who":"Rain Warn 4","Action": "Flash","Amt": -10},
 
 
 
@@ -467,6 +479,9 @@
 
     
 
+    {"Time": 16.7,"Who":"Rain 5","Action": "SetRandomX","Amt": 0},
+    {"Time": 16.7,"Who":"Rain 5","Action": "MoveToY","Amt": -10},
+
 
     
     {"Time": 16.8,"Who":"Wave 13","Action": "Stop"},
@@ -486,18 +501,23 @@
     
     {"Time": 16.9,"Who":"Wave 1","Action": "Stop"},
     {"Time": 16.9,"Who":"Wave 1","Action": "WaveRise", "Amt": 0.25},
+
+    
+    {"Time": 16.9,"Who":"Rain 6","Action": "SetRandomX","Amt": 0},
+    {"Time": 16.9,"Who":"Rain 6","Action": "MoveToY","Amt": -10},
+    {"Time": 17,"Who":"Rain Warn 5","Action": "Flash","Amt": -10},
+
+
     
     {"Time": 17,"Who":"Wave 2","Action": "Stop"},
     {"Time": 17,"Who":"Wave 2","Action": "WaveRise", "Amt": 0.25},
 
 
     
-    {"Time": 17,"Who":"Rain 5","Action": "SetRandomX","Amt": 0},
-    {"Time": 17,"Who":"Rain 5","Action": "MoveToY","Amt": -10},
 
 
 
-
+    
 
 
 
@@ -509,6 +529,14 @@
 
     {"Time": 17.1,"Who":"Wave 8","Action": "Stop"},
     {"Time": 17.1,"Who":"Wave 8","Action": "WaveRise", "Amt": 0.25},
+
+    
+    {"Time": 17.1,"Who":"Rain 1","Action": "SetY","Amt": 35},
+    {"Time": 17.1,"Who":"Rain 1","Action": "SetRandomX","Amt": 0},
+    {"Time": 17.1,"Who":"Rain 1","Action": "MoveToY","Amt": -10},
+    {"Time": 17.2,"Who":"Rain Warn 6","Action": "Flash","Amt": -10},
+
+
     
     {"Time": 17.2,"Who":"Wave 9","Action": "Stop"},
     {"Time": 17.2,"Who":"Wave 9","Action": "WaveRise", "Amt": 0.25},
@@ -519,9 +547,8 @@
     {"Time": 17.2,"Who":"Wave 15","Action": "Stop"},
     {"Time": 17.2,"Who":"Wave 15","Action": "WaveRise", "Amt": 0.25},
     
-
     
-    {"Time": 17.3,"Who":"Rain Warn 5","Action": "Flash","Amt": -10},
+    
 
 
 
@@ -533,6 +560,12 @@
     
     {"Time": 17.3,"Who":"Wave 10","Action": "Stop"},
     {"Time": 17.3,"Who":"Wave 10","Action": "WaveRise", "Amt": 0.25},
+
+    
+    {"Time": 17.3,"Who":"Rain 2","Action": "SetY","Amt": 35},
+    {"Time": 17.3,"Who":"Rain 2","Action": "SetRandomX","Amt": 0},
+    {"Time": 17.3,"Who":"Rain 2","Action": "MoveToY","Amt": -10},
+    {"Time": 17.4,"Who":"Rain Warn 1","Action": "Flash","Amt": -10},
     
     {"Time": 17.4,"Who":"Wave 13","Action": "Stop"},
     {"Time": 17.4,"Who":"Wave 13","Action": "WaveRise", "Amt": 0.25},
@@ -545,10 +578,6 @@
     
 
     
-    
-    {"Time": 17.5,"Who":"Rain 6","Action": "SetRandomX","Amt": 0},
-    {"Time": 17.5,"Who":"Rain 6","Action": "MoveToY","Amt": -10},
-
 
     {"Time": 17.5,"Who":"Wave 3","Action": "Stop"},
     {"Time": 17.5,"Who":"Wave 3","Action": "WaveRise", "Amt": 0.25},
@@ -558,36 +587,89 @@
     
     {"Time": 17.5,"Who":"Wave 1","Action": "Stop"},
     {"Time": 17.5,"Who":"Wave 1","Action": "WaveRise", "Amt": 0.25},
+
+
+    {"Time": 17.5,"Who":"Rain 3","Action": "SetY","Amt": 35},
+    {"Time": 17.5,"Who":"Rain 3","Action": "SetRandomX","Amt": 0},
+    {"Time": 17.5,"Who":"Rain 3","Action": "MoveToY","Amt": -10},
+    {"Time": 17.6,"Who":"Rain Warn 2","Action": "Flash","Amt": -10},
     
     {"Time": 17.6,"Who":"Wave 2","Action": "Stop"},
     {"Time": 17.6,"Who":"Wave 2","Action": "WaveRise", "Amt": 0.25},
 
+    
+    {"Time": 17.8,"Who":"Warning Vert Left","Action": "SetX", "Amt": -6.25},
+    {"Time": 17.8,"Who":"Warning Vert Right","Action": "SetX", "Amt": 6.25},
+    {"Time": 17.8,"Who":"Warning Vert Left","Action": "Flash"},
+    {"Time": 17.8,"Who":"Warning Vert Right","Action": "Flash"},
+    
+
+
+
+    {"Time": 18.3,"Who":"Warning Vert Left","Action": "SetX", "Amt": -10},
+    {"Time": 18.3,"Who":"Warning Vert Right","Action": "SetX", "Amt": 10},
 
     
-    {"Time": 17.8,"Who":"Rain Warn 6","Action": "Flash","Amt": -10},
+    {"Time": 18.4,"Who":"Save 1","Action": "WaveSlide", "Amt": 1},
+    {"Time": 18.4,"Who":"Save 1 (1)","Action": "WaveSlide", "Amt": -1},
 
+        
+    {"Time": 18.4,"Who":"Wave 1","Action": "Stop"},
+    {"Time": 18.4,"Who":"Wave 2","Action": "Stop"},
+    {"Time": 18.4,"Who":"Wave 3","Action": "Stop"},
+    {"Time": 18.4,"Who":"Wave 4","Action": "Stop"},
+    {"Time": 18.4,"Who":"Wave 5","Action": "Stop"},
+    {"Time": 18.4,"Who":"Wave 6","Action": "Stop"},
+    {"Time": 18.4,"Who":"Wave 7","Action": "Stop"},
+    {"Time": 18.4,"Who":"Wave 8","Action": "Stop"},
+    {"Time": 18.4,"Who":"Wave 9","Action": "Stop"},
+    {"Time": 18.4,"Who":"Wave 10","Action": "Stop"},
+    {"Time": 18.4,"Who":"Wave 11","Action": "Stop"},
+    {"Time": 18.4,"Who":"Wave 12","Action": "Stop"},
+    {"Time": 18.4,"Who":"Wave 13","Action": "Stop"},
+    {"Time": 18.4,"Who":"Wave 14","Action": "Stop"},
+    {"Time": 18.4,"Who":"Wave 15","Action": "Stop"},
+    {"Time": 18.4,"Who":"Wave 16","Action": "Stop"},
+
+    {"Time": 18.5,"Who":"Wave 1","Action": "MoveToY", "Amt": -7},
+    {"Time": 18.5,"Who":"Wave 2","Action": "MoveToY", "Amt": -7},
+    {"Time": 18.5,"Who":"Wave 3","Action": "MoveToY", "Amt": -7},
+    {"Time": 18.5,"Who":"Wave 4","Action": "MoveToY", "Amt": -7},
+    {"Time": 18.5,"Who":"Wave 5","Action": "MoveToY", "Amt": -7},
+    {"Time": 18.5,"Who":"Wave 6","Action": "MoveToY", "Amt": -7},
+    {"Time": 18.5,"Who":"Wave 7","Action": "MoveToY", "Amt": -7},
+    {"Time": 18.5,"Who":"Wave 8","Action": "MoveToY", "Amt": -7},
+    {"Time": 18.5,"Who":"Wave 9","Action": "MoveToY", "Amt": -7},
+    {"Time": 18.5,"Who":"Wave 10","Action": "MoveToY", "Amt": -7},
+    {"Time": 18.5,"Who":"Wave 11","Action": "MoveToY", "Amt": -7},
+    {"Time": 18.5,"Who":"Wave 12","Action": "MoveToY", "Amt": -7},
+    {"Time": 18.5,"Who":"Wave 13","Action": "MoveToY", "Amt": -7},
+    {"Time": 18.5,"Who":"Wave 14","Action": "MoveToY", "Amt": -7},
+    {"Time": 18.5,"Who":"Wave 15","Action": "MoveToY", "Amt": -7},
+    {"Time": 18.5,"Who":"Wave 16","Action": "MoveToY", "Amt": -7},
     
-    {"Time": 18,"Who":"Rain 1","Action": "SetRandomX","Amt": 0},
-    {"Time": 18,"Who":"Rain 1","Action": "MoveToY","Amt": -10},
-    {"Time": 18.3,"Who":"Rain Warn 1","Action": "Flash","Amt": -10},
-    
-    {"Time": 18.5,"Who":"Rain 2","Action": "SetRandomX","Amt": 0},
-    {"Time": 18.5,"Who":"Rain 2","Action": "MoveToY","Amt": -10},
-    {"Time": 18.8,"Who":"Rain Warn 2","Action": "Flash","Amt": -10},
+    {"Time": 18.45,"Who":"Save 2","Action": "WaveSlide", "Amt": 1},
+    {"Time": 18.45,"Who":"Save 2 (1)","Action": "WaveSlide", "Amt": -1},
+    {"Time": 18.5,"Who":"Save 3","Action": "WaveSlide", "Amt": 1},
+    {"Time": 18.5,"Who":"Save 3 (1)","Action": "WaveSlide", "Amt": -1},
+    {"Time": 18.55,"Who":"Save 4","Action": "WaveSlide", "Amt": 1},
+    {"Time": 18.55,"Who":"Save 4 (1)","Action": "WaveSlide", "Amt": -1},
+    {"Time": 18.6,"Who":"Save 5","Action": "WaveSlide", "Amt": 1},
+    {"Time": 18.6,"Who":"Save 5 (1)","Action": "WaveSlide", "Amt": -1},
+    {"Time": 18.65,"Who":"Save 6","Action": "WaveSlide", "Amt": 1},
+    {"Time": 18.65,"Who":"Save 6 (1)","Action": "WaveSlide", "Amt": -1},
+    {"Time": 18.7,"Who":"Save 7","Action": "WaveSlide", "Amt": 1},
+    {"Time": 18.7,"Who":"Save 7 (1)","Action": "WaveSlide", "Amt": -1},
+    {"Time": 18.75,"Who":"Save 8","Action": "WaveSlide", "Amt": 1},
+    {"Time": 18.75,"Who":"Save 8 (1)","Action": "WaveSlide", "Amt": -1},
+    {"Time": 18.8,"Who":"Save 9","Action": "WaveSlide", "Amt": 1},
+    {"Time": 18.8,"Who":"Save 9 (1)","Action": "WaveSlide", "Amt": -1},
+    {"Time": 18.85,"Who":"Save 10","Action": "WaveSlide", "Amt": 1},
+    {"Time": 18.85,"Who":"Save 10 (1)","Action": "WaveSlide", "Amt": -1},
 
-    {"Time": 19,"Who":"Rain 3","Action": "SetRandomX","Amt": 0},
-    {"Time": 19,"Who":"Rain 3","Action": "MoveToY","Amt": -10},
-    {"Time": 19.3,"Who":"Rain Warn 3","Action": "Flash","Amt": -10},
-
-    {"Time": 19.5,"Who":"Rain 4","Action": "SetRandomX","Amt": 0},
-    {"Time": 19.5,"Who":"Rain 4","Action": "MoveToY","Amt": -10},
-    {"Time": 19.8,"Who":"Rain Warn 4","Action": "Flash","Amt": -10},
 
 
 
-    {"Time": 19.9,"Who":"saves","Action": "WaveRise"},
-
-    
 
 
     {"Time": 20.15,"Who":"Row","Action": "SetY", "Amt": 0},
@@ -612,8 +694,9 @@
 
 
 
-
-    {"Time": 21.55,"Who":"Torch 1","Action": "Flash"},
+    {"Time": 21.55,"Who":"Torch 1 (1)","Action": "SetYButNotStupid"},
+    {"Time": 21.55,"Who":"Torch 1 (1)","Action": "Flash"},
+    {"Time": 22.05,"Who":"Torch 1 (1)","Action": "SetY", "Amt": 20},
     
     {"Time": 22.2,"Who":"Head 1 Baby","Action": "TurnOff"},
     {"Time": 22.2,"Who":"Head 1","Action": "MoveOverTime 1"},
@@ -627,14 +710,15 @@
     {"Time": 22.6,"Who":"Head 1","Action": "Bite", "Amt": 0},
     {"Time": 22.6,"Who":"Torch 1","Action": "TurnOff"},
 
+    {"Time": 22.7,"Who":"Background","Action": "Fade2", "Amt": 0.94},
     {"Time": 22.7,"Who":"Head 1","Action": "ToSize", "Amt": 1},
 
     
     {"Time": 22.8,"Who":"Lives","Action": "SetY", "Amt": 10},
     
-    {"Time": 23.2,"Who":"Head 1","Action": "Bite", "Amt": 4},
-    {"Time": 23.2,"Who":"Head 1","Action": "HitboxOff"},
-    {"Time": 23.2,"Who":"Head 1 Baby","Action": "TurnOn"},
+    {"Time": 23,"Who":"Head 1","Action": "Bite", "Amt": 4},
+    {"Time": 23,"Who":"Head 1","Action": "HitboxOff"},
+    {"Time": 23,"Who":"Head 1 Baby","Action": "TurnOn"},
     
     {"Time": 23.2,"Who":"Head 1","Action": "Roam"},
 
@@ -644,9 +728,11 @@
 
 
 
+    
 
-
-    {"Time": 26.1,"Who":"Torch 3","Action": "Flash"},
+    {"Time": 26.1,"Who":"Torch 3 (1)","Action": "SetYButNotStupid"},
+    {"Time": 26.1,"Who":"Torch 3 (1)","Action": "Flash"},
+    {"Time": 26.6,"Who":"Torch 3 (1)","Action": "SetY", "Amt": 20},
 
     {"Time": 26.75,"Who":"Head 3 Baby","Action": "TurnOff"},
     {"Time": 26.75,"Who":"Head 3","Action": "MoveOverTime 3"},
@@ -660,11 +746,12 @@
     {"Time": 27.15,"Who":"Head 3","Action": "Bite", "Amt": 0},
     {"Time": 27.15,"Who":"Torch 3","Action": "TurnOff"},
 
+    {"Time": 27.25,"Who":"Background","Action": "Fade2", "Amt": 0.95},
     {"Time": 27.25,"Who":"Head 3","Action": "ToSize", "Amt": 1},
     
-    {"Time": 27.75,"Who":"Head 3","Action": "Bite", "Amt": 4},
-    {"Time": 27.75,"Who":"Head 3","Action": "HitboxOff"},
-    {"Time": 27.75,"Who":"Head 3 Baby","Action": "TurnOn"},
+    {"Time": 27.55,"Who":"Head 3","Action": "Bite", "Amt": 4},
+    {"Time": 27.55,"Who":"Head 3","Action": "HitboxOff"},
+    {"Time": 27.55,"Who":"Head 3 Baby","Action": "TurnOn"},
     
     {"Time": 27.75,"Who":"Head 3","Action": "Roam"},
 
@@ -678,9 +765,11 @@
 
 
 
+    
+    {"Time": 30.79,"Who":"Torch 5 (1)","Action": "SetYButNotStupid"},
+    {"Time": 30.79,"Who":"Torch 5 (1)","Action": "Flash"},
+    {"Time": 31.29,"Who":"Torch 5 (1)","Action": "SetY", "Amt": 20},
 
-
-    {"Time": 30.79,"Who":"Torch 5","Action": "Flash"},
     
     {"Time": 31.44,"Who":"Head 5 Baby","Action": "TurnOff"},
     {"Time": 31.44,"Who":"Head 5","Action": "MoveOverTime 5"},
@@ -694,12 +783,13 @@
     {"Time": 31.84,"Who":"Head 5","Action": "Bite", "Amt": 0},
     {"Time": 31.84,"Who":"Torch 5","Action": "TurnOff"},
 
+    {"Time": 31.94,"Who":"Background","Action": "Fade2", "Amt": 0.96},
     {"Time": 31.94,"Who":"Head 5","Action": "ToSize", "Amt": 1},
     
 
-    {"Time": 32.44,"Who":"Head 5","Action": "Bite", "Amt": 4},
-    {"Time": 32.44,"Who":"Head 5","Action": "HitboxOff"},
-    {"Time": 32.44,"Who":"Head 5 Baby","Action": "TurnOn"},
+    {"Time": 32.24,"Who":"Head 5","Action": "Bite", "Amt": 4},
+    {"Time": 32.24,"Who":"Head 5","Action": "HitboxOff"},
+    {"Time": 32.24,"Who":"Head 5 Baby","Action": "TurnOn"},
     
     {"Time": 32.44,"Who":"Head 5","Action": "Roam"},
      
@@ -714,9 +804,12 @@
 
 
 
+    
+    
+    {"Time": 40.46,"Who":"Torch 6 (1)","Action": "SetYButNotStupid"},
+    {"Time": 40.46,"Who":"Torch 6 (1)","Action": "Flash"},
+    {"Time": 40.96,"Who":"Torch 6 (1)","Action": "SetY", "Amt": 20},
 
-
-    {"Time": 40.46,"Who":"Torch 6","Action": "Flash"},
     
     {"Time": 41.11,"Who":"Head 6 Baby","Action": "TurnOff"},
     {"Time": 41.11,"Who":"Head 6","Action": "MoveOverTime 6"},
@@ -730,12 +823,13 @@
     {"Time": 41.51,"Who":"Head 6","Action": "Bite", "Amt": 0},
     {"Time": 41.51,"Who":"Torch 6","Action": "TurnOff"},
 
+    {"Time": 41.61,"Who":"Background","Action": "Fade2", "Amt": 0.97},
     {"Time": 41.61,"Who":"Head 6","Action": "ToSize", "Amt": 1},
     
 
-    {"Time": 42.11,"Who":"Head 6","Action": "Bite", "Amt": 4},
-    {"Time": 42.11,"Who":"Head 6","Action": "HitboxOff"},
-    {"Time": 42.11,"Who":"Head 6 Baby","Action": "TurnOn"},
+    {"Time": 41.91,"Who":"Head 6","Action": "Bite", "Amt": 4},
+    {"Time": 41.91,"Who":"Head 6","Action": "HitboxOff"},
+    {"Time": 41.91,"Who":"Head 6 Baby","Action": "TurnOn"},
     
     {"Time": 42.11,"Who":"Head 6","Action": "Roam"},
 
@@ -744,9 +838,12 @@
 
 
 
+    
+    
+    {"Time": 44.45,"Who":"Torch 4 (1)","Action": "SetYButNotStupid"},
+    {"Time": 44.45,"Who":"Torch 4 (1)","Action": "Flash"},
+    {"Time": 44.95,"Who":"Torch 4 (1)","Action": "SetY", "Amt": 20},
 
-
-    {"Time": 44.45,"Who":"Torch 4","Action": "Flash"},
     
     {"Time": 45.1,"Who":"Head 4 Baby","Action": "TurnOff"},
     {"Time": 45.1,"Who":"Head 4","Action": "MoveOverTime 4"},
@@ -760,14 +857,15 @@
     {"Time": 45.5,"Who":"Head 4","Action": "Bite", "Amt": 0},
     {"Time": 45.5,"Who":"Torch 4","Action": "TurnOff"},
 
+    {"Time": 45.6,"Who":"Background","Action": "Fade2", "Amt": 0.98},
     {"Time": 45.6,"Who":"Head 4","Action": "ToSize", "Amt": 1},
     
 
-    {"Time": 45.1,"Who":"Head 4","Action": "Bite", "Amt": 4},
-    {"Time": 45.1,"Who":"Head 4","Action": "HitboxOff"},
-    {"Time": 45.1,"Who":"Head 4 Baby","Action": "TurnOn"},
+    {"Time": 45.9,"Who":"Head 4","Action": "Bite", "Amt": 4},
+    {"Time": 45.9,"Who":"Head 4","Action": "HitboxOff"},
+    {"Time": 45.9,"Who":"Head 4 Baby","Action": "TurnOn"},
     
-    {"Time": 45.1,"Who":"Head 4","Action": "Roam"},
+    {"Time": 46.1,"Who":"Head 4","Action": "Roam"},
 
 
 
@@ -775,9 +873,11 @@
 
 
 
-
-
-    {"Time": 49,"Who":"Torch 2","Action": "Flash"},
+    
+    
+    {"Time": 49,"Who":"Torch 2 (1)","Action": "SetYButNotStupid"},
+    {"Time": 49,"Who":"Torch 2 (1)","Action": "Flash"},
+    {"Time": 49.5,"Who":"Torch 2 (1)","Action": "SetY", "Amt": 20},
 
     {"Time": 49.65,"Who":"Head 2 Baby","Action": "TurnOff"},
     {"Time": 49.65,"Who":"Head 2","Action": "MoveOverTime 2"},
@@ -791,12 +891,13 @@
     {"Time": 50.05,"Who":"Head 2","Action": "Bite", "Amt": 0},
     {"Time": 50.05,"Who":"Torch 2","Action": "TurnOff"},
 
+    {"Time": 50.15,"Who":"Background","Action": "Fade2", "Amt": 0.99},
     {"Time": 50.15,"Who":"Head 2","Action": "ToSize", "Amt": 1},
     
 
-    {"Time": 50.65,"Who":"Head 2","Action": "Bite", "Amt": 4},
-    {"Time": 50.65,"Who":"Head 2","Action": "HitboxOff"},
-    {"Time": 50.65,"Who":"Head 2 Baby","Action": "TurnOn"},
+    {"Time": 50.45,"Who":"Head 2","Action": "Bite", "Amt": 4},
+    {"Time": 50.45,"Who":"Head 2","Action": "HitboxOff"},
+    {"Time": 50.45,"Who":"Head 2 Baby","Action": "TurnOn"},
     
     {"Time": 50.65,"Who":"Head 2","Action": "Roam"},
 
@@ -804,21 +905,21 @@
 
 
     
-    {"Time": 58,"Who":"Head 1 Baby","Action": "TurnOff"},
-    {"Time": 58,"Who":"Head 2 Baby","Action": "TurnOff"},
-    {"Time": 58,"Who":"Head 3 Baby","Action": "TurnOff"},
-    {"Time": 58,"Who":"Head 4 Baby","Action": "TurnOff"},
-    {"Time": 58,"Who":"Head 5 Baby","Action": "TurnOff"},
-    {"Time": 58,"Who":"Head 6 Baby","Action": "TurnOff"},
-    
-    {"Time": 58,"Who":"Head 1","Action": "MoveToY", "Amt": -5},
-    {"Time": 58,"Who":"Head 2","Action": "MoveToY", "Amt": -5},
-    {"Time": 58,"Who":"Head 3","Action": "MoveToY", "Amt": -5},
-    {"Time": 58,"Who":"Head 4","Action": "MoveToY", "Amt": -5},
-    {"Time": 58,"Who":"Head 5","Action": "MoveToY", "Amt": -5},
-    {"Time": 58,"Who":"Head 6","Action": "MoveToY", "Amt": -5},
+    {"Time": 56,"Who":"Head 1 Baby","Action": "TurnOff"},
+    {"Time": 56,"Who":"Head 1","Action": "MoveToY", "Amt": -7},
+
+    {"Time": 58.7,"Who":"Head 2 Baby","Action": "TurnOff"},
+    {"Time": 58.7,"Who":"Head 2","Action": "MoveToY", "Amt": -7},
+    {"Time": 59,"Who":"Head 3 Baby","Action": "TurnOff"},
+    {"Time": 59,"Who":"Head 3","Action": "MoveToY", "Amt": -7},
+    {"Time": 59.4,"Who":"Head 4 Baby","Action": "TurnOff"},
+    {"Time": 59.4,"Who":"Head 4","Action": "MoveToY", "Amt": -7},
+    {"Time": 59.6,"Who":"Head 5 Baby","Action": "TurnOff"},
+    {"Time": 59.6,"Who":"Head 5","Action": "MoveToY", "Amt": -7},
+    {"Time": 60,"Who":"Head 6 Baby","Action": "TurnOff"},
+    {"Time": 60,"Who":"Head 6","Action": "MoveToY", "Amt": -7},
 
 
-    {"Time": 66,"Who":"Row","Dialogue": "dshdhfsh"}
+    {"Time": 66,"Who":"Row","Dialogue": " "}
   ]
 }
