@@ -6,17 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Student Folders/Ange J. Joseph/IDK LEVEL.unity
-    guid: 69d9f5cda1f4e4c41b1573f796040163
+    path: Assets/Generic Assets/You Win.unity
+    guid: 91cfb6caa580edb4aa5894a0cb132bc1
   - enabled: 1
     path: Assets/Generic Assets/You Lose.unity
     guid: 44c9c043ab0c1d045b5f53f6f89f610a
   - enabled: 1
-    path: Assets/Generic Assets/You Win.unity
-    guid: 91cfb6caa580edb4aa5894a0cb132bc1
-  - enabled: 1
     path: Assets/Student Folders/Example/Example Level.unity
     guid: 32f8192b7fb6e464c84de48b1518ae7b
+  - enabled: 1
+    path: Assets/Student Folders/Ange J. Joseph/Dudley Stage (London).unity
+    guid: 69d9f5cda1f4e4c41b1573f796040163
   - enabled: 1
     path: Assets/Student Folders/Evander Platt/Crescendo of Fate.unity
     guid: 5af3e7d05485c824f98fc94a57ad8e82

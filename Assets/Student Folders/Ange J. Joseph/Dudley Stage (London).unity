@@ -169,11 +169,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4263063251411776512, guid: 07e9d4ccc0d38bd4e849eb694825c3df, type: 3}
       propertyPath: m_Color.b
-      value: 0
+      value: 0.87890935
       objectReference: {fileID: 0}
     - target: {fileID: 4263063251411776512, guid: 07e9d4ccc0d38bd4e849eb694825c3df, type: 3}
       propertyPath: m_Color.g
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4263063251411776512, guid: 07e9d4ccc0d38bd4e849eb694825c3df, type: 3}
       propertyPath: m_Color.r
@@ -234,8 +234,8 @@ MonoBehaviour:
   Body: {fileID: 1217031084}
   Coll: {fileID: 625856780}
   Anim: {fileID: 0}
-  Health: 5
-  Speed: 5
+  Health: 6
+  Speed: 7
   SpinSpeed: 5
   SizeSpeed: 5
   DefaultProjectile: {fileID: 0}
@@ -320,6 +320,18 @@ PrefabInstance:
       propertyPath: m_Resource
       value: 
       objectReference: {fileID: 8300000, guid: 80922a63222b6d04184970b23f2bb160, type: 3}
+    - target: {fileID: 7571966751300783871, guid: d234da9df56f40d49a2c47c6bc00444a, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.4575472
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571966751300783871, guid: d234da9df56f40d49a2c47c6bc00444a, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.4575472
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571966751300783871, guid: d234da9df56f40d49a2c47c6bc00444a, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8749111133736300841, guid: d234da9df56f40d49a2c47c6bc00444a, type: 3}
       propertyPath: m_Name
       value: kaboom
@@ -348,19 +360,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1647389753690187766, guid: 0b25960b69d4efd42b3b32bcaf4018ab, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8657
+      value: 0.6507467
       objectReference: {fileID: 0}
     - target: {fileID: 1647389753690187766, guid: 0b25960b69d4efd42b3b32bcaf4018ab, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.8229
+      value: 0.60351485
       objectReference: {fileID: 0}
     - target: {fileID: 1647389753690187766, guid: 0b25960b69d4efd42b3b32bcaf4018ab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.1881
+      value: -0.06
       objectReference: {fileID: 0}
     - target: {fileID: 1647389753690187766, guid: 0b25960b69d4efd42b3b32bcaf4018ab, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.2604
+      value: -0.11
       objectReference: {fileID: 0}
     - target: {fileID: 1647389753690187766, guid: 0b25960b69d4efd42b3b32bcaf4018ab, type: 3}
       propertyPath: m_LocalPosition.z
