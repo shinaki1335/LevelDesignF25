@@ -22,6 +22,7 @@
     {"Time": 8, "Action": "ShootAtPlayer"},
     {"Time": 8.2, "Action": "ShootAtPlayer"},
     {"Time": 9, "Action": "LerpToPlayer"},
+<<<<<<< HEAD
     {"Time": 9.2, "Action": "LerpToPlayer" },
     {"Time": 10, "Action": "ShootAtPlayer"},
     {"Time": 10.2, "Action": "ShootAtPlayer"},
@@ -445,5 +446,8 @@
     {"Time": 191.5, "Action": "Shake", "Amt":0.5},
     {"Time": 192, "Dialogue": "DUDLEY Defeated"},
     {"Time": 193, "Action": "Shake", "Amt": 2}
+=======
+    {"Time": 9.2, "Action": "LerpToPlayer" }
+>>>>>>> 3f28db01e39866df007f722ab43c80426c42304c
   ]
 }
