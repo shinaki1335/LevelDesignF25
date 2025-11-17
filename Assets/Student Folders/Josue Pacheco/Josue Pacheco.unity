@@ -226,7 +226,7 @@ MonoBehaviour:
   Speed: 5
   SpinSpeed: 5
   SizeSpeed: 5
-  DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
+  DefaultProjectile: {fileID: 3385520667200393095, guid: 35ac15f4bde5a2949ac9ad38a835ede7, type: 3}
   AltProjectiles: []
   ShootGnome: {fileID: 0}
   HurtGnome: {fileID: 0}
@@ -444,7 +444,7 @@ MonoBehaviour:
   Speed: 5
   SpinSpeed: 5
   SizeSpeed: 5
-  DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
+  DefaultProjectile: {fileID: 3385520667200393095, guid: 35ac15f4bde5a2949ac9ad38a835ede7, type: 3}
   AltProjectiles: []
   ShootGnome: {fileID: 0}
   HurtGnome: {fileID: 0}
@@ -888,7 +888,7 @@ MonoBehaviour:
   Speed: 5
   SpinSpeed: 5
   SizeSpeed: 5
-  DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
+  DefaultProjectile: {fileID: 3385520667200393095, guid: 35ac15f4bde5a2949ac9ad38a835ede7, type: 3}
   AltProjectiles:
   - {fileID: 3702168472278109821, guid: c30a8843bcb765545bef75d7198bc09c, type: 3}
   ShootGnome: {fileID: 0}
@@ -1255,7 +1255,7 @@ MonoBehaviour:
   Speed: 5
   SpinSpeed: 5
   SizeSpeed: 5
-  DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
+  DefaultProjectile: {fileID: 3385520667200393095, guid: 35ac15f4bde5a2949ac9ad38a835ede7, type: 3}
   AltProjectiles:
   - {fileID: 2870732653250618267, guid: 214c652399e06054fa15274777f49699, type: 3}
   - {fileID: 8774340096923412828, guid: 5fbf2857cedd7344a9b73ffc75a008e5, type: 3}
@@ -1583,7 +1583,7 @@ MonoBehaviour:
   Speed: 5
   SpinSpeed: 5
   SizeSpeed: 5
-  DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
+  DefaultProjectile: {fileID: 3385520667200393095, guid: 35ac15f4bde5a2949ac9ad38a835ede7, type: 3}
   AltProjectiles:
   - {fileID: 2870732653250618267, guid: 214c652399e06054fa15274777f49699, type: 3}
   - {fileID: 8774340096923412828, guid: 5fbf2857cedd7344a9b73ffc75a008e5, type: 3}
@@ -1796,7 +1796,7 @@ MonoBehaviour:
   Speed: 5
   SpinSpeed: 5
   SizeSpeed: 5
-  DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
+  DefaultProjectile: {fileID: 3385520667200393095, guid: 35ac15f4bde5a2949ac9ad38a835ede7, type: 3}
   AltProjectiles:
   - {fileID: 2870732653250618267, guid: 214c652399e06054fa15274777f49699, type: 3}
   - {fileID: 8774340096923412828, guid: 5fbf2857cedd7344a9b73ffc75a008e5, type: 3}
@@ -1930,7 +1930,7 @@ MonoBehaviour:
   Speed: 5
   SpinSpeed: 5
   SizeSpeed: 5
-  DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
+  DefaultProjectile: {fileID: 3385520667200393095, guid: 35ac15f4bde5a2949ac9ad38a835ede7, type: 3}
   AltProjectiles:
   - {fileID: 3702168472278109821, guid: c30a8843bcb765545bef75d7198bc09c, type: 3}
   ShootGnome: {fileID: 0}
@@ -2171,7 +2171,7 @@ MonoBehaviour:
   Speed: 5
   SpinSpeed: 5
   SizeSpeed: 5
-  DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
+  DefaultProjectile: {fileID: 3385520667200393095, guid: 35ac15f4bde5a2949ac9ad38a835ede7, type: 3}
   AltProjectiles:
   - {fileID: 2870732653250618267, guid: 214c652399e06054fa15274777f49699, type: 3}
   - {fileID: 8774340096923412828, guid: 5fbf2857cedd7344a9b73ffc75a008e5, type: 3}
@@ -2305,7 +2305,7 @@ MonoBehaviour:
   Speed: 5
   SpinSpeed: 5
   SizeSpeed: 5
-  DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
+  DefaultProjectile: {fileID: 3385520667200393095, guid: 35ac15f4bde5a2949ac9ad38a835ede7, type: 3}
   AltProjectiles: []
   ShootGnome: {fileID: 0}
   HurtGnome: {fileID: 0}
@@ -2556,7 +2556,7 @@ MonoBehaviour:
   Speed: 5
   SpinSpeed: 5
   SizeSpeed: 5
-  DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
+  DefaultProjectile: {fileID: 3385520667200393095, guid: 35ac15f4bde5a2949ac9ad38a835ede7, type: 3}
   AltProjectiles:
   - {fileID: 2870732653250618267, guid: 214c652399e06054fa15274777f49699, type: 3}
   - {fileID: 8774340096923412828, guid: 5fbf2857cedd7344a9b73ffc75a008e5, type: 3}
@@ -2736,7 +2736,7 @@ MonoBehaviour:
   Speed: 5
   SpinSpeed: 5
   SizeSpeed: 5
-  DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
+  DefaultProjectile: {fileID: 3385520667200393095, guid: 35ac15f4bde5a2949ac9ad38a835ede7, type: 3}
   AltProjectiles:
   - {fileID: 2870732653250618267, guid: 214c652399e06054fa15274777f49699, type: 3}
   - {fileID: 8774340096923412828, guid: 5fbf2857cedd7344a9b73ffc75a008e5, type: 3}
@@ -2870,7 +2870,7 @@ MonoBehaviour:
   Speed: 5
   SpinSpeed: 5
   SizeSpeed: 5
-  DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
+  DefaultProjectile: {fileID: 3385520667200393095, guid: 35ac15f4bde5a2949ac9ad38a835ede7, type: 3}
   AltProjectiles: []
   ShootGnome: {fileID: 0}
   HurtGnome: {fileID: 0}
@@ -3110,7 +3110,7 @@ MonoBehaviour:
   Speed: 5
   SpinSpeed: 5
   SizeSpeed: 5
-  DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
+  DefaultProjectile: {fileID: 3385520667200393095, guid: 35ac15f4bde5a2949ac9ad38a835ede7, type: 3}
   AltProjectiles:
   - {fileID: 2870732653250618267, guid: 214c652399e06054fa15274777f49699, type: 3}
   - {fileID: 8774340096923412828, guid: 5fbf2857cedd7344a9b73ffc75a008e5, type: 3}
@@ -3349,7 +3349,7 @@ MonoBehaviour:
   Speed: 5
   SpinSpeed: 5
   SizeSpeed: 5
-  DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
+  DefaultProjectile: {fileID: 3385520667200393095, guid: 35ac15f4bde5a2949ac9ad38a835ede7, type: 3}
   AltProjectiles: []
   ShootGnome: {fileID: 0}
   HurtGnome: {fileID: 0}
@@ -3602,7 +3602,7 @@ MonoBehaviour:
   Speed: 5
   SpinSpeed: 5
   SizeSpeed: 5
-  DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
+  DefaultProjectile: {fileID: 3385520667200393095, guid: 35ac15f4bde5a2949ac9ad38a835ede7, type: 3}
   AltProjectiles: []
   ShootGnome: {fileID: 0}
   HurtGnome: {fileID: 0}
@@ -4188,7 +4188,7 @@ MonoBehaviour:
   Speed: 5.1
   SpinSpeed: 5
   SizeSpeed: 5
-  DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
+  DefaultProjectile: {fileID: 3385520667200393095, guid: 35ac15f4bde5a2949ac9ad38a835ede7, type: 3}
   AltProjectiles: []
   ShootGnome: {fileID: 0}
   HurtGnome: {fileID: 0}
@@ -4484,7 +4484,7 @@ MonoBehaviour:
   Speed: 5
   SpinSpeed: 5
   SizeSpeed: 5
-  DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
+  DefaultProjectile: {fileID: 3385520667200393095, guid: 35ac15f4bde5a2949ac9ad38a835ede7, type: 3}
   AltProjectiles: []
   ShootGnome: {fileID: 0}
   HurtGnome: {fileID: 0}
@@ -4737,7 +4737,7 @@ MonoBehaviour:
   Speed: 5
   SpinSpeed: 5
   SizeSpeed: 5
-  DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
+  DefaultProjectile: {fileID: 3385520667200393095, guid: 35ac15f4bde5a2949ac9ad38a835ede7, type: 3}
   AltProjectiles: []
   ShootGnome: {fileID: 0}
   HurtGnome: {fileID: 0}
@@ -4920,7 +4920,7 @@ MonoBehaviour:
   Speed: 5
   SpinSpeed: 5
   SizeSpeed: 5
-  DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
+  DefaultProjectile: {fileID: 3385520667200393095, guid: 35ac15f4bde5a2949ac9ad38a835ede7, type: 3}
   AltProjectiles: []
   ShootGnome: {fileID: 0}
   HurtGnome: {fileID: 0}
@@ -5175,7 +5175,7 @@ MonoBehaviour:
   Speed: 5
   SpinSpeed: 5
   SizeSpeed: 5
-  DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
+  DefaultProjectile: {fileID: 3385520667200393095, guid: 35ac15f4bde5a2949ac9ad38a835ede7, type: 3}
   AltProjectiles:
   - {fileID: 2870732653250618267, guid: 214c652399e06054fa15274777f49699, type: 3}
   - {fileID: 8774340096923412828, guid: 5fbf2857cedd7344a9b73ffc75a008e5, type: 3}
@@ -5309,7 +5309,7 @@ MonoBehaviour:
   Speed: 5
   SpinSpeed: 5
   SizeSpeed: 5
-  DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
+  DefaultProjectile: {fileID: 3385520667200393095, guid: 35ac15f4bde5a2949ac9ad38a835ede7, type: 3}
   AltProjectiles:
   - {fileID: 3702168472278109821, guid: c30a8843bcb765545bef75d7198bc09c, type: 3}
   ShootGnome: {fileID: 0}
@@ -5476,7 +5476,7 @@ MonoBehaviour:
   Speed: 5
   SpinSpeed: 5
   SizeSpeed: 5
-  DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
+  DefaultProjectile: {fileID: 3385520667200393095, guid: 35ac15f4bde5a2949ac9ad38a835ede7, type: 3}
   AltProjectiles: []
   ShootGnome: {fileID: 0}
   HurtGnome: {fileID: 0}
@@ -5627,7 +5627,7 @@ MonoBehaviour:
   Speed: 5
   SpinSpeed: 5
   SizeSpeed: 5
-  DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
+  DefaultProjectile: {fileID: 3385520667200393095, guid: 35ac15f4bde5a2949ac9ad38a835ede7, type: 3}
   AltProjectiles: []
   ShootGnome: {fileID: 0}
   HurtGnome: {fileID: 0}
@@ -5768,7 +5768,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6809250619191881907, guid: 5fbf2857cedd7344a9b73ffc75a008e5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.5057771
+      value: 3.146
       objectReference: {fileID: 0}
     - target: {fileID: 6809250619191881907, guid: 5fbf2857cedd7344a9b73ffc75a008e5, type: 3}
       propertyPath: m_LocalPosition.z
