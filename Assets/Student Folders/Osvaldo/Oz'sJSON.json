@@ -1,0 +1,166 @@
+{
+  "Title": "Unexpected arrival",
+  "Author": "Osvaldo Tavarez",
+  "Events": [
+    {"Time": 1.49,"Dialogue": ""}, 
+
+     {"Time": 2, "Who": "Monsta2", "Action": "Barrage", "Amt": 10},
+
+    {"Time": 3,"Dialogue": "Player?!"},
+    {"Time": 4, "Action": "LerpToY", "Amt": -1},
+
+
+    {"Time": 6,"Dialogue": "What you thought I DIED?!"},
+    {"Time": 8,"Dialogue": "Aaaahhh..."},
+    {"Time": 12,"Dialogue":"SO THAT'S WHY YOU LEFT ME OUT TO BLEED","Action": "Flash"},
+
+    {"Time":12,"Action":"Shoot"},
+    {"Time":12,"Action":"Rotate","Amt":60},
+    {"Time":12,"Action":"Shoot"},
+    {"Time":12,"Action":"Rotate","Amt":90},
+    {"Time":12,"Action":"Shoot"},
+    {"Time":12,"Action":"Rotate","Amt":120},
+    {"Time":12,"Action":"Shoot"},
+    {"Time":12,"Action":"Rotate","Amt":180},
+    {"Time":12,"Action":"Shoot"},
+    {"Time":12,"Action":"Rotate","Amt":240},
+    {"Time":12,"Action":"Shoot"},
+    {"Time":12,"Action":"Rotate","Amt":270},
+    {"Time":12,"Action":"Shoot"},
+    {"Time":12,"Action":"Rotate","Amt":320},
+    {"Time":12,"Action":"Shoot"},
+    {"Time":12,"Action":"Rotate","Amt":360},
+     {"Time":12,"Action":"Shoot"},
+
+    {"Time": 14,"Dialogue": "IT WASN'T BECAUSE YOU HAD MERCY ON ME?!?"},
+    {"Time": 18, "Dialogue": "HOW NAIVE OF ME, HAHAHHA"},
+    {"Time": 18, "Dialogue": ""},
+    {"Time": 24, "Action":"MoveUp", "Amt":4},
+    {"Time": 24, "Action":"Shake", "Amt": 4},
+
+    {"Time": 28.60, "Action":"ShootAtPlayer"},
+    {"Time": 30, "Action":"ShootAtPlayer"},
+    {"Time": 30.40, "Action":"ShootAtPlayer"},
+    {"Time": 31.10, "Action":"ShootAtPlayer"},
+    {"Time": 31.60, "Action":"ShootAtPlayer"},
+    {"Time": 33, "Action":"ShootAtPlayer"},
+    {"Time": 33.60,"Action":"ShootAtPlayer"},
+    {"Time": 34.20,"Action":"ShootAtPlayer"},
+    {"Time": 34.60,"Action":"ShootAtPlayer"},
+    {"Time": 36,"Action":"ShootAtPlayer"},
+    {"Time": 36.40,"Action":"ShootAtPlayer"},
+    {"Time": 37.10,"Action":"ShootAtPlayer"},
+    {"Time": 37.40,"Action":"ShootAtPlayer"},
+    {"Time": 39,"Action":"ShootAtPlayer"},
+    {"Time": 39.60,"Action":"ShootAtPlayer"},
+    {"Time": 40.10,"Action":"ShootAtPlayer"},
+
+    {"Time": 40.60, "Action":"LerpToPlayer"},
+    {"Time":40.60, "Anim": "SpinShoot"},
+    {"Time": 42, "Action":"LerpToPlayer"},
+    {"Time":42, "Anim": "SpinShoot"},
+    {"Time": 42.60, "Action":"LerpToPlayer"},
+    {"Time":42.60, "Anim": "SpinShoot"},
+    {"Time": 43.30, "Action":"LerpToPlayer"},
+    {"Time":43.30, "Anim": "SpinShoot"},
+    {"Time":44.30, "Anim": "Idle"},
+
+
+    {"Time": 45.10, "Action":"LerpToPlayer"},
+    {"Time":45.10, "Anim": "SpinShoot"},
+    {"Time": 45.60, "Action":"LerpToPlayer"},
+    {"Time":46.30, "Anim": "SpinShoot"},
+    {"Time": 46.30, "Action":"LerpToPlayer"},
+    {"Time":46.60, "Anim": "SpinShoot"},
+    {"Time": 46.60, "Action":"LerpToPlayer"},
+    {"Time":47.30, "Anim": "Idle"},
+
+    {"Time": 48.10, "Action":"LerpToPlayer"},
+    {"Time":48.10, "Anim": "SpinShoot"},
+    {"Time": 48.60, "Action":"LerpToPlayer"},
+    {"Time":48.60, "Anim": "SpinShoot"},
+    {"Time": 49.30, "Action":"LerpToPlayer"},
+    {"Time":49.30, "Anim": "SpinShoot"},
+    {"Time": 49.60, "Action":"LerpToPlayer"},
+
+    {"Time": 50.60, "Who": "Machinegun1", "Action": "MoveToX", "Amt": 7.2},
+    {"Time": 50.60, "Who": "Machinegun1", "Action": "SetSpeed", "Amt": 1},
+
+    {"Time": 50.60, "Who": "Machinegun4", "Action": "MoveToX", "Amt": 7.2},
+    {"Time": 50.60, "Who": "Machinegun4", "Action": "SetSpeed", "Amt": 1},
+
+    {"Time": 50.60, "Who": "Machinegun2", "Action": "MoveToX", "Amt": -7.2},
+    {"Time": 50.60, "Who": "Machinegun2", "Action": "SetSpeed", "Amt": 1},
+
+    {"Time": 50.60, "Who": "Machinegun3", "Action": "MoveToX", "Amt": -7.2},
+    {"Time": 50.60, "Who": "Machinegun3", "Action": "SetSpeed", "Amt": 1},
+
+    {"Time": 50.90, "Who": "Raygun1", "Action": "MoveToY", "Amt": 4},
+    {"Time": 50.90, "Who": "Raygun1", "Action": "SetSpeed", "Amt": 1},
+
+    {"Time": 50.90, "Who": "Raygun2", "Action": "MoveToY", "Amt": 4},
+    {"Time": 50.90, "Who": "Raygun2", "Action": "SetSpeed", "Amt": 1},
+
+
+    {"Time": 51.10, "Action":"LerpToPlayer"},
+    {"Time":51.10, "Anim": "SpinShoot"},
+
+    {"Time": 51.60, "Action":"LerpToPlayer"},
+    {"Time":51.60, "Anim": "SpinShoot"},
+    {"Time": 52.30, "Action":"LerpToPlayer"},
+    {"Time":52.30, "Anim": "SpinShoot"},
+
+    {"Time": 52.30, "Action":"LerpToPlayer"},
+    {"Time": 52.60, "Action":"Shake", "Amt": 8},
+    {"Time": 52.60, "Dialogue":"y-you...YOU BRAT"},
+
+    {"Time": 54.10, "Who": "Machinegun1", "Action": "Shake", "Amt": 10.50},
+    {"Time": 54.10, "Who": "Machinegun4", "Action": "Shake", "Amt": 10.50},
+    {"Time": 54.10, "Who": "Machinegun2", "Action": "Shake", "Amt": 10.50},
+    {"Time": 54.10, "Who": "Machinegun3", "Action": "Shake", "Amt": 10.50},
+    {"Time": 54.10, "Who": "Raygun1", "Action": "Shake", "Amt": 10.50},
+    {"Time": 54.10, "Who": "Raygun2", "Action": "Shake", "Amt": 10.50},
+
+    
+
+    {"Time": 54.10, "Dialogue":"ARE YOU SAYING THAT MY WEAPONS ARE UTTER WASTE?!"},
+    {"Time": 56.90, "Dialogue":"TOO NEGLIGIBLE TO EVEN MAKE A DENT?"},
+    {"Time": 58.30, "Dialogue":"ARE YOU CALLING THEM INCOMPETENT!?!"},
+    {"Time": 60.30, "Dialogue": "LET'S TURN UP THE VOLUME THEN, AND I AINT TALKING ABOUT SOUND"},
+    {"Time": 63.10, "Dialogue":""},
+    {"Time": 63.30},
+
+    {"Time": 40.60, "Action":"LerpToPlayer"},
+    {"Time":40.60, "Anim": "SpinShoot"},
+    {"Time": 42, "Action":"LerpToPlayer"},
+    {"Time":42, "Anim": "SpinShoot"},
+    {"Time": 42.60, "Action":"LerpToPlayer"},
+    {"Time":42.60, "Anim": "SpinShoot"},
+    {"Time": 43.30, "Action":"LerpToPlayer"},
+    {"Time":43.30, "Anim": "SpinShoot"},
+    {"Time":44.30, "Anim": "Idle"},
+
+
+    {"Time": 45.10, "Action":"LerpToPlayer"},
+    {"Time":45.10, "Anim": "SpinShoot"},
+    {"Time": 45.60, "Action":"LerpToPlayer"},
+    {"Time":46.30, "Anim": "SpinShoot"},
+    {"Time": 46.30, "Action":"LerpToPlayer"},
+    {"Time":46.60, "Anim": "SpinShoot"},
+    {"Time": 46.60, "Action":"LerpToPlayer"},
+    {"Time":47.30, "Anim": "Idle"},
+
+    {"Time": 48.10, "Action":"LerpToPlayer"},
+    {"Time":48.10, "Anim": "SpinShoot"},
+    {"Time": 48.60, "Action":"LerpToPlayer"},
+    {"Time":48.60, "Anim": "SpinShoot"},
+    {"Time": 49.30, "Action":"LerpToPlayer"},
+    {"Time":49.30, "Anim": "SpinShoot"},
+    {"Time": 49.60, "Action":"LerpToPlayer"},
+
+    
+    {"Time": 112, "Dialogue":"So all my weapons in my arsenal are not enough for you huh??"},
+    {"Time": 120,"Dialogue": "" }
+
+  ]
+}
