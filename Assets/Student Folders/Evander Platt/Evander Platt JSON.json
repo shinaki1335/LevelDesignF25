@@ -8,8 +8,12 @@
 			"Amt": 3
 		},
 		{
-			"Time": 2,
-			"Dialogue": "The time nears."
+			"Time": 1.0,
+			"Dialogue": "The time nears..."
+		},
+		{
+			"Time": 1.0,
+			"Dialogue": " "
 		},
 		{
 			"Time": 5,
@@ -165,19 +169,13 @@
 			"Action": "MoveToY",
 			"Amt": -3
 		},
-		{
-			"Time": 25.5,
-			"Anim": "SpinShoot"
-		},
+
 		{
 			"Time": 26,
 			"Action": "MoveToX",
 			"Amt": -4
 		},
-		{
-			"Time": 26.5,
-			"Anim": "SpinShoot"
-		},
+
 		{
 			"Time": 27,
 			"Action": "MoveToY",
@@ -473,11 +471,7 @@
 			"Time": 55.0,
 			"Action": "ShootAtPlayer"
 		},
-		{
-			"Time": 55.4,
-			"Action": "MoveToX",
-			"Amt": 6
-		},
+
 		{
 			"Time": 55.8,
 			"Action": "MoveToY",
@@ -504,6 +498,11 @@
 		{
 			"Time": 57.8,
 			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 58,
+			"Action": "MoveToX",
+			"Amt": 6
 		},
 		{
 			"Time": 58.2,
@@ -810,20 +809,18 @@
 			"Action": "MoveToY",
 			"Amt": -1.54
 		},
-
 		{
-			"Time": 91.0,
-			"Anim": "SpinShoot"
+			"Time": 91,
+			"Anim": "Idle"
 		},
-
 		{
 			"Time": 92.4,
 			"Action": "MoveToY",
 			"Amt": 2.67
 		},
 		{
-			"Time": 92.8,
-			"Action": "ShootAtPlayer"
+			"Time": 93,
+			"Anim": "SpinShoot"
 		},
 		{
 			"Time": 93.3,
@@ -839,6 +836,7 @@
 			"Action": "MoveToX",
 			"Amt": 6
 		},
+
 		{
 			"Time": 94.6,
 			"Action": "MoveToY",
@@ -883,14 +881,15 @@
 			"Action": "ShootAtPlayer"
 		},
 		{
+			"Time": 99.8,
+			"Anim": "Idle"
+		},
+		{
 			"Time": 100.0,
 			"Action": "MoveToY",
 			"Amt": 0
 		},
-		{
-			"Time": 100.0,
-			"Anim": "SpinShoot"
-		},
+
 		{
 			"Time": 102.3,
 			"Action": "ShootAtPlayer"
@@ -899,6 +898,10 @@
 			"Time": 102.7,
 			"Action": "MoveToY",
 			"Amt": -2.52
+		},
+		{
+			"Time": 102.7,
+			"Anim": "SpinShoot"
 		},
 		{
 			"Time": 103.2,
@@ -917,7 +920,31 @@
 			"Time": 104.5,
 			"Action": "MoveToY",
 			"Amt": 3
+		},
+		{
+			"Time": 105.0,
+			"Action": "MoveToX",
+			"Amt": 2
+		},
+		{
+			"Time": 105.5,
+			"Action": "MoveToY",
+			"Amt": -2
+		},
+		{
+			"Time": 106.0,
+			"Dialogue": "NOOOO"
+		},
+		{
+			"Time": 106.0,
+			"Action": "Flash"
+		},
+		{
+			"Time": 106.5,
+			"Action": "Shake",
+			"Amt": 2
 		}
+
 
 
 	]
