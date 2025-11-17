@@ -1913,8 +1913,5 @@
     {"Time": 181.47, "Who":"Burst","Action":"Shoot"},
     {"Time": 181.47, "Who":"Burst","Action":"Rotate","Amt":360},
     {"Time": 181.47, "Who":"Burst","Action":"SetY","Amt":-8} 
-=======
-    {"Time": 99.36, "Who":"Burst","Action":"Rotate","Amt":360}
->>>>>>> 4b0097a096dba1dc4f47d80664b892a3c11496d7
   ]
 }
