@@ -12,10 +12,6 @@ public class ExampleMonster : HazardController
         {
             StartCoroutine(FourSquare());
         }
-        if (act == "RandomWalk")
-        {
-            StartCoroutine(RandomWalk());
-        }
     }
 
     //Get big and move to each corner of the screen

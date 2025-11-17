@@ -1,0 +1,4937 @@
+{
+  "Title": "Fly - Electro Swing Remix",
+  "Author": "Morgan Contursi",
+  "Events": [
+    {
+      "Time": 0,
+      "Who": "Monster",
+      "Action": "SetAnimSpeed",
+      "Amt": 3
+    },
+    {
+      "Time": 0,
+      "Who": "Monster",
+      "Action": "SetSpeed",
+      "Amt": 25
+    },
+    {
+      "Time": 0,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": 3.75
+    },
+    {
+      "Time": 1.92,
+      "Who": "Monster",
+      "Anim": "SpinShoot"
+    },
+    {
+      "Time": 3.84,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": -3.75
+    },
+    {
+      "Time": 5.28,
+      "Who": "Monster",
+      "Anim": "Idle"
+    },
+    {
+      "Time": 5.76,
+      "Who": "Monster",
+      "Anim": "SpinShoot"
+    },
+    {
+      "Time": 6.72,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": 0
+    },
+    {
+      "Time": 6.72,
+      "Who": "Monster",
+      "Action": "MovementToRotation",
+      "Amt": 0
+    },
+    {
+      "Time": 7.2,
+      "Who": "Monster",
+      "Anim": "Idle"
+    },
+    {
+      "Time": 7.68,
+      "Who": "Monster",
+      "Anim": "SpinShoot"
+    },
+    { "Time": 8.16 },
+    {
+      "Time": 8.64,
+      "Who": "Monster",
+      "Anim": "Idle"
+    },
+    {
+      "Time": 9.12,
+      "Who": "Monster",
+      "Anim": "SpinShoot"
+    },
+    {
+      "Time": 11.52,
+      "Who": "Monster",
+      "Anim": "Idle"
+    },
+    {
+      "Time": 11.52,
+      "Who": "Monster",
+      "Action": "MoveToRotation",
+      "Amt": 0
+    },
+    {
+      "Time": 11.52,
+      "Who": "Monster",
+      "Action": "SetSpeed",
+      "Amt": 30
+    },
+    {
+      "Time": 11.76,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": 6
+    },
+    {
+      "Time": 11.76,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -3
+    },
+    {
+      "Time": 11.76,
+      "Who": "Monster",
+      "Action": "MoveToRotation",
+      "Amt": 45
+    },
+    {
+      "Time": 12,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 12.24,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -2
+    },
+    {
+      "Time": 12.48,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 12.72,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -1
+    },
+    {
+      "Time": 12.96,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 13.2,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 0
+    },
+    {
+      "Time": 13.44,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 13.68,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 1
+    },
+    {
+      "Time": 13.92,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 14.16,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 2
+    },
+    {
+      "Time": 14.4,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 14.64,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 3
+    },
+    {
+      "Time": 14.88,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 15.12,
+      "Who": "Monster",
+      "Action": "SetSpeed",
+      "Amt": 50
+    },
+    {
+      "Time": 15.12,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": -6
+    },
+    {
+      "Time": 15.36,
+      "Who": "Monster2",
+      "Action": "SetSpeed",
+      "Amt": 30
+    },
+    {
+      "Time": 15.12,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": 6
+    },
+    {
+      "Time": 15.12,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": -3
+    },
+    {
+      "Time": 15.12,
+      "Who": "Monster2",
+      "Action": "MoveToRotation",
+      "Amt": 45
+    },
+    {
+      "Time": 15.36,
+      "Who": "Monster",
+      "Action": "SetSpeed",
+      "Amt": 30
+    },
+    {
+      "Time": 15.36,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 15.6,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 2
+    },
+    {
+      "Time": 15.6,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": -2
+    },
+    {
+      "Time": 15.84,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 15.84,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 16.08,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": -1
+    },
+    {
+      "Time": 16.08,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 1
+    },
+    {
+      "Time": 16.32,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 16.32,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 16.56,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 0
+    },
+    {
+      "Time": 16.56,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 0
+    },
+    {
+      "Time": 16.8,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 16.8,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 17.04,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 1
+    },
+    {
+      "Time": 17.04,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -1
+    },
+    {
+      "Time": 17.28,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 17.28,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 17.52,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 2
+    },
+    {
+      "Time": 17.52,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -2
+    },
+    {
+      "Time": 17.76,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 17.76,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 18,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 3
+    },
+    {
+      "Time": 18,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -3
+    },
+    {
+      "Time": 18.24,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 18.24,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 18.48,
+      "Who": "Monster2",
+      "Action": "MoveToRotation",
+      "Amt": 0
+    },
+    {
+      "Time": 18.72,
+      "Who": "Monster",
+      "Action": "MoveToRotation",
+      "Amt": 0
+    },
+    {
+      "Time": 18.96,
+      "Who": "Monster",
+      "Action": "SetSpeed",
+      "Amt": 0.1
+    },
+    {
+      "Time": 18.96,
+      "Who": "Monster",
+      "Action": "SetSizeSpeed",
+      "Amt": 2.4
+    },
+    {
+      "Time": 19.44,
+      "Who": "Monster",
+      "Action": "SizeLerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 19.44,
+      "Who": "Monster",
+      "Action": "SizeLerpToX",
+      "Amt": 4
+    },
+    {
+      "Time": 19.44,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": -2
+    },
+    {
+      "Time": 19.44,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": -8
+    },
+    {
+      "Time": 19.92,
+      "Who": "Monster2",
+      "Action": "Flash",
+      "Amt": 0.96
+    },
+    {
+      "Time": 19.92,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": 5.9
+    },
+    {
+      "Time": 20.16,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": 6
+    },
+    {
+      "Time": 20.4,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": 5.9
+    },
+    {
+      "Time": 20.64,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": 6
+    },
+    {
+      "Time": 20.64,
+      "Who": "Monster2",
+      "Action": "SetSpeed",
+      "Amt": 9.6
+    },
+    {
+      "Time": 20.88,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": -10
+    },
+    {
+      "Time": 21.12,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 21.36,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 21.6,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 21.84,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 22.56,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 0.96
+    },
+    {
+      "Time": 22.56,
+      "Who": "Monster",
+      "Action": "SetSpeed",
+      "Amt": 3.84
+    },
+    {
+      "Time": 22.56,
+      "Who": "Monster2",
+      "Action": "SetY",
+      "Amt": 1
+    },
+    {
+      "Time": 22.56,
+      "Who": "Monster3",
+      "Action": "SetSpeed",
+      "Amt": 20
+    },
+    {
+      "Time": 22.56,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": -7
+    },
+    {
+      "Time": 22.56,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": -7
+    },
+    {
+      "Time": 22.56,
+      "Who": "Monster2",
+      "Action": "HitboxOff"
+    },
+    {
+      "Time": 22.56,
+      "Who": "Monster3",
+      "Action": "HitboxOff"
+    },
+    {
+      "Time": 23.04,
+      "Who": "Monster2",
+      "Action": "SetSpeed",
+      "Amt": 20
+    },
+    {
+      "Time": 23.04,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": 10
+    },
+    {
+      "Time": 23.28,
+      "Who": "Monster2",
+      "Action": "Rotate",
+      "Amt": 0
+    },
+    {
+      "Time": 24.48,
+      "Who": "Monster2",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 24.48,
+      "Who": "Monster3",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 24.48,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 3
+    },
+    {
+      "Time": 24.48,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": 1
+    },
+    {
+      "Time": 24.72,
+      "Who": "Monster2",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 24.72,
+      "Who": "Monster3",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 24.72,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 0.5
+    },
+    {
+      "Time": 24.72,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -1.5
+    },
+    {
+      "Time": 24.96,
+      "Who": "Monster2",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 24.96,
+      "Who": "Monster3",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 24.96,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 1.5
+    },
+    {
+      "Time": 24.96,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -0.5
+    },
+    {
+      "Time": 24.96,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": 2
+    },
+    {
+      "Time": 25.44,
+      "Who": "Monster2",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 25.44,
+      "Who": "Monster3",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 25.44,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": -1.5
+    },
+    {
+      "Time": 25.44,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -3.5
+    },
+    {
+      "Time": 25.92,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 0.96
+    },
+    {
+      "Time": 25.92,
+      "Who": "Monster2",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 25.92,
+      "Who": "Monster3",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 25.92,
+      "Who": "Monster2",
+      "Action": "HitboxOn"
+    },
+    {
+      "Time": 22.92,
+      "Who": "Monster3",
+      "Action": "HitboxOn"
+    },
+    {
+      "Time": 25.92,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 4.5
+    },
+    {
+      "Time": 25.92,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -4.5
+    },
+    {
+      "Time": 26.4,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": 7.1
+    },
+    {
+      "Time": 26.4,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": 7.1
+    },
+    {
+      "Time": 26.4,
+      "Who": "Monster2",
+      "Action": "Rotate",
+      "Amt": 180
+    },
+    {
+      "Time": 26.4,
+      "Who": "Monster3",
+      "Action": "Rotate",
+      "Amt": 180
+    },
+    {
+      "Time": 26.88,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": -10
+
+    },
+    {
+      "Time": 27.36,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": -1
+    },
+    {
+      "Time": 27.36,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -3
+    },
+    {
+      "Time": 27.36,
+      "Who": "Monster2",
+      "Action": "HitboxOff"
+    },
+    {
+      "Time": 27.36,
+      "Who": "Monster3",
+      "Action": "HitboxOff"
+    },
+    {
+      "Time": 28.32,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": -2.25
+    },
+    {
+      "Time": 28.8,
+      "Who": "Monster2",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 28.8,
+      "Who": "Monster3",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 28.8,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 1.5
+    },
+    {
+      "Time": 28.8,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -0.5
+    },
+    {
+      "Time": 29.04,
+      "Who": "Monster2",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 29.04,
+      "Who": "Monster3",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 29.04,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 0.5
+    },
+    {
+      "Time": 29.04,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -1.5
+    },
+    {
+      "Time": 29.28,
+      "Who": "Monster2",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 29.28,
+      "Who": "Monster3",
+      "Action": "Shoot"
+    },
+    {
+      "Time": 29.28,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 7
+    },
+    {
+      "Time": 29.28,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -7
+    },
+    {
+      "Time": 29.76,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 0.96
+    },
+    {
+      "Time": 30.72,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": 10
+    },
+    {
+      "Time": 31.68,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 0.96
+    },
+    {
+      "Time": 32.64,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": -10
+    },
+    {
+      "Time": 33.36,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": 2.25
+    },
+    {
+      "Time": 33.6,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 0.96
+    },
+    {
+      "Time": 34.56,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": 10
+    },
+    {
+      "Time": 36,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 0.96
+    },
+    {
+      "Time": 36.96,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": -10
+    },
+    {
+      "Time": 37.44,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": -2.25
+    },
+    {
+      "Time": 37.44,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 0.96
+    },
+    {
+      "Time": 38.4,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": 10
+    },
+    {
+      "Time": 39.36,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": 2.25
+    },
+    {
+      "Time": 39.84,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 0.96
+    },
+    {
+      "Time": 40.8,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": -10
+    },
+    {
+      "Time": 42.24,
+      "Who": "Monster",
+      "Action": "SetSizeSpeed",
+      "Amt": 1
+    },
+    {
+      "Time": 42.24,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": 0
+    },
+    {
+      "Time": 43.68,
+      "Who": "Monster",
+      "Action": "SizeToX",
+      "Amt": 8
+    },
+    {
+      "Time": 43.68,
+      "Who": "Monster",
+      "Action": "SizeToY",
+      "Amt": 10
+    },
+    {
+      "Time": 43.68,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": 0
+    },
+    {
+      "Time": 43.68,
+      "Who": "Monster2",
+      "Action": "SetY",
+      "Amt": -7
+    },
+    {
+      "Time": 43.68,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": -1
+    },
+    {
+      "Time": 43.68,
+      "Who": "Monster3",
+      "Action": "SetX",
+      "Amt": 4
+    },
+    {
+      "Time": 43.68,
+      "Who": "Monster2",
+      "Action": "SetSpeed",
+      "Amt": 1.25
+    },
+    {
+      "Time": 43.68,
+      "Who": "Monster3",
+      "Action": "SetSpeed",
+      "Amt": 1.25
+    },
+    {
+      "Time": 43.68,
+      "Who": "Monster",
+      "Action": "SetSpeed",
+      "Amt": 1.25
+    },
+    {
+      "Time": 43.68,
+      "Who": "Monster4",
+      "Action": "SetSpeed",
+      "Amt": 1.25
+    },
+    {
+      "Time": 43.68,
+      "Who": "Monster2",
+      "Action": "Rotate",
+      "Amt": 45
+    },
+    {
+      "Time": 43.68,
+      "Who": "Monster3",
+      "Action": "Rotate",
+      "Amt": 45
+    },
+    {
+      "Time": 46.08,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": 12
+    },
+    {
+      "Time": 48,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 48,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 48.24,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 48.24,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 48.48,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 48.48,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 49.92,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 49.92,
+      "Who": "Monster3",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 49.92,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": -3
+    },
+    {
+      "Time": 49.92,
+      "Who": "Monster3",
+      "Action": "SetX",
+      "Amt": 1
+    },
+    {
+      "Time": 49.92,
+      "Who": "Monster2",
+      "Action": "SetY",
+      "Amt": -7
+    },
+    {
+      "Time": 49.92,
+      "Who": "Monster3",
+      "Action": "SetY",
+      "Amt": -7
+    },
+    {
+      "Time": 49.92,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 49.92,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 50.16,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 50.16,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 50.4,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 50.4,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 51.84,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 51.84,
+      "Who": "Monster3",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 51.84,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": -2.5
+    },
+    {
+      "Time": 51.84,
+      "Who": "Monster3",
+      "Action": "SetX",
+      "Amt": 2.5
+    },
+    {
+      "Time": 51.84,
+      "Who": "Monster2",
+      "Action": "SetY",
+      "Amt": -7
+    },
+    {
+      "Time": 51.84,
+      "Who": "Monster3",
+      "Action": "SetY",
+      "Amt": -7
+    },
+    {
+      "Time": 51.84,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 51.84,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 52.08,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 52.08,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 52.32,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 52.32,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 53.76,
+      "Who": "Monster",
+      "Action": "SetSizeSpeed",
+      "Amt": 100
+    },
+    {
+      "Time": 53.76,
+      "Who": "Monster",
+      "Action": "SizeToX",
+      "Amt": 1
+    },
+    {
+      "Time": 53.76,
+      "Who": "Monster",
+      "Action": "SizeToY",
+      "Amt": 1
+    },
+    {
+      "Time": 53.76,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 53.76,
+      "Who": "Monster3",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 53.76,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": -1
+    },
+    {
+      "Time": 53.76,
+      "Who": "Monster3",
+      "Action": "SetX",
+      "Amt": -5
+    },
+    {
+      "Time": 53.76,
+      "Who": "Monster2",
+      "Action": "SetY",
+      "Amt": -7
+    },
+    {
+      "Time": 53.76,
+      "Who": "Monster3",
+      "Action": "SetY",
+      "Amt": -7
+    },
+    {
+      "Time": 53.76,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 53.76,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 54,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 54,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 54.24,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 54.24,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 55.68,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 55.68,
+      "Who": "Monster3",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 55.68,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": 2
+    },
+    {
+      "Time": 55.68,
+      "Who": "Monster3",
+      "Action": "SetX",
+      "Amt": 6
+    },
+    {
+      "Time": 55.68,
+      "Who": "Monster2",
+      "Action": "SetY",
+      "Amt": -7
+    },
+    {
+      "Time": 55.68,
+      "Who": "Monster3",
+      "Action": "SetY",
+      "Amt": -7
+    },
+    {
+      "Time": 55.68,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 55.68,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 55.92,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 55.92,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 56.16,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 56.16,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 57.6,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 57.6,
+      "Who": "Monster3",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 57.6,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": 4
+    },
+    {
+      "Time": 57.6,
+      "Who": "Monster3",
+      "Action": "SetX",
+      "Amt": -4
+    },
+    {
+      "Time": 57.6,
+      "Who": "Monster2",
+      "Action": "SetY",
+      "Amt": -7
+    },
+    {
+      "Time": 57.6,
+      "Who": "Monster3",
+      "Action": "SetY",
+      "Amt": -7
+    },
+    {
+      "Time": 57.6,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 57.6,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 57.6,
+      "Who": "Monster",
+      "Action": "SetX",
+      "Amt": 6.5
+    },
+    {
+      "Time": 57.6,
+      "Who": "Monster",
+      "Action": "SetY",
+      "Amt": -6
+    },
+    {
+      "Time": 57.6,
+      "Who": "Monster4",
+      "Action": "SetX",
+      "Amt": -6.5
+    },
+    {
+      "Time": 57.6,
+      "Who": "Monster",
+      "Action": "SetY",
+      "Amt": -6
+    },
+    {
+      "Time": 57.84,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 57.84,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 58.08,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 58.08,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 59.52,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 59.52,
+      "Who": "Monster3",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 59.52,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": 6.5
+    },
+    {
+      "Time": 59.52,
+      "Who": "Monster2",
+      "Action": "SetY",
+      "Amt": 6.5
+    },
+    {
+      "Time": 59.52,
+      "Who": "Monster3",
+      "Action": "SetX",
+      "Amt": -6.5
+    },
+    {
+      "Time": 59.52,
+      "Who": "Monster3",
+      "Action": "SetY",
+      "Amt": 6.5
+    },
+    {
+      "Time": 59.52,
+      "Who": "Monster",
+      "Action": "Rotate",
+      "Amt": 45
+    },
+    {
+      "Time": 59.52,
+      "Who": "Monster4",
+      "Action": "Rotate",
+      "Amt": 45
+    },
+    {
+      "Time": 59.52,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": -3.5
+    },
+    {
+      "Time": 59.52,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 3.5
+    },
+    {
+      "Time": 59.52,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 3.5
+    },
+    {
+      "Time": 59.52,
+      "Who": "Monster4",
+      "Action": "LerpToY",
+      "Amt": -3.5
+    },
+    {
+      "Time": 61.44,
+      "Who": "Monster2",
+      "Action": "HitboxOn"
+    },
+    {
+      "Time": 61.44,
+      "Who": "Monster3",
+      "Action": "HitboxOn"
+    },
+    {
+      "Time": 61.44,
+      "Who": "Monster",
+      "Action": "SetSpeed",
+      "Amt": 30
+    },
+    {
+      "Time": 61.44,
+      "Who": "Monster2",
+      "Action": "SetSpeed",
+      "Amt": 30
+    },
+    {
+      "Time": 61.44,
+      "Who": "Monster3",
+      "Action": "SetSpeed",
+      "Amt": 30
+    },
+    {
+      "Time": 61.44,
+      "Who": "Monster4",
+      "Action": "SetSpeed",
+      "Amt": 30
+    },
+
+    {
+      "Time": 61.92,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -2.5
+    },
+    {
+      "Time": 61.92,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": 4.5
+    },
+    {
+      "Time": 61.92,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": 2.5
+    },
+    {
+      "Time": 61.92,
+      "Who": "Monster4",
+      "Action": "MoveToX",
+      "Amt": -4.5
+    },
+    {
+      "Time": 61.92,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+    {
+      "Time": 61.92,
+      "Who": "Monster2",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+
+    {
+      "Time": 62.4,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -1.5
+    },
+    {
+      "Time": 62.4,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": 2.5
+    },
+    {
+      "Time": 62.4,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": 1.5
+    },
+    {
+      "Time": 62.4,
+      "Who": "Monster4",
+      "Action": "MoveToX",
+      "Amt": -2.5
+    },
+
+    {
+      "Time": 62.4,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 62.64,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 62.88,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 62.88,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -0.5
+    },
+    {
+      "Time": 62.88,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": 0.5
+    },
+    {
+      "Time": 62.88,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": 0.5
+    },
+    {
+      "Time": 62.88,
+      "Who": "Monster4",
+      "Action": "MoveToX",
+      "Amt": -0.5
+    },
+    {
+      "Time": 63.12,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 63.36,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 1.5
+    },
+    {
+      "Time": 63.36,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": -2.5
+    },
+    {
+      "Time": 63.36,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -1.5
+    },
+    {
+      "Time": 63.36,
+      "Who": "Monster4",
+      "Action": "MoveToX",
+      "Amt": 2.5
+    },
+
+    {
+      "Time": 63.84,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 2.5
+    },
+    {
+      "Time": 63.84,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": -4.5
+    },
+    {
+      "Time": 63.84,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -2.5
+    },
+    {
+      "Time": 63.84,
+      "Who": "Monster4",
+      "Action": "MoveToX",
+      "Amt": 4.5
+    },
+    {
+      "Time": 63.84,
+      "Who": "Monster2",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+    {
+      "Time": 63.84,
+      "Who": "Monster3",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+
+    {
+      "Time": 64.32,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 3.5
+    },
+    {
+      "Time": 64.32,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": -6.5
+    },
+    {
+      "Time": 64.32,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -3.5
+    },
+    {
+      "Time": 64.32,
+      "Who": "Monster4",
+      "Action": "MoveToX",
+      "Amt": 6.5
+    },
+    {
+      "Time": 64.32,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+
+
+
+    {
+      "Time": 64.56,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 64.8,
+      "Who": "Monster4",
+      "Action": "MoveToY",
+      "Amt": -2.5
+    },
+    {
+      "Time": 64.8,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": 4.5
+    },
+    {
+      "Time": 64.8,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 2.5
+    },
+    {
+      "Time": 64.8,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": -4.5
+    },
+    {
+      "Time": 64.8,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 65.04,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 65.28,
+      "Who": "Monster4",
+      "Action": "MoveToY",
+      "Amt": -1.5
+    },
+    {
+      "Time": 65.28,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": 2.5
+    },
+    {
+      "Time": 65.28,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 1.5
+    },
+    {
+      "Time": 65.28,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": -2.5
+    },
+
+    {
+      "Time": 65.76,
+      "Who": "Monster4",
+      "Action": "MoveToY",
+      "Amt": -0.5
+    },
+    {
+      "Time": 65.76,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": 0.5
+    },
+    {
+      "Time": 65.76,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 0.5
+    },
+    {
+      "Time": 65.76,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": -0.5
+    },
+    {
+      "Time": 63.76,
+      "Who": "Monster3",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+    {
+      "Time": 65.76,
+      "Who": "Monster4",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+
+    {
+      "Time": 66.24,
+      "Who": "Monster4",
+      "Action": "MoveToY",
+      "Amt": 1.5
+    },
+    {
+      "Time": 66.24,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": -2.5
+    },
+    {
+      "Time": 66.24,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": -1.5
+    },
+    {
+      "Time": 66.24,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": 2.5
+    },
+    {
+      "Time": 66.24,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 66.48,
+      "Who": "Monster4",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 66.72,
+      "Who": "Monster4",
+      "Action": "MoveToY",
+      "Amt": 2.5
+    },
+    {
+      "Time": 66.72,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": -4.5
+    },
+    {
+      "Time": 66.72,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": -2.5
+    },
+    {
+      "Time": 66.72,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": 4.5
+    },
+    {
+      "Time": 66.72,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 66.96,
+      "Who": "Monster4",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 67.2,
+      "Who": "Monster4",
+      "Action": "MoveToY",
+      "Amt": 3.5
+    },
+    {
+      "Time": 67.2,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": -6.5
+    },
+    {
+      "Time": 67.2,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": -3.5
+    },
+    {
+      "Time": 67.2,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": 6.5
+    },
+
+
+
+    {
+      "Time": 67.68,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -2.5
+    },
+    {
+      "Time": 67.68,
+      "Who": "Monster4",
+      "Action": "MoveToX",
+      "Amt": 4.5
+    },
+    {
+      "Time": 67.68,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 2.5
+    },
+    {
+      "Time": 67.68,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": -4.5
+    },
+    {
+      "Time": 67.68,
+      "Who": "Monster4",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+    {
+      "Time": 67.68,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+
+    {
+      "Time": 68.16,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -1.5
+    },
+    {
+      "Time": 68.16,
+      "Who": "Monster4",
+      "Action": "MoveToX",
+      "Amt": 2.5
+    },
+    {
+      "Time": 68.16,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 1.5
+    },
+    {
+      "Time": 68.16,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": -2.5
+    },
+    {
+
+      "Time": 68.16,
+      "Who": "Monster4",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 68.4,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 68.64,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -0.5
+    },
+    {
+      "Time": 68.64,
+      "Who": "Monster4",
+      "Action": "MoveToX",
+      "Amt": 0.5
+    },
+    {
+      "Time": 68.64,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 0.5
+    },
+    {
+      "Time": 68.64,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": -0.5
+    },
+
+    {
+      "Time": 68.64,
+      "Who": "Monster4",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 68.88,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 69.12,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": 1.5
+    },
+    {
+      "Time": 69.12,
+      "Who": "Monster4",
+      "Action": "MoveToX",
+      "Amt": -2.5
+    },
+    {
+      "Time": 69.12,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -1.5
+    },
+    {
+      "Time": 69.12,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": 2.5
+    },
+    {
+      "Time": 69.12,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+    {
+      "Time": 69.12,
+      "Who": "Monster2",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+
+
+
+    {
+      "Time": 69.6,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": 2.5
+    },
+    {
+      "Time": 69.6,
+      "Who": "Monster4",
+      "Action": "MoveToX",
+      "Amt": -4.5
+    },
+    {
+      "Time": 69.6,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -2.5
+    },
+    {
+      "Time": 69.6,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": 4.5
+    },
+    {
+      "Time": 69.6,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 69.6,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 70.08,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": 3.5
+    },
+    {
+      "Time": 70.08,
+      "Who": "Monster4",
+      "Action": "MoveToX",
+      "Amt": -6.5
+    },
+    {
+      "Time": 70.08,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -3.5
+    },
+    {
+      "Time": 70.08,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": 6.5
+    },
+    {
+      "Time": 70.08,
+      "Who": "Monster2",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+    {
+      "Time": 70.08,
+      "Who": "Monster3",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+
+
+
+
+    {
+      "Time": 70.56,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": -2.5
+    },
+    {
+      "Time": 70.56,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": 4.5
+    },
+    {
+      "Time": 70.56,
+      "Who": "Monster4",
+      "Action": "MoveToY",
+      "Amt": 2.5
+    },
+    {
+      "Time": 70.56,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": -4.5
+    },
+    {
+      "Time": 70.56,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 70.56,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 71.04,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": -1.5
+    },
+    {
+      "Time": 71.04,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": 2.5
+    },
+    {
+      "Time": 71.04,
+      "Who": "Monster4",
+      "Action": "MoveToY",
+      "Amt": 1.5
+    },
+    {
+      "Time": 71.04,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": -2.5
+    },
+    {
+      "Time": 71.04,
+      "Who": "Monster4",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+    {
+      "Time": 71.04,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+    {
+      "Time": 71.04,
+      "Who": "Monster2",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+
+    {
+      "Time": 71.52,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": -0.5
+    },
+    {
+      "Time": 71.52,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": 0.5
+    },
+    {
+      "Time": 71.52,
+      "Who": "Monster4",
+      "Action": "MoveToY",
+      "Amt": 0.5
+    },
+    {
+      "Time": 71.52,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": -0.5
+    },
+    {
+      "Time": 71.52,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 71.76,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 72,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 1.5
+    },
+    {
+      "Time": 72,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": -2.5
+    },
+    {
+      "Time": 72,
+      "Who": "Monster4",
+      "Action": "MoveToY",
+      "Amt": -1.5
+    },
+    {
+      "Time": 72,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": 2.5
+    },
+    {
+      "Time": 72,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 72.24,
+      "Who": "Monster4",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 72.48,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 2.5
+    },
+    {
+      "Time": 72.48,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": -4.5
+    },
+    {
+      "Time": 72.48,
+      "Who": "Monster4",
+      "Action": "MoveToY",
+      "Amt": -2.5
+    },
+    {
+      "Time": 72.48,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": 4.5
+    },
+    {
+      "Time": 72.48,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 72.72,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 72.96,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 3.5
+    },
+    {
+      "Time": 72.96,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": -6.5
+    },
+    {
+      "Time": 72.96,
+      "Who": "Monster4",
+      "Action": "MoveToY",
+      "Amt": -3.5
+    },
+    {
+      "Time": 72.96,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": 6.5
+    },
+
+
+
+
+
+
+
+
+
+    {
+      "Time": 73.44,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -2.5
+    },
+    {
+      "Time": 73.44,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": 4.5
+    },
+    {
+      "Time": 73.44,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": 2.5
+    },
+    {
+      "Time": 73.44,
+      "Who": "Monster4",
+      "Action": "MoveToX",
+      "Amt": -4.5
+    },
+    {
+      "Time": 73.44,
+      "Who": "Monster2",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+    {
+      "Time": 73.44,
+      "Who": "Monster3",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+
+    {
+      "Time": 73.92,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -1.5
+    },
+    {
+      "Time": 73.92,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": 2.5
+    },
+    {
+      "Time": 73.92,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": 1.5
+    },
+    {
+      "Time": 73.92,
+      "Who": "Monster4",
+      "Action": "MoveToX",
+      "Amt": -2.5
+    },
+    {
+      "Time": 73.92,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 74.16,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 74.4,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -0.5
+    },
+    {
+      "Time": 74.4,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": 0.5
+    },
+    {
+      "Time": 74.4,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": 0.5
+    },
+    {
+      "Time": 74.4,
+      "Who": "Monster4",
+      "Action": "MoveToX",
+      "Amt": -0.5
+    },
+    {
+      "Time": 74.4,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 74.64,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 74.88,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 1.5
+    },
+    {
+      "Time": 74.88,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": -2.5
+    },
+    {
+      "Time": 74.88,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -1.5
+    },
+    {
+      "Time": 74.88,
+      "Who": "Monster4",
+      "Action": "MoveToX",
+      "Amt": 2.5
+    },
+
+    {
+      "Time": 75.36,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 2.5
+    },
+    {
+      "Time": 75.36,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": -4.5
+    },
+    {
+      "Time": 75.36,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -2.5
+    },
+    {
+      "Time": 75.36,
+      "Who": "Monster4",
+      "Action": "MoveToX",
+      "Amt": 4.5
+    },
+    {
+      "Time": 75.36,
+      "Who": "Monster3",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+    {
+      "Time": 75.36,
+      "Who": "Monster4",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+
+    {
+      "Time": 75.84,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 3.5
+    },
+    {
+      "Time": 75.84,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": -6.5
+    },
+    {
+      "Time": 75.84,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -3.5
+    },
+    {
+      "Time": 75.84,
+      "Who": "Monster4",
+      "Action": "MoveToX",
+      "Amt": 6.5
+    },
+    {
+      "Time": 75.84,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+
+
+
+
+    {
+      "Time": 76.08,
+      "Who": "Monster4",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 76.32,
+      "Who": "Monster4",
+      "Action": "MoveToY",
+      "Amt": -2.5
+    },
+    {
+      "Time": 76.32,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": 4.5
+    },
+    {
+      "Time": 76.32,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 2.5
+    },
+    {
+      "Time": 76.32,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": -4.5
+    },
+    {
+      "Time": 76.32,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 76.56,
+      "Who": "Monster4",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 76.8,
+      "Who": "Monster4",
+      "Action": "MoveToY",
+      "Amt": -1.5
+    },
+    {
+      "Time": 76.8,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": 2.5
+    },
+    {
+      "Time": 76.8,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 1.5
+    },
+    {
+      "Time": 76.8,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": -2.5
+    },
+
+    {
+      "Time": 77.28,
+      "Who": "Monster4",
+      "Action": "MoveToY",
+      "Amt": -0.5
+    },
+    {
+      "Time": 77.28,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": 0.5
+    },
+    {
+      "Time": 77.28,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 0.5
+    },
+    {
+      "Time": 77.28,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": -0.5
+    },
+    {
+      "Time": 77.28,
+      "Who": "Monster4",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+    {
+      "Time": 77.28,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+
+    {
+      "Time": 77.76,
+      "Who": "Monster4",
+      "Action": "MoveToY",
+      "Amt": 1.5
+    },
+    {
+      "Time": 77.76,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": -2.5
+    },
+    {
+      "Time": 77.76,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": -1.5
+    },
+    {
+      "Time": 77.76,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": 2.5
+    },
+    {
+      "Time": 77.76,
+      "Who": "Monster4",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 78,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 78.24,
+      "Who": "Monster4",
+      "Action": "MoveToY",
+      "Amt": 2.5
+    },
+    {
+      "Time": 78.24,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": -4.5
+    },
+    {
+      "Time": 78.24,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": -2.5
+    },
+    {
+      "Time": 78.24,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": 4.5
+    },
+    {
+      "Time": 78.24,
+      "Who": "Monster4",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 78.48,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 78.72,
+      "Who": "Monster4",
+      "Action": "MoveToY",
+      "Amt": 3.5
+    },
+    {
+      "Time": 78.72,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": -6.5
+    },
+    {
+      "Time": 78.72,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": -3.5
+    },
+    {
+      "Time": 78.72,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": 6.5
+    },
+
+
+
+    {
+      "Time": 79.2,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -2.5
+    },
+    {
+      "Time": 79.2,
+      "Who": "Monster4",
+      "Action": "MoveToX",
+      "Amt": 4.5
+    },
+    {
+      "Time": 79.2,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 2.5
+    },
+    {
+      "Time": 79.2,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": -4.5
+    },
+    {
+      "Time": 79.2,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+    {
+      "Time": 79.2,
+      "Who": "Monster2",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+
+    {
+      "Time": 79.68,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -1.5
+    },
+    {
+      "Time": 79.68,
+      "Who": "Monster4",
+      "Action": "MoveToX",
+      "Amt": 2.5
+    },
+    {
+      "Time": 79.68,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 1.5
+    },
+    {
+      "Time": 79.68,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": -2.5
+    },
+    {
+      "Time": 79.68,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 79.92,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 80.16,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": -0.5
+    },
+    {
+      "Time": 80.16,
+      "Who": "Monster4",
+      "Action": "MoveToX",
+      "Amt": 0.5
+    },
+    {
+      "Time": 80.16,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": 0.5
+    },
+    {
+      "Time": 80.16,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": -0.5
+    },
+    {
+      "Time": 80.16,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 80.4,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 80.64,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": 1.5
+    },
+    {
+      "Time": 80.64,
+      "Who": "Monster4",
+      "Action": "MoveToX",
+      "Amt": -2.5
+    },
+    {
+      "Time": 80.64,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -1.5
+    },
+    {
+      "Time": 80.64,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": 2.5
+    },
+    {
+      "Time": 80.64,
+      "Who": "Monster2",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+    {
+      "Time": 80.64,
+      "Who": "Monster3",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+
+    {
+      "Time": 81.12,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": 2.5
+    },
+    {
+      "Time": 81.12,
+      "Who": "Monster4",
+      "Action": "MoveToX",
+      "Amt": -4.5
+    },
+    {
+      "Time": 81.12,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -2.5
+    },
+    {
+      "Time": 81.12,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": 4.5
+    },
+    {
+      "Time": 81.12,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 81.12,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 81.6,
+      "Who": "Monster3",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+    {
+      "Time": 81.6,
+      "Who": "Monster4",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+    {
+      "Time": 81.6,
+      "Who": "Monster3",
+      "Action": "MoveToY",
+      "Amt": 3.5
+    },
+    {
+      "Time": 81.6,
+      "Who": "Monster4",
+      "Action": "MoveToX",
+      "Amt": -6.5
+    },
+    {
+      "Time": 81.6,
+      "Who": "Monster",
+      "Action": "MoveToY",
+      "Amt": -3.5
+    },
+    {
+      "Time": 81.6,
+      "Who": "Monster2",
+      "Action": "MoveToX",
+      "Amt": 6.5
+    },
+
+
+
+    {
+      "Time": 82.08,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 82.08,
+      "Who": "Monster4",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 82.08,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": -2.5
+    },
+    {
+      "Time": 82.08,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": 4.5
+    },
+    {
+      "Time": 82.08,
+      "Who": "Monster4",
+      "Action": "MoveToY",
+      "Amt": 2.5
+    },
+    {
+      "Time": 82.08,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": -4.5
+    },
+    {
+      "Time": 82.08,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+
+    {
+      "Time": 82.56,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": -1.5
+    },
+    {
+      "Time": 82.56,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": 2.5
+    },
+    {
+      "Time": 82.56,
+      "Who": "Monster4",
+      "Action": "MoveToY",
+      "Amt": 1.5
+    },
+    {
+      "Time": 82.56,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": -2.5
+    },
+    {
+      "Time": 82.56,
+      "Who": "Monster2",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+    {
+      "Time": 82.56,
+      "Who": "Monster3",
+      "Action": "Flash",
+      "Amt": 0.48
+    },
+
+
+    {
+      "Time": 83.04,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": -0.5
+    },
+    {
+      "Time": 83.04,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": 0.5
+    },
+    {
+      "Time": 83.04,
+      "Who": "Monster4",
+      "Action": "MoveToY",
+      "Amt": 0.5
+    },
+    {
+      "Time": 83.04,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": -0.5
+    },
+    {
+      "Time": 83.04,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 83.28,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 83.52,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 1.5
+    },
+    {
+      "Time": 83.52,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": -2.5
+    },
+    {
+      "Time": 83.52,
+      "Who": "Monster4",
+      "Action": "MoveToY",
+      "Amt": -1.5
+    },
+    {
+      "Time": 83.52,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": 2.5
+    },
+    {
+      "Time": 83.52,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 83.76,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 84,
+      "Who": "Monster2",
+      "Action": "MoveToY",
+      "Amt": 3.5
+    },
+    {
+      "Time": 84,
+      "Who": "Monster3",
+      "Action": "MoveToX",
+      "Amt": -6.5
+    },
+    {
+      "Time": 84,
+      "Who": "Monster4",
+      "Action": "MoveToY",
+      "Amt": -3.5
+    },
+    {
+      "Time": 84,
+      "Who": "Monster",
+      "Action": "MoveToX",
+      "Amt": 6.5
+    },
+
+
+
+
+
+    {
+      "Time": 84.48,
+      "Who": "Monster",
+      "Action": "SetSpeed",
+      "Amt": 2
+    },
+    {
+      "Time": 84.48,
+      "Who": "Monster2",
+      "Action": "SetSpeed",
+      "Amt": 2
+    },
+    {
+      "Time": 84.48,
+      "Who": "Monster3",
+      "Action": "SetSpeed",
+      "Amt": 2
+    },
+    {
+      "Time": 84.48,
+      "Who": "Monster4",
+      "Action": "SetSpeed",
+      "Amt": 2
+    },
+
+
+
+    {
+      "Time": 85.44,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": -3
+    },
+    {
+      "Time": 85.44,
+      "Who": "Monster2",
+      "Action": "LerpToX",
+      "Amt": -1
+    },
+    {
+      "Time": 85.44,
+      "Who": "Monster3",
+      "Action": "LerpToX",
+      "Amt": 1
+    },
+    {
+      "Time": 85.44,
+      "Who": "Monster4",
+      "Action": "LerpToX",
+      "Amt": 3
+    },
+
+    {
+      "Time": 86.88,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": 0
+    },
+    {
+      "Time": 86.88,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 0
+    },
+    {
+      "Time": 86.88,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 0
+    },
+    {
+      "Time": 86.88,
+      "Who": "Monster4",
+      "Action": "LerpToY",
+      "Amt": 0
+    },
+
+
+
+    {
+      "Time": 88.32,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 88.32,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 88.32,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 88.32,
+      "Who": "Monster4",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+
+    {
+      "Time": 89.28,
+      "Who": "Monster",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 89.28,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 89.28,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": 12
+    },
+    {
+      "Time": 89.28,
+      "Who": "Monster2",
+      "Action": "SetY",
+      "Amt": -3.5
+    },
+    {
+      "Time": 89.28,
+      "Who": "Monster2",
+      "Action": "Rotate",
+      "Amt": 0
+    },
+
+    {
+      "Time": 89.28,
+      "Who": "Monster2",
+      "Action": "SizeToY",
+      "Amt": 2
+    },
+    {
+      "Time": 89.28,
+      "Who": "Monster2",
+      "Action": "SizeToX",
+      "Amt": 1.5
+    },
+    {
+      "Time": 89.28,
+      "Who": "Monster",
+      "Action": "SetX",
+      "Amt": -12
+    },
+
+    {
+      "Time": 89.28,
+      "Who": "Monster",
+      "Action": "SetY",
+      "Amt": -2.5
+    },
+    {
+      "Time": 89.28,
+      "Who": "Monster",
+      "Action": "Rotate",
+      "Amt": 0
+    },
+    {
+      "Time": 89.28,
+      "Who": "Monster",
+      "Action": "SizeToY",
+      "Amt": 6
+    },
+    {
+      "Time": 89.28,
+      "Who": "Monster",
+      "Action": "SizeToX",
+      "Amt": 4
+    },
+    {
+      "Time": 90.24,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": -10
+    },
+    {
+      "Time": 90.24,
+      "Who": "Monster2",
+      "Action": "LerpToX",
+      "Amt": 6.75
+    },
+    {
+      "Time": 90.72,
+      "Who": "Monster",
+      "Action": "SetSpeed",
+      "Amt": 4.8
+    },
+    {
+      "Time": 90.72,
+      "Who": "Monster2",
+      "Action": "SetSpeed",
+      "Amt": 9.6
+    },
+    {
+      "Time": 94.56,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 1.44
+    },
+    {
+      "Time": 96,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": 10
+    },
+    {
+      "Time": 96,
+      "Who": "Monster2",
+      "Action": "LerpToX",
+      "Amt": 3
+    },
+    {
+      "Time": 96,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 3.5
+    },
+    {
+      "Time": 96,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 96.24,
+      "Who": "Monster3",
+      "Action": "SizeToY",
+      "Amt": 2
+    },
+    {
+      "Time": 96.24,
+      "Who": "Monster3",
+      "Action": "SizeToX",
+      "Amt": 1.5
+    },
+    {
+      "Time": 96.24,
+      "Who": "Monster3",
+      "Action": "Rotate",
+      "Amt": 0
+    },
+    {
+      "Time": 96.24,
+      "Who": "Monster3",
+      "Action": "SetX",
+      "Amt": 12
+    },
+    {
+      "Time": 96.24,
+      "Who": "Monster3",
+      "Action": "SetY",
+      "Amt": 3.5
+    },
+    {
+      "Time": 96.24,
+      "Who": "Monster3",
+      "Action": "SetSpeed",
+      "Amt": 9.6
+    },
+
+    {
+      "Time": 96.48,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 96.48,
+      "Who": "Monster2",
+      "Action": "LerpToX",
+      "Amt": 0
+    },
+    {
+      "Time": 96.48,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": -3.5
+    },
+    {
+      "Time": 96.48,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 96.96,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 96.96,
+      "Who": "Monster2",
+      "Action": "LerpToX",
+      "Amt": -3
+    },
+    {
+      "Time": 96.96,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 3.5
+    },
+    {
+      "Time": 96.96,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 96.96,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": 2.5
+    },
+
+    {
+      "Time": 97.44,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 97.44,
+      "Who": "Monster2",
+      "Action": "LerpToX",
+      "Amt": -6.75
+    },
+    {
+      "Time": 97.44,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": -3.5
+    },
+    {
+      "Time": 97.44,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 97.44,
+      "Who": "Monster3",
+      "Action": "LerpToX",
+      "Amt": 6.75
+    },
+    {
+      "Time": 98.4,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 1.44
+    },
+    {
+      "Time": 99.84,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": -10
+    },
+    {
+      "Time": 99.84,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 99.84,
+      "Who": "Monster2",
+      "Action": "LerpToX",
+      "Amt": -3
+    },
+    {
+      "Time": 99.84,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 3.5
+    },
+    {
+      "Time": 99.84,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 100.32,
+      "Who": "Monster3",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 100.32,
+      "Who": "Monster3",
+      "Action": "LerpToX",
+      "Amt": 3
+    },
+    {
+      "Time": 100.32,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": -3.5
+    },
+    {
+      "Time": 100.32,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 100.56,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 100.56,
+      "Who": "Monster2",
+      "Action": "LerpToX",
+      "Amt": 0
+    },
+    {
+      "Time": 100.56,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": -3.5
+    },
+
+    {
+      "Time": 100.8,
+      "Who": "Monster3",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 100.8,
+      "Who": "Monster3",
+      "Action": "LerpToX",
+      "Amt": 0
+    },
+    {
+      "Time": 100.8,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 3.5
+    },
+
+    {
+      "Time": 101.28,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 101.28,
+      "Who": "Monster2",
+      "Action": "LerpToX",
+      "Amt": 3
+    },
+    {
+      "Time": 101.28,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 3.5
+    },
+    {
+      "Time": 101.28,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 101.76,
+      "Who": "Monster3",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 101.76,
+      "Who": "Monster3",
+      "Action": "LerpToX",
+      "Amt": -3
+    },
+    {
+      "Time": 101.76,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": -3.5
+    },
+    {
+      "Time": 101.76,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 102.24,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 102.24,
+      "Who": "Monster2",
+      "Action": "LerpToX",
+      "Amt": 6.75
+    },
+    {
+      "Time": 102.24,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": -3.5
+    },
+    {
+      "Time": 102.24,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+
+    {
+      "Time": 102.24,
+      "Who": "Monster3",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 102.24,
+      "Who": "Monster3",
+      "Action": "LerpToX",
+      "Amt": -6.75
+    },
+    {
+      "Time": 102.24,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 3.5
+    },
+    {
+      "Time": 102.24,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 102.24,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": -2.5
+    },
+    {
+      "Time": 102.72,
+      "Who": "Monster3",
+      "Action": "Flash",
+      "Amt": 0.96
+    },
+    {
+      "Time": 103.68,
+      "Who": "Monster3",
+      "Action": "LerpToX",
+      "Amt": 6.75
+    },
+    {
+      "Time": 104.64,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 1.44
+    },
+
+    {
+      "Time": 106.08,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": 10
+    },
+    {
+      "Time": 106.08,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 106.08,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 106.08,
+      "Who": "Monster2",
+      "Action": "LerpToX",
+      "Amt": 3
+    },
+    {
+      "Time": 106.08,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 3.5
+    },
+
+    {
+      "Time": 106.08,
+      "Who": "Monster3",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 106.08,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 106.08,
+      "Who": "Monster3",
+      "Action": "LerpToX",
+      "Amt": 3
+    },
+    {
+      "Time": 106.08,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": -3.5
+    },
+
+
+
+
+    {
+      "Time": 106.32,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 106.32,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 106.32,
+      "Who": "Monster2",
+      "Action": "LerpToX",
+      "Amt": 0
+    },
+    {
+      "Time": 106.32,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": -3.5
+    },
+
+    {
+      "Time": 106.32,
+      "Who": "Monster3",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 106.32,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 106.32,
+      "Who": "Monster3",
+      "Action": "LerpToX",
+      "Amt": 0
+    },
+    {
+      "Time": 106.32,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 3.5
+    },
+    {
+      "Time": 106.32,
+      "Who": "Monster3",
+      "Action": "Flash",
+      "Amt": 0.96
+    },
+
+
+
+    {
+      "Time": 106.56,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 106.56,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 106.56,
+      "Who": "Monster2",
+      "Action": "LerpToX",
+      "Amt": -3
+    },
+    {
+      "Time": 106.56,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 3.5
+    },
+
+    {
+      "Time": 106.56,
+      "Who": "Monster3",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 106.56,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 106.56,
+      "Who": "Monster3",
+      "Action": "LerpToX",
+      "Amt": -3
+    },
+    {
+      "Time": 106.56,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": -3.5
+    },
+
+
+
+    {
+      "Time": 107.04,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 107.04,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 107.04,
+      "Who": "Monster2",
+      "Action": "LerpToX",
+      "Amt": -6.75
+    },
+    {
+      "Time": 107.04,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": -3.5
+    },
+
+    {
+      "Time": 107.04,
+      "Who": "Monster3",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 107.04,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 107.04,
+      "Who": "Monster3",
+      "Action": "LerpToX",
+      "Amt": -6.75
+    },
+    {
+      "Time": 107.04,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 3.5
+    },
+    {
+      "Time": 107.28,
+      "Who": "Monster3",
+      "Action": "LerpToX",
+      "Amt": 6.75
+    },
+    {
+      "Time": 107.52,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": 2.5
+    },
+
+
+
+    {
+      "Time": 107.52,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 107.52,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 107.52,
+      "Who": "Monster2",
+      "Action": "LerpToX",
+      "Amt": -3
+    },
+    {
+      "Time": 107.52,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 3.5
+    },
+
+    {
+      "Time": 107.52,
+      "Who": "Monster3",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 107.52,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 107.52,
+      "Who": "Monster3",
+      "Action": "LerpToX",
+      "Amt": 3
+    },
+    {
+      "Time": 107.52,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": -3.5
+    },
+
+
+
+    {
+      "Time": 108.96,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 108.96,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 108.96,
+      "Who": "Monster2",
+      "Action": "LerpToX",
+      "Amt": 0
+    },
+    {
+      "Time": 108.96,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": -3.5
+    },
+
+    {
+      "Time": 108.96,
+      "Who": "Monster3",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 108.96,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 108.96,
+      "Who": "Monster3",
+      "Action": "LerpToX",
+      "Amt": 0
+    },
+    {
+      "Time": 108.96,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 3.5
+    },
+
+
+
+    {
+      "Time": 109.44,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 109.44,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 109.44,
+      "Who": "Monster2",
+      "Action": "LerpToX",
+      "Amt": 3
+    },
+    {
+      "Time": 109.44,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 3.5
+    },
+
+    {
+      "Time": 109.44,
+      "Who": "Monster3",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 109.44,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 109.44,
+      "Who": "Monster3",
+      "Action": "LerpToX",
+      "Amt": -3
+    },
+    {
+      "Time": 109.44,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": -3.5
+    },
+
+
+
+    {
+      "Time": 109.92,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 109.92,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 109.92,
+      "Who": "Monster2",
+      "Action": "LerpToX",
+      "Amt": 6.75
+    },
+    {
+      "Time": 109.92,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": -3.5
+    },
+
+    {
+      "Time": 109.92,
+      "Who": "Monster3",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 109.92,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 109.92,
+      "Who": "Monster3",
+      "Action": "LerpToX",
+      "Amt": -6.75
+    },
+    {
+      "Time": 109.92,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 3.5
+    },
+    {
+      "Time": 110.88,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 1.44
+    },
+    {
+      "Time": 112.32,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": -10
+    },
+    {
+      "Time": 112.8,
+      "Who": "Monster",
+      "Action": "Flash",
+      "Amt": 0.96
+    },
+    {
+      "Time": 113.76,
+      "Who": "Monster",
+      "Action": "LerpToX",
+      "Amt": 12
+    },
+    {
+      "Time": 114.24,
+      "Who": "Monster3",
+      "Action": "Flash",
+      "Amt": 0.96
+    },
+    {
+      "Time": 115.2,
+      "Who": "Monster3",
+      "Action": "LerpToX",
+      "Amt": 12
+    },
+    {
+      "Time": 115.68,
+      "Who": "Monster2",
+      "Action": "Flash",
+      "Amt": 0.96
+    },
+    {
+      "Time": 116.64,
+      "Who": "Monster2",
+      "Action": "LerpToX",
+      "Amt": -12
+    },
+
+
+    {
+      "Time": 117.6,
+      "Who": "Monster",
+      "Action": "SizeToX",
+      "Amt": 1
+    },
+    {
+      "Time": 117.6,
+      "Who": "Monster2",
+      "Action": "SizeToX",
+      "Amt": 1
+    },
+    {
+      "Time": 117.6,
+      "Who": "Monster3",
+      "Action": "SizeToX",
+      "Amt": 1
+    },
+    {
+      "Time": 117.6,
+      "Who": "Monster",
+      "Action": "SizeToY",
+      "Amt": 1
+    },
+    {
+      "Time": 117.6,
+      "Who": "Monster2",
+      "Action": "SizeToY",
+      "Amt": 1
+    },
+    {
+      "Time": 117.6,
+      "Who": "Monster3",
+      "Action": "SizeToY",
+      "Amt": 1
+    },
+
+
+    {
+      "Time": 117.7,
+      "Who": "Monster",
+      "Action": "SetSpeed",
+      "Amt": 1.25
+    },
+    {
+      "Time": 117.7,
+      "Who": "Monster2",
+      "Action": "SetSpeed",
+      "Amt": 1.25
+    },
+    {
+      "Time": 117.7,
+      "Who": "Monster3",
+      "Action": "SetSpeed",
+      "Amt": 1.25
+    },
+    {
+      "Time": 118,
+      "Who": "Monster",
+      "Action": "Rotate",
+      "Amt": 45
+    },
+    {
+      "Time": 118,
+      "Who": "Monster2",
+      "Action": "Rotate",
+      "Amt": 45
+    },
+    {
+      "Time": 118,
+      "Who": "Monster3",
+      "Action": "Rotate",
+      "Amt": 45
+    },
+
+    {
+      "Time": 118,
+      "Who": "Monster",
+      "Action": "SetY",
+      "Amt": -5.25
+    },
+    {
+      "Time": 118,
+      "Who": "Monster2",
+      "Action": "SetY",
+      "Amt": -6.25
+    },
+    {
+      "Time": 118,
+      "Who": "Monster3",
+      "Action": "SetY",
+      "Amt": -6.25
+    },
+
+    {
+      "Time": 118,
+      "Who": "Monster",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 118,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": -2
+    },
+    {
+      "Time": 118,
+      "Who": "Monster3",
+      "Action": "SetX",
+      "Amt": 2
+    },
+
+    {
+      "Time": 118.1,
+      "Who": "Monster",
+      "Action": "HitboxOff"
+    },
+    {
+      "Time": 118.1,
+      "Who": "Monster2",
+      "Action": "HitboxOff"
+    },
+    {
+      "Time": 118.1,
+      "Who": "Monster3",
+      "Action": "HitboxOff"
+    },
+    {
+      "Time": 119.52,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": 5.5
+    },
+    {
+      "Time": 119.52,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 5.5
+    },
+    {
+      "Time": 119.52,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 5.5
+    },
+    {
+      "Time": 119.76,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 119.76,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 119.76,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 120,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 120,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 120,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 120.96,
+      "Who": "Monster",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 120.96,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 120.96,
+      "Who": "Monster3",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 120.96,
+      "Who": "Monster",
+      "Action": "SetY",
+      "Amt": -5.25
+    },
+    {
+      "Time": 120.96,
+      "Who": "Monster2",
+      "Action": "SetY",
+      "Amt": -6.25
+    },
+    {
+      "Time": 120.96,
+      "Who": "Monster3",
+      "Action": "SetY",
+      "Amt": -6.25
+    },
+
+    {
+      "Time": 120.96,
+      "Who": "Monster",
+      "Action": "SetX",
+      "Amt": -3
+    },
+    {
+      "Time": 120.96,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": -5
+    },
+    {
+      "Time": 120.96,
+      "Who": "Monster3",
+      "Action": "SetX",
+      "Amt": -1
+    },
+
+    {
+      "Time": 120.96,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": 5.5
+    },
+    {
+      "Time": 120.96,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 5.5
+    },
+    {
+      "Time": 120.96,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 5.5
+    },
+    {
+      "Time": 121.2,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 121.2,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 121.2,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 121.44,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 121.44,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 121.44,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+
+
+
+
+    {
+      "Time": 122.88,
+      "Who": "Monster",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 122.88,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 122.88,
+      "Who": "Monster3",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 122.88,
+      "Who": "Monster",
+      "Action": "SetY",
+      "Amt": -5.25
+    },
+    {
+      "Time": 122.88,
+      "Who": "Monster2",
+      "Action": "SetY",
+      "Amt": -6.25
+    },
+    {
+      "Time": 122.88,
+      "Who": "Monster3",
+      "Action": "SetY",
+      "Amt": -6.25
+    },
+
+    {
+      "Time": 122.88,
+      "Who": "Monster",
+      "Action": "SetX",
+      "Amt": 3
+    },
+    {
+      "Time": 122.88,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": 5
+    },
+    {
+      "Time": 122.88,
+      "Who": "Monster3",
+      "Action": "SetX",
+      "Amt": 1
+    },
+
+    {
+      "Time": 122.88,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": 5.5
+    },
+    {
+      "Time": 122.88,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 5.5
+    },
+    {
+      "Time": 122.88,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 5.5
+    },
+    {
+      "Time": 123.12,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 123.12,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 123.12,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 123.36,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 123.36,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 123.36,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+
+
+
+
+    {
+      "Time": 124.8,
+      "Who": "Monster",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 124.8,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 124.8,
+      "Who": "Monster3",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 124.8,
+      "Who": "Monster",
+      "Action": "SetY",
+      "Amt": -5.25
+    },
+    {
+      "Time": 124.8,
+      "Who": "Monster2",
+      "Action": "SetY",
+      "Amt": -6.25
+    },
+    {
+      "Time": 124.8,
+      "Who": "Monster3",
+      "Action": "SetY",
+      "Amt": -6.25
+    },
+
+    {
+      "Time": 124.8,
+      "Who": "Monster",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 124.8,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": -5
+    },
+    {
+      "Time": 124.8,
+      "Who": "Monster3",
+      "Action": "SetX",
+      "Amt": 5
+    },
+
+    {
+      "Time": 124.8,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": 5.5
+    },
+    {
+      "Time": 124.8,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 5.5
+    },
+    {
+      "Time": 124.8,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 5.5
+    },
+    {
+      "Time": 125.04,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 125.04,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 125.04,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 125.28,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 125.28,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 125.28,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+
+
+
+
+    {
+      "Time": 126.72,
+      "Who": "Monster",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 126.72,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 126.72,
+      "Who": "Monster3",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 126.72,
+      "Who": "Monster",
+      "Action": "SetY",
+      "Amt": -5.25
+    },
+    {
+      "Time": 126.72,
+      "Who": "Monster2",
+      "Action": "SetY",
+      "Amt": -6.25
+    },
+    {
+      "Time": 126.72,
+      "Who": "Monster3",
+      "Action": "SetY",
+      "Amt": -6.25
+    },
+
+    {
+      "Time": 126.72,
+      "Who": "Monster",
+      "Action": "SetX",
+      "Amt": 2
+    },
+    {
+      "Time": 126.72,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": -4
+    },
+    {
+      "Time": 126.72,
+      "Who": "Monster3",
+      "Action": "SetX",
+      "Amt": 4
+    },
+
+    {
+      "Time": 126.72,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": 5.5
+    },
+    {
+      "Time": 126.72,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 5.5
+    },
+    {
+      "Time": 126.72,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 5.5
+    },
+    {
+      "Time": 126.96,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 126.96,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 126.96,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 127.2,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 127.2,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 127.2,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+
+
+
+
+
+    {
+      "Time": 128.64,
+      "Who": "Monster",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 128.64,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 128.64,
+      "Who": "Monster3",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 128.64,
+      "Who": "Monster",
+      "Action": "SetY",
+      "Amt": -5.25
+    },
+    {
+      "Time": 128.64,
+      "Who": "Monster2",
+      "Action": "SetY",
+      "Amt": -6.25
+    },
+    {
+      "Time": 128.64,
+      "Who": "Monster3",
+      "Action": "SetY",
+      "Amt": -6.25
+    },
+
+    {
+      "Time": 128.64,
+      "Who": "Monster",
+      "Action": "SetX",
+      "Amt": -2
+    },
+    {
+      "Time": 128.64,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": 4
+    },
+    {
+      "Time": 128.64,
+      "Who": "Monster3",
+      "Action": "SetX",
+      "Amt": -4
+    },
+
+    {
+      "Time": 128.64,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": 5.5
+    },
+    {
+      "Time": 128.64,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 5.5
+    },
+    {
+      "Time": 128.64,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 5.5
+    },
+    {
+      "Time": 128.88,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 128.88,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 128.88,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 129.12,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 129.12,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 129.12,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+
+
+
+
+    {
+      "Time": 130.56,
+      "Who": "Monster",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 130.56,
+      "Who": "Monster2",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 130.56,
+      "Who": "Monster3",
+      "Action": "StopMove"
+    },
+    {
+      "Time": 130.56,
+      "Who": "Monster",
+      "Action": "SetY",
+      "Amt": -5.25
+    },
+    {
+      "Time": 130.56,
+      "Who": "Monster2",
+      "Action": "SetY",
+      "Amt": -6.25
+    },
+    {
+      "Time": 130.56,
+      "Who": "Monster3",
+      "Action": "SetY",
+      "Amt": -6.25
+    },
+
+    {
+      "Time": 130.56,
+      "Who": "Monster",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 130.56,
+      "Who": "Monster2",
+      "Action": "SetX",
+      "Amt": 2
+    },
+    {
+      "Time": 130.56,
+      "Who": "Monster3",
+      "Action": "SetX",
+      "Amt": -2
+    },
+
+    {
+      "Time": 130.56,
+      "Who": "Monster",
+      "Action": "LerpToY",
+      "Amt": 5.5
+    },
+    {
+      "Time": 130.56,
+      "Who": "Monster2",
+      "Action": "LerpToY",
+      "Amt": 5.5
+    },
+    {
+      "Time": 130.56,
+      "Who": "Monster3",
+      "Action": "LerpToY",
+      "Amt": 5.5
+    },
+    {
+      "Time": 130.8,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 130.8,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 130.8,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 131.04,
+      "Who": "Monster",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 131.04,
+      "Who": "Monster2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 131.04,
+      "Who": "Monster3",
+      "Action": "ShootAtPlayer"
+    },
+    { "Time": 166 }
+  ]
+}
+ 

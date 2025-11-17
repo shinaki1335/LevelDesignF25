@@ -1,0 +1,271 @@
+{
+  "Title": "Dance of the Centipede",
+  "Author": "Josue Pacheco",
+  "Events": [
+    {"Time": 0, "Who": "E1", "Action": "Rotate", "Amt": 0},
+    {"Time": 0, "Who": "E1", "Action": "ShootContinuous", "Amt": 2},
+    
+    {"Time": 2, "Who": "E2", "Action": "Rotate", "Amt": 180},
+    {"Time": 2, "Who": "E2", "Action": "ShootContinuous", "Amt": 2},
+    
+    {"Time": 4, "Who": "E3", "Action": "Rotate", "Amt": 270},
+    {"Time": 4, "Who": "E3", "Action": "ShootContinuous", "Amt": 2},
+    
+    {"Time": 6, "Who": "E4", "Action": "Rotate", "Amt": 90},
+    {"Time": 6, "Who": "E4", "Action": "ShootContinuous", "Amt": 2},
+    
+    {"Time": 8, "Who": "E1", "Action": "ShootContinuous", "Amt": 1},
+    {"Time": 8, "Who": "E2", "Action": "ShootContinuous", "Amt": 1},
+    {"Time": 8, "Who": "E3", "Action": "ShootContinuous", "Amt": 1},
+    {"Time": 8, "Who": "E4", "Action": "ShootContinuous", "Amt": 1},
+    
+    {"Time": 10, "Who": "E4", "Action": "MoveLeft", "Amt": 1.5},
+    {"Time": 10, "Who": "E4", "Action": "ShootContinuous", "Amt": 1.5},
+    
+    {"Time": 12, "Who": "E3", "Action": "MoveRight", "Amt": 1.5},
+    {"Time": 12, "Who": "E3", "Action": "ShootContinuous", "Amt": 1.5},
+    
+    {"Time": 14, "Who": "E1", "Action": "MoveUp", "Amt": 1.5},
+    {"Time": 14, "Who": "E1", "Action": "ShootContinuous", "Amt": 1.5},
+    
+    {"Time": 16, "Who": "E2", "Action": "MoveDown", "Amt": 1.5},
+    {"Time": 16, "Who": "E2", "Action": "ShootContinuous", "Amt": 1.5},
+
+    {"Time": 22, "Who": "E1", "Action": "ShootStar", "Amt": 15},
+    {"Time": 22, "Who": "E2", "Action": "ShootStar", "Amt": 15},
+    {"Time": 22, "Who": "E3", "Action": "ShootStar", "Amt": 15},
+    {"Time": 22, "Who": "E4", "Action": "ShootStar", "Amt": 15},
+
+
+
+
+
+
+    {"Time": 25, "Dialogue": "A visitor... in my theater?"},
+    {"Time": 27, "Dialogue": "How... unexpected."},
+    {"Time": 29, "Dialogue": "Your movements... they intrigue me."},
+    {"Time": 31.5, "Dialogue": "..."},
+    {"Time": 33, "Who": "EP", "Action": "MoveDown", "Amt": 2.0},
+    {"Time": 35, "Dialogue": "You carry a rhythm I haven't seen in centuries..."},
+    {"Time": 37, "Who": "EP", "Action": "StartCircleMove", "Amt": 7.0},
+    {"Time": 39, "Dialogue": "The stage is set... the lights dim..."},
+    {"Time": 41, "Dialogue": "My ensemble approaches. Can you hear their footsteps?"},
+    {"Time": 43, "Dialogue": "This isn't a battle... it's a performance."},
+    {"Time": 44, "Dialogue": "And you... you're the guest of honor."},
+    {"Time": 45, "Who": "EP", "Action": "StopCircleMove"},
+    {"Time": 46, "Dialogue": "DANCE! Show me you deserve this spotlight!"},
+    {"Time": 47.5, "Dialogue": " "},
+    {"Time": 47, "Who": "EP", "Action": "ChargeAtPlayer", "Amt": 1.0},
+    {"Time": 48, "Who": "EP", "Action": "FanShotAtPlayer", "Amt": -1},
+    {"Time": 49, "Who": "EP", "Action": "ChargeAtPlayer", "Amt": 1.0},
+    {"Time": 50, "Who": "EP", "Action": "FanShotAtPlayer", "Amt": -1},
+    {"Time": 51, "Who": "EP", "Action": "ChargeAtPlayer", "Amt": 1.0},
+    {"Time": 52, "Who": "EP", "Action": "FanShotAtPlayer", "Amt": -1},
+
+    {"Time": 53, "Who": "EP", "Action": "GoToCenter", "Amt": 1.0},
+    {"Time": 55, "Who": "EP", "Action": "WaveShot", "Amt": 5.0 },
+
+    {"Time": 60, "Who": "EP", "Action": "MoveLeft", "Amt": 1.5},
+    {"Time": 62, "Who": "EP", "Action": "SnakeShot", "Amt": 20},
+    {"Time": 63, "Who": "E1", "Action": "Rotate", "Amt": 0},
+    {"Time": 63, "Who": "E1", "Action": "ShootContinuous", "Amt": 7.0},
+    {"Time": 63, "Who": "E5", "Action": "Rotate", "Amt": 180},     
+    {"Time": 63, "Who": "E5", "Action": "ShootContinuous", "Amt": 7.0},
+    {"Time": 63, "Who": "E2", "Action": "Rotate", "Amt": 180},
+    {"Time": 63, "Who": "E2", "Action": "ShootContinuous", "Amt": 7.0},
+    {"Time": 63, "Who": "E6", "Action": "Rotate", "Amt": 0},     
+    {"Time": 63, "Who": "E6", "Action": "ShootContinuous", "Amt": 7.0},
+    {"Time": 65, "Who": "EP", "Action": "MoveRight", "Amt": 3},
+    {"Time": 66.5, "Who": "EP", "Action": "Rotate", "Amt": 180},
+    {"Time": 67, "Who": "EP", "Action": "SnakeShot", "Amt": 20},
+    {"Time": 69, "Who": "EP", "Action": "GoToCenter", "Amt": 1.0},
+
+
+
+
+    {"Time": 69, "Who": "EP", "Action": "GoToCenter", "Amt": 1.0},
+    {"Time": 70, "Who": "EP", "Action": "SpawnFlashingBullets", "Amt": 9.0},
+    {"Time": 79, "Who": "EP", "Action": "InwardSpiralShot", "Amt": 3.0},
+    {"Time": 82, "Who": "EP", "Action": "InwardSpiralShot", "Amt": 3.0},
+    {"Time": 85, "Who": "EP", "Action": "InwardSpiralShot", "Amt": 3.0},
+    {"Time": 88, "Who": "EP", "Action": "InwardSpiralShot", "Amt": 3.0},
+    {"Time": 91, "Who": "EP", "Action": "InwardSpiralShot", "Amt": 2.0},
+
+    {"Time": 96, "Who": "EP", "Action": "StartSpinShot", "Amt": 18},
+
+    {"Time": 107, "Who": "E7", "Action": "Rotate", "Amt": 0},
+    {"Time": 107, "Who": "E7", "Action":  "ShootGust", "Amt": 9},
+    {"Time": 107, "Who": "E8", "Action": "Rotate", "Amt": 180},
+    {"Time": 107, "Who": "E8", "Action":  "ShootGust", "Amt": 9},
+    {"Time": 107, "Who": "E9", "Action": "Rotate", "Amt": 0},
+    {"Time": 107, "Who": "E9", "Action":  "ShootGust", "Amt": 9},
+
+    {"Time": 112, "Who": "EP2", "Action": "Rotate", "Amt": 180},
+    {"Time": 112, "Who": "EP2", "Action": "SnakeShot", "Amt": 4},
+    {"Time": 112, "Who": "EP3", "Action": "Rotate", "Amt": 0},
+    {"Time": 112, "Who": "EP3", "Action": "SnakeShot", "Amt": 4},
+    {"Time": 112, "Who": "EP4", "Action": "Rotate", "Amt": 180},
+    {"Time": 112, "Who": "EP4", "Action": "SnakeShot", "Amt": 4},
+
+    {"Time": 116, "Who": "EP", "Action": "ChargeAtPlayer", "Amt": 1.0},
+    {"Time": 117, "Who": "EP", "Action": "WaveShot", "Amt": 1},
+
+    {"Time": 118, "Who": "EP", "Action": "ChargeAtPlayer", "Amt": 1.0},
+    {"Time": 119, "Who": "EP", "Action": "WaveShot", "Amt": 1},
+
+    {"Time": 120, "Who": "EP", "Action": "ChargeAtPlayer", "Amt": 1.0},
+    {"Time": 121, "Who": "EP", "Action": "WaveShot", "Amt": 1},
+
+    {"Time": 122, "Who": "EP", "Action": "ChargeAtPlayer", "Amt": 1.0},
+    {"Time": 123, "Who": "EP", "Action": "WaveShot", "Amt": 1},
+
+    {"Time": 124, "Who": "EP", "Action": "GoToCenter", "Amt": 1.0},
+    {"Time": 125, "Who": "EP", "Action": "MoveDown", "Amt": 1},
+    {"Time": 126, "Who": "EP", "Action": "FanShotAtPlayer", "Amt": 90},
+    {"Time": 127, "Who": "EP", "Action": "FanShotAtPlayer", "Amt": 90},
+    {"Time": 127.5, "Who": "EP", "Action": "FanShotAtPlayer", "Amt": 90},
+
+    {"Time": 128, "Who": "EP", "Action": "GoToCenter", "Amt": 1.0},
+    {"Time": 129, "Who": "EP", "Action": "MoveUp", "Amt": 1},
+    {"Time": 130, "Who": "EP", "Action": "FanShotAtPlayer", "Amt": 270},
+    {"Time": 131, "Who": "EP", "Action": "FanShotAtPlayer", "Amt": 270},
+    {"Time": 131.5, "Who": "EP", "Action": "FanShotAtPlayer", "Amt": 270},
+
+    {"Time": 132, "Who": "EP", "Action": "GoToCenter", "Amt": 1.0},
+    {"Time": 133, "Who": "EP", "Action": "MoveUp", "Amt": 2.0},
+
+
+
+
+
+
+
+
+    {"Time": 133, "Who": "EP5", "Action": "Rotate", "Amt": 0},
+    {"Time": 133, "Who": "EP5", "Action": "SnakeShot", "Amt": 110},
+    
+    {"Time": 133, "Who": "EP6", "Action": "Rotate", "Amt": 180},
+    {"Time": 133, "Who": "EP6", "Action": "SnakeShot", "Amt": 110},
+
+    {"Time": 135, "Who": "E10", "Action": "Rotate", "Amt": 0},
+    {"Time": 135, "Who": "E10", "Action": "ShootContinuous", "Amt": 11},
+    
+    {"Time": 135, "Who": "E11", "Action": "Rotate", "Amt": 180},
+    {"Time": 135, "Who": "E11", "Action": "ShootContinuous", "Amt": 11},
+
+    {"Time": 140, "Who": "EP7", "Action": "Rotate", "Amt": 0},
+    {"Time": 140, "Who": "EP7", "Action": "SnakeShot", "Amt": 40},
+    
+    {"Time": 140, "Who": "EP8", "Action": "Rotate", "Amt": 180},
+    {"Time": 140, "Who": "EP8", "Action": "SnakeShot", "Amt": 40},
+
+    {"Time": 140, "Who": "E12", "Action": "Rotate", "Amt": 0},
+    {"Time": 140, "Who": "E12", "Action": "ShootContinuous", "Amt": 6},
+    
+    {"Time": 140, "Who": "E13", "Action": "Rotate", "Amt": 180},
+    {"Time": 140, "Who": "E13", "Action": "ShootContinuous", "Amt": 6},
+    
+    {"Time": 147, "Who": "E8", "Action": "Rotate", "Amt": 180},
+    {"Time": 147, "Who": "E8", "Action": "ShootBurst", "Amt": 0},
+
+    {"Time": 149, "Who": "E7", "Action": "Rotate", "Amt": 0},
+    {"Time": 149, "Who": "E7", "Action": "ShootBurst", "Amt": 0},
+
+    {"Time": 151, "Who": "E9", "Action": "Rotate", "Amt": 0},
+    {"Time": 151, "Who": "E9", "Action": "ShootBurst", "Amt": 0},
+
+    {"Time": 153, "Who": "E7", "Action": "Rotate", "Amt": 0},
+    {"Time": 153, "Who": "E7", "Action": "ShootBurst", "Amt": 0},
+    {"Time": 153, "Who": "E8", "Action": "Rotate", "Amt": 180},
+    {"Time": 153, "Who": "E8", "Action": "ShootBurst", "Amt": 0},
+    {"Time": 153, "Who": "E9", "Action": "Rotate", "Amt": 0},
+    {"Time": 153, "Who": "E9", "Action": "ShootBurst", "Amt": 0},
+
+    {"Time": 155, "Who": "E4", "Action": "Rotate", "Amt": 90},
+    {"Time": 155, "Who": "E4", "Action": "MoveRight", "Amt": 2},
+    {"Time": 155, "Who": "E4", "Action": "ShootGust", "Amt": 2},
+
+    {"Time": 157, "Who": "E3", "Action": "Rotate", "Amt": 270},
+    {"Time": 157, "Who": "E3", "Action": "MoveLeft", "Amt": 2},
+    {"Time": 157, "Who": "E3", "Action": "ShootGust", "Amt": 2},
+
+    {"Time": 159, "Who": "EP", "Action": "ChargeAtPlayer", "Amt": 1},
+    {"Time": 160, "Who": "EP", "Action": "RandomShotsAtPlayer", "Amt": 13},
+
+    {"Time": 161, "Who": "EP", "Action": "ChargeAtPlayer", "Amt": 1},
+    {"Time": 162, "Who": "EP", "Action": "RandomShotsAtPlayer", "Amt": 13},
+
+    {"Time": 163, "Who": "EP", "Action": "GoToCenter", "Amt": 2},
+
+
+
+
+
+
+
+
+    {"Time": 164, "Dialogue": " Hahah ...."},
+    {"Time": 168, "Dialogue": " "},
+    
+    {"Time": 169, "Who": "EP", "Action": "SpawnFlashingBullets", "Amt": 18},
+    
+    {"Time": 172, "Who": "EP", "Action": "MoveUp", "Amt": 1},
+    
+    {"Time": 173, "Who": "E14", "Action": "Rotate", "Amt": 270},
+    {"Time": 173, "Who": "E14", "Action": "SwingWaveShot", "Amt": 14},
+    {"Time": 173, "Who": "E15", "Action": "Rotate", "Amt": 270},
+    {"Time": 173, "Who": "E15", "Action": "SwingWaveShot", "Amt": 14},
+    
+    {"Time": 187, "Who": "EP", "Action": "GoToCenter", "Amt": 1},
+    
+    {"Time": 188, "Who": "EP", "Action": "StartSpinShot", "Amt": 7},
+    
+    {"Time": 190, "Who": "E3", "Action": "MoveLeft", "Amt": 1},
+    {"Time": 190, "Who": "E4", "Action": "MoveRight", "Amt": 1},
+    
+    {"Time": 191, "Who": "E3", "Action": "Rotate", "Amt": 270},
+    {"Time": 191, "Who": "E3", "Action": "ShootContinuous", "Amt": 4},
+    {"Time": 191, "Who": "E4", "Action": "Rotate", "Amt": 90},
+    {"Time": 191, "Who": "E4", "Action": "ShootContinuous", "Amt": 4},
+    {"Time": 191, "Who": "E1", "Action": "Rotate", "Amt": 0},
+    {"Time": 191, "Who": "E1", "Action": "ShootContinuous", "Amt": 4},
+    {"Time": 191, "Who": "E2", "Action": "Rotate", "Amt": 180},
+    {"Time": 191, "Who": "E2", "Action": "ShootContinuous", "Amt": 4},
+    
+    {"Time": 195, "Who": "EP", "Action": "InwardSpiralShot", "Amt": 7},
+    
+    
+    {"Time": 195, "Who": "EP2", "Action": "Rotate", "Amt": 180},
+    {"Time": 195, "Who": "EP2", "Action": "SnakeShot", "Amt": 5},
+    {"Time": 195, "Who": "EP3", "Action": "Rotate", "Amt": 0},
+    {"Time": 195, "Who": "EP3", "Action": "SnakeShot", "Amt": 5},
+    {"Time": 195, "Who": "EP4", "Action": "Rotate", "Amt": 180},
+    {"Time": 195, "Who": "EP4", "Action": "SnakeShot", "Amt": 5},
+    
+    {"Time": 198, "Who": "EP2", "Action": "SnakeShot", "Amt": 4},
+    {"Time": 198, "Who": "EP3", "Action": "SnakeShot", "Amt": 4},
+    {"Time": 198, "Who": "EP4", "Action": "SnakeShot", "Amt": 4},
+    
+    {"Time": 201, "Who": "EP2", "Action": "SnakeShot", "Amt": 4},
+    {"Time": 201, "Who": "EP3", "Action": "SnakeShot", "Amt": 4},
+    {"Time": 201, "Who": "EP4", "Action": "SnakeShot", "Amt": 4},
+    
+    {"Time": 204, "Who": "EP2", "Action": "SnakeShot", "Amt": 4},
+    {"Time": 204, "Who": "EP3", "Action": "SnakeShot", "Amt": 4},
+    {"Time": 204, "Who": "EP4", "Action": "SnakeShot", "Amt": 4},
+    
+    
+    {"Time": 204, "Who": "EP", "Action": "WaveShot", "Amt": 1},
+    {"Time": 204.5, "Who": "EP", "Action": "WaveShot", "Amt": 1},
+    {"Time": 205, "Who": "EP", "Action": "WaveShot", "Amt": 1},
+    
+    {"Time": 206.5, "Who": "EP", "Action": "WaveShot", "Amt": 1},
+    {"Time": 207, "Who": "EP", "Action": "WaveShot", "Amt": 1},
+    {"Time": 207.5, "Who": "EP", "Action": "WaveShot", "Amt": 1},
+    
+    {"Time": 208, "Who": "EP", "Action": "WaveShot", "Amt": 1},
+    {"Time": 208.5, "Who": "EP", "Action": "WaveShot", "Amt": 1},
+    {"Time": 210, "Who": "EP", "Action": "MoveUp", "Amt": 3}
+
+  ]
+}

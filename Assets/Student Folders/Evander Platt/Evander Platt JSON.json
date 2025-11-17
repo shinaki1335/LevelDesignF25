@@ -1,0 +1,924 @@
+{
+	"Title": "Crescendo of Fate",
+	"Author": "Evander Platt",
+	"Events": [
+		{
+			"Time": 0.5,
+			"Action": "Shake",
+			"Amt": 3
+		},
+		{
+			"Time": 2,
+			"Dialogue": "The time nears."
+		},
+		{
+			"Time": 5,
+			"Action": "MoveToPlayer"
+		},
+		{
+			"Time": 6.5,
+			"Action": "MoveToPlayer"
+		},
+		{
+			"Time": 8,
+			"Action": "MoveToPlayer"
+		},
+		{
+			"Time": 9,
+			"Anim": "SpinShoot"
+		},
+		{
+			"Time": 9,
+			"Action": "Flash"
+		},
+		{
+			"Time": 10,
+			"Action": "MoveToX",
+			"Amt": 0
+		},
+		{
+			"Time": 10,
+			"Action": "MoveToY",
+			"Amt": 2.5
+		},
+		{
+			"Time": 11,
+			"Action": "MoveToX",
+			"Amt": -5
+		},
+		{
+			"Time": 11,
+			"Action": "MoveToY",
+			"Amt": -2
+		},
+		{
+			"Time": 12,
+			"Action": "MoveToX",
+			"Amt": 5
+		},
+		{
+			"Time": 14,
+			"Action": "SetSpeed",
+			"Amt": 10
+		},
+		{
+			"Time": 14,
+			"Action": "MoveToX",
+			"Amt": 5.5
+		},
+		{
+			"Time": 14,
+			"Action": "MoveToRotation",
+			"Amt": 90
+		},
+		{
+			"Time": 14,
+			"Action": "MoveToY",
+			"Amt": 0
+		},
+		{
+			"Time": 15.5,
+			"Action": "MoveToX",
+			"Amt": -5.5
+		},
+		{
+			"Time": 16.25,
+			"Action": "MoveToRotation",
+			"Amt": 0
+		},
+		{
+			"Time": 17,
+			"Action": "MoveToX",
+			"Amt": 5.5
+		},
+		{
+			"Time": 17,
+			"Action": "MoveToRotation",
+			"Amt": 90
+		},
+		{
+			"Time": 17,
+			"Action": "MoveToY",
+			"Amt": -3
+		},
+		{
+			"Time": 18.5,
+			"Action": "MoveToX",
+			"Amt": -5.5
+		},
+		{
+			"Time": 19.25,
+			"Action": "MoveToRotation",
+			"Amt": 0
+		},
+		{
+			"Time": 20,
+			"Action": "MoveToX",
+			"Amt": 5.5
+		},
+		{
+			"Time": 20,
+			"Action": "MoveToRotation",
+			"Amt": 90
+		},
+		{
+			"Time": 20,
+			"Action": "MoveToY",
+			"Amt": 0
+		},
+		{
+			"Time": 21.5,
+			"Action": "MoveToX",
+			"Amt": -5.5
+		},
+		{
+			"Time": 22.25,
+			"Action": "MoveToRotation",
+			"Amt": 0
+		},
+
+		{
+			"Time": 23,
+			"Action": "MoveToX",
+			"Amt": 0
+		},
+		{
+			"Time": 23,
+			"Action": "MoveToY",
+			"Amt": 3
+		},
+		{
+			"Time": 23.5,
+			"Anim": "Spin Shoot"
+		},
+		{
+			"Time": 24,
+			"Action": "MoveToX",
+			"Amt": 4
+		},
+		{
+			"Time": 24.5,
+			"Anim": "SpinShoot"
+		},
+		{
+			"Time": 25,
+			"Action": "MoveToY",
+			"Amt": -3
+		},
+		{
+			"Time": 25.5,
+			"Anim": "SpinShoot"
+		},
+		{
+			"Time": 26,
+			"Action": "MoveToX",
+			"Amt": -4
+		},
+		{
+			"Time": 26.5,
+			"Anim": "SpinShoot"
+		},
+		{
+			"Time": 27,
+			"Action": "MoveToY",
+			"Amt": 0
+		},
+		{
+			"Time": 27.5,
+			"Action": "MoveToRotation",
+			"Amt": 180
+		},
+		{
+			"Time": 28,
+			"Anim": "SpinShoot"
+		},
+		{
+			"Time": 29,
+			"Action": "MoveToX",
+			"Amt": 0
+		},
+		{
+			"Time": 29.5,
+			"Action": "MoveToY",
+			"Amt": 2
+		},
+		{
+			"Time": 30.2,
+			"Action": "Shake"
+		},
+		{
+			"Time": 30.7,
+			"Action": "Flash"
+		},
+		{
+			"Time": 31.1,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 31.4,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 31.8,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 32.3,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 32.7,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 33.2,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 33.6,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 34.1,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 34.5,
+			"Anim": "SpinShoot"
+		},
+		{
+			"Time": 35.0,
+			"Action": "Shake"
+		},
+		{
+			"Time": 35.4,
+			"Action": "Shake"
+		},
+		{
+			"Time": 35.8,
+			"Action": "Flash"
+		},
+		{
+			"Time": 36.2,
+			"Action": "Shake"
+		},
+		{
+			"Time": 36.6,
+			"Action": "Flash"
+		},
+		{
+			"Time": 37.0,
+			"Anim": "Idle"
+		},
+		{
+			"Time": 37.4,
+			"Action": "SetAnimSpeed",
+			"Amt": 1.5
+		},
+		{
+			"Time": 37.8,
+			"Anim": "SpinShoot"
+		},
+		{
+			"Time": 38.2,
+			"Action": "SetSpeed",
+			"Amt": 50
+		},
+		{
+			"Time": 38.6,
+			"Action": "MoveToX",
+			"Amt": 6
+		},
+		{
+			"Time": 39.0,
+			"Action": "MoveToY",
+			"Amt": 3
+		},
+		{
+			"Time": 39.4,
+			"Action": "MoveToY",
+			"Amt": -3
+		},
+		{
+			"Time": 39.8,
+			"Action": "MoveToX",
+			"Amt": -6
+		},
+		{
+			"Time": 40.2,
+			"Action": "MoveToY",
+			"Amt": 3
+		},
+		{
+			"Time": 40.6,
+			"Action": "MoveToX",
+			"Amt": 6
+		},
+		{
+			"Time": 41.0,
+			"Anim": "Idle"
+		},
+		{
+			"Time": 41.4,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 41.8,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 42.2,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 42.6,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 43.0,
+			"Action": "SetAnimSpeed",
+			"Amt": 1.5
+		},
+		{
+			"Time": 43.4,
+			"Anim": "SpinShoot"
+		},
+		{
+			"Time": 43.8,
+			"Action": "MoveToX",
+			"Amt": 0
+		},
+		{
+			"Time": 44.2,
+			"Action": "MoveToY",
+			"Amt": 0
+		},
+		{
+			"Time": 44.6,
+			"Action": "MoveToY",
+			"Amt": -3
+		},
+		{
+			"Time": 45.0,
+			"Action": "MoveToY",
+			"Amt": 0
+		},
+		{
+			"Time": 45.4,
+			"Anim": "Idle"
+		},
+		{
+			"Time": 45.8,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 46.2,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 46.6,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 47.0,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 47.4,
+			"Action": "MoveToX",
+			"Amt": -6
+		},
+		{
+			"Time": 47.8,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 48.2,
+			"Action": "MoveToY",
+			"Amt": -3
+		},
+		{
+			"Time": 48.6,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 49.0,
+			"Action": "MoveToY",
+			"Amt": -2.52
+		},
+		{
+			"Time": 49.4,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 49.8,
+			"Action": "MoveToY",
+			"Amt": 3
+		},
+		{
+			"Time": 50.2,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 50.6,
+			"Action": "MoveToY",
+			"Amt": -1
+		},
+		{
+			"Time": 51.0,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 51.4,
+			"Action": "MoveToY",
+			"Amt": 3
+		},
+		{
+			"Time": 51.8,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 52.2,
+			"Action": "MoveToY",
+			"Amt": -1.54
+		},
+		{
+			"Time": 52.6,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 53.0,
+			"Action": "MoveToY",
+			"Amt": 1
+		},
+		{
+			"Time": 53.4,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 53.8,
+			"Action": "MoveToY",
+			"Amt": 2.67
+		},
+		{
+			"Time": 54.2,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 54.6,
+			"Action": "MoveToY",
+			"Amt": -2.52
+		},
+		{
+			"Time": 55.0,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 55.4,
+			"Action": "MoveToX",
+			"Amt": 6
+		},
+		{
+			"Time": 55.8,
+			"Action": "MoveToY",
+			"Amt": 1
+		},
+		{
+			"Time": 56.2,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 56.6,
+			"Action": "MoveToY",
+			"Amt": -2
+		},
+		{
+			"Time": 57.0,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 57.4,
+			"Action": "MoveToY",
+			"Amt": -2.52
+		},
+		{
+			"Time": 57.8,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 58.2,
+			"Action": "MoveToY",
+			"Amt": 3
+		},
+		{
+			"Time": 58.6,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 59.0,
+			"Action": "MoveToY",
+			"Amt": -2.52
+		},
+		{
+			"Time": 59.4,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 59.8,
+			"Action": "MoveToY",
+			"Amt": 3
+		},
+		{
+			"Time": 60.2,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 60.6,
+			"Action": "MoveToY",
+			"Amt": 2
+		},
+		{
+			"Time": 61.0,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 61.4,
+			"Action": "MoveToY",
+			"Amt": 1
+		},
+		{
+			"Time": 61.8,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 62.2,
+			"Action": "MoveToY",
+			"Amt": 2.67
+		},
+		{
+			"Time": 62.6,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 63.0,
+			"Action": "MoveToY",
+			"Amt": -2.52
+		},
+		{
+			"Time": 63.4,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 63.8,
+			"Action": "MoveToY",
+			"Amt": 0
+		},
+		{
+			"Time": 64.2,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 64.6,
+			"Action": "MoveToY",
+			"Amt": 3
+		},
+		{
+			"Time": 65.0,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 65.0,
+			"Action": "MoveToRotation",
+			"Amt": 0
+		},
+		{
+			"Time": 66.3,
+			"Action": "Shake"
+		},
+		{
+			"Time": 66.7,
+			"Action": "Flash"
+		},
+		{
+			"Time": 67.2,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 67.6,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 68.1,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 68.5,
+			"Action": "ShootAtPlayer"
+		},
+
+
+
+
+		{
+			"Time": 69,
+			"Action": "MoveToX",
+			"Amt": 0
+		},
+		{
+			"Time": 69,
+			"Action": "MoveToY",
+			"Amt": 0
+		},
+		{
+			"Time": 69,
+			"Action": "MoveToRotation",
+			"Amt": 0
+		},
+		{
+			"Time": 70,
+			"Anim": "SpinShoot"
+		},
+		{
+			"Time": 73.9,
+			"Action": "SetAnimSpeed",
+			"Amt": 1.5
+		},
+		{
+			"Time": 74.4,
+			"Anim": "SpinShoot"
+		},
+		{
+			"Time": 74.8,
+			"Action": "SetSpeed",
+			"Amt": 50
+		},
+		{
+			"Time": 75.3,
+			"Action": "MoveToX",
+			"Amt": 6
+		},
+		{
+			"Time": 75.7,
+			"Action": "MoveToY",
+			"Amt": 3
+		},
+		{
+			"Time": 76.2,
+			"Action": "MoveToY",
+			"Amt": -3
+		},
+		{
+			"Time": 76.6,
+			"Action": "MoveToX",
+			"Amt": -6
+		},
+		{
+			"Time": 77.1,
+			"Action": "MoveToY",
+			"Amt": 3
+		},
+		{
+			"Time": 77.5,
+			"Action": "MoveToX",
+			"Amt": 6
+		},
+		{
+			"Time": 78.0,
+			"Anim": "Idle"
+		},
+		{
+			"Time": 78.4,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 78.9,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 79.3,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 79.8,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 80.2,
+			"Action": "SetAnimSpeed",
+			"Amt": 1.5
+		},
+		{
+			"Time": 80.7,
+			"Anim": "SpinShoot"
+		},
+		{
+			"Time": 81.1,
+			"Action": "MoveToX",
+			"Amt": 0
+		},
+		{
+			"Time": 81.6,
+			"Action": "MoveToY",
+			"Amt": 0
+		},
+		{
+			"Time": 82.0,
+			"Action": "MoveToY",
+			"Amt": -3
+		},
+		{
+			"Time": 82.5,
+			"Action": "MoveToY",
+			"Amt": 0
+		},
+		{
+			"Time": 82.9,
+			"Anim": "Idle"
+		},
+		{
+			"Time": 83.4,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 83.8,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 84.3,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 84.7,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 85.2,
+			"Action": "MoveToX",
+			"Amt": -6
+		},
+		{
+			"Time": 85.6,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 86.1,
+			"Action": "MoveToY",
+			"Amt": -3
+		},
+		{
+			"Time": 86.5,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 87.0,
+			"Action": "MoveToY",
+			"Amt": -2.52
+		},
+		{
+			"Time": 87.4,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 87.9,
+			"Action": "MoveToY",
+			"Amt": 3
+		},
+		{
+			"Time": 88.3,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 88.8,
+			"Action": "MoveToY",
+			"Amt": -1
+		},
+		{
+			"Time": 89.2,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 89.7,
+			"Action": "MoveToY",
+			"Amt": 3
+		},
+		{
+			"Time": 90.1,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 90.6,
+			"Action": "MoveToY",
+			"Amt": -1.54
+		},
+
+		{
+			"Time": 91.0,
+			"Anim": "SpinShoot"
+		},
+
+		{
+			"Time": 92.4,
+			"Action": "MoveToY",
+			"Amt": 2.67
+		},
+		{
+			"Time": 92.8,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 93.3,
+			"Action": "MoveToY",
+			"Amt": -2.52
+		},
+		{
+			"Time": 93.7,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 94.2,
+			"Action": "MoveToX",
+			"Amt": 6
+		},
+		{
+			"Time": 94.6,
+			"Action": "MoveToY",
+			"Amt": 1
+		},
+
+
+		{
+			"Time": 96.4,
+			"Action": "MoveToY",
+			"Amt": -2.52
+		},
+		{
+			"Time": 96.9,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 97.3,
+			"Action": "MoveToY",
+			"Amt": 3
+		},
+		{
+			"Time": 97.8,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 98.2,
+			"Action": "MoveToY",
+			"Amt": -2.52
+		},
+		{
+			"Time": 98.7,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 99.1,
+			"Action": "MoveToY",
+			"Amt": 3
+		},
+		{
+			"Time": 99.6,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 100.0,
+			"Action": "MoveToY",
+			"Amt": 0
+		},
+		{
+			"Time": 100.0,
+			"Anim": "SpinShoot"
+		},
+		{
+			"Time": 102.3,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 102.7,
+			"Action": "MoveToY",
+			"Amt": -2.52
+		},
+		{
+			"Time": 103.2,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 103.6,
+			"Action": "MoveToY",
+			"Amt": 0
+		},
+		{
+			"Time": 104.1,
+			"Action": "ShootAtPlayer"
+		},
+		{
+			"Time": 104.5,
+			"Action": "MoveToY",
+			"Amt": 3
+		}
+
+
+	]
+}

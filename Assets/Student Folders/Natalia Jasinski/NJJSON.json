@@ -1,0 +1,2322 @@
+{
+  "Title": "Example Level",
+  "Author": "Natalia Jasinski",
+    "Events": [
+        {
+            "Time": 0,
+            "Who": "Raindrop",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Raindrop (1)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Raindrop (2)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Raindrop (3)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Raindrop (4)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Raindrop (5)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Raindrop (6)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Raindrop (7)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Raindrop (8)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Raindrop (9)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Raindrop (10)",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 0,
+            "Who": "Raindrop (11)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Raindrop (12)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Raindrop (13)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Raindrop (14)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Raindrop (15)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Raindrop (16)",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 0,
+            "Who": "Raindrop (17)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Raindrop (18)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Raindrop (19)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Raindrop (20)",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 0,
+            "Who": "Raindrop (21)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Raindrop (22)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Building",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 0,
+            "Who": "Building (1)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Building (2)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Building (3)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Building (3)",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 0,
+            "Who": "Building (4)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Building (5)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Building (6)",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 0,
+            "Who": "Building (7)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Building (8)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Building (9)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Building (10)",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 0,
+            "Who": "Building (11)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Building (12)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Building (13)",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 0,
+            "Who": "Building (14)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Building (15)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Building (16)",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 0,
+            "Who": "Building (17)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Building (18)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Building (19)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Building (20)",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 0,
+            "Who": "Building (21)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Building (22)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "BuildingScene2",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 0,
+            "Who": "BuildingScene2(1)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "BuildingScene2(2)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "BuildingScene2(3)",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 0,
+            "Who": "BuildingScene2(4)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Ruler",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Ruler1",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Ruler2",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 0,
+            "Who": "Ruler3",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Ruler4",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Ruler5",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 0,
+            "Who": "Ruler6",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Ruler7",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Ruler8",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 0,
+            "Who": "Ruler9",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Ruler10",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Ruler11",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Ruler12",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 0,
+            "Who": "Ruler13",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Ruler14",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Ruler15",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 0,
+            "Who": "Ruler16",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Ruler17",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Ruler18",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 0,
+            "Who": "Ruler19",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Ruler20",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Ruler20",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "BuildingScene4",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "BuildingScene4(1)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "BuildingScene4(2)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "BuildingScene4(3)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "BuildingScene4(4)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "BuildingScene4(5)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Kaveh1",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "BuildingRef2",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "BuildingRef2(1)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "BuildingRef2(2)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "BuildingRef2(3)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "BuildingRef2(4)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "BuildingRef2(5)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "FallingDebri",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "FallingDebri(1)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "FallingDebri(2)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "FallingDebri(3)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "FallingDebri(4)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "FallingDebri(5)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "FallingDebri(6)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "PeelingPaint",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "PeelingPaint1",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "PeelingPaint2",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "PeelingPaint3",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Kaveh",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Scream",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Scream1",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Scream2",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Scream3",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Page",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Page (1)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Page (2)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Page (3)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Page (4)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Page (5)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Page (6)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Cross1",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Cross2",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Cross3",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Cross4",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Cross5",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Cross6",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Cross7",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Cross8",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Cross9",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Cross10",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Cross11",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Cross12",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Cross13",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Cross14",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Fame1",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Fame2",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Kaveh 2",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Attention",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Attention (1)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Attention (2)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Attention (3)",
+            "Action": "TurnOff"
+
+        },
+
+        {
+            "Time": 0,
+            "Who": "ShadowyFigure",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "ShadowyFigure (1)",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 0,
+            "Who": "ShadowyFigure (2)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "ShadowyFigure (3)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "ShadowyFigure (4)",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 0,
+            "Who": "ShadowyFigure (5)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "ShadowyFigure (6)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "ShadowyFigure (7)",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 0,
+            "Who": "ShadowyFigure (8)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "ShadowyFigure (9)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "ShadowyFigure (10)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "ShadowyFigure (11)",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 0,
+            "Who": "ShadowyFigure (12)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "ShadowyFigure (13)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "ShadowyFigure (14)",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 0,
+            "Who": "Alhaitham",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Kaveh3",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 0,
+            "Who": "Desk",
+            "Action": "TurnOff"
+
+        },
+
+
+        {
+            "Time": 3,
+            "Who": "Raindrop",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 3,
+            "Who": "Raindrop (1)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 3,
+            "Who": "Raindrop (2)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 3.9,
+            "Who": "Raindrop",
+            "Action": "MoveToY",
+            "AMT": -50
+
+        },
+        {
+            "Time": 4,
+            "Who": "Building",
+            "Action": "TurnOn"
+
+        },
+
+        {
+            "Time": 4.1,
+            "Who": "Raindrop (1)",
+            "Action": "MoveToY",
+            "AMT": -50
+
+        },
+        {
+            "Time": 4.2,
+            "Who": "Building (1)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 4.3,
+            "Who": "Raindrop (2)",
+            "Action": "MoveToY",
+            "AMT": -50
+
+        },
+        {
+            "Time": 4.4,
+            "Who": "Building (2)",
+            "Action": "TurnOn"
+
+        },
+
+
+        {
+            "Time": 4.4,
+            "Who": "Raindrop (3)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 4.4,
+            "Who": "Raindrop (4)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 4.4,
+            "Who": "Raindrop (5)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 4.9,
+            "Who": "Raindrop (3)",
+            "Action": "MoveToY",
+            "AMT": -50
+
+        },
+        {
+            "Time": 5,
+            "Who": "Building (3)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 5.1,
+            "Who": "Raindrop (4)",
+            "Action": "MoveToY",
+            "AMT": -50
+
+        },
+        {
+            "Time": 5.2,
+            "Who": "Building (4)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 5.3,
+            "Who": "Raindrop (5)",
+            "Action": "MoveToY",
+            "AMT": -50
+
+        },
+        {
+            "Time": 5.4,
+            "Who": "Building (5)",
+            "Action": "TurnOn"
+
+        },
+
+        {
+            "Time": 5,
+            "Who": "Raindrop (6)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 5,
+            "Who": "Raindrop (7)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 5,
+            "Who": "Raindrop (8)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 5.3,
+            "Who": "Raindrop (6)",
+            "Action": "MoveToY",
+            "AMT": -50
+
+        },
+        {
+            "Time": 5.9,
+            "Who": "Building (6)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 5.55,
+            "Who": "Raindrop (7)",
+            "Action": "MoveToY",
+            "AMT": -50
+
+        },
+        {
+            "Time": 5.60,
+            "Who": "Building (7)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 5.70,
+            "Who": "Raindrop (8)",
+            "Action": "MoveToY",
+            "AMT": -50
+
+        },
+        {
+            "Time": 5.75,
+            "Who": "Building (8)",
+            "Action": "TurnOn"
+
+        },
+
+        {
+            "Time": 6,
+            "Who": "Raindrop (9)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 6,
+            "Who": "Raindrop (10)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 6,
+            "Who": "Raindrop (11)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 6.3,
+            "Who": "Raindrop (9)",
+            "Action": "MoveToY",
+            "AMT": -50
+
+        },
+        {
+            "Time": 6.35,
+            "Who": "Building (9)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 6.55,
+            "Who": "Raindrop (10)",
+            "Action": "MoveToY",
+            "AMT": -50
+
+        },
+        {
+            "Time": 6.60,
+            "Who": "Building (10)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 6.70,
+            "Who": "Raindrop (11)",
+            "Action": "MoveToY",
+            "AMT": -50
+
+        },
+        {
+            "Time": 6.75,
+            "Who": "Building (11)",
+            "Action": "TurnOn"
+
+        },
+
+        {
+            "Time": 7,
+            "Who": "Raindrop (12)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 7,
+            "Who": "Raindrop (13)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 7,
+            "Who": "Raindrop (14)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 7.3,
+            "Who": "Raindrop (12)",
+            "Action": "MoveToY",
+            "AMT": -50
+
+        },
+        {
+            "Time": 7.35,
+            "Who": "Building (12)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 7.55,
+            "Who": "Raindrop (13)",
+            "Action": "MoveToY",
+            "AMT": -50
+
+        },
+        {
+            "Time": 7.60,
+            "Who": "Building (13)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 7.70,
+            "Who": "Raindrop (14)",
+            "Action": "MoveToY",
+            "AMT": -50
+
+        },
+        {
+            "Time": 7.75,
+            "Who": "Building (14)",
+            "Action": "TurnOn"
+
+        },
+
+        {
+            "Time": 8,
+            "Who": "Raindrop (15)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 8,
+            "Who": "Raindrop (16)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 8,
+            "Who": "Raindrop (17)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 8.3,
+            "Who": "Raindrop (15)",
+            "Action": "MoveToY",
+            "AMT": -50
+
+        },
+        {
+            "Time": 8.35,
+            "Who": "Building (15)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 8.55,
+            "Who": "Raindrop (16)",
+            "Action": "MoveToY",
+            "AMT": -50
+
+        },
+        {
+            "Time": 8.60,
+            "Who": "Building (16)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 8.70,
+            "Who": "Raindrop (17)",
+            "Action": "MoveToY",
+            "AMT": -50
+
+        },
+        {
+            "Time": 8.75,
+            "Who": "Building (17)",
+            "Action": "TurnOn"
+
+        },
+
+        {
+            "Time": 9,
+            "Who": "Raindrop (18)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 9,
+            "Who": "Raindrop (19)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 9,
+            "Who": "Raindrop (20)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 9.3,
+            "Who": "Raindrop (18)",
+            "Action": "MoveToY",
+            "AMT": -50
+
+        },
+        {
+            "Time": 9.35,
+            "Who": "Building (18)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 9.55,
+            "Who": "Raindrop (19)",
+            "Action": "MoveToY",
+            "AMT": -50
+
+        },
+        {
+            "Time": 9.60,
+            "Who": "Building (19)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 9.70,
+            "Who": "Raindrop (20)",
+            "Action": "MoveToY",
+            "AMT": -50
+
+        },
+        {
+            "Time": 9.75,
+            "Who": "Building (20)",
+            "Action": "TurnOn"
+
+        },
+
+        {
+            "Time": 10,
+            "Who": "Raindrop (21)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 10,
+            "Who": "Raindrop (22)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 10.3,
+            "Who": "Raindrop (21)",
+            "Action": "MoveToY",
+            "AMT": -50
+
+        },
+        {
+            "Time": 10.35,
+            "Who": "Building (21)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 10.65,
+            "Who": "Raindrop (22)",
+            "Action": "MoveToY",
+            "AMT": -50
+
+        },
+        {
+            "Time": 10.70,
+            "Who": "Building (22)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Building",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Building (1)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Building (2)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Building (3)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Building (4)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Building (5)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Building (6)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Building (7)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Building (8)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Building (9)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Building (10)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Building (11)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Building (12)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Building (13)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Building (14)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Building (15)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Building (16)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Building (17)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Building (18)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Building (19)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Building (20)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Building (21)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Building (22)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Raindrop",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Raindrop (1)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Raindrop (2)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Raindrop (3)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Raindrop (4)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Raindrop (5)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Raindrop (6)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Raindrop (7)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Raindrop (8)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Raindrop (9)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Raindrop (10)",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 11,
+            "Who": "Raindrop (11)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Raindrop (12)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Raindrop (13)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Raindrop (14)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Raindrop (15)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Raindrop (16)",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 11,
+            "Who": "Raindrop (17)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Raindrop (18)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Raindrop (19)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Raindrop (20)",
+            "Action": "TurnOff"
+        },
+        {
+            "Time": 11,
+            "Who": "Raindrop (21)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 11,
+            "Who": "Raindrop (22)",
+            "Action": "TurnOff"
+
+        },
+
+
+        {
+            "Time": 28.3,
+            "Who": "Ruler",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 29.3,
+            "Who": "Ruler1",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 30.3,
+            "Who": "Ruler2",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 30.3,
+            "Who": "Ruler16",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 31.3,
+            "Who": "Ruler11",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 31.3,
+            "Who": "Ruler17",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 32.3,
+            "Who": "Ruler18",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 32.3,
+            "Who": "Ruler3",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 33.3,
+            "Who": "Ruler8",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 34.3,
+            "Who": "Ruler9",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 35.3,
+            "Who": "Ruler10",
+            "Action": "TurnOn"
+
+        },
+
+
+
+
+
+
+        {
+            "Time": 40,
+            "Who": "Ruler",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 40,
+            "Who": "Ruler1",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 40,
+            "Who": "Ruler2",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 40,
+            "Who": "Ruler16",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 40,
+            "Who": "Ruler11",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 40,
+            "Who": "Ruler17",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 40,
+            "Who": "Ruler18",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 40,
+            "Who": "Ruler3",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 40,
+            "Who": "Ruler8",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 40,
+            "Who": "Ruler9",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 40,
+            "Who": "Ruler10",
+            "Action": "TurnOff"
+
+        },
+
+        {
+            "Time": 44.8,
+            "Who": "Fame1",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 44.8,
+            "Who": "Fame2",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 44.8,
+            "Who": "Kaveh 2",
+            "Action": "TurnOn"
+
+        },
+
+        {
+            "Time": 45.5,
+            "Who": "Attention",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 45.5,
+            "Who": "Attention (1)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 45.5,
+            "Who": "Attention (2)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 45.5,
+            "Who": "Attention (3)",
+            "Action": "TurnOn"
+
+        },
+
+        {
+            "Time": 48.5,
+            "Who": "Fame1",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 48.5,
+            "Who": "Fame2",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 48.5,
+            "Who": "Kaveh 2",
+            "Action": "TurnOff"
+
+        },
+
+        {
+            "Time": 48.5,
+            "Who": "Attention",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 48.5,
+            "Who": "Attention (1)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 48.5,
+            "Who": "Attention (2)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 48.5,
+            "Who": "Attention (3)",
+            "Action": "TurnOff"
+
+        },
+
+
+        {
+            "Time": 57,
+            "Who": "BuildingScene4",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 57,
+            "Who": "BuildingScene4(1)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 57,
+            "Who": "BuildingScene4(2)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 57,
+            "Who": "BuildingScene4(3)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 57,
+            "Who": "BuildingScene4(4)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 57,
+            "Who": "BuildingScene4(5)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 57,
+            "Who": "Kaveh1",
+            "Action": "TurnOn"
+
+        },
+
+
+        {
+            "Time": 63,
+            "Who": "BuildingScene4",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 63,
+            "Who": "BuildingScene4(1)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 63,
+            "Who": "BuildingScene4(2)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 63,
+            "Who": "BuildingScene4(3)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 63,
+            "Who": "BuildingScene4(4)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 63,
+            "Who": "BuildingScene4(5)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 63,
+            "Who": "Kaveh1",
+            "Action": "TurnOff"
+
+        },
+
+        {
+            "Time": 86,
+            "Who": "Page",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 86,
+            "Who": "Cross1",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 86,
+            "Who": "Cross2",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 86.1,
+            "Who": "Cross1",
+            "Action": "Rotate",
+            "Amt": 90
+
+        },
+        {
+            "Time": 86.1,
+            "Who": "Cross2",
+            "Action": "Rotate",
+            "Amt": 90
+
+        },
+        {
+            "Time": 86.5,
+            "Who": "Page",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 86.5,
+            "Who": "Cross1",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 86.5,
+            "Who": "Cross2",
+            "Action": "TurnOff"
+
+        },
+
+        {
+            "Time": 119,
+            "Who": "Kaveh3",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 119,
+            "Who": "Desk",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 120,
+            "Who": "ShadowyFigure",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 121,
+            "Who": "ShadowyFigure (1)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 122,
+            "Who": "ShadowyFigure (2)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 123,
+            "Who": "ShadowyFigure (3)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 124,
+            "Who": "ShadowyFigure (4)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 125,
+            "Who": "ShadowyFigure (5)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 126,
+            "Who": "ShadowyFigure (6)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 127,
+            "Who": "ShadowyFigure (7)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 128,
+            "Who": "ShadowyFigure (8)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 129,
+            "Who": "ShadowyFigure (9)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 130,
+            "Who": "ShadowyFigure (10)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 131,
+            "Who": "ShadowyFigure (11)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 131.1,
+            "Who": "ShadowyFigure (12)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 131.2,
+            "Who": "ShadowyFigure (13)",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 131.3,
+            "Who": "ShadowyFigure (14)",
+            "Action": "TurnOn"
+
+        },
+
+        {
+            "Time": 132,
+            "Who": "ShadowyFigure",
+            "Action": "Flash",
+            "Amt": 5
+
+        },
+        {
+            "Time": 132,
+            "Who": "ShadowyFigure (1)",
+            "Action": "Flash",
+            "Amt": 5
+
+        },
+        {
+            "Time": 132,
+            "Who": "ShadowyFigure (2)",
+            "Action": "Flash",
+            "Amt": 5
+
+        },
+        {
+            "Time": 132,
+            "Who": "ShadowyFigure (3)",
+            "Action": "Flash",
+            "Amt": 5
+
+        },
+        {
+            "Time": 132,
+            "Who": "ShadowyFigure (4)",
+            "Action": "Flash",
+            "Amt": 5
+
+        },
+        {
+            "Time": 132,
+            "Who": "ShadowyFigure (5)",
+            "Action": "Flash",
+            "Amt": 5
+
+        },
+        {
+            "Time": 132,
+            "Who": "ShadowyFigure (6)",
+            "Action": "Flash",
+            "Amt": 5
+
+        },
+
+
+        {
+            "Time": 132.5,
+            "Who": "ShadowyFigure",
+            "Action": "MoveToY",
+            "AMT": 200
+
+        },
+        {
+            "Time": 132.5,
+            "Who": "ShadowyFigure (1)",
+            "Action": "MoveToY",
+            "AMT": 200
+
+        },
+        {
+            "Time": 132.5,
+            "Who": "ShadowyFigure (2)",
+            "Action": "MoveToY",
+            "AMT": 200
+
+        },
+        {
+            "Time": 132.5,
+            "Who": "ShadowyFigure (3)",
+            "Action": "MoveToY",
+            "AMT": 200
+
+        },
+        {
+            "Time": 132.5,
+            "Who": "ShadowyFigure (4)",
+            "Action": "MoveToY",
+            "AMT": 200
+
+        },
+        {
+            "Time": 132.5,
+            "Who": "ShadowyFigure (5)",
+            "Action": "MoveToY",
+            "AMT": 200
+
+        },
+        {
+            "Time": 132.5,
+            "Who": "ShadowyFigure (6)",
+            "Action": "MoveToY",
+            "AMT": 200
+
+        },
+
+
+
+
+
+
+        {
+            "Time": 135,
+            "Who": "Kaveh3",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 135,
+            "Who": "Desk",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 135,
+            "Who": "ShadowyFigure",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 135,
+            "Who": "ShadowyFigure (1)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 135,
+            "Who": "ShadowyFigure (2)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 135,
+            "Who": "ShadowyFigure (3)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 135,
+            "Who": "ShadowyFigure (4)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 135,
+            "Who": "ShadowyFigure (5)",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 135,
+            "Who": "ShadowyFigure (6)",
+            "Action": "TurnOff"
+
+        },
+
+
+
+        {
+            "Time": 141,
+            "Who": "PeelingPaint",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 142.5,
+            "Who": "PeelingPaint",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 142.5,
+            "Who": "PeelingPaint2",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 144.5,
+            "Who": "PeelingPaint2",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 144.5,
+            "Who": "PeelingPaint1",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 146,
+            "Who": "PeelingPaint1",
+            "Action": "TurnOff"
+
+        },
+        {
+            "Time": 146,
+            "Who": "PeelingPaint3",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 147.5,
+            "Who": "PeelingPaint3",
+            "Action": "TurnOff"
+
+        },
+
+
+        {
+            "Time": 148,
+            "Who": "Kaveh",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 148,
+            "Who": "Scream",
+            "Action": "TurnOn"
+
+        },
+        {
+            "Time": 148.3,
+            "Who": "Scream",
+            "Action": "ToSize",
+            "Amt": 100
+
+        },
+        {
+            "Time": 148.8,
+            "Who": "Scream",
+            "Action": "TurnOff"
+
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+        { "Time": 400 }
+    ]
+}
