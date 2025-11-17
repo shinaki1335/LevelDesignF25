@@ -46,17 +46,37 @@ public class NeoMonster : HazardController
         {
             StartCoroutine(Bite(amt));
         }
-        if (act == "SetRandomX")
-        {
-            StartCoroutine(SetRandomX());
-        }
         if (act == "MoveOverTime 1")
         {
-            StartCoroutine(MoveOverTime(new Vector2(-5, 2.5f)));
+            StartCoroutine(MoveOverTime(new Vector2(-5, 4f)));
         }
         if (act == "MoveOverTime 2")
         {
-            StartCoroutine(MoveOverTime(new Vector2(5, 2.5f)));
+            StartCoroutine(MoveOverTime(new Vector2(0, 4f)));
+        }
+        if (act == "MoveOverTime 3")
+        {
+            StartCoroutine(MoveOverTime(new Vector2(5, 4f)));
+        }
+        if (act == "MoveOverTime 4")
+        {
+            StartCoroutine(MoveOverTime(new Vector2(-5, -1f)));
+        }
+        if (act == "MoveOverTime 5")
+        {
+            StartCoroutine(MoveOverTime(new Vector2(0, -1f)));
+        }
+        if (act == "MoveOverTime 6")
+        {
+            StartCoroutine(MoveOverTime(new Vector2(5, -1f)));
+        }
+        if (act == "SetRandomX")
+        {
+            StartCoroutine(SetRandomX(amt));
+        }
+        if (act == "Stop")
+        {
+            StartCoroutine(Stop());
         }
     }
 
@@ -262,7 +282,7 @@ public class NeoMonster : HazardController
             yield return null;
         }
     }
-
+    
     public IEnumerator MoveOverTime(Vector2 targetPosition)
     {
         Vector2 startPos = transform.position;
@@ -273,6 +293,7 @@ public class NeoMonster : HazardController
             elapsed += Time.deltaTime;
             float t = Mathf.Clamp01(elapsed / 0.3f);
             transform.position = Vector2.Lerp(startPos, targetPosition, t);
+            transform.localScale = Vector2.Lerp(new Vector2(1, 1), new Vector2(2f, 2f), t);
             yield return null;
         }
         // Ensure exact final position
@@ -283,17 +304,17 @@ public class NeoMonster : HazardController
         if (numb == 1)
         {
             Body.sprite = nom;
-            transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
+            //transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
             yield return null;
         }
         else if (numb == 2)
         {
-            Body.sortingOrder = 4;
+            Body.sortingOrder = 12;
         }
         else if (numb == 0)
         {
             Body.sprite = om;
-            transform.localScale = new Vector3(1f, 1f, 1f);
+            //transform.localScale = new Vector3(1f, 1f, 1f);
             yield return null;
         }
         else
@@ -302,10 +323,19 @@ public class NeoMonster : HazardController
 
         }
     }
-    public IEnumerator SetRandomX()
+    public IEnumerator SetRandomX(float numb)
     {
-        transform.position = new Vector2(Random.Range(-4.5f, 4.5f), transform.position.y);
+        if (numb == 0)
+            transform.position = new Vector2(Random.Range(-4.5f, 4.5f), transform.position.y);
+        else
+            transform.position = new Vector2(Random.Range(-7, 8)+0.5f, transform.position.y);
         yield return null;
-          
+
+    }
+    public IEnumerator Stop()
+    {
+        StopAllCoroutines();
+        yield return null;
+
     }
 }
