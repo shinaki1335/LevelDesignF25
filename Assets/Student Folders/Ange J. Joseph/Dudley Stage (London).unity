@@ -234,8 +234,8 @@ MonoBehaviour:
   Body: {fileID: 1217031084}
   Coll: {fileID: 625856780}
   Anim: {fileID: 0}
-  Health: 5
-  Speed: 5
+  Health: 6
+  Speed: 7
   SpinSpeed: 5
   SizeSpeed: 5
   DefaultProjectile: {fileID: 0}
