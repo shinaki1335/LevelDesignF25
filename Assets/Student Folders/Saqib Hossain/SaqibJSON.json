@@ -2,13 +2,17 @@
   "Title": "It's not right. BUT IT'S OKAY!",
   "Author": "Saqib Hossain",
   "Events": [
-    {"Time": 0,"Anim": "SpinShoot","Action": "RandomWalk"},
+    {"Time": 0,"Action": "RandomWalk"},
     {"Time": 2,"Action": "RandomWalk"},
-    {"Time": 4,"Action": "RandomWalk"},
-    {"Time": 5.5,"Action": "Shake", "Amt": 3},
-    {"Time": 8,"Dialogue": "Hello"},
-    {"Time": 8,"Who":"Player","Action": "Flash"},
-    {"Time": 10,"Dialogue": ""},
-    {"Time": 12}
+    {"Time": 3.5,"Action": "RandomWalk"},
+    {"Time": 5.2,"Action": "RandomWalk"},
+    {"Time": 7,"Anim": "SpinShoot","Action": "RandomWalk"},
+    {"Time": 7,"Who":"Player","Action": "Flash"},
+    {"Time": 9,"Action": "RandomWalk"},
+    {"Time": 11,"Anim": "SpinShoot","Action": "RandomWalk"},
+    {"Time": 12.8,"Action": "RandomWalk"},
+    {"Time": 15,"Anim": "SpinShoot","Action": "RandomWalk"},
+    {"Time": 16.8,"Action": "RandomWalk"},
+    {"Time": 60,"Dialogue": "Hello"}
   ]
 }
