@@ -56,7 +56,7 @@
     {"Time": 46, "Dialogue": "DANCE! Show me you deserve this spotlight!"},
     {"Time": 47.5, "Dialogue": " "},
     {"Time": 47, "Who": "EP", "Action": "ChargeAtPlayer", "Amt": 1.0},
-    {"Time": 48, "Who": "EP", "Action": "FanShotAtPlayer", "Amt": -1},
+    {"Time": 48.2, "Who": "EP", "Action": "FanShotAtPlayer", "Amt": -1},
     {"Time": 49, "Who": "EP", "Action": "ChargeAtPlayer", "Amt": 1.0},
     {"Time": 50, "Who": "EP", "Action": "FanShotAtPlayer", "Amt": -1},
     {"Time": 51, "Who": "EP", "Action": "ChargeAtPlayer", "Amt": 1.0},
