@@ -1,17 +1,19 @@
 {
-  "Title": "It's not right. BUT IT'S OKAY!",
+  "Title": "It's Not Right But It's Okay - Whitney Houston",
   "Author": "Saqib Hossain",
   "Events": [
     {"Time": 0,"Action": "RandomWalk"},
     {"Time": 2,"Action": "RandomWalk"},
     {"Time": 3.5,"Action": "RandomWalk"},
     {"Time": 5.2,"Action": "RandomWalk"},
-    {"Time": 7,"Anim": "SpinShoot","Action": "RandomWalk"},
+    {"Time": 7,"Anim": "SpinShoot","Action": "ShootAtPlayer"},
     {"Time": 7,"Who":"Player","Action": "Flash"},
     {"Time": 9,"Action": "RandomWalk"},
-    {"Time": 11,"Anim": "SpinShoot","Action": "RandomWalk"},
+    {"Time": 11,"Anim": "SpinShoot","Action": "ShootAtPlayer"},
+    {"Time": 11,"Who":"Player","Action": "Flash"},
     {"Time": 12.8,"Action": "RandomWalk"},
-    {"Time": 15,"Anim": "SpinShoot","Action": "RandomWalk"},
+    {"Time": 15,"Action": "RandomWalk","Action": "ShootAtPlayer"},
+    {"Time": 15,"Who":"Player","Action": "Flash"},
     {"Time": 16.8,"Action": "RandomWalk"},
     {"Time": 60,"Dialogue": "Hello"}
   ]
