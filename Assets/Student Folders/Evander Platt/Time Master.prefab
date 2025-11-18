@@ -56,7 +56,7 @@ MonoBehaviour:
   Speed: 5
   SpinSpeed: 5
   SizeSpeed: 5
-  DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
+  DefaultProjectile: {fileID: 3385520667200393095, guid: 8ef4452ab4ebe0d42bf70f289de247cf, type: 3}
   AltProjectiles: []
   ShootGnome: {fileID: 0}
   HurtGnome: {fileID: 0}
