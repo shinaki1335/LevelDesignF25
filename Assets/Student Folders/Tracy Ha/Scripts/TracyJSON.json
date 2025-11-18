@@ -13,6 +13,7 @@
     { "Time": 6.00, "Action": "Shake", "Amt": 1 },
 
     { "Time": 10.00, "Dialogue": "act 1" },
+    { "Time": 10.10, "Who": "Heal1", "Action": "TurnOn" },
     { "Time": 10.00, "Action": "SpiralOut", "Amt": 4.8 },
 
     { "Time": 15.00, "Anim": "SpinShoot" },
@@ -27,6 +28,7 @@
     { "Time": 25.65, "Action": "SpiralIn", "Amt": 4.65 },
 
     { "Time": 29.90, "Dialogue": "act 2" },
+    { "Time": 30.00, "Who": "Heal2", "Action": "TurnOn" },
 
     { "Time": 29.90, "Action": "ShootAtPlayer" },
     { "Time": 29.90, "Action": "Shake", "Amt": 0.12 },
@@ -89,6 +91,7 @@
     { "Time": 38.15, "Action": "LerpToY", "Amt": -0.20 },
 
     { "Time": 39.00, "Dialogue": "act 3" },
+    { "Time": 39.10, "Who": "Heal3", "Action": "TurnOn" },
 
     { "Time": 39.00, "Action": "SetSizeSpeed", "Amt": 0.25 },
     { "Time": 39.00, "Action": "LerpToSize", "Amt": 0.75 },
@@ -106,6 +109,7 @@
     { "Time": 46.80, "Action": "LerpToY", "Amt": 0.00 },
 
     { "Time": 47.50, "Dialogue": "act 4A" },
+    { "Time": 47.60, "Who": "Heal4", "Action": "TurnOn" },
 
     { "Time": 47.50, "Action": "Shake", "Amt": 0.12 },
     { "Time": 47.50, "Action": "NWayShoot", "Amt": 2 },
@@ -166,6 +170,7 @@
 
     { "Time": 57.50, "Anim": "Idle" },
     { "Time": 57.50, "Dialogue": "act 4B" },
+    { "Time": 57.60, "Who": "Heal5", "Action": "TurnOn" },
 
     { "Time": 57.50, "Action": "SetSizeSpeed", "Amt": 0.8 },
     { "Time": 57.50, "Action": "LerpToSize", "Amt": 0.25 },
@@ -237,6 +242,7 @@
     { "Time": 78.90, "Who": "MiniBR", "Action": "QuadSpinShoot", "Amt": 0.63 },
 
     { "Time": 79.50, "Dialogue": "act 4C" },
+    { "Time": 79.60, "Who": "Heal6", "Action": "TurnOn" },
 
     { "Time": 79.50, "Who": "MiniTL", "Action": "SpiralIn", "Amt": 18.8 },
     { "Time": 79.50, "Who": "MiniBR", "Action": "SpiralIn", "Amt": 18.8 },
@@ -344,9 +350,244 @@
     { "Time": 98.30, "Action": "TurnOn" },
     { "Time": 98.30, "Action": "SetScale", "Amt": 0.5 },
     { "Time": 98.30, "Anim": "Idle" },
-    { "Time": 98.30, "Dialogue": "" }
+    { "Time": 98.30, "Dialogue": "" },
+
+    { "Time": 98.40, "Dialogue": "act 5A" },
+    { "Time": 98.50, "Who": "Heal7", "Action": "TurnOn" },
+
+    { "Time": 98.40, "Action": "SetSizeSpeed", "Amt": 1.0 },
+    { "Time": 98.40, "Action": "LerpToSize", "Amt": 0.0 },
+    { "Time": 98.40, "Action": "Flash", "Amt": 0.5 },
+    { "Time": 98.40, "Action": "Shake", "Amt": 0.5 },
+
+    { "Time": 99.03, "Action": "Flash", "Amt": 0.4 },
+    { "Time": 99.03, "Action": "Shake", "Amt": 0.4 },
+
+    { "Time": 99.65, "Action": "Flash", "Amt": 0.3 },
+    { "Time": 99.65, "Action": "Shake", "Amt": 0.3 },
+
+    { "Time": 100.28, "Action": "FadeOut", "Amt": 0.6 },
+    { "Time": 100.28, "Action": "HitboxOff" },
+    { "Time": 100.28, "Action": "Stop" },
+
+    { "Time": 100.60, "Who": "TracyMainMonster", "Action": "TurnOn" },
+    { "Time": 100.60, "Who": "TracyMainMonster", "Action": "SetScale", "Amt": 0.0 },
+    { "Time": 100.60, "Who": "TracyMainMonster", "Action": "HitboxOff" },
+    { "Time": 100.60, "Who": "TracyMainMonster", "Action": "SetSizeSpeed", "Amt": 0.8 },
+    { "Time": 100.60, "Who": "TracyMainMonster", "Action": "LerpToSize", "Amt": 1.0 },
+    { "Time": 100.60, "Who": "TracyMainMonster", "Action": "Flash", "Amt": 0.5 },
+    { "Time": 100.60, "Who": "TracyMainMonster", "Action": "Shake", "Amt": 0.5 },
+
+    { "Time": 101.23, "Who": "TracyMainMonster", "Action": "Flash", "Amt": 0.4 },
+    { "Time": 101.23, "Who": "TracyMainMonster", "Action": "Shake", "Amt": 0.4 },
+
+    { "Time": 101.85, "Who": "TracyMainMonster", "Action": "Flash", "Amt": 0.3 },
+    { "Time": 101.85, "Who": "TracyMainMonster", "Action": "Shake", "Amt": 0.3 },
+
+    { "Time": 102.48, "Who": "TracyMainMonster", "Action": "HitboxOn" },
+
+    { "Time": 102.48, "Dialogue": "act 5B" },
+    { "Time": 102.58, "Who": "Heal8", "Action": "TurnOn" },
+
+    { "Time": 102.48, "Who": "TracyMainMonster", "Action": "Shoot" },
+    { "Time": 103.112, "Who": "TracyMainMonster", "Action": "Shoot" },
+
+    { "Time": 103.744, "Who": "TracyMainMonster", "Action": "NWayShoot", "Amt": 2 },
+    { "Time": 104.376, "Who": "TracyMainMonster", "Action": "NWayShoot", "Amt": 2 },
+
+    { "Time": 105.008, "Who": "TracyMainMonster", "Action": "NWayShoot", "Amt": 4 },
+    { "Time": 105.640, "Who": "TracyMainMonster", "Action": "NWayShoot", "Amt": 4 },
+
+    { "Time": 106.272, "Who": "TracyMainMonster", "Action": "NWayShoot", "Amt": 6 },
+    { "Time": 106.904, "Who": "TracyMainMonster", "Action": "NWayShoot", "Amt": 6 },
+
+    { "Time": 107.536, "Who": "TracyMainMonster", "Action": "NWayShoot", "Amt": 8 },
+    { "Time": 108.168, "Who": "TracyMainMonster", "Action": "NWayShoot", "Amt": 8 },
+
+    { "Time": 108.800, "Who": "TracyMainMonster", "Action": "SpiralOut", "Amt": 4.8 },
+
+    { "Time": 113.850, "Who": "TracyMainMonster", "Action": "SpiralIn", "Amt": 4.65 },
+
+    { "Time": 118.500, "Who": "TracyMainMonster", "Action": "SetSizeSpeed", "Amt": 1.0 },
+    { "Time": 118.500, "Who": "TracyMainMonster", "Action": "LerpToSize", "Amt": 0.5 },
+    { "Time": 118.500, "Who": "TracyMainMonster", "Action": "Flash", "Amt": 0.5 },
+    { "Time": 118.500, "Who": "TracyMainMonster", "Action": "Shake", "Amt": 0.5 },
+
+    { "Time": 119.200, "Who": "MiniTL", "Action": "TurnOn" },
+    { "Time": 119.200, "Who": "MiniBR", "Action": "TurnOn" },
+
+    { "Time": 119.210, "Who": "MiniTL", "Action": "SetScale", "Amt": 0.25 },
+    { "Time": 119.210, "Who": "MiniBR", "Action": "SetScale", "Amt": 0.25 },
+
+    { "Time": 119.400, "Who": "MiniTL", "Action": "MoveToX", "Amt": -5.3 },
+    { "Time": 119.400, "Who": "MiniTL", "Action": "MoveToY", "Amt": 2.3 },
+
+    { "Time": 119.400, "Who": "MiniBR", "Action": "MoveToX", "Amt": 5.3 },
+    { "Time": 119.400, "Who": "MiniBR", "Action": "MoveToY", "Amt": -2.3 },
+
+    { "Time": 120.600, "Who": "TracyMainMonster", "Action": "QuadSpinShoot", "Amt": 0.63 },
+    { "Time": 120.600, "Who": "MiniTL", "Action": "RotateRelative", "Amt": 20 },
+    { "Time": 120.600, "Who": "MiniTL", "Action": "NWayShoot", "Amt": 2 },
+    { "Time": 120.600, "Who": "MiniBR", "Action": "RotateRelative", "Amt": -20 },
+    { "Time": 120.600, "Who": "MiniBR", "Action": "NWayShoot", "Amt": 2 },
+
+    { "Time": 123.128, "Who": "TracyMainMonster", "Action": "QuadSpinShoot", "Amt": 0.63 },
+    { "Time": 123.128, "Who": "MiniTL", "Action": "RotateRelative", "Amt": 20 },
+    { "Time": 123.128, "Who": "MiniTL", "Action": "NWayShoot", "Amt": 2 },
+    { "Time": 123.128, "Who": "MiniBR", "Action": "RotateRelative", "Amt": -20 },
+    { "Time": 123.128, "Who": "MiniBR", "Action": "NWayShoot", "Amt": 2 },
+
+    { "Time": 125.656, "Who": "TracyMainMonster", "Action": "QuadSpinShoot", "Amt": 0.63 },
+    { "Time": 125.656, "Who": "MiniTL", "Action": "RotateRelative", "Amt": 20 },
+    { "Time": 125.656, "Who": "MiniTL", "Action": "NWayShoot", "Amt": 2 },
+    { "Time": 125.656, "Who": "MiniBR", "Action": "RotateRelative", "Amt": -20 },
+    { "Time": 125.656, "Who": "MiniBR", "Action": "NWayShoot", "Amt": 2 },
+
+    { "Time": 128.184, "Who": "TracyMainMonster", "Action": "QuadSpinShoot", "Amt": 0.63 },
+    { "Time": 128.184, "Who": "MiniTL", "Action": "RotateRelative", "Amt": 20 },
+    { "Time": 128.184, "Who": "MiniTL", "Action": "NWayShoot", "Amt": 2 },
+    { "Time": 128.184, "Who": "MiniBR", "Action": "RotateRelative", "Amt": -20 },
+    { "Time": 128.184, "Who": "MiniBR", "Action": "NWayShoot", "Amt": 2 },
+
+    { "Time": 130.712, "Who": "TracyMainMonster", "Action": "QuadSpinShoot", "Amt": 0.63 },
+    { "Time": 130.712, "Who": "MiniTL", "Action": "RotateRelative", "Amt": 20 },
+    { "Time": 130.712, "Who": "MiniTL", "Action": "NWayShoot", "Amt": 2 },
+    { "Time": 130.712, "Who": "MiniBR", "Action": "RotateRelative", "Amt": -20 },
+    { "Time": 130.712, "Who": "MiniBR", "Action": "NWayShoot", "Amt": 2 },
+
+    { "Time": 133.240, "Who": "TracyMainMonster", "Action": "QuadSpinShoot", "Amt": 0.63 },
+    { "Time": 133.240, "Who": "MiniTL", "Action": "RotateRelative", "Amt": 20 },
+    { "Time": 133.240, "Who": "MiniTL", "Action": "NWayShoot", "Amt": 2 },
+    { "Time": 133.240, "Who": "MiniBR", "Action": "RotateRelative", "Amt": -20 },
+    { "Time": 133.240, "Who": "MiniBR", "Action": "NWayShoot", "Amt": 2 },
+
+    { "Time": 135.768, "Who": "TracyMainMonster", "Action": "QuadSpinShoot", "Amt": 0.63 },
+    { "Time": 135.768, "Who": "MiniTL", "Action": "RotateRelative", "Amt": 20 },
+    { "Time": 135.768, "Who": "MiniTL", "Action": "NWayShoot", "Amt": 2 },
+    { "Time": 135.768, "Who": "MiniBR", "Action": "RotateRelative", "Amt": -20 },
+    { "Time": 135.768, "Who": "MiniBR", "Action": "NWayShoot", "Amt": 2 },
+
+    { "Time": 138.296, "Who": "TracyMainMonster", "Action": "QuadSpinShoot", "Amt": 0.63 },
+    { "Time": 138.296, "Who": "MiniTL", "Action": "RotateRelative", "Amt": 20 },
+    { "Time": 138.296, "Who": "MiniTL", "Action": "NWayShoot", "Amt": 2 },
+    { "Time": 138.296, "Who": "MiniBR", "Action": "RotateRelative", "Amt": -20 },
+    { "Time": 138.296, "Who": "MiniBR", "Action": "NWayShoot", "Amt": 2 },
+
+    { "Time": 140.824, "Who": "TracyMainMonster", "Action": "QuadSpinShoot", "Amt": 0.63 },
+    { "Time": 140.824, "Who": "MiniTL", "Action": "RotateRelative", "Amt": 20 },
+    { "Time": 140.824, "Who": "MiniTL", "Action": "NWayShoot", "Amt": 2 },
+    { "Time": 140.824, "Who": "MiniBR", "Action": "RotateRelative", "Amt": -20 },
+    { "Time": 140.824, "Who": "MiniBR", "Action": "NWayShoot", "Amt": 2 },
+
+    { "Time": 143.352, "Who": "TracyMainMonster", "Action": "QuadSpinShoot", "Amt": 0.63 },
+    { "Time": 143.352, "Who": "MiniTL", "Action": "RotateRelative", "Amt": 20 },
+    { "Time": 143.352, "Who": "MiniTL", "Action": "NWayShoot", "Amt": 2 },
+    { "Time": 143.352, "Who": "MiniBR", "Action": "RotateRelative", "Amt": -20 },
+    { "Time": 143.352, "Who": "MiniBR", "Action": "NWayShoot", "Amt": 2 },
+
+    { "Time": 145.880, "Who": "TracyMainMonster", "Action": "QuadSpinShoot", "Amt": 0.63 },
+    { "Time": 145.880, "Who": "MiniTL", "Action": "RotateRelative", "Amt": 20 },
+    { "Time": 145.880, "Who": "MiniTL", "Action": "NWayShoot", "Amt": 2 },
+    { "Time": 145.880, "Who": "MiniBR", "Action": "RotateRelative", "Amt": -20 },
+    { "Time": 145.880, "Who": "MiniBR", "Action": "NWayShoot", "Amt": 2 },
+
+    { "Time": 148.408, "Who": "TracyMainMonster", "Action": "QuadSpinShoot", "Amt": 0.63 },
+    { "Time": 148.408, "Who": "MiniTL", "Action": "RotateRelative", "Amt": 20 },
+    { "Time": 148.408, "Who": "MiniTL", "Action": "NWayShoot", "Amt": 2 },
+    { "Time": 148.408, "Who": "MiniBR", "Action": "RotateRelative", "Amt": -20 },
+    { "Time": 148.408, "Who": "MiniBR", "Action": "NWayShoot", "Amt": 2 },
+
+    { "Time": 150.936, "Who": "TracyMainMonster", "Action": "QuadSpinShoot", "Amt": 0.63 },
+    { "Time": 150.936, "Who": "MiniTL", "Action": "RotateRelative", "Amt": 20 },
+    { "Time": 150.936, "Who": "MiniTL", "Action": "NWayShoot", "Amt": 2 },
+    { "Time": 150.936, "Who": "MiniBR", "Action": "RotateRelative", "Amt": -20 },
+    { "Time": 150.936, "Who": "MiniBR", "Action": "NWayShoot", "Amt": 2 },
+
+    { "Time": 153.464, "Who": "TracyMainMonster", "Action": "QuadSpinShoot", "Amt": 0.63 },
+    { "Time": 153.464, "Who": "MiniTL", "Action": "RotateRelative", "Amt": 20 },
+    { "Time": 153.464, "Who": "MiniTL", "Action": "NWayShoot", "Amt": 2 },
+    { "Time": 153.464, "Who": "MiniBR", "Action": "RotateRelative", "Amt": -20 },
+    { "Time": 153.464, "Who": "MiniBR", "Action": "NWayShoot", "Amt": 2 },
+
+    { "Time": 155.992, "Who": "TracyMainMonster", "Action": "QuadSpinShoot", "Amt": 0.63 },
+    { "Time": 155.992, "Who": "MiniTL", "Action": "RotateRelative", "Amt": 20 },
+    { "Time": 155.992, "Who": "MiniTL", "Action": "NWayShoot", "Amt": 2 },
+    { "Time": 155.992, "Who": "MiniBR", "Action": "RotateRelative", "Amt": -20 },
+    { "Time": 155.992, "Who": "MiniBR", "Action": "NWayShoot", "Amt": 2 },
+
+    { "Time": 158.520, "Who": "TracyMainMonster", "Action": "QuadSpinShoot", "Amt": 0.63 },
+    { "Time": 158.520, "Who": "MiniTL", "Action": "RotateRelative", "Amt": 20 },
+    { "Time": 158.520, "Who": "MiniTL", "Action": "NWayShoot", "Amt": 2 },
+    { "Time": 158.520, "Who": "MiniBR", "Action": "RotateRelative", "Amt": -20 },
+    { "Time": 158.520, "Who": "MiniBR", "Action": "NWayShoot", "Amt": 2 },
+
+    { "Time": 161.048, "Who": "TracyMainMonster", "Action": "QuadSpinShoot", "Amt": 0.63 },
+    { "Time": 161.048, "Who": "MiniTL", "Action": "RotateRelative", "Amt": 20 },
+    { "Time": 161.048, "Who": "MiniTL", "Action": "NWayShoot", "Amt": 2 },
+    { "Time": 161.048, "Who": "MiniBR", "Action": "RotateRelative", "Amt": -20 },
+    { "Time": 161.048, "Who": "MiniBR", "Action": "NWayShoot", "Amt": 2 },
+
+    { "Time": 161.680, "Dialogue": "act 5C" },
+    { "Time": 161.78, "Who": "Heal9", "Action": "TurnOn" },
+
+    { "Time": 161.680, "Who": "MiniTL", "Action": "SpiralIn", "Amt": 5.0 },
+    { "Time": 161.680, "Who": "MiniBR", "Action": "SpiralIn", "Amt": 5.0 },
+
+    { "Time": 166.000, "Who": "TracyMainMonster", "Action": "SetSizeSpeed", "Amt": 1.0 },
+    { "Time": 166.000, "Who": "TracyMainMonster", "Action": "LerpToSize", "Amt": 0.0 },
+    { "Time": 166.000, "Who": "TracyMainMonster", "Action": "Flash", "Amt": 0.5 },
+    { "Time": 166.000, "Who": "TracyMainMonster", "Action": "Shake", "Amt": 0.5 },
+
+    { "Time": 166.000, "Who": "MiniTL", "Action": "SetSizeSpeed", "Amt": 1.0 },
+    { "Time": 166.000, "Who": "MiniTL", "Action": "LerpToSize", "Amt": 0.0 },
+    { "Time": 166.000, "Who": "MiniTL", "Action": "Flash", "Amt": 0.5 },
+    { "Time": 166.000, "Who": "MiniTL", "Action": "Shake", "Amt": 0.5 },
+
+    { "Time": 166.000, "Who": "MiniBR", "Action": "SetSizeSpeed", "Amt": 1.0 },
+    { "Time": 166.000, "Who": "MiniBR", "Action": "LerpToSize", "Amt": 0.0 },
+    { "Time": 166.000, "Who": "MiniBR", "Action": "Flash", "Amt": 0.5 },
+    { "Time": 166.000, "Who": "MiniBR", "Action": "Shake", "Amt": 0.5 },
+
+    { "Time": 166.632, "Who": "TracyMainMonster", "Action": "FadeOut", "Amt": 0.8 },
+    { "Time": 166.632, "Who": "TracyMainMonster", "Action": "HitboxOff" },
+    { "Time": 166.632, "Who": "TracyMainMonster", "Action": "Stop" },
+    { "Time": 166.632, "Who": "TracyMainMonster", "Action": "TurnOff" },
+
+    { "Time": 166.632, "Who": "MiniTL", "Action": "FadeOut", "Amt": 0.8 },
+    { "Time": 166.632, "Who": "MiniTL", "Action": "HitboxOff" },
+    { "Time": 166.632, "Who": "MiniTL", "Action": "Stop" },
+    { "Time": 166.632, "Who": "MiniTL", "Action": "TurnOff" },
+
+    { "Time": 166.632, "Who": "MiniBR", "Action": "FadeOut", "Amt": 0.8 },
+    { "Time": 166.632, "Who": "MiniBR", "Action": "HitboxOff" },
+    { "Time": 166.632, "Who": "MiniBR", "Action": "Stop" },
+    { "Time": 166.632, "Who": "MiniBR", "Action": "TurnOff" },
+
+    { "Time": 167.264, "Action": "TurnOn" },
+    { "Time": 167.264, "Action": "SetScale", "Amt": 1.0 },
+    { "Time": 167.264, "Action": "Flash", "Amt": 0.5 },
+    { "Time": 167.264, "Action": "Shake", "Amt": 0.5 },
+
+    { "Time": 170.000, "Action": "SetSpiralRadius", "Amt": 2.0 },
+    { "Time": 170.000, "Action": "SetSpiralTurns", "Amt": 1.0 },
+    { "Time": 170.000, "Action": "SpiralOut", "Amt": 4.0 },
+
+    { "Time": 174.500, "Action": "SpiralIn", "Amt": 4.0 },
+
+    { "Time": 187.500, "Dialogue": "Finale" },
+
+    { "Time": 187.500, "Anim": "SpinShoot" },
+    { "Time": 187.500, "Action": "SetSizeSpeed", "Amt": 0.8 },
+    { "Time": 187.500, "Action": "LerpToSize", "Amt": 0.0 },
+    { "Time": 187.500, "Action": "Flash", "Amt": 1.0 },
+    { "Time": 187.500, "Action": "Shake", "Amt": 1.0 },
+    { "Time": 187.500, "Action": "QuadSpinShoot", "Amt": 0.8 },
+
+    { "Time": 188.760, "Action": "FadeOut", "Amt": 1.0 },
+    { "Time": 188.760, "Action": "HitboxOff" },
+    { "Time": 188.760, "Action": "Stop" },
+
+    { "Time": 190.000, "Action": "TurnOff" },
+    { "Time": 190.000, "Dialogue": "" }
   ]
 }
-
-
-
