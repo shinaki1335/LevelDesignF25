@@ -15,6 +15,11 @@
     {"Time": 15,"Action": "RandomWalk","Action": "ShootAtPlayer"},
     {"Time": 15,"Who":"Player","Action": "Flash"},
     {"Time": 16.8,"Action": "RandomWalk"},
+    {"Time": 16.8,"Action": "RandomWalk"},
+    {"Time": 19,"Action": "FollowPlayer"},
+    {"Time": 20,"Action": "FollowPlayer"},
+    {"Time": 21,"Action": "FollowPlayer"},
+    {"Time": 21.4,"Action": "Shake","Amt":1},
     {"Time": 60,"Dialogue": "Hello"}
   ]
 }
