@@ -101,6 +101,8 @@ public class GameManager : MonoBehaviour
         }
         else
         {
+            if(Input.GetKeyDown(KeyCode.R) || Input.GetKeyDown(KeyCode.Space))
+                StartCoroutine(LevelComplete(false));
             HealthDisplay.text = "YOU ARE DEAD";
         }
     }
@@ -138,10 +140,10 @@ public class GameManager : MonoBehaviour
         DialogueDisplay.text = d;
     }
 
-    public IEnumerator LevelComplete()
+    public IEnumerator LevelComplete(bool win=true)
     {
         yield return StartCoroutine(GameMaster.Fade(Fader));
         yield return new WaitForSeconds(0.5f);
-        GameMaster.NextStage(); 
+        GameMaster.NextStage(win); 
     }
 }

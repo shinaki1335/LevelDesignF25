@@ -7,9 +7,17 @@ using UnityEngine.SceneManagement;
 //You can ignore it, but maybe something within it will be useful to you
 public static class GameMaster
 {
+    public static bool ShowMode = true;
+    public static int Levels = 16;
+    
     /// Loads the next scene in the Build Settings queue.
-    public static void NextStage()
+    public static void NextStage(bool win=true)
     {
+        if (ShowMode)
+        {
+            SceneManager.LoadScene((win ? "You Win" : "You Lose"));
+            return;
+        }
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
